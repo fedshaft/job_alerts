@@ -1,0 +1,323 @@
+{
+  "title_role": "\\b(intern|interns|internship|trainee|apprentice)\\b",
+  "title_tech": "software|\\bsde|engineer|developer|backend|back-end|full.?stack|platform|infra|devops|\\bsre\\b|reliability|cloud|systems|data|security|\\bml\\b|\\btech",
+  "title_exclude": "\\b(hr|human resources|talent|recruit\\w*|marketing|sales|finance|accounting|legal|design|ux|ui|phd|ph\\.d|technician|master'?s|mba)\\b",
+  "location": "india|bengaluru|bangalore|hyderabad|pune|chennai|mumbai|gurgaon|gurugram|noida|delhi|kolkata|ahmedabad|jaipur|kochi|coimbatore|^\\s*remote\\s*$|remote.*(global|worldwide|anywhere|apac|asia)",
+  "companies": {
+    "greenhouse": [
+      "6sense",
+      "abnormalsecurity",
+      "adyen",
+      "affirm",
+      "agoda",
+      "airbnb",
+      "anthropic",
+      "appian",
+      "bitwarden",
+      "celonis",
+      "chainguard",
+      "cloudsek",
+      "cockroachlabs",
+      "coinbase",
+      "commerceiq",
+      "commvault",
+      "contentstack",
+      "couchbaseinc",
+      "coupang",
+      "databricks",
+      "datadog",
+      "devrev",
+      "druva",
+      "elastic",
+      "endorlabs",
+      "enterpret",
+      "equalexperts",
+      "fastly",
+      "figma",
+      "fivetran",
+      "gitlab",
+      "glance",
+      "grafanalabs",
+      "groww",
+      "hackerrank",
+      "harnessinc",
+      "highradius",
+      "inmobi",
+      "intercom",
+      "jfrog",
+      "karat",
+      "logicmonitor",
+      "mongodb",
+      "netskope",
+      "newrelic",
+      "nirmata",
+      "observeai",
+      "okta",
+      "pagerduty",
+      "pinterest",
+      "pubmatic",
+      "purestorage",
+      "razorpaysoftwareprivatelimited",
+      "reddit",
+      "redwoodsoftware",
+      "reltio",
+      "robinhood",
+      "rubrik",
+      "sahajsoftware",
+      "samsara",
+      "sigmoid",
+      "singlestore",
+      "sonicwall",
+      "starburst",
+      "stripe",
+      "sumologic",
+      "thoughtworks",
+      "towerresearchcapital",
+      "truefoundry",
+      "truveta",
+      "turing",
+      "twilio",
+      "vercel",
+      "wise",
+      "wizinc",
+      "xendit",
+      "yugabyte",
+      "zenoti",
+      "zoominfo",
+      "zscaler"
+    ],
+    "lever": [
+      "100ms",
+      "coupa",
+      "cred",
+      "cyderes",
+      "fampay",
+      "hevodata",
+      "levelai",
+      "mactores",
+      "meesho",
+      "mindtickle",
+      "netomi",
+      "nium",
+      "paytm",
+      "pocketfm",
+      "saviynt",
+      "shyftlabs",
+      "sonatype",
+      "valgenesis",
+      "zeta"
+    ],
+    "ashby": [
+      "airwallex",
+      "atlan",
+      "bureau",
+      "clickhouse",
+      "cohere",
+      "composio",
+      "cyberhaven",
+      "ddn",
+      "ema",
+      "harvey",
+      "headout",
+      "kong",
+      "level-ai",
+      "linear",
+      "notion",
+      "openai",
+      "perplexity",
+      "plane",
+      "posthog",
+      "redis",
+      "replit",
+      "sarvam",
+      "sentry",
+      "signoz",
+      "snowflake",
+      "snyk",
+      "solvd",
+      "spotdraft",
+      "supabase",
+      "tekion",
+      "temporal",
+      "uptimeai",
+      "vultr",
+      "weave",
+      "zapier"
+    ],
+    "smartrecruiters": [
+      "Freshworks",
+      "Grab",
+      "HackerRank",
+      "Ixigo",
+      "Mindtickle",
+      "Netskope",
+      "ServiceNow",
+      "Swiggy",
+      "Wise"
+    ],
+    "workday": [
+      {
+        "name": "NVIDIA",
+        "tenant": "nvidia",
+        "wd": 5,
+        "site": "NVIDIAExternalCareerSite"
+      },
+      {
+        "name": "Intel",
+        "tenant": "intel",
+        "wd": 1,
+        "site": "External"
+      },
+      {
+        "name": "Cisco",
+        "tenant": "cisco",
+        "wd": 5,
+        "site": "Cisco_Careers"
+      },
+      {
+        "name": "Red Hat",
+        "tenant": "redhat",
+        "wd": 5,
+        "site": "jobs"
+      },
+      {
+        "name": "HPE",
+        "tenant": "hpe",
+        "wd": 5,
+        "site": "Jobsathpe"
+      },
+      {
+        "name": "Micron",
+        "tenant": "micron",
+        "wd": 1,
+        "site": "External"
+      },
+      {
+        "name": "Marvell",
+        "tenant": "marvell",
+        "wd": 1,
+        "site": "MarvellCareers"
+      },
+      {
+        "name": "Wells Fargo",
+        "tenant": "wf",
+        "wd": 1,
+        "site": "WellsFargoJobs"
+      },
+      {
+        "name": "Mastercard",
+        "tenant": "mastercard",
+        "wd": 1,
+        "site": "CorporateCareers"
+      },
+      {
+        "name": "PayPal",
+        "tenant": "paypal",
+        "wd": 1,
+        "site": "jobs"
+      },
+      {
+        "name": "Salesforce",
+        "tenant": "salesforce",
+        "wd": 12,
+        "site": "External_Career_Site"
+      },
+      {
+        "name": "Adobe",
+        "tenant": "adobe",
+        "wd": 5,
+        "site": "external_experienced"
+      },
+      {
+        "name": "Target",
+        "tenant": "target",
+        "wd": 5,
+        "site": "targetcareers"
+      },
+      {
+        "name": "Deutsche Bank",
+        "tenant": "db",
+        "wd": 3,
+        "site": "DBWebsite"
+      },
+      {
+        "name": "Broadcom",
+        "tenant": "broadcom",
+        "wd": 1,
+        "site": "External_Career"
+      },
+      {
+        "name": "Analog Devices",
+        "tenant": "analogdevices",
+        "wd": 1,
+        "site": "External"
+      },
+      {
+        "name": "Workday",
+        "tenant": "workday",
+        "wd": 5,
+        "site": "Workday"
+      },
+      {
+        "name": "Autodesk",
+        "tenant": "autodesk",
+        "wd": 1,
+        "site": "Ext"
+      },
+      {
+        "name": "Motorola Solutions",
+        "tenant": "motorolasolutions",
+        "wd": 5,
+        "site": "Careers"
+      },
+      {
+        "name": "Cadence",
+        "tenant": "cadence",
+        "wd": 1,
+        "site": "External_Careers"
+      },
+      {
+        "name": "Fidelity",
+        "tenant": "fmr",
+        "wd": 1,
+        "site": "FidelityCareers"
+      },
+      {
+        "name": "State Street",
+        "tenant": "statestreet",
+        "wd": 1,
+        "site": "Global"
+      },
+      {
+        "name": "Visa",
+        "tenant": "visa",
+        "wd": 5,
+        "site": "Visa"
+      },
+      {
+        "name": "Morgan Stanley",
+        "tenant": "ms",
+        "wd": 5,
+        "site": "External"
+      },
+      {
+        "name": "Lowe's",
+        "tenant": "lowes",
+        "wd": 5,
+        "site": "LWS_External_CS"
+      },
+      {
+        "name": "Equinix",
+        "tenant": "equinix",
+        "wd": 1,
+        "site": "External"
+      },
+      {
+        "name": "BrowserStack",
+        "tenant": "browserstack",
+        "wd": 3,
+        "site": "External"
+      }
+    ]
+  }
+}

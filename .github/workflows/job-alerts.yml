@@ -1,0 +1,32 @@
+name: job-alerts
+
+on:
+  schedule:
+    - cron: "*/30 * * * *"   # every 30 min (GitHub may delay scheduled runs)
+  workflow_dispatch:          # "Run workflow" button for manual checks
+
+permissions:
+  contents: write             # lets the job commit seen.json back
+
+concurrency: job-alerts       # never two runs at once (they'd fight over seen.json)
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v7   # verified: latest release v7.0.1 (Jul 2026)
+
+      # Ubuntu runners ship with python3, and the script is stdlib-only.
+      - name: Check job boards
+        run: python3 alerts.py
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+
+      - name: Save seen jobs
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add seen.json
+          git diff --cached --quiet || (git commit -m "Update seen jobs" && git push)
