@@ -160,7 +160,9 @@ def fetch_workday(board):
     while query["offset"] < 400:
         data = http_json(api, query)
         for p in data.get("jobPostings", []):
-            path = p["externalPath"]
+            path = p.get("externalPath")
+            if not path:
+                continue  # Workday sometimes lists an entry with no link; skip it, keep the rest
             loc = p.get("locationsText") or ""
             if not INDIA.search(loc):
                 loc = f"{loc} (India)".strip()  # e.g. "3 Locations"; the India filter guarantees one
