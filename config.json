@@ -604,5 +604,1536 @@
       "ats": "unverified",
       "why": "Site misconfigured (Squarespace certificate mismatch); nothing found by search."
     }
-  ]
+  ],
+  "yc_auto": {
+    "last_run": "2026-11-09",
+    "boards": {
+      "ashby": [
+        {
+          "name": "Apollo",
+          "id": "apollo-graphql"
+        },
+        {
+          "name": "Zapier",
+          "id": "zapier"
+        },
+        {
+          "name": "InfluxData",
+          "id": "Influxdata"
+        },
+        {
+          "name": "Hive",
+          "id": "hive.co"
+        },
+        {
+          "name": "Deepgram",
+          "id": "Deepgram"
+        },
+        {
+          "name": "ClassDojo",
+          "id": "ClassDojo"
+        },
+        {
+          "name": "BioRender",
+          "id": "biorender-inc"
+        },
+        {
+          "name": "RevenueCat",
+          "id": "revenuecat"
+        },
+        {
+          "name": "GoLinks",
+          "id": "golinks"
+        },
+        {
+          "name": "Freshpaint",
+          "id": "freshpaint"
+        },
+        {
+          "name": "Junction",
+          "id": "Junction"
+        },
+        {
+          "name": "Datafold",
+          "id": "datafold"
+        },
+        {
+          "name": "Arketa",
+          "id": "arketa"
+        },
+        {
+          "name": "Ready",
+          "id": "ready"
+        },
+        {
+          "name": "authzed",
+          "id": "authzed"
+        },
+        {
+          "name": "SigNoz",
+          "id": "SigNoz"
+        },
+        {
+          "name": "SpruceID",
+          "id": "spruceid"
+        },
+        {
+          "name": "Anima",
+          "id": "Anima"
+        },
+        {
+          "name": "Popl",
+          "id": "popl"
+        },
+        {
+          "name": "Great Question",
+          "id": "greatquestion"
+        },
+        {
+          "name": "Enode",
+          "id": "enode"
+        },
+        {
+          "name": "Jiga",
+          "id": "jiga"
+        },
+        {
+          "name": "Double",
+          "id": "double"
+        },
+        {
+          "name": "Kodex",
+          "id": "kodex"
+        },
+        {
+          "name": "Aleph",
+          "id": "aleph"
+        },
+        {
+          "name": "Invert",
+          "id": "invert"
+        },
+        {
+          "name": "Rally",
+          "id": "rallyuxr"
+        },
+        {
+          "name": "Rollstack",
+          "id": "rollstack"
+        },
+        {
+          "name": "Nango",
+          "id": "Nango"
+        },
+        {
+          "name": "Every",
+          "id": "every-io"
+        },
+        {
+          "name": "FirstWork",
+          "id": "firstwork"
+        },
+        {
+          "name": "Reacher",
+          "id": "reacher"
+        },
+        {
+          "name": "Bolna AI",
+          "id": "bolna"
+        },
+        {
+          "name": "Cardboard",
+          "id": "cardboard"
+        }
+      ],
+      "greenhouse": [
+        {
+          "name": "Razorpay",
+          "id": "razorpaysoftwareprivatelimited"
+        },
+        {
+          "name": "GiveCampus",
+          "id": "givecampus"
+        },
+        {
+          "name": "Human Interest",
+          "id": "humaninterest"
+        },
+        {
+          "name": "AssemblyAI",
+          "id": "assemblyai"
+        },
+        {
+          "name": "Groww",
+          "id": "groww"
+        },
+        {
+          "name": "Alpaca",
+          "id": "alpaca"
+        },
+        {
+          "name": "Tint",
+          "id": "tintai"
+        },
+        {
+          "name": "Nira Energy",
+          "id": "niraenergy"
+        }
+      ],
+      "lever": [
+        {
+          "name": "Epsilon3",
+          "id": "epsilon3"
+        }
+      ],
+      "zoho_recruit": [
+        {
+          "name": "SalaryBox",
+          "id": "salarybox",
+          "domain": "salarybox.zohorecruit.in"
+        }
+      ]
+    },
+    "checked": {
+      "apollo": {
+        "date": "2026-11-09",
+        "website": "http://apollographql.com/",
+        "ats": "ashby",
+        "slug": "apollo-graphql",
+        "evidence": "https://www.apollographql.com/careers",
+        "status": "added"
+      },
+      "streak": {
+        "date": "2026-11-09",
+        "website": "http://streak.com",
+        "status": "no ATS link on site"
+      },
+      "mixrank": {
+        "date": "2026-11-09",
+        "website": "https://mixrank.com",
+        "status": "no ATS link on site"
+      },
+      "zapier": {
+        "date": "2026-11-09",
+        "website": "http://zapier.com",
+        "ats": "ashby",
+        "slug": "zapier",
+        "evidence": "http://zapier.com/jobs",
+        "status": "added"
+      },
+      "influxdata": {
+        "date": "2026-11-09",
+        "website": "https://influxdata.com",
+        "ats": "ashby",
+        "slug": "Influxdata",
+        "evidence": "https://influxdata.com/careers/",
+        "status": "added"
+      },
+      "hive": {
+        "date": "2026-11-09",
+        "website": "http://www.hive.co",
+        "ats": "ashby",
+        "slug": "hive.co",
+        "evidence": "http://www.hive.co/careers",
+        "status": "added"
+      },
+      "qventus": {
+        "date": "2026-11-09",
+        "website": "http://qventus.com",
+        "status": "no ATS link on site"
+      },
+      "magic": {
+        "date": "2026-11-09",
+        "website": "https://getmagic.com/",
+        "status": "no ATS link on site"
+      },
+      "razorpay": {
+        "date": "2026-11-09",
+        "website": "https://razorpay.com",
+        "ats": "greenhouse",
+        "slug": "razorpaysoftwareprivatelimited",
+        "evidence": "https://razorpay.com/jobs/",
+        "status": "added"
+      },
+      "lugg": {
+        "date": "2026-11-09",
+        "website": "http://lugg.com",
+        "status": "no ATS link on site"
+      },
+      "drip-capital": {
+        "date": "2026-11-09",
+        "website": "http://dripcapital.com",
+        "status": "no ATS link on site"
+      },
+      "givecampus": {
+        "date": "2026-11-09",
+        "website": "http://go.givecampus.com",
+        "ats": "greenhouse",
+        "slug": "givecampus",
+        "evidence": "https://go.givecampus.com/about-us/careers/",
+        "status": "added"
+      },
+      "eight-sleep": {
+        "date": "2026-11-09",
+        "website": "http://eightsleep.com",
+        "status": "no ATS link on site"
+      },
+      "human-interest": {
+        "date": "2026-11-09",
+        "website": "http://humaninterest.com",
+        "ats": "greenhouse",
+        "slug": "humaninterest",
+        "evidence": "http://humaninterest.com/careers/",
+        "status": "added"
+      },
+      "deepgram": {
+        "date": "2026-11-09",
+        "website": "https://www.deepgram.com",
+        "ats": "ashby",
+        "slug": "Deepgram",
+        "evidence": "https://www.deepgram.com/careers",
+        "status": "added"
+      },
+      "pocketsuite": {
+        "date": "2026-11-09",
+        "website": "https://pocketsuite.io",
+        "status": "no ATS link on site"
+      },
+      "castle-2": {
+        "date": "2026-11-09",
+        "website": "https://castle.io",
+        "status": "no ATS link on site"
+      },
+      "apollo-io": {
+        "date": "2026-11-09",
+        "website": "https://www.apollo.io/",
+        "status": "no ATS link on site"
+      },
+      "vetcove": {
+        "date": "2026-11-09",
+        "website": "https://www.vetcove.com",
+        "status": "no ATS link on site"
+      },
+      "joy": {
+        "date": "2026-11-09",
+        "website": "http://withjoy.com",
+        "status": "no ATS link on site"
+      },
+      "instrumentl": {
+        "date": "2026-11-09",
+        "website": "https://www.instrumentl.com",
+        "status": "no ATS link on site"
+      },
+      "women-who-code": {
+        "date": "2026-11-09",
+        "website": "https://www.womenwhocode.com/",
+        "status": "no ATS link on site"
+      },
+      "gogograndparent": {
+        "date": "2026-11-09",
+        "website": "https://gogograndparent.com",
+        "status": "no ATS link on site"
+      },
+      "meesho": {
+        "date": "2026-11-09",
+        "website": "http://www.meesho.com",
+        "status": "no ATS link on site"
+      },
+      "classdojo": {
+        "date": "2026-11-09",
+        "website": "http://www.classdojo.com",
+        "ats": "ashby",
+        "slug": "ClassDojo",
+        "evidence": "http://www.classdojo.com/jobs/",
+        "status": "added"
+      },
+      "mdalgorithms-inc": {
+        "date": "2026-11-09",
+        "website": "https://www.mdalgorithms.com",
+        "status": "no ATS link on site"
+      },
+      "ledger-investing": {
+        "date": "2026-11-09",
+        "website": "https://ledgerinvesting.com/",
+        "status": "no ATS link on site"
+      },
+      "wifi-dabba-inc": {
+        "date": "2026-11-09",
+        "website": "https://dabba.com",
+        "status": "no ATS link on site"
+      },
+      "onefin": {
+        "date": "2026-11-09",
+        "website": "https://www.onefin.in",
+        "status": "no ATS link on site"
+      },
+      "bloom-institute-of-technology": {
+        "date": "2026-11-09",
+        "website": "https://www.bloomtech.com",
+        "status": "no ATS link on site"
+      },
+      "upcodes": {
+        "date": "2026-11-09",
+        "website": "https://up.codes/",
+        "status": "no ATS link on site"
+      },
+      "standard-ai": {
+        "date": "2026-11-09",
+        "website": "https://standard.ai",
+        "status": "no ATS link on site"
+      },
+      "nimble": {
+        "date": "2026-11-09",
+        "website": "http://www.hirenimble.com",
+        "status": "no ATS link on site"
+      },
+      "assemblyai": {
+        "date": "2026-11-09",
+        "website": "https://www.assemblyai.com",
+        "ats": "greenhouse",
+        "slug": "assemblyai",
+        "evidence": "https://www.assemblyai.com/careers",
+        "status": "added"
+      },
+      "just-appraised": {
+        "date": "2026-11-09",
+        "website": "https://www.justappraised.com",
+        "status": "no ATS link on site"
+      },
+      "cashfree-payments": {
+        "date": "2026-11-09",
+        "website": "https://www.cashfree.com/",
+        "status": "no ATS link on site"
+      },
+      "proven-group": {
+        "date": "2026-11-09",
+        "website": "https://www.provenskincare.com",
+        "status": "no ATS link on site"
+      },
+      "modern-health": {
+        "date": "2026-11-09",
+        "website": "https://www.modernhealth.com/",
+        "status": "no ATS link on site"
+      },
+      "biorender": {
+        "date": "2026-11-09",
+        "website": "https://www.biorender.com",
+        "ats": "ashby",
+        "slug": "biorender-inc",
+        "evidence": "https://www.biorender.com/biorender-careers",
+        "status": "added"
+      },
+      "sourcify": {
+        "date": "2026-11-09",
+        "website": "https://www.sourcify.com/",
+        "status": "no ATS link on site"
+      },
+      "tilt-fka-delphia": {
+        "date": "2026-11-09",
+        "website": "http://tilt.io",
+        "status": "no ATS link on site"
+      },
+      "safetywing": {
+        "date": "2026-11-09",
+        "website": "http://www.safetywing.com",
+        "status": "no ATS link on site"
+      },
+      "groww": {
+        "date": "2026-11-09",
+        "website": "https://groww.in",
+        "ats": "greenhouse",
+        "slug": "groww",
+        "evidence": "https://groww.in/careers",
+        "status": "added"
+      },
+      "captivateiq": {
+        "date": "2026-11-09",
+        "website": "https://www.captivateiq.com",
+        "status": "no ATS link on site"
+      },
+      "helloverify": {
+        "date": "2026-11-09",
+        "website": "https://www.helloverify.ae",
+        "status": "no ATS link on site"
+      },
+      "revenuecat": {
+        "date": "2026-11-09",
+        "website": "https://www.revenuecat.com/",
+        "ats": "ashby",
+        "slug": "revenuecat",
+        "evidence": "https://www.revenuecat.com/",
+        "status": "added"
+      },
+      "ziffyhomes": {
+        "date": "2026-11-09",
+        "website": "https://www.ziffyhomes.com/",
+        "status": "no ATS link on site"
+      },
+      "nestor": {
+        "date": "2026-11-09",
+        "website": "https://nestorup.com",
+        "status": "no ATS link on site"
+      },
+      "leena-ai": {
+        "date": "2026-11-09",
+        "website": "https://www.leena.ai",
+        "status": "no ATS link on site"
+      },
+      "oxygen": {
+        "date": "2026-11-09",
+        "website": "http://getoxygen.com",
+        "status": "no ATS link on site"
+      },
+      "flockjay": {
+        "date": "2026-11-09",
+        "website": "https://flockjay.com",
+        "status": "no ATS link on site"
+      },
+      "postscript": {
+        "date": "2026-11-09",
+        "website": "https://postscript.io",
+        "status": "no ATS link on site"
+      },
+      "golinks": {
+        "date": "2026-11-09",
+        "website": "https://www.golinks.io",
+        "ats": "ashby",
+        "slug": "golinks",
+        "evidence": "https://www.golinks.io/careers.php",
+        "status": "added"
+      },
+      "community-phone-company": {
+        "date": "2026-11-09",
+        "website": "https://www.communityphone.org/",
+        "status": "no ATS link on site"
+      },
+      "swadesh": {
+        "date": "2026-11-09",
+        "website": "http://www.swadesh.co",
+        "status": "no ATS link on site"
+      },
+      "okteto": {
+        "date": "2026-11-09",
+        "website": "https://okteto.com",
+        "status": "no ATS link on site"
+      },
+      "ashby": {
+        "date": "2026-11-09",
+        "website": "https://www.ashbyhq.com",
+        "status": "no ATS link on site"
+      },
+      "deel": {
+        "date": "2026-11-09",
+        "website": "https://www.deel.com/",
+        "status": "no ATS link on site"
+      },
+      "alpaca": {
+        "date": "2026-11-09",
+        "website": "https://alpaca.markets/",
+        "ats": "greenhouse",
+        "slug": "alpaca",
+        "evidence": "https://alpaca.markets/hiring",
+        "status": "added"
+      },
+      "dover": {
+        "date": "2026-11-09",
+        "website": "https://dover.com",
+        "status": "no ATS link on site"
+      },
+      "cityfurnish": {
+        "date": "2026-11-09",
+        "website": "https://cityfurnish.com/",
+        "status": "no ATS link on site"
+      },
+      "inito": {
+        "date": "2026-11-09",
+        "website": "https://www.inito.com/",
+        "ats": "keka",
+        "slug": "inito",
+        "evidence": "https://www.inito.com/careers",
+        "status": "no readable board"
+      },
+      "first": {
+        "date": "2026-11-09",
+        "website": "https://firstdelivery.com/",
+        "status": "no ATS link on site"
+      },
+      "pair-team": {
+        "date": "2026-11-09",
+        "website": "https://pairteam.com/",
+        "status": "no ATS link on site"
+      },
+      "trm-labs": {
+        "date": "2026-11-09",
+        "website": "https://trmlabs.com/",
+        "status": "no ATS link on site"
+      },
+      "directshifts": {
+        "date": "2026-11-09",
+        "website": "https://directshifts.com",
+        "status": "no ATS link on site"
+      },
+      "wasmer": {
+        "date": "2026-11-09",
+        "website": "https://wasmer.io",
+        "status": "no ATS link on site"
+      },
+      "binks": {
+        "date": "2026-11-09",
+        "website": "https://getbinks.com/",
+        "status": "no ATS link on site"
+      },
+      "vahan": {
+        "date": "2026-11-09",
+        "website": "https://vahan.ai",
+        "status": "no ATS link on site"
+      },
+      "fampay": {
+        "date": "2026-11-09",
+        "website": "https://fampay.in",
+        "status": "no ATS link on site"
+      },
+      "inevent": {
+        "date": "2026-11-09",
+        "website": "https://inevent.com",
+        "status": "no ATS link on site"
+      },
+      "freshpaint": {
+        "date": "2026-11-09",
+        "website": "https://freshpaint.io",
+        "ats": "ashby",
+        "slug": "freshpaint",
+        "evidence": "https://freshpaint.io/careers",
+        "status": "added"
+      },
+      "wonderly": {
+        "date": "2026-11-09",
+        "website": "https://www.wonderly.com/",
+        "status": "no ATS link on site"
+      },
+      "openunit": {
+        "date": "2026-11-09",
+        "website": "https://www.openunit.com/",
+        "status": "no ATS link on site"
+      },
+      "ditto": {
+        "date": "2026-11-09",
+        "website": "http://dittowords.com",
+        "status": "no ATS link on site"
+      },
+      "haven": {
+        "date": "2026-11-09",
+        "website": "http://www.havenservicing.com",
+        "status": "no ATS link on site"
+      },
+      "whatnot": {
+        "date": "2026-11-09",
+        "website": "https://www.whatnot.com/careers/discover",
+        "ats": "ashby",
+        "slug": "whatnot",
+        "evidence": "https://www.whatnot.com/careers/discover",
+        "status": "no readable board"
+      },
+      "buildbuddy": {
+        "date": "2026-11-09",
+        "website": "https://buildbuddy.io",
+        "status": "no ATS link on site"
+      },
+      "posthog": {
+        "date": "2026-11-09",
+        "website": "https://www.posthog.com",
+        "status": "no ATS link on site"
+      },
+      "aios": {
+        "date": "2026-11-09",
+        "website": "https://aiosmedical.notion.site/",
+        "status": "no ATS link on site"
+      },
+      "junction": {
+        "date": "2026-11-09",
+        "website": "https://www.junction.com/",
+        "ats": "ashby",
+        "slug": "Junction",
+        "evidence": "https://www.junction.com/careers",
+        "status": "added"
+      },
+      "morphle-labs": {
+        "date": "2026-11-09",
+        "website": "https://morphlelabs.com",
+        "status": "no ATS link on site"
+      },
+      "adyn": {
+        "date": "2026-11-09",
+        "website": "https://adyn.com",
+        "status": "no ATS link on site"
+      },
+      "datafold": {
+        "date": "2026-11-09",
+        "website": "https://datafold.com",
+        "ats": "ashby",
+        "slug": "datafold",
+        "evidence": "https://datafold.com/careers/",
+        "status": "added"
+      },
+      "hubble": {
+        "date": "2026-11-09",
+        "website": "http://lightdash.com/",
+        "status": "no ATS link on site"
+      },
+      "safepay": {
+        "date": "2026-11-09",
+        "website": "https://getsafepay.pk/",
+        "status": "no ATS link on site"
+      },
+      "explorex": {
+        "date": "2026-11-09",
+        "website": "https://explorex.co",
+        "status": "no ATS link on site"
+      },
+      "atomic": {
+        "date": "2026-11-09",
+        "website": "https://www.atomicvest.com/",
+        "status": "no ATS link on site"
+      },
+      "vitable-health": {
+        "date": "2026-11-09",
+        "website": "https://vitablehealth.com",
+        "ats": "greenhouse",
+        "slug": "webflow",
+        "evidence": "https://vitablehealth.com/careers",
+        "status": "no readable board"
+      },
+      "bik": {
+        "date": "2026-11-09",
+        "website": "https://bik.ai/",
+        "status": "no ATS link on site"
+      },
+      "flint": {
+        "date": "2026-11-09",
+        "website": "https://withflint.com",
+        "status": "no ATS link on site"
+      },
+      "akiflow": {
+        "date": "2026-11-09",
+        "website": "https://akiflow.com",
+        "status": "no ATS link on site"
+      },
+      "laylo": {
+        "date": "2026-11-09",
+        "website": "https://laylo.com",
+        "status": "no ATS link on site"
+      },
+      "arketa": {
+        "date": "2026-11-09",
+        "website": "https://arketa.com",
+        "ats": "ashby",
+        "slug": "arketa",
+        "evidence": "https://arketa.com/careers",
+        "status": "added"
+      },
+      "ready": {
+        "date": "2026-11-09",
+        "website": "https://ready.net",
+        "ats": "ashby",
+        "slug": "ready",
+        "evidence": "https://ready.net/careers",
+        "status": "added"
+      },
+      "rally": {
+        "date": "2026-11-09",
+        "website": null,
+        "status": "no ATS link on site"
+      },
+      "zuddl": {
+        "date": "2026-11-09",
+        "website": "http://www.zuddl.com",
+        "status": "no ATS link on site"
+      },
+      "matter": {
+        "date": "2026-11-09",
+        "website": "https://getmatter.app",
+        "status": "no ATS link on site"
+      },
+      "gather-2": {
+        "date": "2026-11-09",
+        "website": "https://www.gather.town/",
+        "ats": "greenhouse",
+        "slug": "gather",
+        "evidence": "https://www.gather.town/",
+        "status": "no readable board"
+      },
+      "runway": {
+        "date": "2026-11-09",
+        "website": "https://runway.team",
+        "status": "no ATS link on site"
+      },
+      "authzed": {
+        "date": "2026-11-09",
+        "website": "https://authzed.com",
+        "ats": "ashby",
+        "slug": "authzed",
+        "evidence": "https://authzed.com/careers",
+        "status": "added"
+      },
+      "rocketsdr": {
+        "date": "2026-11-09",
+        "website": "https://rocketsdr.ai",
+        "status": "no ATS link on site"
+      },
+      "hapi": {
+        "date": "2026-11-09",
+        "website": "https://hapi.trade/",
+        "status": "no ATS link on site"
+      },
+      "signoz": {
+        "date": "2026-11-09",
+        "website": "https://signoz.io",
+        "ats": "ashby",
+        "slug": "SigNoz",
+        "evidence": "https://signoz.io/careers/",
+        "status": "added"
+      },
+      "gromo": {
+        "date": "2026-11-09",
+        "website": "https://www.gromo.in",
+        "ats": "zoho_recruit",
+        "slug": "gromo",
+        "evidence": "https://www.gromo.in/careers",
+        "status": "no readable board"
+      },
+      "spruceid": {
+        "date": "2026-11-09",
+        "website": "https://www.spruceid.com",
+        "ats": "ashby",
+        "slug": "spruceid",
+        "evidence": "https://www.spruceid.com",
+        "status": "added"
+      },
+      "smartcuts": {
+        "date": "2026-11-09",
+        "website": "https://trysmartcuts.com/",
+        "status": "no ATS link on site"
+      },
+      "fractional": {
+        "date": "2026-11-09",
+        "website": "https://fractional.app",
+        "status": "no ATS link on site"
+      },
+      "firstbase-io": {
+        "date": "2026-11-09",
+        "website": "https://firstbase.io/",
+        "status": "no ATS link on site"
+      },
+      "per-diem": {
+        "date": "2026-11-09",
+        "website": "https://tryperdiem.com",
+        "status": "no ATS link on site"
+      },
+      "kodo": {
+        "date": "2026-11-09",
+        "website": "https://www.kodo.com",
+        "status": "no ATS link on site"
+      },
+      "quadrant-health": {
+        "date": "2026-11-09",
+        "website": "https://quadrant.health",
+        "status": "no ATS link on site"
+      },
+      "pangea-app": {
+        "date": "2026-11-09",
+        "website": "https://www.pangea.app",
+        "status": "no ATS link on site"
+      },
+      "anima": {
+        "date": "2026-11-09",
+        "website": "http://www.animahealth.com",
+        "ats": "ashby",
+        "slug": "Anima",
+        "evidence": "http://www.animahealth.com/company/careers",
+        "status": "added"
+      },
+      "popl": {
+        "date": "2026-11-09",
+        "website": "https://popl.co/",
+        "ats": "ashby",
+        "slug": "popl",
+        "evidence": "https://popl.co/",
+        "status": "added"
+      },
+      "great-question": {
+        "date": "2026-11-09",
+        "website": "https://greatquestion.co",
+        "ats": "ashby",
+        "slug": "greatquestion",
+        "evidence": "https://greatquestion.co",
+        "status": "added"
+      },
+      "datrics": {
+        "date": "2026-11-09",
+        "website": "https://datrics.ai",
+        "status": "no ATS link on site"
+      },
+      "enode": {
+        "date": "2026-11-09",
+        "website": "http://www.enode.com",
+        "ats": "ashby",
+        "slug": "enode",
+        "evidence": "http://www.enode.com/careers",
+        "status": "added"
+      },
+      "text-blaze": {
+        "date": "2026-11-09",
+        "website": "https://blaze.today",
+        "status": "no ATS link on site"
+      },
+      "resquared": {
+        "date": "2026-11-09",
+        "website": "http://re2.ai",
+        "status": "no ATS link on site"
+      },
+      "codingal": {
+        "date": "2026-11-09",
+        "website": "https://www.codingal.com/?utm_source=yc",
+        "status": "no ATS link on site"
+      },
+      "solo": {
+        "date": "2026-11-09",
+        "website": "https://www.solosuit.com/",
+        "status": "no ATS link on site"
+      },
+      "tint": {
+        "date": "2026-11-09",
+        "website": "http://www.tint.ai",
+        "ats": "greenhouse",
+        "slug": "tintai",
+        "evidence": "http://www.tint.ai/careers",
+        "status": "added"
+      },
+      "betterhalf": {
+        "date": "2026-11-09",
+        "website": "https://betterhalf.ai",
+        "status": "no ATS link on site"
+      },
+      "venu-ai": {
+        "date": "2026-11-09",
+        "website": "https://www.venu3d.com",
+        "status": "no ATS link on site"
+      },
+      "compose-ai": {
+        "date": "2026-11-09",
+        "website": "https://compose.ai",
+        "status": "no ATS link on site"
+      },
+      "haystack": {
+        "date": "2026-11-09",
+        "website": "https://usehaystack.io/",
+        "status": "no ATS link on site"
+      },
+      "infracost": {
+        "date": "2026-11-09",
+        "website": "https://infracost.io",
+        "status": "no ATS link on site"
+      },
+      "businessonbot": {
+        "date": "2026-11-09",
+        "website": "https://www.businessonbot.com/",
+        "status": "no ATS link on site"
+      },
+      "jiga": {
+        "date": "2026-11-09",
+        "website": "https://jiga.io",
+        "ats": "ashby",
+        "slug": "jiga",
+        "evidence": "https://jiga.io/about-us/#open-positions",
+        "status": "added"
+      },
+      "waydev": {
+        "date": "2026-11-09",
+        "website": "https://waydev.co/",
+        "status": "no ATS link on site"
+      },
+      "authologic": {
+        "date": "2026-11-09",
+        "website": "https://authologic.com",
+        "status": "no ATS link on site"
+      },
+      "swiftsku": {
+        "date": "2026-11-09",
+        "website": "https://swiftsku.com",
+        "ats": "zoho_recruit",
+        "slug": "swiftsku",
+        "evidence": "https://swiftsku.com/careers",
+        "status": "no readable board"
+      },
+      "palettehq": {
+        "date": "2026-11-09",
+        "website": "https://palettehq.com/en",
+        "status": "no ATS link on site"
+      },
+      "epsilon3-inc": {
+        "date": "2026-11-09",
+        "website": "https://www.epsilon3.io/",
+        "ats": "lever",
+        "slug": "epsilon3",
+        "evidence": "https://www.epsilon3.io/",
+        "status": "added"
+      },
+      "agape": {
+        "date": "2026-11-09",
+        "website": "https://www.getdailyagape.com",
+        "status": "no ATS link on site"
+      },
+      "serif-health": {
+        "date": "2026-11-09",
+        "website": "https://www.serifhealth.com",
+        "status": "no ATS link on site"
+      },
+      "rootly": {
+        "date": "2026-11-09",
+        "website": "https://rootly.com",
+        "status": "no ATS link on site"
+      },
+      "kalam-labs": {
+        "date": "2026-11-09",
+        "website": "http://www.kalamlabs.in",
+        "status": "no ATS link on site"
+      },
+      "coulomb-ai": {
+        "date": "2026-11-09",
+        "website": "https://coulomb.ai/",
+        "status": "no ATS link on site"
+      },
+      "rivia-ai": {
+        "date": "2026-11-09",
+        "website": "https://rivia.ai",
+        "status": "no ATS link on site"
+      },
+      "algouniversity": {
+        "date": "2026-11-09",
+        "website": "http://algouniversity.com/",
+        "status": "no ATS link on site"
+      },
+      "neodocs": {
+        "date": "2026-11-09",
+        "website": "https://www.neodocs.in",
+        "status": "no ATS link on site"
+      },
+      "strive-math": {
+        "date": "2026-11-09",
+        "website": "https://www.strivemath.com/",
+        "status": "no ATS link on site"
+      },
+      "doublehq": {
+        "date": "2026-11-09",
+        "website": "https://www.doublehq.com",
+        "ats": "ashby",
+        "slug": "double",
+        "evidence": "https://www.doublehq.com",
+        "status": "added"
+      },
+      "kodex": {
+        "date": "2026-11-09",
+        "website": "https://www.kodexglobal.com",
+        "ats": "ashby",
+        "slug": "kodex",
+        "evidence": "https://www.kodexglobal.com",
+        "status": "added"
+      },
+      "salarybox": {
+        "date": "2026-11-09",
+        "website": "https://salarybox.in/",
+        "ats": "zoho_recruit",
+        "slug": "salarybox",
+        "evidence": "https://salarybox.in/careers/",
+        "status": "added"
+      },
+      "enerjazz": {
+        "date": "2026-11-09",
+        "website": "https://www.enerjazz.tech/",
+        "status": "no ATS link on site"
+      },
+      "testrigor": {
+        "date": "2026-11-09",
+        "website": "https://testrigor.com",
+        "ats": "workable",
+        "slug": "testrigor",
+        "evidence": "https://testrigor.com",
+        "status": "no readable board"
+      },
+      "nira-energy": {
+        "date": "2026-11-09",
+        "website": "https://www.niraenergy.com/",
+        "ats": "greenhouse",
+        "slug": "niraenergy",
+        "evidence": "https://www.niraenergy.com/",
+        "status": "added"
+      },
+      "lootrush": {
+        "date": "2026-11-09",
+        "website": "https://www.lootrush.com",
+        "status": "no ATS link on site"
+      },
+      "getdot": {
+        "date": "2026-11-09",
+        "website": "https://getdot.ai",
+        "status": "no ATS link on site"
+      },
+      "aleph": {
+        "date": "2026-11-09",
+        "website": "https://getaleph.com/",
+        "ats": "ashby",
+        "slug": "aleph",
+        "evidence": "https://www.getaleph.com/careers",
+        "status": "added"
+      },
+      "akute-health": {
+        "date": "2026-11-09",
+        "website": "https://www.akutehealth.com",
+        "status": "no ATS link on site"
+      },
+      "telmai": {
+        "date": "2026-11-09",
+        "website": "https://www.telm.ai/",
+        "status": "no ATS link on site"
+      },
+      "infer": {
+        "date": "2026-11-09",
+        "website": "https://www.infer.so/",
+        "status": "no ATS link on site"
+      },
+      "crew": {
+        "date": "2026-11-09",
+        "website": "https://crew.work/",
+        "status": "no ATS link on site"
+      },
+      "evidence": {
+        "date": "2026-11-09",
+        "website": "https://www.evidence.dev",
+        "status": "no ATS link on site"
+      },
+      "apollo-3": {
+        "date": "2026-11-09",
+        "website": "https://www.apollofirst.xyz/",
+        "status": "no ATS link on site"
+      },
+      "growthbook": {
+        "date": "2026-11-09",
+        "website": "https://www.growthbook.io",
+        "status": "no ATS link on site"
+      },
+      "silkchart": {
+        "date": "2026-11-09",
+        "website": "https://www.silkchart.com",
+        "status": "no ATS link on site"
+      },
+      "nest-genomics": {
+        "date": "2026-11-09",
+        "website": "https://nestgenomics.com",
+        "status": "no ATS link on site"
+      },
+      "gym-class": {
+        "date": "2026-11-09",
+        "website": "https://gymclass.com",
+        "status": "no ATS link on site"
+      },
+      "teamout": {
+        "date": "2026-11-09",
+        "website": "https://www.teamout.com/",
+        "status": "no ATS link on site"
+      },
+      "inferedge": {
+        "date": "2026-11-09",
+        "website": "https://www.inferedge.com",
+        "status": "no ATS link on site"
+      },
+      "invert": {
+        "date": "2026-11-09",
+        "website": "http://www.invertbio.com/",
+        "ats": "ashby",
+        "slug": "invert",
+        "evidence": "http://www.invertbio.com/careers",
+        "status": "added"
+      },
+      "ankr-health": {
+        "date": "2026-11-09",
+        "website": "https://ankr.us",
+        "status": "no ATS link on site"
+      },
+      "versable": {
+        "date": "2026-11-09",
+        "website": "https://www.versableai.com/",
+        "status": "no ATS link on site"
+      },
+      "iomete": {
+        "date": "2026-11-09",
+        "website": "https://www.iomete.com/",
+        "status": "no ATS link on site"
+      },
+      "imt-care": {
+        "date": "2026-11-09",
+        "website": "https://www.imt.care",
+        "status": "no ATS link on site"
+      },
+      "prembly": {
+        "date": "2026-11-09",
+        "website": "https://prembly.com/",
+        "status": "no ATS link on site"
+      },
+      "material-depot": {
+        "date": "2026-11-09",
+        "website": "https://materialdepot.in/",
+        "status": "no ATS link on site"
+      },
+      "propelauth": {
+        "date": "2026-11-09",
+        "website": "https://www.propelauth.com",
+        "status": "no ATS link on site"
+      },
+      "rallyuxr": {
+        "date": "2026-11-09",
+        "website": "https://www.rallyuxr.com/",
+        "ats": "ashby",
+        "slug": "rallyuxr",
+        "evidence": "https://www.rallyuxr.com/careers",
+        "status": "added"
+      },
+      "reviving-mind": {
+        "date": "2026-11-09",
+        "website": "https://www.revivingmind.com/",
+        "status": "no ATS link on site"
+      },
+      "darsel": {
+        "date": "2026-11-09",
+        "website": "http://darsel.tech",
+        "status": "no ATS link on site"
+      },
+      "gosats": {
+        "date": "2026-11-09",
+        "website": "https://gosats.io",
+        "status": "no ATS link on site"
+      },
+      "mspilot": {
+        "date": "2026-11-09",
+        "website": "https://mspilot.io",
+        "status": "no ATS link on site"
+      },
+      "clinikally": {
+        "date": "2026-11-09",
+        "website": "https://www.clinikally.com/",
+        "status": "no ATS link on site"
+      },
+      "star": {
+        "date": "2026-11-09",
+        "website": "https://buildwithstar.com",
+        "status": "no ATS link on site"
+      },
+      "stackup": {
+        "date": "2026-11-09",
+        "website": "https://www.stackup.fi",
+        "status": "no ATS link on site"
+      },
+      "pasito": {
+        "date": "2026-11-09",
+        "website": "https://pasito.ai",
+        "status": "no ATS link on site"
+      },
+      "truebiz": {
+        "date": "2026-11-09",
+        "website": "https://truebiz.io/",
+        "status": "no ATS link on site"
+      },
+      "paragon-ai": {
+        "date": "2026-11-09",
+        "website": "https://paragon.ai",
+        "status": "no ATS link on site"
+      },
+      "voltic": {
+        "date": "2026-11-09",
+        "website": "https://volticshipping.com/",
+        "status": "no ATS link on site"
+      },
+      "newscatcher": {
+        "date": "2026-11-09",
+        "website": "https://newscatcherapi.com/",
+        "status": "no ATS link on site"
+      },
+      "vinci-games": {
+        "date": "2026-11-09",
+        "website": "https://ruffnauts.com/",
+        "status": "no ATS link on site"
+      },
+      "primevault": {
+        "date": "2026-11-09",
+        "website": "https://www.primevault.com",
+        "status": "no ATS link on site"
+      },
+      "algotest": {
+        "date": "2026-11-09",
+        "website": "https://algotest.in",
+        "status": "no ATS link on site"
+      },
+      "delfino-ai": {
+        "date": "2026-11-09",
+        "website": "https://www.delfino.ai/",
+        "status": "no ATS link on site"
+      },
+      "landeed": {
+        "date": "2026-11-09",
+        "website": "https://www.landeed.com/",
+        "status": "no ATS link on site"
+      },
+      "coverage-cat": {
+        "date": "2026-11-09",
+        "website": "https://www.coveragecat.com/",
+        "status": "no ATS link on site"
+      },
+      "rollstack-2": {
+        "date": "2026-11-09",
+        "website": "https://www.rollstack.com",
+        "ats": "ashby",
+        "slug": "rollstack",
+        "evidence": "https://www.rollstack.com/careers",
+        "status": "added"
+      },
+      "flexdesk": {
+        "date": "2026-11-09",
+        "website": "https://www.flexdesk.com/",
+        "status": "no ATS link on site"
+      },
+      "nango": {
+        "date": "2026-11-09",
+        "website": "https://nango.dev",
+        "ats": "ashby",
+        "slug": "Nango",
+        "evidence": "https://nango.dev/careers",
+        "status": "added"
+      },
+      "omnistrate": {
+        "date": "2026-11-09",
+        "website": "http://www.omnistrate.com",
+        "status": "no ATS link on site"
+      },
+      "loopfour": {
+        "date": "2026-11-09",
+        "website": "https://www.loopfour.com",
+        "status": "no ATS link on site"
+      },
+      "shortloop": {
+        "date": "2026-11-09",
+        "website": "https://shortloop.dev/",
+        "status": "no ATS link on site"
+      },
+      "storyboarder": {
+        "date": "2026-11-09",
+        "website": "https://storyboarder.com",
+        "status": "no ATS link on site"
+      },
+      "clickpe": {
+        "date": "2026-11-09",
+        "website": "https://clickpe.ai/",
+        "status": "no ATS link on site"
+      },
+      "superkalam": {
+        "date": "2026-11-09",
+        "website": "https://superkalam.com",
+        "status": "no ATS link on site"
+      },
+      "berry": {
+        "date": "2026-11-09",
+        "website": "https://berryai.com/",
+        "status": "no ATS link on site"
+      },
+      "speedy-labs": {
+        "date": "2026-11-09",
+        "website": "https://speedylabs.ai/",
+        "status": "no ATS link on site"
+      },
+      "kapa-ai": {
+        "date": "2026-11-09",
+        "website": "https://www.kapa.ai",
+        "status": "no ATS link on site"
+      },
+      "aivideo-com": {
+        "date": "2026-11-09",
+        "website": "https://aivideo.com",
+        "status": "no ATS link on site"
+      },
+      "pointhound": {
+        "date": "2026-11-09",
+        "website": "http://www.pointhound.com",
+        "status": "no ATS link on site"
+      },
+      "cedana": {
+        "date": "2026-11-09",
+        "website": "https://cedana.ai",
+        "status": "no ATS link on site"
+      },
+      "every": {
+        "date": "2026-11-09",
+        "website": "https://every.io/",
+        "ats": "ashby",
+        "slug": "every-io",
+        "evidence": "https://every.io/",
+        "status": "added"
+      },
+      "alguna": {
+        "date": "2026-11-09",
+        "website": "https://alguna.com",
+        "status": "no ATS link on site"
+      },
+      "skyvern": {
+        "date": "2026-11-09",
+        "website": "https://www.skyvern.com/",
+        "status": "no ATS link on site"
+      },
+      "cargo": {
+        "date": "2026-11-09",
+        "website": "https://getcargo.io",
+        "ats": "greenhouse",
+        "slug": "fireworksai",
+        "evidence": "https://getcargo.io/jobs",
+        "status": "no readable board"
+      },
+      "flex": {
+        "date": "2026-11-09",
+        "website": "https://www.withflex.com/shop",
+        "status": "no ATS link on site"
+      },
+      "infinity": {
+        "date": "2026-11-09",
+        "website": "https://www.infinityapp.in/",
+        "status": "no ATS link on site"
+      },
+      "xpay": {
+        "date": "2026-11-09",
+        "website": "https://www.xpaycheckout.com/",
+        "status": "no ATS link on site"
+      },
+      "haplotype-labs": {
+        "date": "2026-11-09",
+        "website": "https://www.haplotypelabs.com/",
+        "status": "no ATS link on site"
+      },
+      "educato": {
+        "date": "2026-11-09",
+        "website": "https://www.educato.com/",
+        "status": "no ATS link on site"
+      },
+      "firstwork": {
+        "date": "2026-11-09",
+        "website": "https://firstwork.com",
+        "ats": "ashby",
+        "slug": "firstwork",
+        "evidence": "https://firstwork.com/careers",
+        "status": "added"
+      },
+      "intryc": {
+        "date": "2026-11-09",
+        "website": "https://intryc.com",
+        "status": "no ATS link on site"
+      },
+      "blaze-2": {
+        "date": "2026-11-09",
+        "website": "https://blaze.money",
+        "status": "no ATS link on site"
+      },
+      "consus": {
+        "date": "2026-11-09",
+        "website": "https://www.consus.io",
+        "status": "no ATS link on site"
+      },
+      "cifrato": {
+        "date": "2026-11-09",
+        "website": "https://cifrato.ai",
+        "status": "no ATS link on site"
+      },
+      "optifye-ai": {
+        "date": "2026-11-09",
+        "website": "https://www.optifye.ai",
+        "status": "no ATS link on site"
+      },
+      "aravolta": {
+        "date": "2026-11-09",
+        "website": "https://www.aravolta.com/",
+        "status": "no ATS link on site"
+      },
+      "pgdog": {
+        "date": "2026-11-09",
+        "website": "https://pgdog.dev",
+        "status": "no ATS link on site"
+      },
+      "third-chair": {
+        "date": "2026-11-09",
+        "website": "https://usethirdchair.com",
+        "status": "no ATS link on site"
+      },
+      "reacher": {
+        "date": "2026-11-09",
+        "website": "https://reacherapp.com/",
+        "ats": "ashby",
+        "slug": "reacher",
+        "evidence": "https://reacherapp.com/careers",
+        "status": "added"
+      },
+      "bolna-ai": {
+        "date": "2026-11-09",
+        "website": "https://bolna.ai",
+        "ats": "ashby",
+        "slug": "bolna",
+        "evidence": "https://bolna.ai/careers",
+        "status": "added"
+      },
+      "metorial": {
+        "date": "2026-11-09",
+        "website": "https://metorial.com",
+        "status": "no ATS link on site"
+      },
+      "asimov": {
+        "date": "2026-11-09",
+        "website": "https://tryasimov.ai/",
+        "status": "no ATS link on site"
+      },
+      "legalos": {
+        "date": "2026-11-09",
+        "website": "https://www.legalos.ai",
+        "status": "no ATS link on site"
+      },
+      "cardboard": {
+        "date": "2026-11-09",
+        "website": "https://cardboard.ai",
+        "ats": "ashby",
+        "slug": "cardboard",
+        "evidence": "https://cardboard.ai/careers",
+        "status": "added"
+      },
+      "lab0": {
+        "date": "2026-11-09",
+        "website": "https://lab0.ai",
+        "status": "no ATS link on site"
+      },
+      "gojiberry-ai": {
+        "date": "2026-11-09",
+        "website": "https://www.gojiberry.ai",
+        "status": "no ATS link on site"
+      },
+      "e2e": {
+        "date": "2026-11-09",
+        "website": "https://e2e.com",
+        "status": "no ATS link on site"
+      },
+      "adalat-ai": {
+        "date": "2026-11-09",
+        "website": "https://adalat.ai/",
+        "status": "no ATS link on site"
+      }
+    }
+  },
+  "email_alerts": {
+    "senders": [
+      "linkedin.com",
+      "wellfound.com",
+      "internshala.com"
+    ],
+    "note": "Gmail search is limited to these sender domains; only job links are kept."
+  }
 }

@@ -389,9 +389,49 @@ def _as_list(value):
     return [value] if value else []
 
 
+def fetch_workable(board):
+    """Workable's public job widget. board = {"name", "id" (account, e.g. "acme")}."""
+    data = http_json(f"https://apply.workable.com/api/v1/widget/accounts/{board['id']}?details=false")
+    if "jobs" not in data:
+        raise ValueError("Workable reply has changed shape")
+    jobs = []
+    for j in data["jobs"]:
+        locs = [", ".join(x for x in (l.get("city"), l.get("country")) if x)
+                for l in j.get("locations") or []] or [j.get("city"), j.get("country")]
+        if j.get("telecommuting"):
+            locs.append("Remote")
+        jobs.append(job(j["shortcode"], j["title"], join_locations(locs), j["url"]))
+    return jobs
+
+
+def fetch_zoho_recruit(board):
+    """Any Zoho Recruit career site with its RSS feed on.
+    board = {"name", "id", "domain" (e.g. "acme.zohorecruit.in")}."""
+    return fetch_zoho_rss({"name": board["name"], "url": f"https://{board['domain']}/jobs/Careers/rss",
+                           "location": board.get("location", "")})
+
+
+def fetch_freshteam(board):
+    """Freshteam career site (server-rendered /jobs page). board = {"name", "id" (subdomain)}.
+    Untested: no live Freshteam company was found when this was written."""
+    return fetch_html({"name": board["name"], "url": f"https://{board['id']}.freshteam.com/jobs",
+                       "link_pattern": r"/jobs/[\w-]+/[\w-]+", "id_pattern": r"/jobs/([\w-]+)/",
+                       "location": board.get("location", "")})
+
+
+KEKA_ID = re.compile(r"/ats/documents/([0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12})/")
+
+
 def fetch_keka(board):
-    """Keka Hire career portal. board = {"name", "id" (subdomain), "embed" (portal id)}."""
-    data = http_json(f"https://{board['id']}.keka.com/careers/api/embedjobs/default/active/{board['embed']}")
+    """Keka Hire career portal. board = {"name", "id" (subdomain), "embed" (portal id, optional:
+    found in the careers page's logo path if missing)}."""
+    embed = board.get("embed")
+    if not embed:
+        m = KEKA_ID.search(http_text(f"https://{board['id']}.keka.com/careers/"))
+        if not m:
+            raise ValueError("Keka portal id not found on the careers page")
+        embed = m.group(1)
+    data = http_json(f"https://{board['id']}.keka.com/careers/api/embedjobs/default/active/{embed}")
     jobs = []
     for j in data:
         locs = j.get("jobLocations") or []
@@ -463,7 +503,9 @@ def fetch_teradata(board):
                         {"query": TERADATA_QUERY, "variables": {"first": 100, "start": start}})
         r = res["data"]["searchJobs"]["results"]
         for n in r["nodes"]:
-            where = join_locations(p["name"] for p in (n.get("places") or {}).get("nodes", []))
+            if not n:
+                continue  # the API returns null for some entries
+            where = join_locations(p["name"] for p in (n.get("places") or {}).get("nodes") or [] if p)
             jobs.append(job(n["key"], n["title"], where,
                             f"https://careers.teradata.com/jobs/{n['key']}"))
         start += 100
@@ -520,6 +562,9 @@ FETCHERS = {
     "amazon": fetch_amazon,
     "sap": fetch_sap,
     "keka": fetch_keka,
+    "workable": fetch_workable,
+    "zoho_recruit": fetch_zoho_recruit,
+    "freshteam": fetch_freshteam,
     "darwinbox_json": fetch_darwinbox_json,
     "goldman": fetch_goldman,
     "teradata": fetch_teradata,
@@ -538,13 +583,18 @@ def board_id(ats, board):
     return board.get("id") or board.get("tenant") or board["name"]
 
 
+SLUG_ATS = {"greenhouse", "lever", "ashby", "smartrecruiters"}  # fetchers that take a slug
+FAILED_SOURCES = []  # (ats, board, None, source) for sources that broke before fetching
 LAST_ERRORS = {}  # (ats, name) -> message, for the health summary
 
 
 def fetch_board(ats, board):
     """Return (ats, board, jobs), with jobs=None if the board failed."""
     try:
-        return ats, board, FETCHERS[ats](board)
+        arg = board
+        if ats in SLUG_ATS and isinstance(board, dict):
+            arg = board["id"]  # {"name": "Acme", "id": "acme"} -> "acme"
+        return ats, board, FETCHERS[ats](arg)
     except Exception as exc:  # one broken board must not stop the rest
         print(f"WARN {ats}/{board_name(ats, board)}: {exc}", file=sys.stderr)
         LAST_ERRORS[(ats, board_name(ats, board))] = f"{type(exc).__name__}: {exc}"
@@ -631,12 +681,48 @@ def save_seen(seen, still_open):
     SEEN_FILE.write_text(json.dumps(seen, indent=1, sort_keys=True) + "\n")
 
 
-def format_job(company, job, verdict=""):
+SOURCE_RANK = {"direct": 0, "VC board": 1, "YC": 2, "email": 3}  # which copy of a duplicate to keep
+COMPANY_SUFFIXES = re.compile(
+    r"(softwareprivatelimited|privatelimited|pvtltd|technologies|technology|solutions|"
+    r"limited|ltd|inc|llc|labs|hq|india|careers|jobs)$")
+
+
+def _norm(text):
+    return re.sub(r"[^a-z0-9]", "", (text or "").lower())
+
+
+def canonical(company, title):
+    """Same role from two sources -> same key ("Razorpay"/"razorpaysoftwareprivatelimited")."""
+    c = _norm(company)
+    while COMPANY_SUFFIXES.search(c) and len(c) > 4:
+        c = COMPANY_SUFFIXES.sub("", c)
+    t = re.sub(r"\b(20\d\d|summer|winter|remote|india|bangalore|bengaluru)\b", "", (title or "").lower())
+    return f"{c[:12]}|{_norm(t)}"
+
+
+def dedupe(found):
+    """Keep one copy per role (by apply URL or company+title), preferring direct boards."""
+    best, by_url = {}, {}
+    for f in sorted(found, key=lambda f: SOURCE_RANK.get(f["source"], 9)):
+        url = f["job"]["url"].split("?")[0].rstrip("/")
+        twin = best.get(f["canon"]) or by_url.get(url)
+        if twin:
+            if f["source_label"] not in twin["sources"]:
+                twin["sources"].append(f["source_label"])
+            continue
+        f["sources"] = [f["source_label"]]
+        best[f["canon"]] = f
+        by_url[url] = f
+    return list(best.values())
+
+
+def format_job(f):
+    j = f["job"]
     return (
-        f"<b>{html.escape(company)}</b>: {html.escape(job['title'])}\n"
-        f"{html.escape(job['location'])}\n"
-        + (f"{html.escape(verdict)}\n" if verdict else "")
-        + f"{html.escape(job['url'])}"
+        f"<b>{html.escape(f['company'])}</b>: {html.escape(j['title'])}\n"
+        f"{html.escape(j['location'] or 'location not given')} · {html.escape(' + '.join(f['sources']))}\n"
+        + (f"{html.escape(f['verdict'])}\n" if f.get("verdict") else "")
+        + f"{html.escape(j['url'])}"
     )
 
 
@@ -644,16 +730,18 @@ def add_verdicts(new, profile):
     """Run the eligibility check on each new job; best fits first."""
     import eligibility  # here, not at the top: eligibility imports this module
 
-    def one(item):
-        key, company, j, ats, board = item
-        if ats == "page_watch":
-            return item + ("", -1)
-        verdict, reasons, notes = eligibility.check(ats, board, j, profile)
-        return item + (eligibility.format_verdict(verdict, reasons, notes), eligibility.ORDER[verdict])
+    def one(f):
+        if f["ats"] == "page_watch":
+            f["order"] = -1
+            return f
+        verdict, reasons, notes = eligibility.check(f["ats"], f["board"], f["job"], profile)
+        f["verdict"] = eligibility.format_verdict(verdict, reasons, notes)
+        f["order"] = eligibility.ORDER[verdict]
+        return f
 
     with ThreadPoolExecutor(max_workers=8) as pool:
         rated = list(pool.map(one, new))
-    return sorted(rated, key=lambda r: r[-1])
+    return sorted(rated, key=lambda f: f["order"])
 
 
 def send_telegram(token, chat_id, text):
@@ -684,43 +772,91 @@ def chunk_messages(header, items, limit=3800):
     return messages
 
 
+def collect_boards(cfg, dry_run):
+    """(ats, board, source) for every board: direct, VC portfolio boards, YC auto-added."""
+    boards = [(ats, b, "direct") for ats, items in cfg["companies"].items() for b in items]
+    boards += [(ats, b, "VC board") for ats, items in cfg.get("vc_boards", {}).items() for b in items]
+    try:
+        import yc_auto
+        report = yc_auto.update(cfg)  # once a day; finds hiring systems for new YC companies
+        if report:
+            print(report)
+            if not dry_run:
+                CONFIG_FILE.write_text(json.dumps(cfg, indent=2, ensure_ascii=False) + "\n")
+        boards += [(ats, b, "YC") for ats, b in yc_auto.boards(cfg)]
+    except Exception as exc:
+        print(f"WARN YC list: {exc}", file=sys.stderr)
+        LAST_ERRORS[("yc", "YC list")] = f"{type(exc).__name__}: {exc}"
+        FAILED_SOURCES.append(("yc", {"name": "YC list", "id": "yc-list"}, None, "YC"))
+    return boards
+
+
+def email_results(cfg):
+    """One pseudo-board for alert emails, or [] when Gmail isn't set up."""
+    if not os.environ.get("GMAIL_REFRESH_TOKEN") or not cfg.get("email_alerts"):
+        return []
+    board = {"name": "Email alerts (Gmail)", "id": "gmail"}
+    try:
+        import gmail_alerts
+        return [("email", board, gmail_alerts.fetch_email_jobs(cfg), "email")]
+    except Exception as exc:
+        print(f"WARN email alerts: {exc}", file=sys.stderr)
+        LAST_ERRORS[("email", board["name"])] = f"{type(exc).__name__}: {exc}"
+        return [("email", board, None, "email")]
+
+
 def main():
     dry_run = "--dry-run" in sys.argv
     cfg = json.loads(CONFIG_FILE.read_text())
     categories = cfg.get("categories", {})
     matchers = {None: Matcher(cfg)}
     matchers.update({name: Matcher(cfg, rules) for name, rules in categories.items()})
+    matchers["email"] = Matcher(cfg, {"location": "."})  # you chose the alert's location yourself
 
-    boards = [(ats, b) for ats, items in cfg["companies"].items() for b in items]
+    boards = collect_boards(cfg, dry_run)
     with ThreadPoolExecutor(max_workers=24) as pool:
-        results = list(pool.map(lambda b: fetch_board(*b), boards))
+        fetched = list(pool.map(lambda b: fetch_board(b[0], b[1]) + (b[2],), boards))
+    fetched += email_results(cfg) + FAILED_SOURCES  # failures still reach the health summary
+    results = [(a, b, jobs) for a, b, jobs, _ in fetched]  # for health
 
     failed = [f"{a}/{board_name(a, b)}" for a, b, jobs in results if jobs is None]
-    found = []  # (key, company, job, ats, board)
-    for ats, board, jobs in results:
-        category = board.get("category") if isinstance(board, dict) else None
-        label = board_name(ats, board) + (f" [{category}]" if category else "")
+    found = []
+    for ats, board, jobs, source in fetched:
+        category = "email" if source == "email" else (
+            board.get("category") if isinstance(board, dict) else None)
+        name = board_name(ats, board)
         for j in jobs or []:
             # page_watch items aren't job titles; any change is worth a look.
-            if ats == "page_watch" or matchers[category](j):
-                key = f"{ats}:{board_id(ats, board)}:{j['id']}"
-                found.append((key, label, j, ats, board))
+            if not (ats == "page_watch" or matchers[category](j)):
+                continue
+            company = j.get("company") or name  # VC boards list many companies
+            label = {"direct": "direct", "YC": "YC", "email": f"email: {j.get('source', '')}".rstrip(": "),
+                     "VC board": f"VC board: {name}"}[source]
+            found.append({
+                "key": f"{ats}:{board_id(ats, board)}:{j['id']}",
+                "company": company + (f" [{category}]" if category not in (None, "email") else ""),
+                "job": j, "ats": ats, "board": board, "source": source, "source_label": label,
+                "canon": "canon:" + canonical(company, j["title"]),
+            })
+    found = dedupe(found)
 
     seen = load_seen()
     first_run = seen is None
     seen = seen or {}
-    new = [f for f in found if f[0] not in seen]
+    # A role already sent via another source is not new either.
+    new = [f for f in found if f["key"] not in seen and f["canon"] not in seen]
     if "profile" in cfg:
-        new = add_verdicts(new, cfg["profile"])  # adds (verdict text, sort order)
+        new = add_verdicts(new, cfg["profile"])
 
     print(f"{len(boards)} boards, {len(failed)} failed, "
           f"{len(found)} matching open roles, {len(new)} new")
     if failed:
         print("  failed:", ", ".join(failed))
-    for _, company, j, *rest in new:
-        print(f"  NEW {company}: {j['title']} | {j['location']} | {j['url']}")
-        if len(rest) > 2 and rest[2]:
-            print("      " + rest[2].replace("\n", "\n      "))
+    for f in new:
+        j = f["job"]
+        print(f"  NEW {f['company']}: {j['title']} | {j['location']} | {' + '.join(f['sources'])} | {j['url']}")
+        if f.get("verdict"):
+            print("      " + f["verdict"].replace("\n", "\n      "))
 
     now = datetime.now(IST)
     if dry_run:
@@ -735,8 +871,7 @@ def main():
         if token and chat_id:
             header = (f"Currently open ({len(new)}):" if first_run
                       else f"New roles ({len(new)}):")
-            items = [format_job(c, j, *rest[2:3]) for _, c, j, *rest in new]
-            for msg in chunk_messages(header, items):
+            for msg in chunk_messages(header, [format_job(f) for f in new]):
                 send_telegram(token, chat_id, msg)  # raises -> seen not saved -> retried next run
         else:
             # Don't mark jobs as seen that were never delivered.
@@ -744,9 +879,10 @@ def main():
             return
 
     today = date.today().isoformat()
-    for key, *_ in found:
-        seen.setdefault(key, today)
-    save_seen(seen, {key for key, *_ in found})
+    for f in found:
+        seen.setdefault(f["key"], today)
+        seen.setdefault(f["canon"], today)
+    save_seen(seen, {f["key"] for f in found} | {f["canon"] for f in found})
 
     # Once a day: which boards errored or came back empty in the last 24 hours.
     token, chat_id = os.environ.get("TELEGRAM_BOT_TOKEN"), os.environ.get("TELEGRAM_CHAT_ID")

@@ -73,3 +73,46 @@ so 0 is normal for them; instead they raise an error if the reply stops
 looking the way it should, and show up under "Errored". Add `"zero_ok": true`
 to a board in `config.json` to stop a board that is really empty from being
 listed every day.
+
+## Sources
+
+Each alert is tagged with where it came from: `direct` (a board in
+`companies`), `YC`, or `email: LinkedIn/Wellfound/Internshala`. The same
+role found twice (same apply link, or same company + title) is sent once,
+tagged with every source, and isn't re-sent later via another source.
+
+**YC companies (`yc_auto` in config.json).** Once a day `yc_auto.py`
+downloads the yc-oss list of hiring YC companies, keeps those in India or
+fully remote, and finds each new company's hiring system from links on its
+own website. A board is added only if it answers with jobs and its name
+matches the company. Companies with no readable board are listed under
+`yc_auto.checked` with the reason and retried after 30 days.
+`python3 yc_auto.py --dry-run --force` re-checks everything without saving.
+YC's own job pages (ycombinator.com / Work at a Startup) aren't read: their
+terms forbid scraping, and many YC startups only post there.
+
+**VC portfolio boards: not included.** Accel and General Catalyst run on
+Getro, Peak XV and Lightspeed on Consider; both platforms' terms forbid
+automated access (Getro's API robots.txt is `Disallow: /`). Blume's board is
+gone, and Nexus, Elevation and Z47 don't link one. Use those boards by hand
+or subscribe to their own job-alert emails; `vc_boards` in config.json is
+read if a permitted source turns up.
+
+**More hiring systems:** Workable, Keka (portal id found automatically),
+Zoho Recruit (RSS) and Freshteam (untested: no live Freshteam company was
+found). Add e.g. `"workable": [{"name": "Acme", "id": "acme"}]`.
+
+## Email alerts (optional)
+
+`gmail_alerts.py` reads LinkedIn / Wellfound / Internshala alert emails
+through the official Gmail API, read-only. The search is limited to the
+sender domains in `email_alerts.senders` and the last 3 days, and only job
+links are kept. Note the `gmail.readonly` permission itself could read any
+mail; the sender limit is enforced by this code. Job pages on LinkedIn etc.
+are not fetched (their terms forbid it), so email jobs are judged on the
+email text and usually come out "Unclear" with the link.
+
+Setup: run `python3 gmail_setup.py client_secret.json` once (see the steps
+in the chat log / below), then store GMAIL_CLIENT_ID, GMAIL_CLIENT_SECRET
+and GMAIL_REFRESH_TOKEN as GitHub secrets. Check with
+`python3 gmail_alerts.py`.

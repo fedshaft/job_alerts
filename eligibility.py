@@ -108,8 +108,8 @@ def description(ats, board, job):
     try:
         if ats in DETAIL:
             text = DETAIL[ats](board, job)
-        elif ats == "page_watch":
-            return ""
+        elif ats in ("page_watch", "email"):
+            return ""  # email links point at LinkedIn etc., whose terms forbid fetching pages
         else:
             text = _page_text(job["url"])  # amazon, sap, google, deshaw, ...
         return text if len(text) > 300 else ""  # a JS-only shell page isn't a description
