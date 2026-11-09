@@ -9,7 +9,7 @@ Results go in config.json under "vc_auto", refreshed weekly.
 
 Sources:
     Peak XV  peakxv.com sitemap -> /companies/<slug> pages -> website link
-    Accel    accel.com/companies (the page's embedded company list)
+    Accel    accel.com sitemap -> /companies/<slug> pages; India = partner in an Indian office
     Lightspeed: lsvp.com refuses scripted requests (403), so it's skipped.
 
     python3 vc_auto.py            # refresh now and save config.json
@@ -62,23 +62,47 @@ def peakxv(cache=None):
         return [r for r in pool.map(one, pages) if r and r[2]]
 
 
+INDIA_OFFICES = re.compile(r"bangalore|bengaluru|delhi|mumbai|gurgaon|gurugram|india", re.I)
+
+
 def accel(cache=None):
-    """[(name, slug, website)] from the company list embedded in accel.com/companies."""
-    page = alerts.http_text("https://www.accel.com/companies").replace('\\"', '"')
-    out = {}
-    for chunk in page.split('{"_createdAt"')[1:]:
-        if '"_type":"company"' not in chunk[:400]:
-            continue
-        site = re.search(r'"websiteUrl":"([^"]+)"', chunk)
-        slug = re.search(r'"slug":\{"_type":"slug","current":"([^"]+)"', chunk)
-        if not (site and slug):
-            continue
-        # Many nested objects (tags, founders) also have "name"; the company's
-        # own name is the last one before its slug.
-        names = re.findall(r'"name":"([^"]+)"', chunk[:slug.start()])
-        if names:
-            out[slug.group(1)] = (names[-1], slug.group(1), site.group(1))
-    return list(out.values())
+    """[(name, slug, website)] for Accel's India portfolio.
+
+    accel.com/companies only embeds ~200 of ~780 companies, so this walks the
+    company pages listed in Accel's sitemap (once; cached afterwards). Accel
+    doesn't tag a company's country on its page, so "India" means the Accel
+    partner on the company is based in an Indian office.
+    cache = {slug: (name, website, is_india)}.
+    """
+    cache = cache or {}
+    sitemap = alerts.http_text("https://www.accel.com/sitemap.xml")
+    pages = sorted(set(re.findall(r"<loc>(https://accel\.com/companies/[\w-]+)</loc>", sitemap)))
+
+    def one(url):
+        slug = url.rsplit("/", 1)[1]
+        if slug in cache:
+            return (cache[slug][0], slug, cache[slug][1], cache[slug][2])
+        time.sleep(0.5)
+        try:
+            page = alerts.http_text(url.replace("://accel.com", "://www.accel.com"))
+        except Exception:
+            return None
+        flat = page.replace('\\"', '"')
+        offices = re.findall(r'"basedIn":\{"_id":"office-[^"]+","name":"([^"]+)"', flat)
+        # Accel's pages all share one <title>, so the name comes from the address.
+        name = slug.replace("-", " ").title()
+        parser = alerts._Links()
+        parser.feed(page)
+        root = re.sub(r"[^a-z0-9]", "", slug.lower())[:5]
+        externals = [h for h, _ in parser.links if h.startswith("http") and not SOCIAL.search(h)
+                     and "accel.com" not in h]
+        # The company's own site is the external link that looks like its name.
+        site = next((h for h in externals if root in re.sub(r"[^a-z0-9]", "", h.lower())), "")
+        return name, slug, site, any(INDIA_OFFICES.search(o) for o in offices)
+
+    with ThreadPoolExecutor(max_workers=3) as pool:
+        rows = [r for r in pool.map(one, pages) if r]
+    return [(n, s, w) for n, s, w, india in rows if india and w], rows
 
 
 FUNDS = {"Peak XV": peakxv, "Accel": accel}
@@ -98,9 +122,16 @@ def update(cfg, today=None, force=False):
     reports = []
     for fund, source in FUNDS.items():
         try:
-            cache = {k.split(":", 1)[1]: (n.get("name", ""), n.get("website", ""))
+            cache = {k.split(":", 1)[1]: (n.get("name", ""), n.get("website", ""), n.get("india", True))
                      for k, n in vc["checked"].items() if k.startswith(fund + ":") and n.get("website")}
             companies = source(cache)
+            if isinstance(companies, tuple):  # accel: (india companies, every page seen)
+                companies, rows = companies
+                for name, slug, site, india in rows:  # remember non-India ones so they aren't refetched
+                    if not india and site:
+                        vc["checked"].setdefault(f"{fund}:{slug}", {"date": "9999-12-31", "name": name,
+                                                                   "website": site, "india": False,
+                                                                   "status": "not India"})
         except Exception as exc:
             reports.append(f"{fund}: portfolio list failed ({exc})")
             continue
@@ -111,7 +142,7 @@ def update(cfg, today=None, force=False):
 
         def one(c):
             name, slug, site = c
-            found = yc_auto.detect(site)
+            found = yc_auto.find_board({"slug": slug, "name": name, "website": site})
             if not found:
                 return c, None, None
             ats, board_slug, where, tld = found
@@ -126,7 +157,7 @@ def update(cfg, today=None, force=False):
             results = list(pool.map(one, todo))
         added = 0
         for (name, slug, site), found, entry in results:
-            note = {"date": today.isoformat(), "name": name, "website": site}
+            note = {"date": today.isoformat(), "name": name, "website": site, "india": True}
             if found:
                 note.update(ats=found[0], slug=found[1], evidence=found[2])
             if entry == "review":

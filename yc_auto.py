@@ -22,6 +22,7 @@ import alerts
 
 YC_LIST = "https://yc-oss.github.io/api/companies/hiring.json"
 RECHECK_DAYS = 30
+MAX_CHECKS = 60  # company websites checked per run
 
 # href patterns -> (ats, how to build the board entry)
 ATS_LINKS = [
@@ -69,6 +70,26 @@ def detect(website):
             pages.append((c, p, ls))
         except Exception:
             pass
+    found = _scan(pages)
+    if found:
+        return found
+    # Careers pages that aren't linked as such (or are built with JavaScript):
+    # try the usual addresses on the company's own domain.
+    parts = urllib.parse.urlparse(website)
+    host = parts.netloc.removeprefix("www.")
+    for guess in (f"{parts.scheme}://{parts.netloc}/careers", f"{parts.scheme}://{parts.netloc}/jobs",
+                  f"https://careers.{host}", f"https://jobs.{host}"):
+        try:
+            p, ls = _links(guess)
+        except Exception:
+            continue
+        found = _scan([(guess, p, ls)])
+        if found:
+            return found
+    return None
+
+
+def _scan(pages):
     for where, page, links in pages:
         haystack = " ".join(links) + " " + page  # embeds (iframes/scripts) are not <a> links
         for ats, pattern in ATS_LINKS:
@@ -78,6 +99,46 @@ def detect(website):
                     tld = m.group(2) if ats == "zoho_recruit" else None
                     return ats, slug, where, tld
     return None
+
+
+def _board_title(ats, slug):
+    """The name a public board gives itself, or ""."""
+    try:
+        if ats == "greenhouse":
+            return alerts.http_json(f"https://boards-api.greenhouse.io/v1/boards/{slug}").get("name", "")
+        url = {"lever": f"https://jobs.lever.co/{slug}", "ashby": f"https://jobs.ashbyhq.com/{slug}"}[ats]
+        m = re.search(r"<title>([^<]+)</title>", alerts.http_text(url))
+        return re.sub(r"^(jobs at|careers at)\s+|\s*(jobs|careers)$", "", m.group(1).strip(), flags=re.I) if m else ""
+    except Exception:
+        return ""
+
+
+def probe(company):
+    """Fallback when the site shows no ATS link: look for a Greenhouse/Lever/Ashby
+    board named after the company's domain. A same-named board is NOT enough
+    (e.g. "navi" on Ashby is an unrelated US startup), so it must also call
+    itself by the company's name AND list at least one job in India."""
+    domain = re.sub(r"^https?://(www\.)?", "", company.get("website") or "").split("/")[0]
+    root = domain.split(".")[0].lower()
+    if len(root) < 4:
+        return None
+    name = _n(company["name"])
+    for ats in ("greenhouse", "lever", "ashby"):
+        title = _n(_board_title(ats, root))
+        if not title or not (title.startswith(name[:6]) or name.startswith(title[:6])):
+            continue
+        try:
+            jobs = alerts.FETCHERS[ats](root)
+        except Exception:
+            continue
+        if any(alerts.INDIA.search(j["location"]) for j in jobs):
+            return ats, root, f"board named '{_board_title(ats, root)}' with India jobs (no link on site)", None
+    return None
+
+
+def find_board(company):
+    """detect() on the company's own site, else the verified probe()."""
+    return detect(company.get("website")) or probe(company)
 
 
 def _n(text):
@@ -120,10 +181,10 @@ def update(cfg, today=None, force=False):
     retry = (today - timedelta(days=RECHECK_DAYS)).isoformat()
     todo = sorted((c for c in wanted if c["slug"] not in SKIP_COMPANIES
                    and yc["checked"].get(c["slug"], {}).get("date", "") < retry),
-                  key=lambda c: yc["checked"].get(c["slug"], {}).get("date", ""))[:60]  # spread re-checks
+                  key=lambda c: yc["checked"].get(c["slug"], {}).get("date", ""))[:MAX_CHECKS]  # spread re-checks
 
     def one(c):
-        found = detect(c.get("website"))
+        found = find_board(c)
         if not found:
             return c, None, None
         ats, slug, where, tld = found
