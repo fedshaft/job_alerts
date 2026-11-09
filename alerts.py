@@ -2,7 +2,8 @@
 """Watch public job boards and send new matching roles to Telegram.
 
 Supported hiring systems: Greenhouse, Lever, Ashby, SmartRecruiters, Workday,
-Oracle Recruiting, Zoho Recruit, Trakstar, MyNextHire, Keka, plus a few
+Oracle Recruiting, Zoho Recruit, Trakstar, MyNextHire, Keka, Rippling, Gem,
+Jobvite, SuccessFactors, SenseHQ, plus a few
 company-specific career sites. Each reads the same public data the official
 careers page shows; no logins, and nothing behind a bot challenge.
 
@@ -550,6 +551,95 @@ def fetch_sap(board):
     return list(jobs.values())
 
 
+def fetch_rippling(slug):
+    """Rippling ATS public board API (ats.rippling.com/<slug>/jobs)."""
+    data = http_json(f"https://api.rippling.com/platform/api/ats/v1/board/{slug}/jobs")
+    if not isinstance(data, list):
+        raise ValueError("unexpected Rippling reply")
+    return [job(j["uuid"], j["name"], (j.get("workLocation") or {}).get("label", ""), j["url"])
+            for j in data]
+
+
+def fetch_gem(slug):
+    """Gem public job board API (jobs.gem.com/<slug>)."""
+    data = http_json(f"https://api.gem.com/job_board/v0/{slug}/job_posts/")
+    if not isinstance(data, list):
+        raise ValueError("unexpected Gem reply")
+    return [job(j["id"], j["title"], (j.get("location") or {}).get("name", ""), j["absolute_url"])
+            for j in data]
+
+
+def fetch_sensehq(slug):
+    """SenseHQ careers page (<slug>.sensehq.com/careers): the job list is embedded as JSON."""
+    page = http_text(f"https://{slug}.sensehq.com/careers")
+    i = page.find('"jobsData":')
+    if i < 0:
+        raise ValueError("SenseHQ job data not found on the page")
+    rows = json.JSONDecoder().raw_decode(page, i + len('"jobsData":'))[0].get("rows", [])
+    return [job(r["id"], r["title"], r.get("location") or "",
+                f"https://{slug}.sensehq.com/careers/jobs/{r['id']}")
+            for r in rows if r.get("job_status") == "OPEN"]
+
+
+JOBVITE_ROW = re.compile(r'<a href="(/[\w-]+/job/(\w+))">([^<]+)</a>\s*</td>\s*'
+                         r'<td class="jv-job-list-location">(.*?)</td>', re.S)
+
+
+def fetch_jobvite(slug):
+    """Jobvite careers page (jobs.jobvite.com/<slug>/jobs): a plain HTML table."""
+    page = http_text(f"https://jobs.jobvite.com/{slug}/jobs")
+    rows = JOBVITE_ROW.findall(page)
+    if not rows and "jv-job-list" not in page:
+        raise ValueError("Jobvite job table not found")
+    return [job(jid, html.unescape(title), " ".join(re.sub(r"<[^>]+>", " ", where).split()),
+                f"https://jobs.jobvite.com{href}")
+            for href, jid, title, where in rows]
+
+
+SF_LINK = re.compile(r'href="(/job/[^"]*/(\d+)/)"[^>]*>([^<]+)</a>')
+SF_LOC = re.compile(r'<td class="colLocation[^>]*>\s*<span class="jobLocation">\s*([^<]*?)\s*</span>')
+
+
+def fetch_successfactors(board):
+    """SAP SuccessFactors career site with the classic job table (jobs.<company>.com/search/).
+
+    board = {"name", "host", "query" (location search, e.g. "India")}. Results
+    come 25 or so per page; follows "startrow" until every job is read.
+    """
+    jobs, start = {}, 0
+    while start < 1000:
+        url = (f"https://{board['host']}/search/?q=&locationsearch="
+               f"{urllib.parse.quote(board.get('query', 'India'))}&startrow={start}")
+        page = http_text(url)
+        rows = []
+        for row in page.split('<tr class="data-row')[1:]:  # one table row per job
+            link, loc = SF_LINK.search(row), SF_LOC.search(row)
+            if link:
+                rows.append((*link.groups(), loc.group(1) if loc else ""))
+        if not rows:
+            if start == 0 and "data-row" not in page and "jobTitle-link" not in page:
+                raise ValueError("SuccessFactors job table not found")
+            break
+        for href, jid, title, where in rows:
+            where = re.sub(r",\s*IN\b", ", India", html.unescape(where))
+            jobs[jid] = job(jid, html.unescape(title), where, f"https://{board['host']}{href}")
+        total = re.search(r"of <b>(\d+)</b>", page)
+        start += len(rows)
+        if not total or start >= int(total.group(1)):
+            break
+    return list(jobs.values())
+
+
+def fetch_juspay(board):
+    """Juspay's own careers app (joinus.juspay.in): the page loads this public JSON."""
+    data = http_json("https://joinus.juspay.in/api/careerJobOpening")
+    if "allJobs" not in data:
+        raise ValueError("unexpected Juspay reply")
+    return [job(j["job_id"], j["job_title"], j.get("job_location") or "",
+                f"https://joinus.juspay.in/?jobId={urllib.parse.quote(str(j['job_id']))}")
+            for j in data["allJobs"] if str(j.get("opening_status")).lower() == "true"]
+
+
 def fetch_page_watch(board):
     """Pages that announce programs rather than list jobs (e.g. NIMS).
 
@@ -589,6 +679,12 @@ FETCHERS = {
     "darwinbox_json": fetch_darwinbox_json,
     "goldman": fetch_goldman,
     "teradata": fetch_teradata,
+    "rippling": fetch_rippling,
+    "gem": fetch_gem,
+    "sensehq": fetch_sensehq,
+    "jobvite": fetch_jobvite,
+    "successfactors": fetch_successfactors,
+    "juspay": fetch_juspay,
     "html": fetch_html,
     "page_watch": fetch_page_watch,
 }
@@ -604,7 +700,7 @@ def board_id(ats, board):
     return board.get("id") or board.get("tenant") or board["name"]
 
 
-SLUG_ATS = {"greenhouse", "lever", "ashby", "smartrecruiters"}  # fetchers that take a slug
+SLUG_ATS = {"greenhouse", "lever", "ashby", "smartrecruiters", "rippling", "gem", "sensehq", "jobvite"}  # fetchers that take a slug
 FAILED_SOURCES = []  # (ats, board, None, source) for sources that broke before fetching
 LAST_ERRORS = {}  # (ats, name) -> message, for the health summary
 

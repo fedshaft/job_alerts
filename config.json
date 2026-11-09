@@ -796,6 +796,42 @@
         "id": "stoneforge-join",
         "url": "https://stoneforgeresearch.com/join"
       }
+    ],
+    "juspay": [
+      {
+        "name": "Juspay"
+      }
+    ],
+    "rippling": [
+      {
+        "name": "Rippling",
+        "id": "rippling"
+      }
+    ],
+    "gem": [
+      {
+        "name": "PromptQL (Hasura)",
+        "id": "promptql"
+      }
+    ],
+    "sensehq": [
+      {
+        "name": "Zetwerk",
+        "id": "zetwerk"
+      }
+    ],
+    "jobvite": [
+      {
+        "name": "Nutanix",
+        "id": "nutanix"
+      }
+    ],
+    "successfactors": [
+      {
+        "name": "Volvo Group",
+        "host": "jobs.volvogroup.com",
+        "query": "India"
+      }
     ]
   },
   "tracked_manually": [
@@ -941,31 +977,25 @@
       "name": "AMD",
       "careers": "https://careers.amd.com/careers-home/jobs",
       "ats": "iCIMS (careers-amd.icims.com)",
-      "why": "No iCIMS fetcher in alerts.py."
+      "why": "iCIMS: robots.txt disallows all automated access (Disallow: /)."
     },
     {
       "name": "Atlassian",
       "careers": "https://www.atlassian.com/company/careers/all-jobs",
       "ats": "iCIMS (campus) + own listing",
-      "why": "No iCIMS fetcher; the own listing has no India filter that html can use."
+      "why": "iCIMS: robots.txt disallows all automated access (Disallow: /)."
     },
     {
       "name": "MSCI",
       "careers": "https://careers.msci.com/",
       "ats": "iCIMS",
-      "why": "No iCIMS fetcher."
+      "why": "iCIMS: robots.txt disallows all automated access (Disallow: /)."
     },
     {
       "name": "ICE (Intercontinental Exchange)",
       "careers": "https://careers.ice.com/jobs",
       "ats": "iCIMS / Jibe",
-      "why": "No fetcher."
-    },
-    {
-      "name": "Nutanix",
-      "careers": "https://careers.nutanix.com/en/jobs/",
-      "ats": "Jobvite",
-      "why": "No Jobvite fetcher."
+      "why": "iCIMS: robots.txt disallows all automated access (Disallow: /)."
     },
     {
       "name": "Societe Generale",
@@ -977,19 +1007,13 @@
       "name": "Standard Chartered",
       "careers": "https://jobs.standardchartered.com/",
       "ats": "SuccessFactors",
-      "why": "No generic SuccessFactors fetcher."
+      "why": "SuccessFactors site with the newer script-loaded layout; its data path (/services/) is disallowed in robots.txt."
     },
     {
       "name": "Moody's",
       "careers": "https://careers.moodys.com/en",
       "ats": "SuccessFactors",
-      "why": "No generic SuccessFactors fetcher."
-    },
-    {
-      "name": "Volvo Group",
-      "careers": "https://jobs.volvogroup.com/",
-      "ats": "SuccessFactors",
-      "why": "No generic SuccessFactors fetcher."
+      "why": "SuccessFactors site, but robots.txt disallows /search-jobs/."
     },
     {
       "name": "Lam Research",
@@ -1008,18 +1032,6 @@
       "careers": "https://www.metacareers.com/jobs",
       "ats": "custom GraphQL",
       "why": "Refuses scripted requests (400); not bypassed."
-    },
-    {
-      "name": "Rippling",
-      "careers": "https://www.rippling.com/careers/open-roles",
-      "ats": "Rippling's own ATS",
-      "why": "No fetcher."
-    },
-    {
-      "name": "Juspay",
-      "careers": "https://juspay.io/careers",
-      "ats": "custom JSON (joinus.juspay.in/api/careerJobOpening)",
-      "why": "Public JSON the page uses, but no fetcher fits; would need a small new fetcher."
     },
     {
       "name": "Myntra",
@@ -1094,27 +1106,15 @@
       "why": "Same TurboHire token barrier as Ola/Navi."
     },
     {
-      "name": "Zetwerk",
-      "careers": "https://www.zetwerk.com/careers/",
-      "ats": "SenseHQ (zetwerk.sensehq.com)",
-      "why": "No fetcher."
-    },
-    {
       "name": "Acko",
       "careers": "https://www.acko.com/careers/jobs/",
       "ats": "Kula (careers.kula.ai)",
-      "why": "No fetcher."
+      "why": "Kula: robots.txt disallows /api/, and the page loads jobs by script."
     },
     {
       "name": "Lenskart",
       "careers": "https://www.lenskart.com/careers-at-lenskart",
       "ats": "ainterviews.com job board",
-      "why": "No fetcher."
-    },
-    {
-      "name": "Hasura / PromptQL",
-      "careers": "https://promptql.io/careers",
-      "ats": "Gem (jobs.gem.com)",
       "why": "No fetcher."
     },
     {
@@ -1133,7 +1133,7 @@
       "name": "Smallcase",
       "careers": "https://www.smallcase.com/",
       "ats": "PyjamaHR",
-      "why": "No fetcher."
+      "why": "PyjamaHR: script-only page with no public job API found."
     },
     {
       "name": "Nykaa",
@@ -1423,6 +1423,22 @@
           "name": "Zuddl",
           "id": "zuddl"
         }
+      ],
+      "rippling": [
+        {
+          "name": "Just Appraised",
+          "id": "just-appraised-jobs"
+        },
+        {
+          "name": "Community Phone",
+          "id": "community-phone-careers"
+        }
+      ],
+      "gem": [
+        {
+          "name": "Rootly",
+          "id": "rootly"
+        }
       ]
     },
     "checked": {
@@ -1635,7 +1651,10 @@
       "just-appraised": {
         "date": "2026-11-09",
         "website": "https://www.justappraised.com",
-        "status": "no ATS link on site"
+        "status": "added",
+        "ats": "rippling",
+        "slug": "just-appraised-jobs",
+        "evidence": "https://www.justappraised.com/careers/"
       },
       "cashfree-payments": {
         "date": "2026-11-09",
@@ -1745,7 +1764,10 @@
       "community-phone-company": {
         "date": "2026-11-09",
         "website": "https://www.communityphone.org/",
-        "status": "no ATS link on site"
+        "status": "added",
+        "ats": "rippling",
+        "slug": "community-phone-careers",
+        "evidence": "https://www.communityphone.org/about/careers"
       },
       "swadesh": {
         "date": "2026-11-09",
@@ -2237,7 +2259,10 @@
       "rootly": {
         "date": "2026-11-09",
         "website": "https://rootly.com",
-        "status": "no ATS link on site"
+        "status": "added",
+        "ats": "gem",
+        "slug": "rootly",
+        "evidence": "https://rootly.com/careers"
       },
       "kalam-labs": {
         "date": "2026-11-09",
@@ -3050,6 +3075,13 @@
         {
           "name": "Zolve",
           "id": "zolve",
+          "fund": "Accel"
+        }
+      ],
+      "rippling": [
+        {
+          "name": "Delightree",
+          "id": "delightree",
           "fund": "Accel"
         }
       ]
@@ -5678,7 +5710,10 @@
         "date": "2026-11-09",
         "name": "Zetwerk",
         "website": "https://www.zetwerk.com",
-        "status": "no ATS link on site"
+        "status": "added",
+        "ats": "sensehq",
+        "slug": "zetwerk",
+        "evidence": "https://www.zetwerk.com/careers/#life-at-zetwerk"
       },
       "Peak XV:zilo": {
         "date": "2026-11-09",
@@ -9530,7 +9565,10 @@
         "name": "Delightree",
         "website": "https://www.delightree.com/",
         "india": true,
-        "status": "no ATS link on site"
+        "status": "added",
+        "ats": "rippling",
+        "slug": "delightree",
+        "evidence": "https://www.delightree.com/"
       },
       "Accel:detect": {
         "date": "2026-11-09",
@@ -10658,7 +10696,10 @@
         "name": "Zetwerk",
         "website": "http://www.zetwerk.com",
         "india": true,
-        "status": "no ATS link on site"
+        "status": "already tracked",
+        "ats": "sensehq",
+        "slug": "zetwerk",
+        "evidence": "https://www.zetwerk.com/careers/#life-at-zetwerk"
       },
       "Accel:zinier": {
         "date": "2026-11-09",

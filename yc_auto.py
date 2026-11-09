@@ -36,6 +36,10 @@ ATS_LINKS = [
     ("freshteam", r"([\w-]+)\.freshteam\.com"),
     ("zoho_recruit", r"([\w-]+)\.zohorecruit\.(com|in|eu)"),
     ("keka", r"([\w-]+)\.keka\.com/careers"),
+    ("rippling", r"ats\.rippling\.com/([\w-]+)"),
+    ("gem", r"jobs\.gem\.com/([\w-]+)"),
+    ("jobvite", r"jobs\.jobvite\.com/([\w-]+)"),
+    ("sensehq", r"([\w-]+)\.sensehq\.com"),
 ]
 # Recruiting agencies post for unnamed clients; they aren't employers.
 SKIP_COMPANIES = {"weekday"}

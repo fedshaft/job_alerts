@@ -1,12 +1,13 @@
 # job-alerts
 
-Checks ~315 companies' public job boards every 30 minutes and sends new
+Checks ~325 companies' public job boards every 30 minutes and sends new
 India / global-remote tech internships to Telegram.
 
 Hiring systems covered: Greenhouse, Lever, Ashby, SmartRecruiters, Workday,
 Oracle Recruiting, Zoho Recruit (RSS), Trakstar Hire, MyNextHire, Keka,
+Rippling, Gem, Jobvite, SenseHQ, SuccessFactors (classic job table),
 plus custom fetchers for amazon.jobs, jobs.sap.com, Goldman Sachs Higher,
-Teradata, Netflix (Eightfold), company-hosted Darwinbox job lists (Upstox, M2P) and plain-HTML
+Teradata, Juspay, Netflix (Eightfold), company-hosted Darwinbox job lists (Upstox, M2P) and plain-HTML
 career pages (D. E. Shaw India, Google).
 `page_watch` alerts when a page with no job list changes (e.g. NIMS Japan).
 
@@ -102,7 +103,14 @@ scripted requests (403), so it's skipped.
 
 **More hiring systems:** Workable, Keka (portal id found automatically),
 Zoho Recruit (RSS) and Freshteam (untested: no live Freshteam company was
-found). Add e.g. `"workable": [{"name": "Acme", "id": "acme"}]`.
+found), Rippling, Gem, Jobvite and SenseHQ (all take a slug), and
+SuccessFactors (`{"name", "host", "query": "India"}`). Add e.g.
+`"workable": [{"name": "Acme", "id": "acme"}]`.
+
+Not covered, and why: iCIMS (AMD, MSCI, ICE, Atlassian) disallows all
+crawling in robots.txt; Moody's and Standard Chartered disallow their job
+search paths; Kula (Acko) disallows /api/; PyjamaHR, Taleo and the Eightfold
+API need a browser or refuse scripts.
 
 ## Email alerts (optional)
 
