@@ -1,4 +1,11 @@
 {
+  "profile": {
+    "graduation_year": 2028,
+    "graduation_month": 5,
+    "degree": "B.Tech",
+    "branch": "Computer Science and Engineering",
+    "locations": "any"
+  },
   "title_role": "\\b(intern|interns|internship|internships|trainee|apprentice|new grad|graduate|fresher|freshers|campus|early career|entry level)\\b",
   "title_tech": "software|\\bsde|engineer|developer|backend|back-end|full.?stack|platform|infra|devops|\\bsre\\b|reliability|cloud|systems|data|security|\\bml\\b|\\bai\\b|\\btech|research|\\bquant|\\bqa\\b|sdet|test automation|automation|\\bc\\+\\+",
   "title_exclude": "\\b(hr|human resources|talent|recruit\\w*|marketing|sales|finance|accounting|legal|design|ux|ui|phd|ph\\.d|technician|master'?s|mba)\\b",

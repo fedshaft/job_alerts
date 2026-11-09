@@ -42,3 +42,19 @@ and `porter` on Lever are unrelated companies. Only add a board the
 company's own careers page links to.
 
 Then run `python3 alerts.py --dry-run` to check it loads ("0 failed").
+
+## Eligibility check
+
+Every new match is checked against the `profile` block in `config.json`
+(graduation year 2028, B.Tech CSE, any location). `eligibility.py` reads the
+full posting (ATS API where there is one, else the job page) and looks for
+graduation years, "degree completed by …" dates, PhD/Master's-only, final /
+pre-final year, branch limits, CGPA cutoffs, duration and dates (flags
+semester clashes), and work-authorisation limits.
+
+Each Telegram alert gets one of: ✅ Eligible, 🟢 Likely, ❓ Unclear,
+⛔ Not eligible, with the reason, and the list is sorted best-first. When the
+posting can't be read, it says so and the link is right there to check.
+Skill fit isn't judged.
+
+Check any posting by hand: `python3 eligibility.py <job url>`

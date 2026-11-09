@@ -572,12 +572,29 @@ def save_seen(seen, still_open):
     SEEN_FILE.write_text(json.dumps(seen, indent=1, sort_keys=True) + "\n")
 
 
-def format_job(company, job):
+def format_job(company, job, verdict=""):
     return (
         f"<b>{html.escape(company)}</b>: {html.escape(job['title'])}\n"
         f"{html.escape(job['location'])}\n"
-        f"{html.escape(job['url'])}"
+        + (f"{html.escape(verdict)}\n" if verdict else "")
+        + f"{html.escape(job['url'])}"
     )
+
+
+def add_verdicts(new, profile):
+    """Run the eligibility check on each new job; best fits first."""
+    import eligibility  # here, not at the top: eligibility imports this module
+
+    def one(item):
+        key, company, j, ats, board = item
+        if ats == "page_watch":
+            return item + ("", -1)
+        verdict, reasons, notes = eligibility.check(ats, board, j, profile)
+        return item + (eligibility.format_verdict(verdict, reasons, notes), eligibility.ORDER[verdict])
+
+    with ThreadPoolExecutor(max_workers=8) as pool:
+        rated = list(pool.map(one, new))
+    return sorted(rated, key=lambda r: r[-1])
 
 
 def send_telegram(token, chat_id, text):
@@ -620,7 +637,7 @@ def main():
         results = list(pool.map(lambda b: fetch_board(*b), boards))
 
     failed = [f"{a}/{board_name(a, b)}" for a, b, jobs in results if jobs is None]
-    found = []  # (key, company, job)
+    found = []  # (key, company, job, ats, board)
     for ats, board, jobs in results:
         category = board.get("category") if isinstance(board, dict) else None
         label = board_name(ats, board) + (f" [{category}]" if category else "")
@@ -628,19 +645,23 @@ def main():
             # page_watch items aren't job titles; any change is worth a look.
             if ats == "page_watch" or matchers[category](j):
                 key = f"{ats}:{board_id(ats, board)}:{j['id']}"
-                found.append((key, label, j))
+                found.append((key, label, j, ats, board))
 
     seen = load_seen()
     first_run = seen is None
     seen = seen or {}
-    new = [(k, c, j) for k, c, j in found if k not in seen]
+    new = [f for f in found if f[0] not in seen]
+    if "profile" in cfg:
+        new = add_verdicts(new, cfg["profile"])  # adds (verdict text, sort order)
 
     print(f"{len(boards)} boards, {len(failed)} failed, "
           f"{len(found)} matching open roles, {len(new)} new")
     if failed:
         print("  failed:", ", ".join(failed))
-    for _, company, j in new:
+    for _, company, j, *rest in new:
         print(f"  NEW {company}: {j['title']} | {j['location']} | {j['url']}")
+        if len(rest) > 2 and rest[2]:
+            print("      " + rest[2].replace("\n", "\n      "))
 
     if dry_run:
         return
@@ -651,7 +672,7 @@ def main():
         if token and chat_id:
             header = (f"Currently open ({len(new)}):" if first_run
                       else f"New roles ({len(new)}):")
-            items = [format_job(c, j) for _, c, j in new]
+            items = [format_job(c, j, *rest[2:3]) for _, c, j, *rest in new]
             for msg in chunk_messages(header, items):
                 send_telegram(token, chat_id, msg)  # raises -> seen not saved -> retried next run
         else:
@@ -660,9 +681,9 @@ def main():
             return
 
     today = date.today().isoformat()
-    for key, _, _ in found:
+    for key, *_ in found:
         seen.setdefault(key, today)
-    save_seen(seen, {key for key, _, _ in found})
+    save_seen(seen, {key for key, *_ in found})
 
     # Fail loudly (GitHub emails you) if many boards break, e.g. an API change.
     if len(failed) > len(boards) // 4:
