@@ -7,9 +7,9 @@
     "locations": "any"
   },
   "title_role": "\\b(intern|interns|internship|internships|trainee|apprentice|new grad|graduate|fresher|freshers|campus|early career|entry level)\\b",
-  "title_tech": "software|\\bsde|engineer|developer|backend|back-end|full.?stack|platform|infra|devops|\\bsre\\b|reliability|cloud|systems|data|security|\\bml\\b|\\bai\\b|\\btech|research|\\bquant|\\bqa\\b|sdet|test automation|automation|\\bc\\+\\+",
+  "title_tech": "software|\\bsde|engineer|developer|backend|back-end|full.?stack|platform|infra|devops|\\bsre\\b|reliability|cloud|systems|data|security|\\bml\\b|\\bai\\b|\\btech|research|\\bquant|\\bqa\\b|sdet|test automation|automation|\\bc\\+\\+|machine learning|deep learning|\\bnlp\\b|computer vision|front.?end|mobile|android|\\bios\\b|\\bweb\\b|embedded|firmware|hardware|vlsi|silicon|robotics|analytics|blockchain|\\bapi\\b",
   "title_exclude": "\\b(hr|human resources|talent|recruit\\w*|marketing|sales|finance|accounting|legal|design|ux|ui|phd|ph\\.d|technician|master'?s|mba)\\b",
-  "location": "india|bengaluru|bangalore|hyderabad|pune|chennai|mumbai|gurgaon|gurugram|noida|delhi|kolkata|ahmedabad|jaipur|kochi|coimbatore|^\\s*remote\\s*$|remote.*(global|worldwide|anywhere|apac|asia)",
+  "location": "india|bengaluru|bangalore|hyderabad|pune|chennai|mumbai|gurgaon|gurugram|noida|delhi|kolkata|ahmedabad|jaipur|kochi|coimbatore|gandhinagar|gujarat|karnataka|maharashtra|telangana|tamil nadu|kerala|thiruvananthapuram|trivandrum|indore|bhubaneswar|chandigarh|mohali|lucknow|nagpur|vadodara|surat|mysore|mysuru|visakhapatnam|vizag|goa|haryana|uttar pradesh|west bengal|^\\s*remote\\s*$|remote.*(global|worldwide|anywhere|apac|asia)",
   "categories": {
     "international_research": {
       "title_role": "\\b(intern|interns|internship|internships|trainee|research)\\b",
@@ -504,6 +504,14 @@
         "id": "teradata"
       }
     ],
+    "eightfold": [
+      {
+        "name": "Netflix",
+        "id": "netflix",
+        "host": "explore.jobs.netflix.net",
+        "domain": "netflix.com"
+      }
+    ],
     "page_watch": [
       {
         "name": "NIMS Internship (Japan)",
@@ -603,6 +611,24 @@
       "careers": "",
       "ats": "unverified",
       "why": "Site misconfigured (Squarespace certificate mismatch); nothing found by search."
+    },
+    {
+      "name": "Ola",
+      "careers": "https://www.olacabs.com/careers",
+      "ats": "TurboHire (olacareers.turbohire.co)",
+      "why": "Same TurboHire token barrier as Navi/Flipkart."
+    },
+    {
+      "name": "Rapido",
+      "careers": "https://www.rapido.bike/Careers",
+      "ats": "Darwinbox (rapido.darwinbox.in)",
+      "why": "Darwinbox API is behind a Cloudflare challenge."
+    },
+    {
+      "name": "Lightspeed portfolio",
+      "careers": "https://lsvp.com/portfolio",
+      "ats": "n/a (fund site)",
+      "why": "lsvp.com refuses scripted requests (403); Consider job board terms forbid automation."
     }
   ],
   "yc_auto": {
@@ -2135,5 +2161,4130 @@
       "internshala.com"
     ],
     "note": "Gmail search is limited to these sender domains; only job links are kept."
+  },
+  "vc_auto": {
+    "last_run": "2026-11-09",
+    "boards": {
+      "lever": [
+        {
+          "name": "Airalo",
+          "id": "airalo",
+          "fund": "Peak XV"
+        }
+      ],
+      "keka": [
+        {
+          "name": "Jupiter",
+          "id": "jupiter",
+          "fund": "Peak XV"
+        },
+        {
+          "name": "Attentive.ai",
+          "id": "attentiveos",
+          "fund": "Peak XV"
+        },
+        {
+          "name": "Awfis",
+          "id": "awfis",
+          "fund": "Peak XV"
+        },
+        {
+          "name": "GoKwik",
+          "id": "gokwik",
+          "fund": "Peak XV"
+        },
+        {
+          "name": "Procol",
+          "id": "procol",
+          "fund": "Peak XV"
+        },
+        {
+          "name": "Rigi",
+          "id": "rigi",
+          "fund": "Peak XV"
+        },
+        {
+          "name": "Toddle",
+          "id": "toddle",
+          "fund": "Peak XV"
+        },
+        {
+          "name": "Zuper",
+          "id": "zupersoft",
+          "fund": "Peak XV"
+        }
+      ],
+      "greenhouse": [
+        {
+          "name": "Appier",
+          "id": "appier",
+          "fund": "Peak XV"
+        },
+        {
+          "name": "MarqVision",
+          "id": "marqvision",
+          "fund": "Peak XV"
+        },
+        {
+          "name": "Tenable",
+          "id": "tenableinc",
+          "fund": "Accel"
+        },
+        {
+          "name": "Algolia",
+          "id": "algolia",
+          "fund": "Accel"
+        },
+        {
+          "name": "Charles",
+          "id": "charles",
+          "fund": "Accel"
+        },
+        {
+          "name": "Cognite",
+          "id": "cognite",
+          "fund": "Accel"
+        }
+      ],
+      "ashby": [
+        {
+          "name": "Atlys",
+          "id": "atlys",
+          "fund": "Peak XV"
+        },
+        {
+          "name": "Blacksmith",
+          "id": "Blacksmith",
+          "fund": "Peak XV"
+        },
+        {
+          "name": "Claimhealth",
+          "id": "claim-health",
+          "fund": "Peak XV"
+        },
+        {
+          "name": "Clouted",
+          "id": "clouted",
+          "fund": "Peak XV"
+        },
+        {
+          "name": "Distyl",
+          "id": "Distyl",
+          "fund": "Peak XV"
+        },
+        {
+          "name": "Haast",
+          "id": "Haast",
+          "fund": "Peak XV"
+        },
+        {
+          "name": "Harper",
+          "id": "harperinsure",
+          "fund": "Peak XV"
+        },
+        {
+          "name": "Helion",
+          "id": "helion",
+          "fund": "Peak XV"
+        },
+        {
+          "name": "Hyperbound",
+          "id": "Hyperbound",
+          "fund": "Peak XV"
+        },
+        {
+          "name": "Lean Technologies",
+          "id": "LeanTech",
+          "fund": "Peak XV"
+        },
+        {
+          "name": "Luminai",
+          "id": "luminai",
+          "fund": "Peak XV"
+        },
+        {
+          "name": "Mem0",
+          "id": "mem0",
+          "fund": "Peak XV"
+        },
+        {
+          "name": "Primer",
+          "id": "primer.io",
+          "fund": "Peak XV"
+        },
+        {
+          "name": "Shift",
+          "id": "shift",
+          "fund": "Peak XV"
+        },
+        {
+          "name": "Vapi",
+          "id": "vapi",
+          "fund": "Peak XV"
+        },
+        {
+          "name": "Wispr Flow",
+          "id": "wispr-flow",
+          "fund": "Peak XV"
+        },
+        {
+          "name": "Socure",
+          "id": "socure",
+          "fund": "Accel"
+        },
+        {
+          "name": "Thinking Machines",
+          "id": "ThinkingMachines",
+          "fund": "Accel"
+        },
+        {
+          "name": "1Password",
+          "id": "1password",
+          "fund": "Accel"
+        },
+        {
+          "name": "Cursor",
+          "id": "cursor",
+          "fund": "Accel"
+        },
+        {
+          "name": "Periodic Labs",
+          "id": "periodic-labs",
+          "fund": "Accel"
+        },
+        {
+          "name": "Higgsfield",
+          "id": "higgsfieldai",
+          "fund": "Accel"
+        },
+        {
+          "name": "Agave",
+          "id": "Agave",
+          "fund": "Accel"
+        },
+        {
+          "name": "Ando",
+          "id": "ando",
+          "fund": "Accel"
+        },
+        {
+          "name": "Armadin",
+          "id": "armadin",
+          "fund": "Accel"
+        },
+        {
+          "name": "Away",
+          "id": "away",
+          "fund": "Accel"
+        },
+        {
+          "name": "Campfire",
+          "id": "campfire",
+          "fund": "Accel"
+        },
+        {
+          "name": "Carwow",
+          "id": "carwow",
+          "fund": "Accel"
+        },
+        {
+          "name": "Ciridae",
+          "id": "ciridae",
+          "fund": "Accel"
+        },
+        {
+          "name": "Code Metal",
+          "id": "code-metal",
+          "fund": "Accel"
+        },
+        {
+          "name": "Cognition",
+          "id": "cognition",
+          "fund": "Accel"
+        },
+        {
+          "name": "CoinTracker",
+          "id": "cointracker",
+          "fund": "Accel"
+        }
+      ],
+      "workable": [
+        {
+          "name": "Foodics",
+          "id": "foodics",
+          "fund": "Peak XV"
+        },
+        {
+          "name": "Funding Societies",
+          "id": "fundingsocieties",
+          "fund": "Peak XV"
+        },
+        {
+          "name": "Thanks",
+          "id": "thanks-co",
+          "fund": "Peak XV"
+        },
+        {
+          "name": "Fuse",
+          "id": "fuseenergy",
+          "fund": "Accel"
+        },
+        {
+          "name": "CallSign",
+          "id": "callsign",
+          "fund": "Accel"
+        }
+      ],
+      "zoho_recruit": [
+        {
+          "name": "InCore Semiconductors",
+          "id": "incoresemi",
+          "domain": "incoresemi.zohorecruit.com",
+          "fund": "Peak XV"
+        }
+      ]
+    },
+    "checked": {
+      "Peak XV:10-minute-school": {
+        "date": "2026-11-09",
+        "name": "10 Minute School",
+        "website": "https://10minuteschool.com/",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:1mg": {
+        "date": "2026-11-09",
+        "name": "1Mg",
+        "website": "https://www.1mg.com/",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:aampe": {
+        "date": "2026-11-09",
+        "name": "Aampe",
+        "website": "https://www.aampe.com/",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:absolute-foods": {
+        "date": "2026-11-09",
+        "name": "Absolute Foods",
+        "website": "https://www.absolute.bio/",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:adplist": {
+        "date": "2026-11-09",
+        "name": "Adplist",
+        "website": "https://adplist.org/",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:agrani": {
+        "date": "2026-11-09",
+        "name": "Agrani",
+        "website": "https://www.agranilabs.com",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:ai-rudder": {
+        "date": "2026-11-09",
+        "name": "Ai Rudder",
+        "website": "https://www.airudder.com",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:air-trading": {
+        "date": "2026-11-09",
+        "name": "Air Trading",
+        "website": "https://www.airtrading.com",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:airalo": {
+        "date": "2026-11-09",
+        "name": "Airalo",
+        "website": "https://www.airalo.com/",
+        "ats": "lever",
+        "slug": "airalo",
+        "evidence": "https://www.airalo.com/airalo-careers/job-vacancies",
+        "status": "added"
+      },
+      "Peak XV:alaanpay": {
+        "date": "2026-11-09",
+        "name": "Alaanpay",
+        "website": "https://www.alaan.com/",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:alma": {
+        "date": "2026-11-09",
+        "name": "Alma",
+        "website": "https://alma.inc/",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:alpaca": {
+        "date": "2026-11-09",
+        "name": "Alpaca",
+        "website": "https://alpaca.markets/",
+        "ats": "greenhouse",
+        "slug": "alpaca",
+        "evidence": "https://alpaca.markets/hiring",
+        "status": "already tracked"
+      },
+      "Peak XV:amaani": {
+        "date": "2026-11-09",
+        "name": "Amaani",
+        "website": "https://www.amaani.me/",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:amara-raja": {
+        "date": "2026-11-09",
+        "name": "Amara Raja",
+        "website": "https://www.amararaja.com/",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:ambak": {
+        "date": "2026-11-09",
+        "name": "Ambak",
+        "website": "https://ambak.com/",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:amica": {
+        "date": "2026-11-09",
+        "name": "Jupiter",
+        "website": "https://www.jupiter.money",
+        "ats": "keka",
+        "slug": "jupiter",
+        "evidence": "https://www.jupiter.money/careers",
+        "status": "added"
+      },
+      "Peak XV:amnic": {
+        "date": "2026-11-09",
+        "name": "Amnic",
+        "website": "https://www.amnic.com",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:animall": {
+        "date": "2026-11-09",
+        "name": "Animall",
+        "website": "https://www.animall.in",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:anon-coin": {
+        "date": "2026-11-09",
+        "name": "Anon Coin",
+        "website": "https://anoncoin.it/",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:apna": {
+        "date": "2026-11-09",
+        "name": "Apna",
+        "website": "https://www.apna.co",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:apnaklub": {
+        "date": "2026-11-09",
+        "name": "Apnaklub",
+        "website": "https://apnaklub.com/",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:apnamart": {
+        "date": "2026-11-09",
+        "name": "Apnamart",
+        "website": "https://www.apnamart.in",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:appier": {
+        "date": "2026-11-09",
+        "name": "Appier",
+        "website": "https://www.appier.com",
+        "ats": "greenhouse",
+        "slug": "appier",
+        "evidence": "https://www.appier.com/en/about/career/?hsLang=en",
+        "status": "added"
+      },
+      "Peak XV:aptus-housing-finance": {
+        "date": "2026-11-09",
+        "name": "Aptus Housing Finance",
+        "website": "http://www.aptusindia.com",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:aretto": {
+        "date": "2026-11-09",
+        "name": "Aretto",
+        "website": "https://wearetto.com/",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:aricent": {
+        "date": "2026-11-09",
+        "name": "Aricent",
+        "website": "https://www.aricent.com",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:arintra": {
+        "date": "2026-11-09",
+        "name": "Arintra",
+        "website": "https://arintra.com/",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:arta": {
+        "date": "2026-11-09",
+        "name": "Arta",
+        "website": "https://www.artafinance.com",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:asg-hospital": {
+        "date": "2026-11-09",
+        "name": "Asg Hospital",
+        "website": "https://asgeyehospital.com/",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:aspire": {
+        "date": "2026-11-09",
+        "name": "Aspire",
+        "website": "https://aspireapp.com/",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:astro": {
+        "date": "2026-11-09",
+        "name": "Astro",
+        "website": "https://www.astronauts.id",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:atlan": {
+        "date": "2026-11-09",
+        "name": "Atlan",
+        "website": "https://atlan.com/",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:atlys": {
+        "date": "2026-11-09",
+        "name": "Atlys",
+        "website": "https://www.atlys.com",
+        "ats": "ashby",
+        "slug": "atlys",
+        "evidence": "https://careers.atlys.com/",
+        "status": "added"
+      },
+      "Peak XV:atomicwork": {
+        "date": "2026-11-09",
+        "name": "Atomicwork",
+        "website": "https://www.atomicwork.com",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:attentive-ai": {
+        "date": "2026-11-09",
+        "name": "Attentive.ai",
+        "website": "https://attentive.ai/",
+        "ats": "keka",
+        "slug": "attentiveos",
+        "evidence": "https://www.attentive.ai/careers",
+        "status": "added"
+      },
+      "Peak XV:august-ai": {
+        "date": "2026-11-09",
+        "name": "August Ai",
+        "website": "https://www.meetaugust.ai/",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:aukera": {
+        "date": "2026-11-09",
+        "name": "Aukera",
+        "website": "https://www.aukerajewellery.com",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:auquan": {
+        "date": "2026-11-09",
+        "name": "Auquan",
+        "website": "https://www.auquan.com/",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:avataar": {
+        "date": "2026-11-09",
+        "name": "Avataar",
+        "website": "https://www.avataar.ai",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:awfis": {
+        "date": "2026-11-09",
+        "name": "Awfis",
+        "website": "https://www.awfis.com",
+        "ats": "keka",
+        "slug": "awfis",
+        "evidence": "https://www.awfis.com",
+        "status": "added"
+      },
+      "Peak XV:bajaj-holdings": {
+        "date": "2026-11-09",
+        "name": "Bajaj Holdings",
+        "website": "https://www.bhil.in/",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:bamboobox": {
+        "date": "2026-11-09",
+        "name": "Bamboobox",
+        "website": "https://bamboobox.ai/",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:bankbazaar": {
+        "date": "2026-11-09",
+        "name": "Bankbazaar",
+        "website": "https://www.bankbazaar.com",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:bazaar-now": {
+        "date": "2026-11-09",
+        "name": "Bazaar Now",
+        "website": "https://www.bazaarnow.in/",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:beam": {
+        "date": "2026-11-09",
+        "name": "Beam",
+        "website": "https://www.ridebeam.com/",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:beam-check-out": {
+        "date": "2026-11-09",
+        "name": "Beam Check Out",
+        "website": "https://www.beamcheckout.com/",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:beautyhaul": {
+        "date": "2026-11-09",
+        "name": "Beautyhaul",
+        "website": "https://www.beautyhaul.com",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:better-auth": {
+        "date": "2026-11-09",
+        "name": "Better Auth",
+        "website": "https://www.better-auth.com",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:bharatpe": {
+        "date": "2026-11-09",
+        "name": "Bharatpe",
+        "website": "https://www.bharatpe.com",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:bibit": {
+        "date": "2026-11-09",
+        "name": "Bibit",
+        "website": "https://bibit.id/",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:bifrost": {
+        "date": "2026-11-09",
+        "name": "Bifrost",
+        "website": "https://www.bifrost.ai/",
+        "ats": "ashby",
+        "slug": "bifrost",
+        "evidence": "https://www.bifrost.ai/",
+        "status": "no readable board"
+      },
+      "Peak XV:bitespeed": {
+        "date": "2026-11-09",
+        "name": "Bitespeed",
+        "website": "https://bitespeed.co/",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:blackbuck": {
+        "date": "2026-11-09",
+        "name": "Blackbuck",
+        "website": "https://www.blackbuck.com",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:blacksmith": {
+        "date": "2026-11-09",
+        "name": "Blacksmith",
+        "website": "https://www.blacksmith.sh",
+        "ats": "ashby",
+        "slug": "Blacksmith",
+        "evidence": "https://www.blacksmith.sh/careers",
+        "status": "added"
+      },
+      "Peak XV:blendit-studios": {
+        "date": "2026-11-09",
+        "name": "Blendit Studios",
+        "website": "https://www.blendnow.com/",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:blinkit-formerly-grofers": {
+        "date": "2026-11-09",
+        "name": "Blinkit Formerly Grofers",
+        "website": "https://www.blinkit.com",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:bluejay": {
+        "date": "2026-11-09",
+        "name": "Bluejay",
+        "website": "https://getbluejay.ai/",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:bluestone": {
+        "date": "2026-11-09",
+        "name": "Bluestone",
+        "website": "https://www.bluestone.com",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:bounce": {
+        "date": "2026-11-09",
+        "name": "Bounce",
+        "website": "https://bounceinfinity.com/",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:boxs": {
+        "date": "2026-11-09",
+        "name": "Boxs",
+        "website": "https://www.boxs.in/home",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:brainfish": {
+        "date": "2026-11-09",
+        "name": "Brainfish",
+        "website": "https://www.brainfishai.com/",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:bricknbolt": {
+        "date": "2026-11-09",
+        "name": "Bricknbolt",
+        "website": "https://www.bricknbolt.com/",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:brightmoney": {
+        "date": "2026-11-09",
+        "name": "Brightmoney",
+        "website": "https://www.brightmoney.co/",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:brightpoint": {
+        "date": "2026-11-09",
+        "name": "Brightpoint",
+        "website": "https://brightpointstudios.com/",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:bud": {
+        "date": "2026-11-09",
+        "name": "Bud",
+        "website": "https://www.joinbudapp.com/",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:buyerassist": {
+        "date": "2026-11-09",
+        "name": "Buyerassist",
+        "website": "https://www.getboomerang.ai/",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:buymed-thuocsi": {
+        "date": "2026-11-09",
+        "name": "Buymed Thuocsi",
+        "website": "https://thuocsi.vn/",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:c2i": {
+        "date": "2026-11-09",
+        "name": "C2I",
+        "website": "https://c2isemi.com/",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:cafe-coffee-day": {
+        "date": "2026-11-09",
+        "name": "Cafe Coffee Day",
+        "website": "https://www.cafecoffeeday.com/",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:calyx-global": {
+        "date": "2026-11-09",
+        "name": "Calyx Global",
+        "website": "https://calyxglobal.com/",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:canary-mail": {
+        "date": "2026-11-09",
+        "name": "Canary Mail",
+        "website": "https://canarymail.io/",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:capillary-technologies": {
+        "date": "2026-11-09",
+        "name": "Capillary Technologies",
+        "website": "https://www.capillarytech.com",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:cardekho": {
+        "date": "2026-11-09",
+        "name": "Cardekho",
+        "website": "https://www.cardekho.com",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:care-fi": {
+        "date": "2026-11-09",
+        "name": "Care Fi",
+        "website": "https://www.carefi.in",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:carousell": {
+        "date": "2026-11-09",
+        "name": "Carousell",
+        "website": "https://www.carousell.sg/",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:cars24": {
+        "date": "2026-11-09",
+        "name": "Cars24",
+        "website": "https://www.cars24.com",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:catalyst": {
+        "date": "2026-11-09",
+        "name": "Catalyst",
+        "website": "https://catalyst.app/",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:chargebee": {
+        "date": "2026-11-09",
+        "name": "Chargebee",
+        "website": "https://www.chargebee.com",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:charlotte-tilbury": {
+        "date": "2026-11-09",
+        "name": "Charlotte Tilbury",
+        "website": "https://www.charlottetilbury.com",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:checkbox": {
+        "date": "2026-11-09",
+        "name": "Checkbox",
+        "website": "https://www.checkbox.ai/",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:chocolate-finance": {
+        "date": "2026-11-09",
+        "name": "Chocolate Finance",
+        "website": "https://www.chocolatefinance.com",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:circles-life": {
+        "date": "2026-11-09",
+        "name": "Circles Life",
+        "website": "https://www.circles.life",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:citrus-payment": {
+        "date": "2026-11-09",
+        "name": "Citrus Payment",
+        "website": "https://www.citruspayment.com",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:claimhealth": {
+        "date": "2026-11-09",
+        "name": "Claimhealth",
+        "website": "https://www.claimhealth.com",
+        "ats": "ashby",
+        "slug": "claim-health",
+        "evidence": "https://www.claimhealth.com",
+        "status": "added"
+      },
+      "Peak XV:clarisights": {
+        "date": "2026-11-09",
+        "name": "Clarisights",
+        "website": "https://www.clarisights.com",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:classplus": {
+        "date": "2026-11-09",
+        "name": "Classplus",
+        "website": "https://www.classplusapp.com",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:clearfeed": {
+        "date": "2026-11-09",
+        "name": "Clearfeed",
+        "website": "https://clearfeed.ai/",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:cleartax": {
+        "date": "2026-11-09",
+        "name": "Cleartax",
+        "website": "https://www.cleartax.in",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:clevertap": {
+        "date": "2026-11-09",
+        "name": "Clevertap",
+        "website": "https://www.clevertap.com",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:clickhouse": {
+        "date": "2026-11-09",
+        "name": "Clickhouse",
+        "website": "https://www.clickhouse.com",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:climes-io": {
+        "date": "2026-11-09",
+        "name": "Climes Io",
+        "website": "https://www.climes.io",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:cloudnine": {
+        "date": "2026-11-09",
+        "name": "Cloudnine",
+        "website": "http://www.cloudninecare.com",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:cloudphysician": {
+        "date": "2026-11-09",
+        "name": "Cloudphysician",
+        "website": "https://www.cloudphysician.ai",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:clouted": {
+        "date": "2026-11-09",
+        "name": "Clouted",
+        "website": "https://clouted.com/",
+        "ats": "ashby",
+        "slug": "clouted",
+        "evidence": "https://clouted.com/careers",
+        "status": "added"
+      },
+      "Peak XV:cognizant-technology": {
+        "date": "2026-11-09",
+        "name": "Cognizant Technology",
+        "website": "https://www.cognizant.com",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:coinswitch": {
+        "date": "2026-11-09",
+        "name": "Coinswitch",
+        "website": "https://www.coinswitch.co",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:colearn": {
+        "date": "2026-11-09",
+        "name": "Colearn",
+        "website": "https://colearn.id/",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:companion-labs": {
+        "date": "2026-11-09",
+        "name": "Companion Labs",
+        "website": "https://cmpntech.com/",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:convosight-fka-bd-parenting": {
+        "date": "2026-11-09",
+        "name": "Convosight Fka Bd Parenting",
+        "website": "https://www.convosight.com/",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:cred": {
+        "date": "2026-11-09",
+        "name": "Cred",
+        "website": "https://www.cred.club",
+        "ats": "lever",
+        "slug": "cred",
+        "evidence": "https://careers.cred.club/openings",
+        "status": "already tracked"
+      },
+      "Peak XV:cuemath": {
+        "date": "2026-11-09",
+        "name": "Cuemath",
+        "website": "https://www.cuemath.com",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:cybrilla": {
+        "date": "2026-11-09",
+        "name": "Cybrilla",
+        "website": "https://cybrilla.com/",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:dailyhunt": {
+        "date": "2026-11-09",
+        "name": "Dailyhunt",
+        "website": "https://www.dailyhunt.in",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:dashtoon": {
+        "date": "2026-11-09",
+        "name": "Dashtoon",
+        "website": "https://dashverse.ai/",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:dehaat": {
+        "date": "2026-11-09",
+        "name": "Dehaat",
+        "website": "https://www.agrevolution.in",
+        "ats": "workable",
+        "slug": "agrevolution",
+        "evidence": "https://www.agrevolution.in",
+        "status": "no readable board"
+      },
+      "Peak XV:digantara": {
+        "date": "2026-11-09",
+        "name": "Digantara",
+        "website": "https://www.digantara.co.in/",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:digit-insurance": {
+        "date": "2026-11-09",
+        "name": "Digit Insurance",
+        "website": "https://www.godigit.com/",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:diri-care": {
+        "date": "2026-11-09",
+        "name": "Diri Care",
+        "website": "https://diricare.com/",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:distyl-ai": {
+        "date": "2026-11-09",
+        "name": "Distyl",
+        "website": "https://www.distyl.ai",
+        "ats": "ashby",
+        "slug": "Distyl",
+        "evidence": "https://www.distyl.ai",
+        "status": "added"
+      },
+      "Peak XV:ditto-ai": {
+        "date": "2026-11-09",
+        "name": "Ditto Ai",
+        "website": "https://tryditto.com/",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:drinkprime": {
+        "date": "2026-11-09",
+        "name": "Drinkprime",
+        "website": "https://drinkprime.in/",
+        "ats": "zoho_recruit",
+        "slug": "drinkprime",
+        "evidence": "https://drinkprime.in/careers",
+        "status": "no readable board"
+      },
+      "Peak XV:drip-capital": {
+        "date": "2026-11-09",
+        "name": "Drip Capital",
+        "website": "https://www.dripcapital.com",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:druva": {
+        "date": "2026-11-09",
+        "name": "Druva",
+        "website": "https://www.druva.com",
+        "ats": "greenhouse",
+        "slug": "druva",
+        "evidence": "https://www.druva.com/why-druva/explore/careers",
+        "status": "already tracked"
+      },
+      "Peak XV:dubbing-ai": {
+        "date": "2026-11-09",
+        "name": "Dubbing Ai",
+        "website": "https://dubbingai.io/",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:durianpay": {
+        "date": "2026-11-09",
+        "name": "Durianpay",
+        "website": "https://durianpay.id/",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:edelweiss": {
+        "date": "2026-11-09",
+        "name": "Edelweiss",
+        "website": "https://www.edelweissfin.com/",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:elivaas": {
+        "date": "2026-11-09",
+        "name": "Elivaas",
+        "website": "https://www.elivaas.com/",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:enterpret": {
+        "date": "2026-11-09",
+        "name": "Enterpret",
+        "website": "https://www.enterpret.com",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:epsilo": {
+        "date": "2026-11-09",
+        "name": "Epsilo",
+        "website": "https://www.epsilo.io/",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:equilibrium": {
+        "date": "2026-11-09",
+        "name": "Equilibrium",
+        "website": "https://equilibriumearth.com/",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:equitas": {
+        "date": "2026-11-09",
+        "name": "Equitas",
+        "website": "https://equitas.bank.in/",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:eruditus": {
+        "date": "2026-11-09",
+        "name": "Eruditus",
+        "website": "https://www.eruditus.com",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:ethereal-machines": {
+        "date": "2026-11-09",
+        "name": "Ethereal Machines",
+        "website": "https://etherealmachines.com/",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:exaforce": {
+        "date": "2026-11-09",
+        "name": "Exaforce",
+        "website": "http://exaforce.com",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:fampay": {
+        "date": "2026-11-09",
+        "name": "Fampay",
+        "website": "https://www.famapp.in/",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:felo-ai": {
+        "date": "2026-11-09",
+        "name": "Felo Ai",
+        "website": "https://felo.ai/",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:finova-capital": {
+        "date": "2026-11-09",
+        "name": "Finova Capital",
+        "website": "https://www.finova.in",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:finster": {
+        "date": "2026-11-09",
+        "name": "Finster",
+        "website": "https://finster.ai/",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:first-club": {
+        "date": "2026-11-09",
+        "name": "First Club",
+        "website": "https://www.firstclub.site/",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:fitbudd": {
+        "date": "2026-11-09",
+        "name": "Fitbudd",
+        "website": "https://www.fitbudd.com",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:fittr": {
+        "date": "2026-11-09",
+        "name": "Fittr",
+        "website": "https://www.fittr.com/",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:five-star-business-finance": {
+        "date": "2026-11-09",
+        "name": "Five Star Business Finance",
+        "website": "https://www.fivestargroup.in",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:flip": {
+        "date": "2026-11-09",
+        "name": "Flip",
+        "website": "https://www.flip.id",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:flobiz": {
+        "date": "2026-11-09",
+        "name": "Flobiz",
+        "website": "https://www.flobiz.in",
+        "ats": "keka",
+        "slug": "valorem",
+        "evidence": "https://www.flobiz.in",
+        "status": "needs review: board name doesn't match the company"
+      },
+      "Peak XV:foodics": {
+        "date": "2026-11-09",
+        "name": "Foodics",
+        "website": "https://www.foodics.com",
+        "ats": "workable",
+        "slug": "foodics",
+        "evidence": "https://www.foodics.com/careers/",
+        "status": "added"
+      },
+      "Peak XV:forgecode": {
+        "date": "2026-11-09",
+        "name": "Forgecode",
+        "website": "https://forgecode.dev/",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:freecharge": {
+        "date": "2026-11-09",
+        "name": "Freecharge",
+        "website": "https://www.freechargepg.in/",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:freshworks": {
+        "date": "2026-11-09",
+        "name": "Freshworks",
+        "website": "https://www.freshworks.com",
+        "ats": "smartrecruiters",
+        "slug": "Freshworks",
+        "evidence": "https://www.freshworks.com/company/careers/",
+        "status": "already tracked"
+      },
+      "Peak XV:funding-societies": {
+        "date": "2026-11-09",
+        "name": "Funding Societies",
+        "website": "https://www.fundingsocieties.com",
+        "ats": "workable",
+        "slug": "fundingsocieties",
+        "evidence": "https://fundingsocieties.com/career",
+        "status": "added"
+      },
+      "Peak XV:gamestock": {
+        "date": "2026-11-09",
+        "name": "Gamestock",
+        "website": "https://www.gamestock.com/",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:gan-ai": {
+        "date": "2026-11-09",
+        "name": "Gan Ai",
+        "website": "https://gan.ai/",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:global-logic": {
+        "date": "2026-11-09",
+        "name": "Global Logic",
+        "website": "https://www.globallogic.com",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:go-colors": {
+        "date": "2026-11-09",
+        "name": "Go Colors",
+        "website": "https://gocolors.com/",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:gokwik": {
+        "date": "2026-11-09",
+        "name": "GoKwik",
+        "website": "https://www.gokwik.co",
+        "ats": "keka",
+        "slug": "gokwik",
+        "evidence": "https://www.gokwik.co",
+        "status": "added"
+      },
+      "Peak XV:goodscore": {
+        "date": "2026-11-09",
+        "name": "Goodscore",
+        "website": "https://www.goodscore.app",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:goto": {
+        "date": "2026-11-09",
+        "name": "Goto",
+        "website": "https://www.gotocompany.com/",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:groww": {
+        "date": "2026-11-09",
+        "name": "Groww",
+        "website": "https://www.groww.in",
+        "ats": "greenhouse",
+        "slug": "groww",
+        "evidence": "https://www.groww.in/careers",
+        "status": "already tracked"
+      },
+      "Peak XV:gumlet": {
+        "date": "2026-11-09",
+        "name": "Gumlet",
+        "website": "https://www.gumlet.com/",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:gvk-biosciences": {
+        "date": "2026-11-09",
+        "name": "Gvk Biosciences",
+        "website": "https://www.aragen.com/",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:haast": {
+        "date": "2026-11-09",
+        "name": "Haast",
+        "website": "https://haast.io/",
+        "ats": "ashby",
+        "slug": "Haast",
+        "evidence": "https://haast.io/careers",
+        "status": "added"
+      },
+      "Peak XV:happay": {
+        "date": "2026-11-09",
+        "name": "Happay",
+        "website": "https://www.happay.in/",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:harper-insure": {
+        "date": "2026-11-09",
+        "name": "Harper",
+        "website": "https://www.harperinsure.com",
+        "ats": "ashby",
+        "slug": "harperinsure",
+        "evidence": "https://www.harperinsure.com",
+        "status": "added"
+      },
+      "Peak XV:hashnode": {
+        "date": "2026-11-09",
+        "name": "Hashnode",
+        "website": "https://hashnode.com/",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:havells-india": {
+        "date": "2026-11-09",
+        "name": "Havells India",
+        "website": "https://havells.com/",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:health-factory": {
+        "date": "2026-11-09",
+        "name": "Health Factory",
+        "website": "https://www.thehealthfactory.in/",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:healthkart": {
+        "date": "2026-11-09",
+        "name": "Healthkart",
+        "website": "https://www.healthkart.com",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:hector-beverages": {
+        "date": "2026-11-09",
+        "name": "Hector Beverages",
+        "website": "http://www.hectorbeverages.com",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:helion": {
+        "date": "2026-11-09",
+        "name": "Helion",
+        "website": "https://www.helionenergy.com/",
+        "ats": "ashby",
+        "slug": "helion",
+        "evidence": "https://www.helionenergy.com/careers",
+        "status": "added"
+      },
+      "Peak XV:hevo-data": {
+        "date": "2026-11-09",
+        "name": "Hevo Data",
+        "website": "https://hevodata.com/",
+        "ats": "lever",
+        "slug": "hevodata",
+        "evidence": "https://hevodata.com/careers/",
+        "status": "already tracked"
+      },
+      "Peak XV:heymax": {
+        "date": "2026-11-09",
+        "name": "Heymax",
+        "website": "https://www.heymax.ai",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:hightouch": {
+        "date": "2026-11-09",
+        "name": "Hightouch",
+        "website": "https://www.hightouch.com",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:hiloop": {
+        "date": "2026-11-09",
+        "name": "Hiloop",
+        "website": "https://hiloop.ai/",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:hippo-video": {
+        "date": "2026-11-09",
+        "name": "Hippo Video",
+        "website": "https://www.hippovideo.io/",
+        "ats": "freshteam",
+        "slug": "files",
+        "evidence": "https://www.hippovideo.io/careers.html",
+        "status": "needs review: board name doesn't match the company"
+      },
+      "Peak XV:homelane": {
+        "date": "2026-11-09",
+        "name": "Homelane",
+        "website": "https://www.homelane.com",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:hoola-health": {
+        "date": "2026-11-09",
+        "name": "Hoola Health",
+        "website": "https://www.hoolahealth.in/",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:horizon-quantum-computing": {
+        "date": "2026-11-09",
+        "name": "Horizon Quantum Computing",
+        "website": "https://horizonquantum.com/",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:hubble": {
+        "date": "2026-11-09",
+        "name": "Hubble",
+        "website": "https://www.myhubble.money/",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:huft": {
+        "date": "2026-11-09",
+        "name": "Huft",
+        "website": "https://www.headsupfortails.com",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:huspy": {
+        "date": "2026-11-09",
+        "name": "Huspy",
+        "website": "https://www.huspy.com",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:hyou-fine-jewelry": {
+        "date": "2026-11-09",
+        "name": "Hyou Fine Jewelry",
+        "website": "https://www.hyoufinejewelry.com",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:hyperbound": {
+        "date": "2026-11-09",
+        "name": "Hyperbound",
+        "website": "https://www.hyperbound.ai/",
+        "ats": "ashby",
+        "slug": "Hyperbound",
+        "evidence": "https://www.hyperbound.ai/careers",
+        "status": "added"
+      },
+      "Peak XV:hyperbrowser": {
+        "date": "2026-11-09",
+        "name": "Hyperbrowser",
+        "website": "https://www.hyperbrowser.ai",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:hyuga-life": {
+        "date": "2026-11-09",
+        "name": "Hyuga Life",
+        "website": "https://hyugalife.com/",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:icra": {
+        "date": "2026-11-09",
+        "name": "Icra",
+        "website": "http://www.icra.in",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:idea-cellular": {
+        "date": "2026-11-09",
+        "name": "Idea Cellular",
+        "website": "https://www.myvi.in/",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:ignosis": {
+        "date": "2026-11-09",
+        "name": "Ignosis",
+        "website": "https://ignosis.ai/",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:iimmpact": {
+        "date": "2026-11-09",
+        "name": "Iimmpact",
+        "website": "https://www.iimmpact.com/",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:incore-semiconductors": {
+        "date": "2026-11-09",
+        "name": "InCore Semiconductors",
+        "website": "https://incoresemi.com/",
+        "ats": "zoho_recruit",
+        "slug": "incoresemi",
+        "evidence": "https://incoresemi.com/",
+        "status": "added"
+      },
+      "Peak XV:india-shelter-finance": {
+        "date": "2026-11-09",
+        "name": "India Shelter Finance",
+        "website": "https://www.indiashelter.in",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:indigo-paints": {
+        "date": "2026-11-09",
+        "name": "Indigo Paints",
+        "website": "https://www.indigopaints.com",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:inferless-fka-peak-performer": {
+        "date": "2026-11-09",
+        "name": "Inferless Fka Peak Performer",
+        "website": "https://www.inferless.com/",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:infina": {
+        "date": "2026-11-09",
+        "name": "Infina",
+        "website": "https://www.infina.vn/",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:insider": {
+        "date": "2026-11-09",
+        "name": "Insider",
+        "website": "https://insiderone.com/",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:inspectmind": {
+        "date": "2026-11-09",
+        "name": "Inspectmind",
+        "website": "https://www.inspectmind.ai",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:invideo": {
+        "date": "2026-11-09",
+        "name": "Invideo",
+        "website": "https://invideo.io/",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:ixigo": {
+        "date": "2026-11-09",
+        "name": "Ixigo",
+        "website": "https://www.ixigo.com",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:just-dial": {
+        "date": "2026-11-09",
+        "name": "Just Dial",
+        "website": "https://www.justdial.com",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:justwords": {
+        "date": "2026-11-09",
+        "name": "Justwords",
+        "website": "https://www.getjust.ai/",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:k12-techno-services": {
+        "date": "2026-11-09",
+        "name": "K12 Techno Services",
+        "website": "https://k12technoservices.com/",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:kast": {
+        "date": "2026-11-09",
+        "name": "Kast",
+        "website": "https://www.kast.xyz",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:kello-ai": {
+        "date": "2026-11-09",
+        "name": "Kello Ai",
+        "website": "https://kello.ai/",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:khatabook": {
+        "date": "2026-11-09",
+        "name": "Khatabook",
+        "website": "https://khatabook.com/",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:kindling-team": {
+        "date": "2026-11-09",
+        "name": "Kindling Team",
+        "website": "https://kindling.team/",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:knowlarity": {
+        "date": "2026-11-09",
+        "name": "Knowlarity",
+        "website": "https://www.knowlarity.com/",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:kodex": {
+        "date": "2026-11-09",
+        "name": "Kodex",
+        "website": "https://www.kodexglobal.com/",
+        "ats": "ashby",
+        "slug": "kodex",
+        "evidence": "https://www.kodexglobal.com/",
+        "status": "already tracked"
+      },
+      "Peak XV:kopi-kenangan": {
+        "date": "2026-11-09",
+        "name": "Kopi Kenangan",
+        "website": "https://www.kopikenangan.com",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:kula-ai": {
+        "date": "2026-11-09",
+        "name": "Kula Ai",
+        "website": "https://www.kula.ai/",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:kyt": {
+        "date": "2026-11-09",
+        "name": "Kyt",
+        "website": "https://kyt.academy/",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:lambdatest": {
+        "date": "2026-11-09",
+        "name": "Lambdatest",
+        "website": "https://www.lambdatest.com/",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:larenon-healthcare": {
+        "date": "2026-11-09",
+        "name": "Larenon Healthcare",
+        "website": "https://www.larenon.com",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:last9": {
+        "date": "2026-11-09",
+        "name": "Last9",
+        "website": "https://last9.io/",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:lean-technologies": {
+        "date": "2026-11-09",
+        "name": "Lean Technologies",
+        "website": "https://www.leantech.me/",
+        "ats": "ashby",
+        "slug": "LeanTech",
+        "evidence": "https://www.leantech.me/uae/en/careers",
+        "status": "added"
+      },
+      "Peak XV:leap-finance": {
+        "date": "2026-11-09",
+        "name": "Leap Finance",
+        "website": "https://www.leapfinance.com",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:lemonilo": {
+        "date": "2026-11-09",
+        "name": "Lemonilo",
+        "website": "https://www.lemonilo.com",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:let-s-dive": {
+        "date": "2026-11-09",
+        "name": "Let S Dive",
+        "website": "https://www.letsdive.io/",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:lighthouse-canton": {
+        "date": "2026-11-09",
+        "name": "Lighthouse Canton",
+        "website": "https://www.lighthouse-canton.com",
+        "ats": "zoho_recruit",
+        "slug": "lighthouse-canton",
+        "evidence": "https://www.lighthouse-canton.com/careers/",
+        "status": "no readable board"
+      },
+      "Peak XV:lightmetrics": {
+        "date": "2026-11-09",
+        "name": "Lightmetrics",
+        "website": "https://www.lightmetrics.co",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:lingoace": {
+        "date": "2026-11-09",
+        "name": "Lingoace",
+        "website": "https://www.lingoace.com",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:locad": {
+        "date": "2026-11-09",
+        "name": "Locad",
+        "website": "https://golocad.com/",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:log9-materials": {
+        "date": "2026-11-09",
+        "name": "Log9 Materials",
+        "website": "https://www.log9materials.com/",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:loophole": {
+        "date": "2026-11-09",
+        "name": "Loophole",
+        "website": "https://loopholelabs.io/",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:lovable": {
+        "date": "2026-11-09",
+        "name": "Lovable",
+        "website": "https://www.lovableindia.in",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:luma": {
+        "date": "2026-11-09",
+        "name": "Luma",
+        "website": "https://lumafertility.com/",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:luminai": {
+        "date": "2026-11-09",
+        "name": "Luminai",
+        "website": "https://www.luminai.com",
+        "ats": "ashby",
+        "slug": "luminai",
+        "evidence": "https://www.luminai.com/careers",
+        "status": "added"
+      },
+      "Peak XV:lyskraft": {
+        "date": "2026-11-09",
+        "name": "Lyskraft",
+        "website": "https://lyskraft.com/",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:mamaearth": {
+        "date": "2026-11-09",
+        "name": "Mamaearth",
+        "website": "https://www.mamaearth.in",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:manappuram": {
+        "date": "2026-11-09",
+        "name": "Manappuram",
+        "website": "https://www.manappuram.com",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:manatal": {
+        "date": "2026-11-09",
+        "name": "Manatal",
+        "website": "https://www.manatal.com/",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:marqvision": {
+        "date": "2026-11-09",
+        "name": "MarqVision",
+        "website": "https://www.marqvision.com/",
+        "ats": "greenhouse",
+        "slug": "marqvision",
+        "evidence": "https://www.marqvision.com/",
+        "status": "added"
+      },
+      "Peak XV:masterchow": {
+        "date": "2026-11-09",
+        "name": "Masterchow",
+        "website": "https://masterchow.in/",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:mcp-use": {
+        "date": "2026-11-09",
+        "name": "Mcp Use",
+        "website": "https://manufact.com/",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:medgenome": {
+        "date": "2026-11-09",
+        "name": "Medgenome",
+        "website": "https://www.medgenome.com",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:meesho": {
+        "date": "2026-11-09",
+        "name": "Meesho",
+        "website": "https://www.meesho.com",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:mem0": {
+        "date": "2026-11-09",
+        "name": "Mem0",
+        "website": "https://www.mem0.ai",
+        "ats": "ashby",
+        "slug": "mem0",
+        "evidence": "https://www.mem0.ai/careers",
+        "status": "added"
+      },
+      "Peak XV:meragi": {
+        "date": "2026-11-09",
+        "name": "Meragi",
+        "website": "https://www.meragi.com/",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:metastable": {
+        "date": "2026-11-09",
+        "name": "Metastable",
+        "website": "https://www.metastable.in/",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:metropolitan-stock-exchange-of-india": {
+        "date": "2026-11-09",
+        "name": "Metropolitan Stock Exchange Of India",
+        "website": "https://mseindia.com/",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:micromax": {
+        "date": "2026-11-09",
+        "name": "Micromax",
+        "website": "http://www.micromaxinfo.com",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:mindgrove": {
+        "date": "2026-11-09",
+        "name": "Mindgrove",
+        "website": "https://www.mindgrovetech.in/",
+        "ats": "zoho_recruit",
+        "slug": "mindgrovetech",
+        "evidence": "https://www.mindgrovetech.in/careers",
+        "status": "no readable board"
+      },
+      "Peak XV:mobikwik": {
+        "date": "2026-11-09",
+        "name": "Mobikwik",
+        "website": "https://www.mobikwik.com",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:mobile-premier-league": {
+        "date": "2026-11-09",
+        "name": "Mobile Premier League",
+        "website": "https://www.mplgaming.com/",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:mod-io": {
+        "date": "2026-11-09",
+        "name": "Mod Io",
+        "website": "https://mod.io/",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:mokobara": {
+        "date": "2026-11-09",
+        "name": "Mokobara",
+        "website": "https://www.mokobara.com",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:moladin": {
+        "date": "2026-11-09",
+        "name": "Moladin",
+        "website": "https://www.moladin.com",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:moolchand": {
+        "date": "2026-11-09",
+        "name": "Moolchand",
+        "website": "https://www.moolchandhealthcare.com",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:moonfrog": {
+        "date": "2026-11-09",
+        "name": "Moonfrog",
+        "website": "https://www.moonfroglabs.com",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:mosaic-wellness": {
+        "date": "2026-11-09",
+        "name": "Mosaic Wellness",
+        "website": "https://www.mosaicwellness.in",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:mu-sigma": {
+        "date": "2026-11-09",
+        "name": "Mu Sigma",
+        "website": "http://www.mu-sigma.com",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:multiplier": {
+        "date": "2026-11-09",
+        "name": "Multiplier",
+        "website": "https://www.usemultiplier.com/",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:nathabit": {
+        "date": "2026-11-09",
+        "name": "Nathabit",
+        "website": "https://nathabit.in/",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:naukri": {
+        "date": "2026-11-09",
+        "name": "Naukri",
+        "website": "https://www.naukri.com",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:neo-wealth": {
+        "date": "2026-11-09",
+        "name": "Neo Wealth",
+        "website": "https://www.neo-group.in/",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:neptune-robotics": {
+        "date": "2026-11-09",
+        "name": "Neptune Robotics",
+        "website": "https://neptune-robotics.com/",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:neude-skin": {
+        "date": "2026-11-09",
+        "name": "Neude Skin",
+        "website": "https://neudeskin.com/",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:neurowyzr": {
+        "date": "2026-11-09",
+        "name": "Neurowyzr",
+        "website": "https://neurowyzr.com/",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:newtrace": {
+        "date": "2026-11-09",
+        "name": "Newtrace",
+        "website": "https://www.newtrace.io/",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:nimbbl": {
+        "date": "2026-11-09",
+        "name": "Nimbbl",
+        "website": "https://www.nimbbl.biz",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:nirmata": {
+        "date": "2026-11-09",
+        "name": "Nirmata",
+        "website": "https://nirmata.com/",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:octro": {
+        "date": "2026-11-09",
+        "name": "Octro",
+        "website": "https://www.octro.com",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:okara": {
+        "date": "2026-11-09",
+        "name": "Okara",
+        "website": "https://okara.ai/",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:olacabs": {
+        "date": "2026-11-09",
+        "name": "Olacabs",
+        "website": "https://www.olacabs.com/",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:one-championship": {
+        "date": "2026-11-09",
+        "name": "One Championship",
+        "website": "https://www.onefc.com",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:oneassist": {
+        "date": "2026-11-09",
+        "name": "Oneassist",
+        "website": "https://www.oneassist.in",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:onecard": {
+        "date": "2026-11-09",
+        "name": "Onecard",
+        "website": "https://www.getonecard.app",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:onecode": {
+        "date": "2026-11-09",
+        "name": "Onecode",
+        "website": "https://zetapp.in/",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:onfinance": {
+        "date": "2026-11-09",
+        "name": "Onfinance",
+        "website": "https://www.onfinance.ai/",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:openborder": {
+        "date": "2026-11-09",
+        "name": "Openborder",
+        "website": "https://www.openborder.com",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:orbitshift": {
+        "date": "2026-11-09",
+        "name": "Orbitshift",
+        "website": "https://www.orbitshift.ai/",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:osfin": {
+        "date": "2026-11-09",
+        "name": "Osfin",
+        "website": "https://www.osfin.ai",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:oyo-rooms": {
+        "date": "2026-11-09",
+        "name": "Oyo Rooms",
+        "website": "https://www.oyorooms.com",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:pagarbook": {
+        "date": "2026-11-09",
+        "name": "Pagarbook",
+        "website": "https://pagarbook.com/",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:palo": {
+        "date": "2026-11-09",
+        "name": "Palo",
+        "website": "https://www.palo.ai/",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:pankhuri": {
+        "date": "2026-11-09",
+        "name": "Pankhuri",
+        "website": "https://pankhuri.co/",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:park": {
+        "date": "2026-11-09",
+        "name": "Park",
+        "website": "https://www.parkplus.io",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:parseable": {
+        "date": "2026-11-09",
+        "name": "Parseable",
+        "website": "https://www.parseable.com/",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:payglocal": {
+        "date": "2026-11-09",
+        "name": "Payglocal",
+        "website": "https://www.payglocal.in",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:perromart": {
+        "date": "2026-11-09",
+        "name": "Perromart",
+        "website": "https://petico.sg/",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:persistent": {
+        "date": "2026-11-09",
+        "name": "Persistent",
+        "website": "http://www.persistentsys.com",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:pine-labs": {
+        "date": "2026-11-09",
+        "name": "Pine Labs",
+        "website": "https://www.pinelabs.com",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:pingsafe": {
+        "date": "2026-11-09",
+        "name": "Pingsafe",
+        "website": "https://www.sentinelone.com/platform/singularity-cloud-native-security/",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:pintarnya": {
+        "date": "2026-11-09",
+        "name": "Pintarnya",
+        "website": "https://www.pintarnya.com",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:pix-ai": {
+        "date": "2026-11-09",
+        "name": "Pix Ai",
+        "website": "https://pixai.art/",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:plum": {
+        "date": "2026-11-09",
+        "name": "Plum",
+        "website": "https://www.plumhq.com/",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:polygon": {
+        "date": "2026-11-09",
+        "name": "Polygon",
+        "website": "https://www.polygon.technology",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:porter": {
+        "date": "2026-11-09",
+        "name": "Porter",
+        "website": "http://theporter.in",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:posthog": {
+        "date": "2026-11-09",
+        "name": "Posthog",
+        "website": "https://www.posthog.com",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:powerplay": {
+        "date": "2026-11-09",
+        "name": "Powerplay",
+        "website": "https://www.getpowerplay.in/",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:powerup-money": {
+        "date": "2026-11-09",
+        "name": "Powerup Money",
+        "website": "https://www.powerup.money/",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:practo": {
+        "date": "2026-11-09",
+        "name": "Practo",
+        "website": "https://www.practo.com",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:prataap-snacks": {
+        "date": "2026-11-09",
+        "name": "Prataap Snacks",
+        "website": "https://www.yellowdiamond.in/",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:prayaan-capital": {
+        "date": "2026-11-09",
+        "name": "Prayaan Capital",
+        "website": "https://www.prayaancapital.com",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:pre6": {
+        "date": "2026-11-09",
+        "name": "Pre6",
+        "website": "https://www.pre6.ai",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:primer": {
+        "date": "2026-11-09",
+        "name": "Primer",
+        "website": "https://primer.io/",
+        "ats": "ashby",
+        "slug": "primer.io",
+        "evidence": "https://primer.io/careers",
+        "status": "added"
+      },
+      "Peak XV:primetrace": {
+        "date": "2026-11-09",
+        "name": "Primetrace",
+        "website": "https://primetrace.com/",
+        "ats": "keka",
+        "slug": "primetrace",
+        "evidence": "https://primetrace.com/",
+        "status": "no readable board"
+      },
+      "Peak XV:prismforce": {
+        "date": "2026-11-09",
+        "name": "Prismforce",
+        "website": "https://www.prismforce.com",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:privado": {
+        "date": "2026-11-09",
+        "name": "Privado",
+        "website": "https://www.privado.ai",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:procol": {
+        "date": "2026-11-09",
+        "name": "Procol",
+        "website": "https://www.procol.ai/",
+        "ats": "keka",
+        "slug": "procol",
+        "evidence": "https://www.procol.ai/careers/",
+        "status": "added"
+      },
+      "Peak XV:progcap": {
+        "date": "2026-11-09",
+        "name": "Progcap",
+        "website": "https://www.progcap.com",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:project-uv": {
+        "date": "2026-11-09",
+        "name": "Project Uv",
+        "website": "https://neaulab.com/",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:pulse-energy": {
+        "date": "2026-11-09",
+        "name": "Pulse Energy",
+        "website": "https://www.pulseenergy.io",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:puralink": {
+        "date": "2026-11-09",
+        "name": "Puralink",
+        "website": "https://www.puralink.com.au/",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:purplle": {
+        "date": "2026-11-09",
+        "name": "Purplle",
+        "website": "https://www.purplle.com",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:qbeast": {
+        "date": "2026-11-09",
+        "name": "Qbeast",
+        "website": "https://qbeast.io/",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:qoala": {
+        "date": "2026-11-09",
+        "name": "Qoala",
+        "website": "https://qoala.com/",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:quick-heal": {
+        "date": "2026-11-09",
+        "name": "Quick Heal",
+        "website": "https://www.quickheal.co.in/",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:quolum": {
+        "date": "2026-11-09",
+        "name": "Quolum",
+        "website": "https://quolum.com/",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:qure-ai": {
+        "date": "2026-11-09",
+        "name": "Qure Ai",
+        "website": "https://www.qure.ai",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:rapidcanvas": {
+        "date": "2026-11-09",
+        "name": "Rapidcanvas",
+        "website": "https://www.rapidcanvas.ai",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:razorpay": {
+        "date": "2026-11-09",
+        "name": "Razorpay",
+        "website": "https://www.razorpay.com",
+        "ats": "greenhouse",
+        "slug": "razorpaysoftwareprivatelimited",
+        "evidence": "https://razorpay.com/jobs/",
+        "status": "already tracked"
+      },
+      "Peak XV:rebel-foods": {
+        "date": "2026-11-09",
+        "name": "Rebel Foods",
+        "website": "https://www.rebelfoods.com",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:reinforce-labs": {
+        "date": "2026-11-09",
+        "name": "Reinforce Labs",
+        "website": "https://www.reinforcelabs.ai/",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:relevance-ai": {
+        "date": "2026-11-09",
+        "name": "Relevance Ai",
+        "website": "https://relevanceai.com/",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:revenuehero": {
+        "date": "2026-11-09",
+        "name": "Revenuehero",
+        "website": "https://www.revenuehero.io",
+        "ats": "zoho_recruit",
+        "slug": "revenuehero",
+        "evidence": "https://www.revenuehero.io/careers",
+        "status": "no readable board"
+      },
+      "Peak XV:richpanel": {
+        "date": "2026-11-09",
+        "name": "Richpanel",
+        "website": "https://www.richpanel.com/",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:riffle": {
+        "date": "2026-11-09",
+        "name": "Riffle",
+        "website": "https://riffle.studio/",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:rigi": {
+        "date": "2026-11-09",
+        "name": "Rigi",
+        "website": "https://viralo.club",
+        "ats": "keka",
+        "slug": "rigi",
+        "evidence": "https://viralo.club",
+        "status": "added"
+      },
+      "Peak XV:rilo": {
+        "date": "2026-11-09",
+        "name": "Rilo",
+        "website": "https://www.getrilo.ai",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:ringg-ai": {
+        "date": "2026-11-09",
+        "name": "Ringg Ai",
+        "website": "https://www.ringg.ai/",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:rork": {
+        "date": "2026-11-09",
+        "name": "Rork",
+        "website": "https://rork.com/",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:rosella": {
+        "date": "2026-11-09",
+        "name": "Rosella",
+        "website": "https://rosellabrokerage.com/",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:round1-ai": {
+        "date": "2026-11-09",
+        "name": "Round1 Ai",
+        "website": "https://round1.grapevine.in/home",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:rove-miles": {
+        "date": "2026-11-09",
+        "name": "Rove Miles",
+        "website": "https://www.rovemiles.com",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:rukita": {
+        "date": "2026-11-09",
+        "name": "Rukita",
+        "website": "https://www.rukita.co/",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:rupeek": {
+        "date": "2026-11-09",
+        "name": "Rupeek",
+        "website": "https://rupeek.com/",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:saas-labs": {
+        "date": "2026-11-09",
+        "name": "Saas Labs",
+        "website": "https://www.saaslabs.co/",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:salaryse": {
+        "date": "2026-11-09",
+        "name": "Salaryse",
+        "website": "https://salaryse.com/",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:sarvagram": {
+        "date": "2026-11-09",
+        "name": "Sarvagram",
+        "website": "https://www.sarvagram.com",
+        "ats": "zoho_recruit",
+        "slug": "sarvagram",
+        "evidence": "https://www.sarvagram.com",
+        "status": "no readable board"
+      },
+      "Peak XV:sarvam-ai": {
+        "date": "2026-11-09",
+        "name": "Sarvam Ai",
+        "website": "https://www.sarvam.ai",
+        "ats": "ashby",
+        "slug": "sarvam",
+        "evidence": "https://www.sarvam.ai/careers",
+        "status": "already tracked"
+      },
+      "Peak XV:scaler-academy": {
+        "date": "2026-11-09",
+        "name": "Scaler Academy",
+        "website": "https://www.scaler.com/",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:scanpay": {
+        "date": "2026-11-09",
+        "name": "Scanpay",
+        "website": "https://scanpay.tech/",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:scapia": {
+        "date": "2026-11-09",
+        "name": "Scapia",
+        "website": "https://www.scapia.cards",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:seekho": {
+        "date": "2026-11-09",
+        "name": "Seekho",
+        "website": "https://www.seekho.ai/",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:semaai": {
+        "date": "2026-11-09",
+        "name": "Semaai",
+        "website": "https://www.semaai.com/",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:shajgoj": {
+        "date": "2026-11-09",
+        "name": "Shajgoj",
+        "website": "https://shajgoj.com/",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:shift": {
+        "date": "2026-11-09",
+        "name": "Shift",
+        "website": "https://www.shift.com.au",
+        "ats": "ashby",
+        "slug": "shift",
+        "evidence": "https://www.shift.com.au/careers/",
+        "status": "added"
+      },
+      "Peak XV:shipsy": {
+        "date": "2026-11-09",
+        "name": "Shipsy",
+        "website": "https://www.shipsy.ai/",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:shopup": {
+        "date": "2026-11-09",
+        "name": "Shopup",
+        "website": "https://shopup.org/",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:sigiq": {
+        "date": "2026-11-09",
+        "name": "Sigiq",
+        "website": "https://www.sigiq.ai",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:sigmoid": {
+        "date": "2026-11-09",
+        "name": "Sigmoid",
+        "website": "https://www.sigmoid.com",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:sirionlabs": {
+        "date": "2026-11-09",
+        "name": "Sirionlabs",
+        "website": "https://www.sirion.ai/",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:sixsense": {
+        "date": "2026-11-09",
+        "name": "Sixsense",
+        "website": "https://www.sixsense.ai/",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:skillmatics": {
+        "date": "2026-11-09",
+        "name": "Skillmatics",
+        "website": "https://www.skillmaticsworld.com",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:sks-microfinance": {
+        "date": "2026-11-09",
+        "name": "Sks Microfinance",
+        "website": "https://www.bfil.co.in/",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:slice": {
+        "date": "2026-11-09",
+        "name": "Slice",
+        "website": "https://www.slicegroup.co/",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:slintel": {
+        "date": "2026-11-09",
+        "name": "Slintel",
+        "website": "https://www.slintel.com/",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:smallcase": {
+        "date": "2026-11-09",
+        "name": "Smallcase",
+        "website": "https://www.smallcase.com",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:smiles-ai-fka-doc32": {
+        "date": "2026-11-09",
+        "name": "Smiles Ai Fka Doc32",
+        "website": "https://www.dezy.com/in",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:sri-mandir-appsforbharat": {
+        "date": "2026-11-09",
+        "name": "Sri Mandir Appsforbharat",
+        "website": "https://www.srimandir.com",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:srt10": {
+        "date": "2026-11-09",
+        "name": "Srt10",
+        "website": "https://tenxyou.com/",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:stable-money": {
+        "date": "2026-11-09",
+        "name": "Stable Money",
+        "website": "https://www.stablemoney.in",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:stanza-living": {
+        "date": "2026-11-09",
+        "name": "Stanza Living",
+        "website": "https://www.stanzaliving.com",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:star-health": {
+        "date": "2026-11-09",
+        "name": "Star Health",
+        "website": "https://www.starhealth.in/",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:stashaway": {
+        "date": "2026-11-09",
+        "name": "Stashaway",
+        "website": "https://www.stashaway.sg/",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:stovekraft": {
+        "date": "2026-11-09",
+        "name": "Stovekraft",
+        "website": "https://www.stovekraft.com",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:suburban-diagnostics": {
+        "date": "2026-11-09",
+        "name": "Suburban Diagnostics",
+        "website": "https://www.suburbandiagnostics.com",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:sunrate": {
+        "date": "2026-11-09",
+        "name": "Sunrate",
+        "website": "https://www.sunrate.com",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:supabase": {
+        "date": "2026-11-09",
+        "name": "Supabase",
+        "website": "https://www.supabase.com",
+        "ats": "ashby",
+        "slug": "supabase",
+        "evidence": "https://www.supabase.com/careers",
+        "status": "already tracked"
+      },
+      "Peak XV:supanote": {
+        "date": "2026-11-09",
+        "name": "Supanote",
+        "website": "https://www.supanote.ai",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:superleap": {
+        "date": "2026-11-09",
+        "name": "Superleap",
+        "website": "https://www.superleap.com/",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:sweet-karam-coffee": {
+        "date": "2026-11-09",
+        "name": "Sweet Karam Coffee",
+        "website": "https://www.sweetkaramcoffee.in",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:synthiolabs": {
+        "date": "2026-11-09",
+        "name": "Synthiolabs",
+        "website": "https://www.synthiolabs.com",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:tabby": {
+        "date": "2026-11-09",
+        "name": "Tabby",
+        "website": "https://tabby.ai/",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:tazapay": {
+        "date": "2026-11-09",
+        "name": "Tazapay",
+        "website": "https://tazapay.com/",
+        "ats": "zoho_recruit",
+        "slug": "tazapay",
+        "evidence": "https://tazapay.com/careers",
+        "status": "no readable board"
+      },
+      "Peak XV:tentang-anak": {
+        "date": "2026-11-09",
+        "name": "Tentang Anak",
+        "website": "https://tentanganak.com/",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:thanks-co": {
+        "date": "2026-11-09",
+        "name": "Thanks",
+        "website": "https://www.thanks.co/",
+        "ats": "workable",
+        "slug": "thanks-co",
+        "evidence": "https://www.thanks.co/",
+        "status": "added"
+      },
+      "Peak XV:the-whole-truth": {
+        "date": "2026-11-09",
+        "name": "The Whole Truth",
+        "website": "https://thewholetruthfoods.com/",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:theta-software": {
+        "date": "2026-11-09",
+        "name": "Theta Software",
+        "website": "https://thetasoftware.com/",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:tigerhall": {
+        "date": "2026-11-09",
+        "name": "Tigerhall",
+        "website": "https://tigerhall.com/",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:timee": {
+        "date": "2026-11-09",
+        "name": "Timee",
+        "website": "https://timee.co.jp/",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:tinvio": {
+        "date": "2026-11-09",
+        "name": "Tinvio",
+        "website": "https://tinvio.com/",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:toddle": {
+        "date": "2026-11-09",
+        "name": "Toddle",
+        "website": "https://www.toddleapp.com/",
+        "ats": "keka",
+        "slug": "toddle",
+        "evidence": "https://careers.toddleapp.com/",
+        "status": "added"
+      },
+      "Peak XV:tokopedia": {
+        "date": "2026-11-09",
+        "name": "Tokopedia",
+        "website": "https://www.tokopedia.com/",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:tonbo": {
+        "date": "2026-11-09",
+        "name": "Tonbo",
+        "website": "https://tonbo.io/",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:tonik": {
+        "date": "2026-11-09",
+        "name": "Tonik",
+        "website": "https://www.tonikbank.com",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:tourhero": {
+        "date": "2026-11-09",
+        "name": "Tourhero",
+        "website": "https://www.tourhero.com/en",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:tpc": {
+        "date": "2026-11-09",
+        "name": "Tpc",
+        "website": "https://promptingcompany.com/",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:tracxn": {
+        "date": "2026-11-09",
+        "name": "Tracxn",
+        "website": "http://www.tracxn.com",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:tribe-money": {
+        "date": "2026-11-09",
+        "name": "Tribe Money",
+        "website": "https://tribemoney.ai/",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:triple-a": {
+        "date": "2026-11-09",
+        "name": "Triple A",
+        "website": "https://www.triple-a.io",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:truecaller": {
+        "date": "2026-11-09",
+        "name": "Truecaller",
+        "website": "https://www.truecaller.com",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:truefoundry-fka-deepl": {
+        "date": "2026-11-09",
+        "name": "Truefoundry Fka Deepl",
+        "website": "https://www.truefoundry.com/",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:truemeds": {
+        "date": "2026-11-09",
+        "name": "Truemeds",
+        "website": "https://www.truemeds.in",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:turtlemint": {
+        "date": "2026-11-09",
+        "name": "Turtlemint",
+        "website": "https://www.turtlemint.com",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:twid-pay": {
+        "date": "2026-11-09",
+        "name": "Twid Pay",
+        "website": "https://twidpay.com/",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:twin-health": {
+        "date": "2026-11-09",
+        "name": "Twin Health",
+        "website": "https://www.twinhealth.com",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:ujjivan": {
+        "date": "2026-11-09",
+        "name": "Ujjivan",
+        "website": "https://www.ujjivansfb.bank.in/",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:ulook": {
+        "date": "2026-11-09",
+        "name": "Ulook",
+        "website": "https://www.ulook.space/",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:unacademy": {
+        "date": "2026-11-09",
+        "name": "Unacademy",
+        "website": "https://www.unacademy.com",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:unravel-carbon": {
+        "date": "2026-11-09",
+        "name": "Unravel Carbon",
+        "website": "https://www.unravelcarbon.com/",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:urban-ladder": {
+        "date": "2026-11-09",
+        "name": "Urban Ladder",
+        "website": "https://www.urbanladder.com",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:vaaree": {
+        "date": "2026-11-09",
+        "name": "Vaaree",
+        "website": "https://vaaree.com/",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:vapi": {
+        "date": "2026-11-09",
+        "name": "Vapi",
+        "website": "https://www.vapi.ai",
+        "ats": "ashby",
+        "slug": "vapi",
+        "evidence": "https://www.vapi.ai/careers",
+        "status": "added"
+      },
+      "Peak XV:variational": {
+        "date": "2026-11-09",
+        "name": "Variational",
+        "website": "https://www.variational.io/",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:vasan-health-care": {
+        "date": "2026-11-09",
+        "name": "Vasan Health Care",
+        "website": "https://vasaneye.com/",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:vault-wealth": {
+        "date": "2026-11-09",
+        "name": "Vault Wealth",
+        "website": "https://www.vaultwealth.com/",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:veera-health": {
+        "date": "2026-11-09",
+        "name": "Veera Health",
+        "website": "https://veerahealth.com/",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:via": {
+        "date": "2026-11-09",
+        "name": "Via",
+        "website": "https://www.viaworld.in/",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:vini-cosmetics": {
+        "date": "2026-11-09",
+        "name": "Vini Cosmetics",
+        "website": "https://www.viniinternational.com/",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:virtual-internships": {
+        "date": "2026-11-09",
+        "name": "Virtual Internships",
+        "website": "https://www.virtualinternships.com/",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:voidzero": {
+        "date": "2026-11-09",
+        "name": "Voidzero",
+        "website": "https://voidzero.dev/",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:von": {
+        "date": "2026-11-09",
+        "name": "Von",
+        "website": "https://vonlabs.ai/",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:wakefit": {
+        "date": "2026-11-09",
+        "name": "Wakefit",
+        "website": "https://www.wakefit.co",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:watchtowr": {
+        "date": "2026-11-09",
+        "name": "Watchtowr",
+        "website": "https://www.watchtowr.com",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:wati": {
+        "date": "2026-11-09",
+        "name": "Wati",
+        "website": "https://www.wati.io/",
+        "ats": "workable",
+        "slug": "j",
+        "evidence": "https://www.wati.io/career/",
+        "status": "needs review: board name doesn't match the company"
+      },
+      "Peak XV:wildcraft": {
+        "date": "2026-11-09",
+        "name": "Wildcraft",
+        "website": "https://www.wildcraft.com",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:wingit": {
+        "date": "2026-11-09",
+        "name": "Wingit",
+        "website": "https://wingitclub.com/",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:wispr-flow": {
+        "date": "2026-11-09",
+        "name": "Wispr Flow",
+        "website": "https://wisprflow.ai/",
+        "ats": "ashby",
+        "slug": "wispr-flow",
+        "evidence": "https://wisprflow.ai/careers",
+        "status": "added"
+      },
+      "Peak XV:wizcommerce": {
+        "date": "2026-11-09",
+        "name": "Wizcommerce",
+        "website": "https://www.wizcommerce.com",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:wobot": {
+        "date": "2026-11-09",
+        "name": "Wobot",
+        "website": "https://wobot.ai/",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:yubi-fka-credavenue": {
+        "date": "2026-11-09",
+        "name": "Yubi Fka Credavenue",
+        "website": "https://www.go-yubi.com/",
+        "ats": "zoho_recruit",
+        "slug": "go-yubi",
+        "evidence": "https://www.go-yubi.com/careers",
+        "status": "no readable board"
+      },
+      "Peak XV:zamp": {
+        "date": "2026-11-09",
+        "name": "Zamp",
+        "website": "https://www.zamp.ai/",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:zanskar": {
+        "date": "2026-11-09",
+        "name": "Zanskar",
+        "website": "https://zanskar.xyz/",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:zenyum": {
+        "date": "2026-11-09",
+        "name": "Zenyum",
+        "website": "https://zenyum.sg/",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:zetwerk": {
+        "date": "2026-11-09",
+        "name": "Zetwerk",
+        "website": "https://www.zetwerk.com",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:zilo": {
+        "date": "2026-11-09",
+        "name": "Zilo",
+        "website": "https://zilo.one/",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:zomato": {
+        "date": "2026-11-09",
+        "name": "Zomato",
+        "website": "https://www.zomato.com",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:zoop": {
+        "date": "2026-11-09",
+        "name": "Zoop",
+        "website": "https://www.zooplive.com/",
+        "status": "no ATS link on site"
+      },
+      "Peak XV:zuper": {
+        "date": "2026-11-09",
+        "name": "Zuper",
+        "website": "https://zuper.co/",
+        "ats": "keka",
+        "slug": "zupersoft",
+        "evidence": "https://zuper.co/careers",
+        "status": "added"
+      },
+      "Accel:anthropic": {
+        "date": "2026-11-09",
+        "name": "Anthropic",
+        "website": "https://www.anthropic.com/",
+        "status": "no ATS link on site"
+      },
+      "Accel:celonis": {
+        "date": "2026-11-09",
+        "name": "Celonis",
+        "website": "http://www.celonis.com/de",
+        "status": "no ATS link on site"
+      },
+      "Accel:chaos": {
+        "date": "2026-11-09",
+        "name": "Chaos",
+        "website": "https://chaosinc.com/",
+        "status": "no ATS link on site"
+      },
+      "Accel:decagon": {
+        "date": "2026-11-09",
+        "name": "Decagon",
+        "website": "https://decagon.ai/",
+        "status": "no ATS link on site"
+      },
+      "Accel:fuse": {
+        "date": "2026-11-09",
+        "name": "Fuse",
+        "website": "https://www.fuseenergy.com/",
+        "ats": "workable",
+        "slug": "fuseenergy",
+        "evidence": "https://www.fuseenergy.com/careers",
+        "status": "added"
+      },
+      "Accel:helsing": {
+        "date": "2026-11-09",
+        "name": "Helsing",
+        "website": "https://helsing.ai/",
+        "status": "no ATS link on site"
+      },
+      "Accel:new-relic": {
+        "date": "2026-11-09",
+        "name": "New Relic",
+        "website": "http://www.newrelic.com",
+        "status": "no ATS link on site"
+      },
+      "Accel:perplexity": {
+        "date": "2026-11-09",
+        "name": "Perplexity",
+        "website": "http://www.perplexity.ai/",
+        "status": "no ATS link on site"
+      },
+      "Accel:scale": {
+        "date": "2026-11-09",
+        "name": "Scale",
+        "website": "http://www.scale.com",
+        "status": "no ATS link on site"
+      },
+      "Accel:socure": {
+        "date": "2026-11-09",
+        "name": "Socure",
+        "website": "https://www.socure.com/",
+        "ats": "ashby",
+        "slug": "socure",
+        "evidence": "https://www.socure.com/company/careers",
+        "status": "added"
+      },
+      "Accel:synthesia": {
+        "date": "2026-11-09",
+        "name": "Synthesia",
+        "website": "https://www.synthesia.io/",
+        "status": "no ATS link on site"
+      },
+      "Accel:thinking-machines": {
+        "date": "2026-11-09",
+        "name": "Thinking Machines",
+        "website": "https://thinkingmachines.ai/",
+        "ats": "ashby",
+        "slug": "ThinkingMachines",
+        "evidence": "https://thinkingmachines.ai/",
+        "status": "added"
+      },
+      "Accel:trade-republic": {
+        "date": "2026-11-09",
+        "name": "Trade Republic",
+        "website": "https://traderepublic.com/",
+        "status": "no ATS link on site"
+      },
+      "Accel:vercel": {
+        "date": "2026-11-09",
+        "name": "Vercel",
+        "website": "https://vercel.com/",
+        "ats": "greenhouse",
+        "slug": "vercel",
+        "evidence": "https://vercel.com/careers",
+        "status": "already tracked"
+      },
+      "Accel:vinted": {
+        "date": "2026-11-09",
+        "name": "Vinted",
+        "website": "http://www.vinted.fr",
+        "status": "no ATS link on site"
+      },
+      "Accel:webflow": {
+        "date": "2026-11-09",
+        "name": "Webflow",
+        "website": "http://www.webflow.com",
+        "status": "no ATS link on site"
+      },
+      "Accel:wonder": {
+        "date": "2026-11-09",
+        "name": "Wonder",
+        "website": "https://www.wonder.com/",
+        "status": "no ATS link on site"
+      },
+      "Accel:zepz": {
+        "date": "2026-11-09",
+        "name": "Zepz",
+        "website": "https://www.zepzpay.com/",
+        "status": "no ATS link on site"
+      },
+      "Accel:1password": {
+        "date": "2026-11-09",
+        "name": "1Password",
+        "website": "http://www.1password.com",
+        "ats": "ashby",
+        "slug": "1password",
+        "evidence": "http://www.1password.com/careers",
+        "status": "added"
+      },
+      "Accel:chainalysis": {
+        "date": "2026-11-09",
+        "name": "Chainalysis",
+        "website": "http://www.chainalysis.com",
+        "status": "no ATS link on site"
+      },
+      "Accel:cyera": {
+        "date": "2026-11-09",
+        "name": "Cyera",
+        "website": "https://www.cyera.io/",
+        "status": "no ATS link on site"
+      },
+      "Accel:cursor": {
+        "date": "2026-11-09",
+        "name": "Cursor",
+        "website": "https://www.cursor.com/",
+        "ats": "ashby",
+        "slug": "cursor",
+        "evidence": "https://www.cursor.com/careers",
+        "status": "added"
+      },
+      "Accel:atlassian": {
+        "date": "2026-11-09",
+        "name": "Atlassian",
+        "website": "http://www.atlassian.com",
+        "status": "no ATS link on site"
+      },
+      "Accel:cloudera": {
+        "date": "2026-11-09",
+        "name": "Cloudera",
+        "website": "http://www.cloudera.com",
+        "status": "no ATS link on site"
+      },
+      "Accel:crowdstrike": {
+        "date": "2026-11-09",
+        "name": "CrowdStrike",
+        "website": "http://www.crowdstrike.com",
+        "status": "no ATS link on site"
+      },
+      "Accel:dropbox": {
+        "date": "2026-11-09",
+        "name": "Dropbox",
+        "website": "http://www.dropbox.com",
+        "status": "no ATS link on site"
+      },
+      "Accel:etsy": {
+        "date": "2026-11-09",
+        "name": "Etsy",
+        "website": "http://www.etsy.com",
+        "status": "no ATS link on site"
+      },
+      "Accel:facebook": {
+        "date": "2026-11-09",
+        "name": "Facebook",
+        "website": "http://www.facebook.com",
+        "status": "no ATS link on site"
+      },
+      "Accel:flipkart": {
+        "date": "2026-11-09",
+        "name": "Flipkart",
+        "website": "http://www.flipkart.com",
+        "status": "no ATS link on site"
+      },
+      "Accel:klaviyo": {
+        "date": "2026-11-09",
+        "name": "Klaviyo",
+        "website": "https://www.klaviyo.com/",
+        "status": "no ATS link on site"
+      },
+      "Accel:qualtrics": {
+        "date": "2026-11-09",
+        "name": "Qualtrics",
+        "website": "http://www.qualtrics.com",
+        "status": "no ATS link on site"
+      },
+      "Accel:slack": {
+        "date": "2026-11-09",
+        "name": "Slack",
+        "website": "http://www.slack.com",
+        "status": "no ATS link on site"
+      },
+      "Accel:spotify": {
+        "date": "2026-11-09",
+        "name": "Spotify",
+        "website": "http://www.spotify.com",
+        "status": "no ATS link on site"
+      },
+      "Accel:squarespace": {
+        "date": "2026-11-09",
+        "name": "Squarespace",
+        "website": "http://www.squarespace.com",
+        "status": "no ATS link on site"
+      },
+      "Accel:supercell": {
+        "date": "2026-11-09",
+        "name": "Supercell",
+        "website": "http://www.supercell.com",
+        "status": "no ATS link on site"
+      },
+      "Accel:swiggy": {
+        "date": "2026-11-09",
+        "name": "Swiggy",
+        "website": "http://www.swiggy.com",
+        "status": "no ATS link on site"
+      },
+      "Accel:uipath": {
+        "date": "2026-11-09",
+        "name": "UiPath",
+        "website": "http://www.uipath.com",
+        "status": "no ATS link on site"
+      },
+      "Accel:arista": {
+        "date": "2026-11-09",
+        "name": "Arista",
+        "website": "http://www.arista.com",
+        "status": "no ATS link on site"
+      },
+      "Accel:docusign": {
+        "date": "2026-11-09",
+        "name": "DocuSign",
+        "website": "http://www.docusign.com",
+        "status": "no ATS link on site"
+      },
+      "Accel:circle": {
+        "date": "2026-11-09",
+        "name": "Circle",
+        "website": "https://www.circle.com/",
+        "status": "no ATS link on site"
+      },
+      "Accel:netskope": {
+        "date": "2026-11-09",
+        "name": "Netskope",
+        "website": "http://www.netskope.com",
+        "status": "no ATS link on site"
+      },
+      "Accel:deliveroo": {
+        "date": "2026-11-09",
+        "name": "Deliveroo",
+        "website": "http://www.deliveroo.co.uk",
+        "status": "no ATS link on site"
+      },
+      "Accel:forgerock": {
+        "date": "2026-11-09",
+        "name": "ForgeRock",
+        "website": "http://www.forgerock.com",
+        "status": "no ATS link on site"
+      },
+      "Accel:freshworks": {
+        "date": "2026-11-09",
+        "name": "Freshworks",
+        "website": "http://www.freshworks.com",
+        "ats": "smartrecruiters",
+        "slug": "Freshworks",
+        "evidence": "https://www.freshworks.com/company/careers/",
+        "status": "already tracked"
+      },
+      "Accel:jet": {
+        "date": "2026-11-09",
+        "name": "Jet",
+        "website": "http://www.jet.com",
+        "status": "no ATS link on site"
+      },
+      "Accel:plex-systems": {
+        "date": "2026-11-09",
+        "name": "Plex Systems",
+        "website": "http://www.plex.com",
+        "status": "no ATS link on site"
+      },
+      "Accel:segment": {
+        "date": "2026-11-09",
+        "name": "Segment",
+        "website": "http://www.segment.com",
+        "status": "no ATS link on site"
+      },
+      "Accel:tenable": {
+        "date": "2026-11-09",
+        "name": "Tenable",
+        "website": "http://www.tenable.com",
+        "ats": "greenhouse",
+        "slug": "tenableinc",
+        "evidence": "http://www.tenable.com/careers",
+        "status": "added"
+      },
+      "Accel:melio": {
+        "date": "2026-11-09",
+        "name": "Melio",
+        "website": "https://www.meliopayments.com/about-us",
+        "status": "no ATS link on site"
+      },
+      "Accel:legendary": {
+        "date": "2026-11-09",
+        "name": "Legendary",
+        "website": "http://www.legendary.com",
+        "status": "no ATS link on site"
+      },
+      "Accel:modal": {
+        "date": "2026-11-09",
+        "name": "Modal",
+        "website": "https://modal.com/",
+        "status": "no ATS link on site"
+      },
+      "Accel:periodic-labs": {
+        "date": "2026-11-09",
+        "name": "Periodic Labs",
+        "website": "https://periodic.com/",
+        "ats": "ashby",
+        "slug": "periodic-labs",
+        "evidence": "https://periodic.com/",
+        "status": "added"
+      },
+      "Accel:higgsfield": {
+        "date": "2026-11-09",
+        "name": "Higgsfield",
+        "website": "https://higgsfield.ai/",
+        "ats": "ashby",
+        "slug": "higgsfieldai",
+        "evidence": "https://higgsfield.ai/",
+        "status": "added"
+      },
+      "Accel:100ms": {
+        "date": "2026-11-09",
+        "name": "100ms",
+        "website": "https://www.100ms.live/",
+        "ats": "lever",
+        "slug": "100ms",
+        "evidence": "https://www.100ms.live/",
+        "status": "already tracked"
+      },
+      "Accel:1balance": {
+        "date": "2026-11-09",
+        "name": "1Balance",
+        "website": "http://www.1balance.com",
+        "status": "no ATS link on site"
+      },
+      "Accel:99designs": {
+        "date": "2026-11-09",
+        "name": "99designs",
+        "website": "http://www.99designs.com",
+        "status": "no ATS link on site"
+      },
+      "Accel:aavenir": {
+        "date": "2026-11-09",
+        "name": "Aavenir",
+        "website": "http://www.aavenir.com",
+        "status": "no ATS link on site"
+      },
+      "Accel:acalvio": {
+        "date": "2026-11-09",
+        "name": "Acalvio",
+        "website": "http://www.acalvio.com",
+        "status": "no ATS link on site"
+      },
+      "Accel:acko": {
+        "date": "2026-11-09",
+        "name": "Acko",
+        "website": "http://www.acko.com",
+        "status": "no ATS link on site"
+      },
+      "Accel:actuate": {
+        "date": "2026-11-09",
+        "name": "Actuate",
+        "website": "http://www.actuate.com",
+        "status": "no ATS link on site"
+      },
+      "Accel:ada-support": {
+        "date": "2026-11-09",
+        "name": "Ada Support",
+        "website": "https://www.ada.cx/",
+        "status": "no ATS link on site"
+      },
+      "Accel:admob": {
+        "date": "2026-11-09",
+        "name": "AdMob",
+        "website": "http://www.admob.com",
+        "status": "no ATS link on site"
+      },
+      "Accel:adroll": {
+        "date": "2026-11-09",
+        "name": "AdRoll",
+        "website": "http://www.adroll.com",
+        "status": "no ATS link on site"
+      },
+      "Accel:aegisai": {
+        "date": "2026-11-09",
+        "name": "AegisAI",
+        "website": "https://www.aegisai.ai/",
+        "status": "no ATS link on site"
+      },
+      "Accel:agave": {
+        "date": "2026-11-09",
+        "name": "Agave",
+        "website": "https://www.agaveapi.com/",
+        "ats": "ashby",
+        "slug": "Agave",
+        "evidence": "https://www.agaveapi.com/careers",
+        "status": "added"
+      },
+      "Accel:agile-software": {
+        "date": "2026-11-09",
+        "name": "Agile Software",
+        "website": "http://www.agilesoft.com",
+        "status": "no ATS link on site"
+      },
+      "Accel:agrostar": {
+        "date": "2026-11-09",
+        "name": "Agrostar",
+        "website": "http://corporate.agrostar.in",
+        "status": "no ATS link on site"
+      },
+      "Accel:airbyte": {
+        "date": "2026-11-09",
+        "name": "Airbyte",
+        "website": "https://airbyte.io/",
+        "status": "no ATS link on site"
+      },
+      "Accel:airkit": {
+        "date": "2026-11-09",
+        "name": "AirKit",
+        "website": "http://www.airkit.com",
+        "status": "no ATS link on site"
+      },
+      "Accel:airmeet": {
+        "date": "2026-11-09",
+        "name": "Airmeet",
+        "website": "http://www.airmeet.com",
+        "status": "no ATS link on site"
+      },
+      "Accel:akridata": {
+        "date": "2026-11-09",
+        "name": "Akridata",
+        "website": "https://www.akridata.com/",
+        "status": "no ATS link on site"
+      },
+      "Accel:akto": {
+        "date": "2026-11-09",
+        "name": "Akto",
+        "website": "https://www.akto.io/",
+        "status": "no ATS link on site"
+      },
+      "Accel:aktoria-robotics": {
+        "date": "2026-11-09",
+        "name": "Aktoria Robotics ",
+        "website": "https://aktoria.com/",
+        "status": "no ATS link on site"
+      },
+      "Accel:algolia": {
+        "date": "2026-11-09",
+        "name": "Algolia",
+        "website": "http://www.algolia.com",
+        "ats": "greenhouse",
+        "slug": "algolia",
+        "evidence": "http://www.algolia.com/careers",
+        "status": "added"
+      },
+      "Accel:ally": {
+        "date": "2026-11-09",
+        "name": "Ally",
+        "website": "http://www.ally.io",
+        "status": "no ATS link on site"
+      },
+      "Accel:alpha-technologies": {
+        "date": "2026-11-09",
+        "name": "Alpha Technologies",
+        "website": "https://www.alpha.com/",
+        "status": "no ATS link on site"
+      },
+      "Accel:altinity": {
+        "date": "2026-11-09",
+        "name": "Altinity",
+        "website": "https://altinity.com/",
+        "status": "no ATS link on site"
+      },
+      "Accel:amagi": {
+        "date": "2026-11-09",
+        "name": "Amagi",
+        "website": "https://www.amagi.com/",
+        "status": "no ATS link on site"
+      },
+      "Accel:amobee": {
+        "date": "2026-11-09",
+        "name": "Amobee",
+        "website": "https://www.amobee.com/",
+        "status": "no ATS link on site"
+      },
+      "Accel:ampool": {
+        "date": "2026-11-09",
+        "name": "Ampool",
+        "website": "http://www.ampool-inc.com",
+        "status": "no ATS link on site"
+      },
+      "Accel:anar": {
+        "date": "2026-11-09",
+        "name": "Anar",
+        "website": "https://anar.biz/",
+        "status": "no ATS link on site"
+      },
+      "Accel:anchor-fm": {
+        "date": "2026-11-09",
+        "name": "Anchor FM",
+        "website": "http://www.anchor.fm",
+        "status": "no ATS link on site"
+      },
+      "Accel:ando": {
+        "date": "2026-11-09",
+        "name": "Ando",
+        "website": "https://ando.so/",
+        "ats": "ashby",
+        "slug": "ando",
+        "evidence": "https://ando.so/",
+        "status": "added"
+      },
+      "Accel:ansr": {
+        "date": "2026-11-09",
+        "name": "ANSR",
+        "website": "http://www.ansr.com",
+        "status": "no ATS link on site"
+      },
+      "Accel:anyfin": {
+        "date": "2026-11-09",
+        "name": "Anyfin",
+        "website": "http://www.anyfin.com",
+        "status": "no ATS link on site"
+      },
+      "Accel:aorato": {
+        "date": "2026-11-09",
+        "name": "Aorato",
+        "website": "http://www.microsoft.com",
+        "status": "no ATS link on site"
+      },
+      "Accel:apnamart": {
+        "date": "2026-11-09",
+        "name": "ApnaMart",
+        "website": "https://apnamart.in/",
+        "status": "no ATS link on site"
+      },
+      "Accel:appbrew": {
+        "date": "2026-11-09",
+        "name": "Appbrew",
+        "website": "https://appbrew.tech/",
+        "status": "no ATS link on site"
+      },
+      "Accel:appsmith": {
+        "date": "2026-11-09",
+        "name": "Appsmith",
+        "website": "https://www.appsmith.com/",
+        "status": "no ATS link on site"
+      },
+      "Accel:aptly": {
+        "date": "2026-11-09",
+        "name": "Aptly",
+        "website": "http://getaptly.com",
+        "status": "no ATS link on site"
+      },
+      "Accel:aramya": {
+        "date": "2026-11-09",
+        "name": "Aramya",
+        "website": "https://aramya.in/",
+        "status": "no ATS link on site"
+      },
+      "Accel:arda": {
+        "date": "2026-11-09",
+        "name": "Arda",
+        "website": "https://arda.ai/",
+        "status": "no ATS link on site"
+      },
+      "Accel:arivihan": {
+        "date": "2026-11-09",
+        "name": "Arivihan",
+        "website": "https://arivihan.com/about",
+        "status": "no ATS link on site"
+      },
+      "Accel:armadin": {
+        "date": "2026-11-09",
+        "name": "Armadin",
+        "website": "https://www.armadin.com/",
+        "ats": "ashby",
+        "slug": "armadin",
+        "evidence": "https://www.armadin.com/careers",
+        "status": "added"
+      },
+      "Accel:arrakis": {
+        "date": "2026-11-09",
+        "name": "Arrakis",
+        "website": "https://www.arrakistechnologies.ai/",
+        "status": "no ATS link on site"
+      },
+      "Accel:ascend-io": {
+        "date": "2026-11-09",
+        "name": "Ascend.io",
+        "website": "http://www.ascend.io",
+        "status": "no ATS link on site"
+      },
+      "Accel:assemblyai": {
+        "date": "2026-11-09",
+        "name": "Assembly AI",
+        "website": "https://www.assemblyai.com/",
+        "ats": "greenhouse",
+        "slug": "assemblyai",
+        "evidence": "https://www.assemblyai.com/careers",
+        "status": "already tracked"
+      },
+      "Accel:astral": {
+        "date": "2026-11-09",
+        "name": "Astral",
+        "website": "https://astral.sh/",
+        "status": "no ATS link on site"
+      },
+      "Accel:astro": {
+        "date": "2026-11-09",
+        "name": "Astro",
+        "website": "https://www.astronauts.id/",
+        "status": "no ATS link on site"
+      },
+      "Accel:atira": {
+        "date": "2026-11-09",
+        "name": "Atira",
+        "website": "https://atira.ai/",
+        "status": "no ATS link on site"
+      },
+      "Accel:atlas": {
+        "date": "2026-11-09",
+        "name": "Atlas",
+        "website": "https://theatlas.ai/",
+        "status": "no ATS link on site"
+      },
+      "Accel:atrato": {
+        "date": "2026-11-09",
+        "name": "Atrato",
+        "website": "https://www.atratopago.com/",
+        "status": "no ATS link on site"
+      },
+      "Accel:atspoke": {
+        "date": "2026-11-09",
+        "name": "atSpoke",
+        "website": "https://www.atspoke.com/",
+        "status": "no ATS link on site"
+      },
+      "Accel:august-ai": {
+        "date": "2026-11-09",
+        "name": "August AI",
+        "website": "https://www.meetaugust.ai/",
+        "status": "no ATS link on site"
+      },
+      "Accel:aura": {
+        "date": "2026-11-09",
+        "name": "Aura",
+        "website": "https://aura.com/",
+        "status": "no ATS link on site"
+      },
+      "Accel:avenue": {
+        "date": "2026-11-09",
+        "name": "Avenue",
+        "website": "http://www.useavenue.com/",
+        "status": "no ATS link on site"
+      },
+      "Accel:avito": {
+        "date": "2026-11-09",
+        "name": "Avito",
+        "website": "http://www.avito.ru",
+        "status": "no ATS link on site"
+      },
+      "Accel:away": {
+        "date": "2026-11-09",
+        "name": "Away",
+        "website": "http://www.awaytravel.com",
+        "ats": "ashby",
+        "slug": "away",
+        "evidence": "http://www.awaytravel.com/pages/careers",
+        "status": "added"
+      },
+      "Accel:axio": {
+        "date": "2026-11-09",
+        "name": "Axio",
+        "website": "http://www.axiobio.com",
+        "status": "no ATS link on site"
+      },
+      "Accel:axle-energy": {
+        "date": "2026-11-09",
+        "name": "Axle Energy",
+        "website": "https://www.axle.energy/",
+        "status": "no ATS link on site"
+      },
+      "Accel:axonius": {
+        "date": "2026-11-09",
+        "name": "Axonius",
+        "website": "https://www.axonius.com/",
+        "status": "no ATS link on site"
+      },
+      "Accel:bachatt": {
+        "date": "2026-11-09",
+        "name": "Bachatt",
+        "website": "https://www.bachatt.app/",
+        "status": "no ATS link on site"
+      },
+      "Accel:basis": {
+        "date": "2026-11-09",
+        "name": "Basis",
+        "website": "https://www.getbasis.ai/",
+        "status": "no ATS link on site"
+      },
+      "Accel:baublebar": {
+        "date": "2026-11-09",
+        "name": "BaubleBar",
+        "website": "http://www.baublebar.com",
+        "status": "no ATS link on site"
+      },
+      "Accel:bbn-technologies": {
+        "date": "2026-11-09",
+        "name": "BBN Technologies",
+        "website": "http://www.bbn.com",
+        "status": "no ATS link on site"
+      },
+      "Accel:beam": {
+        "date": "2026-11-09",
+        "name": "Beam",
+        "website": "https://www.usebeam.co/",
+        "status": "no ATS link on site"
+      },
+      "Accel:beek": {
+        "date": "2026-11-09",
+        "name": "Beek",
+        "website": "https://beek.io/",
+        "status": "no ATS link on site"
+      },
+      "Accel:bereal": {
+        "date": "2026-11-09",
+        "name": "BeReal",
+        "website": "https://bere.al/en",
+        "status": "no ATS link on site"
+      },
+      "Accel:bestdoc": {
+        "date": "2026-11-09",
+        "name": "BestDoc",
+        "website": "https://www.bestdocapp.com/",
+        "status": "no ATS link on site"
+      },
+      "Accel:bettercloud": {
+        "date": "2026-11-09",
+        "name": "BetterCloud",
+        "website": "http://www.bettercloud.com",
+        "status": "no ATS link on site"
+      },
+      "Accel:bevy": {
+        "date": "2026-11-09",
+        "name": "Bevy",
+        "website": "https://www.bevy.com/",
+        "status": "no ATS link on site"
+      },
+      "Accel:binocs": {
+        "date": "2026-11-09",
+        "name": "Binocs",
+        "website": "https://binocs.co/",
+        "status": "no ATS link on site"
+      },
+      "Accel:biostate-ai": {
+        "date": "2026-11-09",
+        "name": "Biostate AI",
+        "website": "https://biostate.ai/",
+        "status": "no ATS link on site"
+      },
+      "Accel:bird": {
+        "date": "2026-11-09",
+        "name": "Bird",
+        "website": "https://bird.com/en-us/",
+        "status": "no ATS link on site"
+      },
+      "Accel:brds": {
+        "date": "2026-11-09",
+        "name": "Bird Scooters",
+        "website": "http://www.bird.co",
+        "status": "no ATS link on site"
+      },
+      "Accel:bizongo": {
+        "date": "2026-11-09",
+        "name": "Bizongo",
+        "website": "http://www.bizongo.com",
+        "status": "no ATS link on site"
+      },
+      "Accel:blablacar": {
+        "date": "2026-11-09",
+        "name": "BlaBlaCar",
+        "website": "http://www.blablacar.com",
+        "status": "no ATS link on site"
+      },
+      "Accel:blackbuck": {
+        "date": "2026-11-09",
+        "name": "BlackBuck",
+        "website": "http://www.blackbuck.com",
+        "status": "no ATS link on site"
+      },
+      "Accel:blackpoint": {
+        "date": "2026-11-09",
+        "name": "Blackpoint",
+        "website": "https://blackpointcyber.com/",
+        "status": "no ATS link on site"
+      },
+      "Accel:blameless": {
+        "date": "2026-11-09",
+        "name": "Blameless",
+        "website": "http://www.blameless.com",
+        "status": "no ATS link on site"
+      },
+      "Accel:blue-jeans-network": {
+        "date": "2026-11-09",
+        "name": "Blue Jeans Network",
+        "website": "http://www.bluejeans.com",
+        "status": "no ATS link on site"
+      },
+      "Accel:bluestone": {
+        "date": "2026-11-09",
+        "name": "Bluestone",
+        "website": "http://www.bluestone.com",
+        "status": "no ATS link on site"
+      },
+      "Accel:bonobos": {
+        "date": "2026-11-09",
+        "name": "Bonobos",
+        "website": "http://www.bonobos.com",
+        "status": "no ATS link on site"
+      },
+      "Accel:book-my-show": {
+        "date": "2026-11-09",
+        "name": "Book My Show",
+        "website": "http://www.bookmyshow.com",
+        "status": "no ATS link on site"
+      },
+      "Accel:born": {
+        "date": "2026-11-09",
+        "name": "Born",
+        "website": "https://www.born.com/",
+        "status": "no ATS link on site"
+      },
+      "Accel:borqs": {
+        "date": "2026-11-09",
+        "name": "Borqs",
+        "website": "http://www.borqs.com/",
+        "status": "no ATS link on site"
+      },
+      "Accel:bounce": {
+        "date": "2026-11-09",
+        "name": "Bounce",
+        "website": "https://bounceinfinity.com/",
+        "status": "no ATS link on site"
+      },
+      "Accel:braintree": {
+        "date": "2026-11-09",
+        "name": "Braintree",
+        "website": "http://www.braintreepayments.com",
+        "status": "no ATS link on site"
+      },
+      "Accel:breathe-well-being": {
+        "date": "2026-11-09",
+        "name": "Breathe Well-being",
+        "website": "https://www.breathewellbeing.in/",
+        "status": "no ATS link on site"
+      },
+      "Accel:brick-bolt": {
+        "date": "2026-11-09",
+        "name": "Brick\\u0026Bolt",
+        "website": "https://www.bricknbolt.com/",
+        "status": "no ATS link on site"
+      },
+      "Accel:bridgetown-research": {
+        "date": "2026-11-09",
+        "name": "Bridgetown Research ",
+        "website": "https://www.bridgetownresearch.com/",
+        "status": "no ATS link on site"
+      },
+      "Accel:brightmail": {
+        "date": "2026-11-09",
+        "name": "Brightmail",
+        "website": "http://www.brightmail.com",
+        "status": "no ATS link on site"
+      },
+      "Accel:brik": {
+        "date": "2026-11-09",
+        "name": "Brik",
+        "website": "https://brik.id/",
+        "status": "no ATS link on site"
+      },
+      "Accel:brnd-me": {
+        "date": "2026-11-09",
+        "name": "BRND.ME",
+        "website": "https://mensabrands.com/#home",
+        "status": "no ATS link on site"
+      },
+      "Accel:browserstack": {
+        "date": "2026-11-09",
+        "name": "BrowserStack",
+        "website": "http://www.browserstack.com",
+        "status": "no ATS link on site"
+      },
+      "Accel:brumbrum": {
+        "date": "2026-11-09",
+        "name": "Brumbrum",
+        "website": "http://www.brumbrum.it",
+        "status": "no ATS link on site"
+      },
+      "Accel:bryter": {
+        "date": "2026-11-09",
+        "name": "Bryter",
+        "website": "http://www.bryter.io",
+        "status": "no ATS link on site"
+      },
+      "Accel:bumble": {
+        "date": "2026-11-09",
+        "name": "Bumble",
+        "website": "http://www.bumble.com",
+        "status": "no ATS link on site"
+      },
+      "Accel:calastone": {
+        "date": "2026-11-09",
+        "name": "Calastone",
+        "website": "http://www.calastone.com",
+        "status": "no ATS link on site"
+      },
+      "Accel:callsign": {
+        "date": "2026-11-09",
+        "name": "CallSign",
+        "website": "http://www.callsign.com",
+        "ats": "workable",
+        "slug": "callsign",
+        "evidence": "https://www.callsign.com/careers",
+        "status": "added"
+      },
+      "Accel:cambridge-aerospace": {
+        "date": "2026-11-09",
+        "name": "Cambridge Aerospace ",
+        "website": "https://www.cambridgeaerospace.com/",
+        "status": "no ATS link on site"
+      },
+      "Accel:campaign-monitor": {
+        "date": "2026-11-09",
+        "name": "Campaign Monitor",
+        "website": "http://www.campaignmonitor.com",
+        "status": "no ATS link on site"
+      },
+      "Accel:campfire": {
+        "date": "2026-11-09",
+        "name": "Campfire",
+        "website": "https://campfire.ai/",
+        "ats": "ashby",
+        "slug": "campfire",
+        "evidence": "https://campfire.ai/careers",
+        "status": "added"
+      },
+      "Accel:can-capital": {
+        "date": "2026-11-09",
+        "name": "Can Capital",
+        "website": "http://www.cancapital.com",
+        "ats": "zoho_recruit",
+        "slug": "cancapital",
+        "evidence": "http://www.cancapital.com/careers",
+        "status": "no readable board"
+      },
+      "Accel:capricoast": {
+        "date": "2026-11-09",
+        "name": "CapriCoast",
+        "website": "http://www.linkedin.com/company/capricoast-home-solutions-pvt-ltd/about/",
+        "status": "no ATS link on site"
+      },
+      "Accel:captain-fresh": {
+        "date": "2026-11-09",
+        "name": "Captain Fresh",
+        "website": "https://www.captainfresh.in/",
+        "status": "no ATS link on site"
+      },
+      "Accel:captivateiq": {
+        "date": "2026-11-09",
+        "name": "CaptivateIQ",
+        "website": "http://www.captivateiq.com/",
+        "status": "no ATS link on site"
+      },
+      "Accel:cardspring": {
+        "date": "2026-11-09",
+        "name": "CardSpring",
+        "website": "http://cardspring.com/",
+        "status": "no ATS link on site"
+      },
+      "Accel:carestack": {
+        "date": "2026-11-09",
+        "name": "CareStack",
+        "website": "http://www.carestack.com",
+        "status": "no ATS link on site"
+      },
+      "Accel:carto": {
+        "date": "2026-11-09",
+        "name": "Carto",
+        "website": "http://www.carto.com",
+        "status": "no ATS link on site"
+      },
+      "Accel:cartwheel": {
+        "date": "2026-11-09",
+        "name": "Cartwheel",
+        "website": "https://getcartwheel.com/home",
+        "status": "no ATS link on site"
+      },
+      "Accel:carwow": {
+        "date": "2026-11-09",
+        "name": "Carwow",
+        "website": "http://www.carwow.co.uk",
+        "ats": "ashby",
+        "slug": "carwow",
+        "evidence": "https://www.carwow.co.uk/jobs",
+        "status": "added"
+      },
+      "Accel:casaone": {
+        "date": "2026-11-09",
+        "name": "CasaOne",
+        "website": "http://www.casaone.com",
+        "status": "no ATS link on site"
+      },
+      "Accel:catalyst": {
+        "date": "2026-11-09",
+        "name": "Catalyst",
+        "website": "http://www.getcatalyst.io",
+        "status": "no ATS link on site"
+      },
+      "Accel:catawiki": {
+        "date": "2026-11-09",
+        "name": "Catawiki",
+        "website": "http://www.catawiki.com",
+        "status": "no ATS link on site"
+      },
+      "Accel:catch-release": {
+        "date": "2026-11-09",
+        "name": "Catch\\u0026Release",
+        "website": "https://www.catchandrelease.com/",
+        "status": "no ATS link on site"
+      },
+      "Accel:causal": {
+        "date": "2026-11-09",
+        "name": "Causal",
+        "website": "https://www.causal.app/",
+        "status": "no ATS link on site"
+      },
+      "Accel:cdata": {
+        "date": "2026-11-09",
+        "name": "Cdata",
+        "website": "https://www.cdata.com/",
+        "status": "no ATS link on site"
+      },
+      "Accel:centaur-labs": {
+        "date": "2026-11-09",
+        "name": "Centaur Labs",
+        "website": "https://www.centaurlabs.com/",
+        "status": "no ATS link on site"
+      },
+      "Accel:centrify": {
+        "date": "2026-11-09",
+        "name": "Centrify",
+        "website": "http://www.centrify.com/",
+        "ats": "ashby",
+        "slug": "delinea",
+        "evidence": "http://www.centrify.com/",
+        "status": "needs review: board name doesn't match the company"
+      },
+      "Accel:chargebee": {
+        "date": "2026-11-09",
+        "name": "ChargeBee",
+        "website": "http://www.chargebee.com",
+        "status": "no ATS link on site"
+      },
+      "Accel:charles": {
+        "date": "2026-11-09",
+        "name": "Charles",
+        "website": "http://www.hello-charles.com",
+        "ats": "greenhouse",
+        "slug": "charles",
+        "evidence": "https://www.hello-charles.com/jobs/",
+        "status": "added"
+      },
+      "Accel:check24": {
+        "date": "2026-11-09",
+        "name": "Check24",
+        "website": "http://www.check24.de",
+        "status": "no ATS link on site"
+      },
+      "Accel:checkly": {
+        "date": "2026-11-09",
+        "name": "Checkly",
+        "website": "https://www.checklyhq.com/",
+        "status": "no ATS link on site"
+      },
+      "Accel:checkr": {
+        "date": "2026-11-09",
+        "name": "Checkr",
+        "website": "http://www.checkr.com",
+        "status": "no ATS link on site"
+      },
+      "Accel:chronicle": {
+        "date": "2026-11-09",
+        "name": "Chronicle",
+        "website": "https://chroniclehq.com/",
+        "status": "no ATS link on site"
+      },
+      "Accel:cinder": {
+        "date": "2026-11-09",
+        "name": "Cinder",
+        "website": "https://cinder.co/",
+        "status": "no ATS link on site"
+      },
+      "Accel:ciridae": {
+        "date": "2026-11-09",
+        "name": "Ciridae",
+        "website": "https://www.ciridae.com/",
+        "ats": "ashby",
+        "slug": "ciridae",
+        "evidence": "https://www.ciridae.com/careers",
+        "status": "added"
+      },
+      "Accel:citymall": {
+        "date": "2026-11-09",
+        "name": "CityMall",
+        "website": "https://citymall.live/",
+        "status": "no ATS link on site"
+      },
+      "Accel:clevertap": {
+        "date": "2026-11-09",
+        "name": "CleverTap",
+        "website": "http://www.clevertap.com",
+        "status": "no ATS link on site"
+      },
+      "Accel:clockwise": {
+        "date": "2026-11-09",
+        "name": "ClockWise",
+        "website": "http://www.getclockwise.com",
+        "status": "no ATS link on site"
+      },
+      "Accel:clove": {
+        "date": "2026-11-09",
+        "name": "Clove",
+        "website": "http://clove.com/",
+        "status": "no ATS link on site"
+      },
+      "Accel:coast": {
+        "date": "2026-11-09",
+        "name": "Coast",
+        "website": "https://coastpay.com/",
+        "status": "no ATS link on site"
+      },
+      "Accel:code-42": {
+        "date": "2026-11-09",
+        "name": "Code 42",
+        "website": "http://www.code42.com",
+        "status": "no ATS link on site"
+      },
+      "Accel:code-metal": {
+        "date": "2026-11-09",
+        "name": "Code Metal",
+        "website": "https://www.codemetal.ai/",
+        "ats": "ashby",
+        "slug": "code-metal",
+        "evidence": "https://www.codemetal.ai/company#open-roles",
+        "status": "added"
+      },
+      "Accel:codecov": {
+        "date": "2026-11-09",
+        "name": "Codecov",
+        "website": "https://about.codecov.io/",
+        "status": "no ATS link on site"
+      },
+      "Accel:cognite": {
+        "date": "2026-11-09",
+        "name": "Cognite",
+        "website": "https://www.cognite.com/en/",
+        "ats": "greenhouse",
+        "slug": "cognite",
+        "evidence": "https://www.cognite.com/en/company/careers",
+        "status": "added"
+      },
+      "Accel:cognition": {
+        "date": "2026-11-09",
+        "name": "Cognition",
+        "website": "https://cognition.com/",
+        "ats": "ashby",
+        "slug": "cognition",
+        "evidence": "https://cognition.com/careers",
+        "status": "added"
+      },
+      "Accel:cogoport": {
+        "date": "2026-11-09",
+        "name": "Cogoport",
+        "website": "http://www.cogoport.com",
+        "status": "no ATS link on site"
+      },
+      "Accel:cohesity": {
+        "date": "2026-11-09",
+        "name": "Cohesity",
+        "website": "http://www.cohesity.com",
+        "status": "no ATS link on site"
+      },
+      "Accel:cointracker": {
+        "date": "2026-11-09",
+        "name": "CoinTracker",
+        "website": "https://www.cointracker.io/",
+        "ats": "ashby",
+        "slug": "cointracker",
+        "evidence": "https://careers.cointracker.com",
+        "status": "added"
+      }
+    }
   }
 }

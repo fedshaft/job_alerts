@@ -118,8 +118,9 @@ def update(cfg, today=None, force=False):
               if "India" in (c.get("regions") or []) or "India" in (c.get("all_locations") or "")
               or "Fully Remote" in (c.get("regions") or [])]
     retry = (today - timedelta(days=RECHECK_DAYS)).isoformat()
-    todo = [c for c in wanted if c["slug"] not in SKIP_COMPANIES
-            and yc["checked"].get(c["slug"], {}).get("date", "") < retry]
+    todo = sorted((c for c in wanted if c["slug"] not in SKIP_COMPANIES
+                   and yc["checked"].get(c["slug"], {}).get("date", "") < retry),
+                  key=lambda c: yc["checked"].get(c["slug"], {}).get("date", ""))[:60]  # spread re-checks
 
     def one(c):
         found = detect(c.get("website"))

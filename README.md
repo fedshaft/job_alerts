@@ -6,7 +6,7 @@ India / global-remote tech internships to Telegram.
 Hiring systems covered: Greenhouse, Lever, Ashby, SmartRecruiters, Workday,
 Oracle Recruiting, Zoho Recruit (RSS), Trakstar Hire, MyNextHire, Keka,
 plus custom fetchers for amazon.jobs, jobs.sap.com, Goldman Sachs Higher,
-Teradata, company-hosted Darwinbox job lists (Upstox, M2P) and plain-HTML
+Teradata, Netflix (Eightfold), company-hosted Darwinbox job lists (Upstox, M2P) and plain-HTML
 career pages (D. E. Shaw India, Google).
 `page_watch` alerts when a page with no job list changes (e.g. NIMS Japan).
 
@@ -91,12 +91,14 @@ matches the company. Companies with no readable board are listed under
 YC's own job pages (ycombinator.com / Work at a Startup) aren't read: their
 terms forbid scraping, and many YC startups only post there.
 
-**VC portfolio boards: not included.** Accel and General Catalyst run on
-Getro, Peak XV and Lightspeed on Consider; both platforms' terms forbid
-automated access (Getro's API robots.txt is `Disallow: /`). Blume's board is
-gone, and Nexus, Elevation and Z47 don't link one. Use those boards by hand
-or subscribe to their own job-alert emails; `vc_boards` in config.json is
-read if a permitted source turns up.
+**VC portfolio companies (`vc_auto` in config.json).** The funds' portfolio
+*job boards* (Getro for Accel, Consider for Peak XV / Lightspeed) can't be
+used: both platforms' terms forbid automated access. Instead `vc_auto.py`
+reads each fund's own public portfolio list once a week (Peak XV's company
+pages via its sitemap; accel.com/companies), visits each company's own
+website, and tracks the company's own board exactly like `yc_auto`. Alerts
+from these are tagged `VC: Peak XV` / `VC: Accel`. Lightspeed's site refuses
+scripted requests (403), so it's skipped.
 
 **More hiring systems:** Workable, Keka (portal id found automatically),
 Zoho Recruit (RSS) and Freshteam (untested: no live Freshteam company was

@@ -439,7 +439,7 @@ def fetch_keka(board):
         locs = j.get("jobLocations") or []
         if isinstance(locs, str):
             locs = [{"city": c} for c in re.findall(r"'city': '([^']*)'", locs)]
-        where = join_locations([l.get("city") or l.get("name") for l in locs] + ["India"])
+        where = join_locations([l.get("city") or l.get("name") for l in locs]) or "location not given"
         jobs.append(job(j["id"], j["title"], where,
                         f"https://{board['id']}.keka.com/careers/jobdetails/{j['id']}"))
     return jobs
@@ -516,6 +516,24 @@ def fetch_teradata(board):
     return jobs
 
 
+def fetch_eightfold(board):
+    """Eightfold career sites (e.g. Netflix). board = {"name", "host", "domain"}.
+    Public API the career page itself uses; India only."""
+    jobs, start = [], 0
+    while start < 1000:
+        data = http_json(f"https://{board['host']}/api/apply/v2/jobs?domain={board['domain']}"
+                         f"&location=India&num=100&start={start}")
+        if "positions" not in data:
+            raise ValueError("Eightfold reply has changed shape")
+        for p in data["positions"]:
+            jobs.append(job(p["id"], p["name"], p.get("location", ""),
+                            p.get("canonicalPositionUrl") or f"https://{board['host']}/careers/job/{p['id']}"))
+        start += 100
+        if len(data["positions"]) < 100:
+            return jobs
+    return jobs
+
+
 def fetch_sap(board):
     """jobs.sap.com: the listing page embeds its results as JSON.
 
@@ -564,6 +582,7 @@ FETCHERS = {
     "amazon": fetch_amazon,
     "sap": fetch_sap,
     "keka": fetch_keka,
+    "eightfold": fetch_eightfold,
     "workable": fetch_workable,
     "zoho_recruit": fetch_zoho_recruit,
     "freshteam": fetch_freshteam,
@@ -777,7 +796,18 @@ def chunk_messages(header, items, limit=3800):
 def collect_boards(cfg, dry_run):
     """(ats, board, source) for every board: direct, VC portfolio boards, YC auto-added."""
     boards = [(ats, b, "direct") for ats, items in cfg["companies"].items() for b in items]
-    boards += [(ats, b, "VC board") for ats, items in cfg.get("vc_boards", {}).items() for b in items]
+    try:
+        import vc_auto
+        report = vc_auto.update(cfg)  # weekly; portfolio companies' own boards
+        if report:
+            print(report)
+            if not dry_run:
+                CONFIG_FILE.write_text(json.dumps(cfg, indent=2, ensure_ascii=False) + "\n")
+        boards += [(ats, b, "VC board") for ats, b in vc_auto.boards(cfg)]
+    except Exception as exc:
+        print(f"WARN VC portfolios: {exc}", file=sys.stderr)
+        LAST_ERRORS[("vc", "VC portfolios")] = f"{type(exc).__name__}: {exc}"
+        FAILED_SOURCES.append(("vc", {"name": "VC portfolios", "id": "vc-portfolios"}, None, "VC board"))
     try:
         import yc_auto
         report = yc_auto.update(cfg)  # once a day; finds hiring systems for new YC companies
@@ -833,7 +863,7 @@ def main():
                 continue
             company = j.get("company") or name  # VC boards list many companies
             label = {"direct": "direct", "YC": "YC", "email": f"email: {j.get('source', '')}".rstrip(": "),
-                     "VC board": f"VC board: {name}"}[source]
+                     "VC board": f"VC: {board.get('fund', '')}" if isinstance(board, dict) else "VC"}[source]
             found.append({
                 "key": f"{ats}:{board_id(ats, board)}:{j['id']}",
                 "company": company + (f" [{category}]" if category not in (None, "email") else ""),
