@@ -281,6 +281,19 @@ def main():
         sys.exit("usage: python3 eligibility.py <job url>")
     profile = json.loads(Path(alerts.CONFIG_FILE).read_text())["profile"]
     ats, board, job = _guess_board(sys.argv[1])
+    try:  # the title decides intern vs graduate role, so look it up where we can
+        if ats == "greenhouse":
+            job["title"] = alerts.http_json(
+                f"https://boards-api.greenhouse.io/v1/boards/{board}/jobs/{job['id']}")["title"]
+        elif ats == "lever":
+            job["title"] = alerts.http_json(f"https://api.lever.co/v0/postings/{board}/{job['id']}")["text"]
+        elif ats == "smartrecruiters":
+            job["title"] = alerts.http_json(
+                f"https://api.smartrecruiters.com/v1/companies/{board}/postings/{job['id']}")["name"]
+    except Exception:
+        pass
+    if job["title"]:
+        print(job["title"])
     print(format_verdict(*check(ats, board, job, profile)))
     print(job["url"])
 
