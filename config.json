@@ -1,8 +1,15 @@
 {
-  "title_role": "\\b(intern|interns|internship|trainee|apprentice)\\b",
-  "title_tech": "software|\\bsde|engineer|developer|backend|back-end|full.?stack|platform|infra|devops|\\bsre\\b|reliability|cloud|systems|data|security|\\bml\\b|\\btech",
+  "title_role": "\\b(intern|interns|internship|internships|trainee|apprentice|new grad|graduate|fresher|freshers|campus|early career|entry level)\\b",
+  "title_tech": "software|\\bsde|engineer|developer|backend|back-end|full.?stack|platform|infra|devops|\\bsre\\b|reliability|cloud|systems|data|security|\\bml\\b|\\bai\\b|\\btech|research|\\bquant|\\bqa\\b|sdet|test automation|automation|\\bc\\+\\+",
   "title_exclude": "\\b(hr|human resources|talent|recruit\\w*|marketing|sales|finance|accounting|legal|design|ux|ui|phd|ph\\.d|technician|master'?s|mba)\\b",
   "location": "india|bengaluru|bangalore|hyderabad|pune|chennai|mumbai|gurgaon|gurugram|noida|delhi|kolkata|ahmedabad|jaipur|kochi|coimbatore|^\\s*remote\\s*$|remote.*(global|worldwide|anywhere|apac|asia)",
+  "categories": {
+    "international_research": {
+      "title_role": "\\b(intern|interns|internship|internships|trainee|research)\\b",
+      "title_tech": ".",
+      "location": "."
+    }
+  },
   "companies": {
     "greenhouse": [
       "6sense",
@@ -13,6 +20,7 @@
       "airbnb",
       "anthropic",
       "appian",
+      "arcesiumllc",
       "bitwarden",
       "celonis",
       "chainguard",
@@ -55,6 +63,7 @@
       "okta",
       "pagerduty",
       "pinterest",
+      "point72",
       "pubmatic",
       "purestorage",
       "razorpaysoftwareprivatelimited",
@@ -317,7 +326,276 @@
         "tenant": "browserstack",
         "wd": 3,
         "site": "External"
+      },
+      {
+        "name": "KLA",
+        "tenant": "kla",
+        "wd": 1,
+        "site": "Search"
+      },
+      {
+        "name": "Thomson Reuters",
+        "tenant": "thomsonreuters",
+        "wd": 5,
+        "site": "External_Career_Site"
+      },
+      {
+        "name": "Expedia Group",
+        "tenant": "expedia",
+        "wd": 108,
+        "site": "search"
+      },
+      {
+        "name": "Samsung (incl. SRI-B Bangalore)",
+        "tenant": "sec",
+        "wd": 3,
+        "site": "Samsung_Careers"
+      },
+      {
+        "name": "Accenture",
+        "tenant": "accenture",
+        "wd": 103,
+        "site": "AccentureCareers"
+      },
+      {
+        "name": "Baker Hughes",
+        "tenant": "bakerhughes",
+        "wd": 5,
+        "site": "BakerHughes"
+      }
+    ],
+    "zoho_rss": [
+      {
+        "name": "Zoho",
+        "id": "zohocorp",
+        "url": "https://careers.zohocorp.com/jobs/Careers/rss",
+        "location": "India"
+      }
+    ],
+    "trakstar": [
+      {
+        "name": "Whatfix",
+        "id": "whatfix101"
+      }
+    ],
+    "mynexthire": [
+      {
+        "name": "Amagi",
+        "id": "amagi",
+        "url": "https://www.amagi.com/careers/open-roles"
+      }
+    ],
+    "oracle": [
+      {
+        "name": "JPMorgan Chase",
+        "host": "jpmc.fa.oraclecloud.com",
+        "site": "CX_1001",
+        "location_id": 300000000289360
+      },
+      {
+        "name": "BNY",
+        "host": "eofe.fa.us2.oraclecloud.com",
+        "site": "CX_1001",
+        "site_path": "BNY-Careers",
+        "location_id": 300000000378365
+      },
+      {
+        "name": "Texas Instruments",
+        "host": "edbz.fa.us2.oraclecloud.com",
+        "site": "CX",
+        "location_id": 300000000361484
+      },
+      {
+        "name": "DTCC",
+        "host": "ebxr.fa.us2.oraclecloud.com",
+        "site": "CX_1",
+        "location_id": 300000000300092
+      },
+      {
+        "name": "Uber",
+        "host": "iaziqy.fa.ocs.oraclecloud.com",
+        "site": "CX_1",
+        "location_id": 300000000484179
+      },
+      {
+        "name": "American Express",
+        "host": "egug.fa.us2.oraclecloud.com",
+        "site": "CX_1",
+        "location_id": 300000000228786
+      },
+      {
+        "name": "Nokia",
+        "host": "fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com",
+        "site": "CX_1",
+        "location_id": 300000000471745,
+        "job_url": "https://jobs.nokia.com/en/sites/CX_1/job/{id}"
+      }
+    ],
+    "amazon": [
+      {
+        "name": "Amazon",
+        "id": "amazon"
+      }
+    ],
+    "sap": [
+      {
+        "name": "SAP",
+        "id": "sap",
+        "url": "https://jobs.sap.com/en/jobs/?keyword=intern&country=India"
+      }
+    ],
+    "html": [
+      {
+        "name": "D. E. Shaw India",
+        "id": "deshawindia",
+        "url": "https://www.deshawindia.com/careers",
+        "link_pattern": "/careers/(?!all-positions)[a-z0-9-]+-\\d+$",
+        "id_pattern": "-(\\d+)$",
+        "title_pattern": "^(?:icon)?\\s*([^:]+)",
+        "location": "India"
+      },
+      {
+        "name": "Google",
+        "id": "google",
+        "url": "https://www.google.com/about/careers/applications/jobs/results/?location=India&target_level=INTERN_AND_APPRENTICE",
+        "link_base": "https://www.google.com/about/careers/applications/",
+        "link_pattern": "jobs/results/\\d+",
+        "id_pattern": "results/(\\d+)",
+        "location": "India"
+      }
+    ],
+    "keka": [
+      {
+        "name": "Zanskar Research",
+        "id": "zanskar",
+        "embed": "5638c4cf-98e2-4533-b2e5-cc6b0702cfbf"
+      }
+    ],
+    "darwinbox_json": [
+      {
+        "name": "Upstox",
+        "id": "upstox",
+        "list_url": "https://service.upstox.com/content/open/v1/jobs/",
+        "apply_url": "https://upstox.darwinbox.in/ms/candidatev2/main/careers/jobDetails/{id}?from=all"
+      },
+      {
+        "name": "M2P Fintech",
+        "id": "m2p",
+        "list_url": "https://careers.m2pfintech.com/api/job-list",
+        "apply_url": "https://m2p.darwinbox.in/ms/candidate/careers/{id}"
+      }
+    ],
+    "goldman": [
+      {
+        "name": "Goldman Sachs",
+        "id": "goldmansachs"
+      }
+    ],
+    "teradata": [
+      {
+        "name": "Teradata",
+        "id": "teradata"
+      }
+    ],
+    "page_watch": [
+      {
+        "name": "NIMS Internship (Japan)",
+        "id": "nims-internship",
+        "url": "https://www.nims.go.jp/eng/hr-development/internship.html",
+        "start": "NIMS Internship Program",
+        "end": "Application Procedures",
+        "category": "international_research"
+      },
+      {
+        "name": "Eternal (Zomato/Blinkit) careers",
+        "id": "eternal-careers",
+        "url": "https://www.eternal.com/careers"
+      },
+      {
+        "name": "StoneForge Research careers",
+        "id": "stoneforge-join",
+        "url": "https://stoneforgeresearch.com/join"
       }
     ]
-  }
+  },
+  "tracked_manually": [
+    {
+      "name": "Navi",
+      "careers": "https://navi.com/careers",
+      "ats": "TurboHire (navi.turbohire.co)",
+      "why": "Job list needs a token whose request is refused without spoofing the career-page origin; not bypassed."
+    },
+    {
+      "name": "Flipkart",
+      "careers": "https://www.flipkartcareers.com/",
+      "ats": "TurboHire (flipkart.turbohire.co)",
+      "why": "Same as Navi."
+    },
+    {
+      "name": "Pixxel",
+      "careers": "https://www.pixxel.space/careers",
+      "ats": "Darwinbox (pixxel.darwinbox.in)",
+      "why": "Darwinbox API is behind a Cloudflare challenge."
+    },
+    {
+      "name": "Porter",
+      "careers": "https://porter.in/careers",
+      "ats": "Darwinbox (porter.darwinbox.in)",
+      "why": "Darwinbox API is behind a Cloudflare challenge."
+    },
+    {
+      "name": "LatentView",
+      "careers": "https://www.latentview.com/career/",
+      "ats": "Darwinbox (latentview.darwinbox.in)",
+      "why": "Darwinbox API is behind a Cloudflare challenge."
+    },
+    {
+      "name": "Siemens",
+      "careers": "https://jobs.siemens.com/en_US/externaljobs",
+      "ats": "Avature",
+      "why": "No working India filter found; results are 6 per page, too many pages to scan."
+    },
+    {
+      "name": "Quadeye",
+      "careers": "https://www.quadeye.com/jobs",
+      "ats": "Zoho Recruit (via the site's own /api proxy)",
+      "why": "Proxy path is disallowed in robots.txt and exposes internal recruiter fields; public Zoho RSS is removed."
+    },
+    {
+      "name": "Zepto",
+      "careers": "https://www.zeptonow.com/careers",
+      "ats": "unverified (zepto.darwinbox.in exists, not linked)",
+      "why": "Careers page behind AWS WAF challenge."
+    },
+    {
+      "name": "Capillary Technologies",
+      "careers": "https://www.capillarytech.com/careers/",
+      "ats": "unverified",
+      "why": "Careers page behind Cloudflare challenge."
+    },
+    {
+      "name": "NXP Semiconductors",
+      "careers": "https://www.nxp.com/company/about-nxp/careers:CAREERS",
+      "ats": "unverified",
+      "why": "Every nxp.com page refuses scripted requests (Akamai)."
+    },
+    {
+      "name": "Eternal (Zomato/Blinkit)",
+      "careers": "https://www.eternal.com/careers",
+      "ats": "none (apply by email to hr@eternal.com)",
+      "why": "No job list; page is watched for changes under page_watch."
+    },
+    {
+      "name": "Alphadyne",
+      "careers": "",
+      "ats": "unverified",
+      "why": "alphadyne.com is password-protected; adyne.com has no careers page."
+    },
+    {
+      "name": "Accelequant",
+      "careers": "",
+      "ats": "unverified",
+      "why": "Site misconfigured (Squarespace certificate mismatch); nothing found by search."
+    }
+  ]
 }
