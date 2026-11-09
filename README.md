@@ -58,3 +58,18 @@ posting can't be read, it says so and the link is right there to check.
 Skill fit isn't judged.
 
 Check any posting by hand: `python3 eligibility.py <job url>`
+
+## Board health
+
+Greenhouse, Lever, Ashby and SmartRecruiters are official public feeds. The
+rest (Workday, Oracle, the Darwinbox lists, HTML pages, ...) read endpoints
+or page layouts that can change without notice. So every run records each
+board's result in `health.json`, and the first run after 08:00 IST sends a
+Telegram summary of boards that errored or returned 0 jobs in the last 24
+hours (or "all boards OK").
+
+Workday, Oracle, Amazon and SmartRecruiters only ask for India internships,
+so 0 is normal for them; instead they raise an error if the reply stops
+looking the way it should, and show up under "Errored". Add `"zero_ok": true`
+to a board in `config.json` to stop a board that is really empty from being
+listed every day.

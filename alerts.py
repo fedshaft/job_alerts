@@ -25,7 +25,7 @@ import sys
 import urllib.parse
 import urllib.request
 from concurrent.futures import ThreadPoolExecutor
-from datetime import date, timedelta
+from datetime import date, datetime, timedelta, timezone
 from html.parser import HTMLParser
 from xml.etree import ElementTree as ET
 from pathlib import Path
@@ -34,6 +34,12 @@ ROOT = Path(__file__).resolve().parent
 CONFIG_FILE = ROOT / "config.json"
 SEEN_FILE = ROOT / "seen.json"
 SEEN_KEEP_DAYS = 180
+HEALTH_FILE = ROOT / "health.json"
+IST = timezone(timedelta(hours=5, minutes=30))
+SUMMARY_HOUR_IST = 8  # daily health summary: first run after 08:00 IST
+# These search for India internships only, so 0 results is normal for them;
+# they raise an error instead if the reply stops looking right.
+ZERO_IS_NORMAL = {"workday", "oracle", "amazon", "smartrecruiters"}
 USER_AGENT = "job-alerts/1.0"
 # Some custom career sites refuse non-browser clients.
 BROWSER_UA = "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0 Safari/537.36"
@@ -143,6 +149,8 @@ def fetch_workday(board):
     query = {"appliedFacets": {}, "limit": 20, "offset": 0, "searchText": "intern"}
 
     first = http_json(api, query)
+    if "jobPostings" not in first or "facets" not in first:
+        raise ValueError("Workday reply has changed shape")  # don't read it as "no jobs"
     facets = _india_facets(first.get("facets", []))
     if not facets:
         return []  # nothing in India for this search
@@ -320,7 +328,9 @@ def fetch_oracle(board):
         if location_id:
             finder += f",locationId={location_id}"
         data = http_json(base + urllib.parse.quote(finder, safe="=;,"))
-        return (data.get("items") or [{}])[0]
+        if "items" not in data:
+            raise ValueError("Oracle reply has changed shape")
+        return (data["items"] or [{}])[0]
 
     link = board.get("job_url") or (
         f"https://{board['host']}/hcmUI/CandidateExperience/en/sites/"
@@ -359,7 +369,9 @@ def fetch_amazon(board):
                 "https://www.amazon.jobs/en/search.json?normalized_country_code%5B%5D=IND"
                 f"&base_query={urllib.parse.quote(keyword)}&result_limit=100&offset={offset}"
                 "&sort=recent")
-            for j in data.get("jobs", []):
+            if "jobs" not in data:
+                raise ValueError("amazon.jobs reply has changed shape")
+            for j in data["jobs"]:
                 jobs[j["id_icims"]] = job(j["id_icims"], j["title"], j.get("normalized_location", ""),
                                           "https://www.amazon.jobs" + j["job_path"])
             offset += 100
@@ -526,12 +538,16 @@ def board_id(ats, board):
     return board.get("id") or board.get("tenant") or board["name"]
 
 
+LAST_ERRORS = {}  # (ats, name) -> message, for the health summary
+
+
 def fetch_board(ats, board):
     """Return (ats, board, jobs), with jobs=None if the board failed."""
     try:
         return ats, board, FETCHERS[ats](board)
     except Exception as exc:  # one broken board must not stop the rest
         print(f"WARN {ats}/{board_name(ats, board)}: {exc}", file=sys.stderr)
+        LAST_ERRORS[(ats, board_name(ats, board))] = f"{type(exc).__name__}: {exc}"
         return ats, board, None
 
 
@@ -557,6 +573,49 @@ class Matcher:
             and not self.exclude.search(t)
             and bool(self.location.search(job["location"]))
         )
+
+
+def update_health(results, now, health=None):
+    """Record each board's outcome; keep 24 hours of bad runs per board."""
+    if health is None:
+        health = json.loads(HEALTH_FILE.read_text()) if HEALTH_FILE.exists() else {}
+    boards = health.setdefault("boards", {})
+    cutoff = (now - timedelta(hours=24)).isoformat(timespec="minutes")
+    stamp = now.isoformat(timespec="minutes")
+    for ats, board, jobs in results:
+        key = f"{ats}:{board_id(ats, board)}"
+        h = boards.setdefault(key, {"name": board_name(ats, board), "errors": [], "zeros": []})
+        if jobs is None:
+            h["errors"].append(stamp)
+            h["last_error"] = LAST_ERRORS.get((ats, board_name(ats, board)), "")
+        elif not jobs and ats not in ZERO_IS_NORMAL and not (
+                isinstance(board, dict) and board.get("zero_ok")):
+            h["zeros"].append(stamp)
+        else:
+            h["last_ok"] = stamp
+        h["errors"] = [t for t in h["errors"] if t >= cutoff]
+        h["zeros"] = [t for t in h["zeros"] if t >= cutoff]
+    # forget boards removed from config
+    current = {f"{a}:{board_id(a, b)}" for a, b, _ in results}
+    health["boards"] = {k: v for k, v in boards.items() if k in current}
+    return health
+
+
+def health_summary(health):
+    """Text of the daily summary, or "" if nothing went wrong in 24 hours."""
+    errored = [(h["name"], len(h["errors"]), h.get("last_error", ""))
+               for h in health["boards"].values() if h["errors"]]
+    zeros = [(h["name"], len(h["zeros"])) for h in health["boards"].values() if h["zeros"]]
+    if not errored and not zeros:
+        return ""
+    lines = ["<b>Board health, last 24h</b>"]
+    if errored:
+        lines.append(f"Errored ({len(errored)}):")
+        lines += [f"• {html.escape(n)}: {c} runs. {html.escape(e[:120])}" for n, c, e in sorted(errored)]
+    if zeros:
+        lines.append(f"Returned 0 jobs ({len(zeros)}), usually a site change, sometimes really empty:")
+        lines += [f"• {html.escape(n)}: {c} runs" for n, c in sorted(zeros)]
+    return "\n".join(lines)
 
 
 def load_seen():
@@ -663,8 +722,12 @@ def main():
         if len(rest) > 2 and rest[2]:
             print("      " + rest[2].replace("\n", "\n      "))
 
+    now = datetime.now(IST)
     if dry_run:
+        this_run = health_summary(update_health(results, now, {}))
+        print("\nHealth (this run only):\n" + (this_run or "all boards OK"))
         return
+    health = update_health(results, now)
 
     if new:
         token = os.environ.get("TELEGRAM_BOT_TOKEN")
@@ -684,6 +747,18 @@ def main():
     for key, *_ in found:
         seen.setdefault(key, today)
     save_seen(seen, {key for key, *_ in found})
+
+    # Once a day: which boards errored or came back empty in the last 24 hours.
+    token, chat_id = os.environ.get("TELEGRAM_BOT_TOKEN"), os.environ.get("TELEGRAM_CHAT_ID")
+    if (token and chat_id and now.hour >= SUMMARY_HOUR_IST
+            and health.get("last_summary") != now.date().isoformat()):
+        text = health_summary(health)
+        try:
+            send_telegram(token, chat_id, text or "Board health, last 24h: all boards OK.")
+            health["last_summary"] = now.date().isoformat()
+        except Exception as exc:
+            print(f"WARN health summary not sent: {exc}", file=sys.stderr)
+    HEALTH_FILE.write_text(json.dumps(health, indent=1, sort_keys=True) + "\n")
 
     # Fail loudly (GitHub emails you) if many boards break, e.g. an API change.
     if len(failed) > len(boards) // 4:
