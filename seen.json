@@ -1,5 +1,6 @@
 {
  "ashby:pramaana-labs:83f179da-9bc8-4146-b217-817b79e78fa0": "2026-11-10",
+ "canon:arm|gpuhardwareintern": "2026-11-11",
  "canon:arm|graduatesecurityengineer": "2026-11-11",
  "canon:celonis|associatedeploymentengineergalaxygraduateprogram": "2026-11-09",
  "canon:cloudsek|securityconsultantintern": "2026-11-09",
@@ -24,6 +25,7 @@
  "canon:paypal|softwareengineerintern": "2026-11-10",
  "canon:pramaana|researchintern": "2026-11-10",
  "canon:rubrik|softwareengineercpdintern": "2026-11-09",
+ "canon:salesforce|internsoftwareengineer": "2026-11-11",
  "canon:sigmoid|deinternsdetraineeoffcampushiring": "2026-11-10",
  "canon:sprinto|informationsecuritycomplianceintern": "2026-11-10",
  "canon:statestreet|technologyearlycareerentryprogram": "2026-11-09",
@@ -47,6 +49,7 @@
  "greenhouse:truefoundry:5126892008": "2026-11-09",
  "greenhouse:truefoundry:5127144008": "2026-11-10",
  "html:arm:101751692768": "2026-11-11",
+ "html:arm:103158328096": "2026-11-11",
  "html:synopsys:102584673248": "2026-11-10",
  "html:synopsys:103136134960": "2026-11-11",
  "keka:venwiztechnologies:166210": "2026-11-10",
@@ -57,6 +60,7 @@
  "oracle:Honeywell:160486": "2026-11-10",
  "oracle:Honeywell:160494": "2026-11-10",
  "oracle:Honeywell:161204": "2026-11-11",
+ "oracle:Honeywell:161207": "2026-11-11",
  "oracle:Nokia:39934": "2026-11-09",
  "page_watch:eternal-careers:600ab7c3397a6b26": "2026-11-09",
  "page_watch:nims-internship:abb87588c7386efd": "2026-11-09",
@@ -66,8 +70,10 @@
  "workday:gehc:R4041235-1": "2026-11-11",
  "workday:gehc:R4043882-1": "2026-11-10",
  "workday:gehc:R4046068-1": "2026-11-10",
+ "workday:gehc:R4046876-1": "2026-11-11",
  "workday:gehc:R4048609-1": "2026-11-10",
  "workday:gehc:R4048826-1": "2026-11-10",
  "workday:paypal:R0138921": "2026-11-10",
+ "workday:salesforce:JR337715": "2026-11-11",
  "workday:statestreet:R-800791": "2026-11-09"
 }
