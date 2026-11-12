@@ -41,11 +41,12 @@ SUMMARY_HOUR_IST = 8  # daily health summary: first run after 08:00 IST
 # These search for India internships only, so 0 results is normal for them;
 # they raise an error instead if the reply stops looking right.
 ZERO_IS_NORMAL = {"workday", "oracle", "amazon", "smartrecruiters"}
+WORKDAY_SEARCH = ["intern", "trainee", "graduate"]  # one Workday search per word
 USER_AGENT = "job-alerts/1.0"
 # Some custom career sites refuse non-browser clients.
 BROWSER_UA = "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0 Safari/537.36"
 INDIA = re.compile(
-    r"india|bengaluru|bangalore|hyderabad|pune|chennai|mumbai|gurgaon|gurugram"
+    r"india(?!n)|bengaluru|bangalore|hyderabad|pune|chennai|mumbai|gurgaon|gurugram"  # not Indiana(polis)
     r"|noida|delhi|kolkata|ahmedabad|jaipur|kochi|coimbatore",
     re.IGNORECASE,
 )
@@ -144,35 +145,38 @@ def _india_facets(facets):
 
 
 def fetch_workday(board):
-    """board = {"name", "tenant", "wd", "site"}. Asks Workday for India 'intern' jobs only."""
+    """board = {"name", "tenant", "wd", "site", "search"?}. Asks Workday for India jobs only.
+
+    One search per word in board["search"] (default WORKDAY_SEARCH), because Workday's
+    search for "intern" doesn't return e.g. "Graduate Engineer Trainee".
+    """
     host = f"https://{board['tenant']}.wd{board['wd']}.myworkdayjobs.com"
     api = f"{host}/wday/cxs/{board['tenant']}/{board['site']}/jobs"
-    query = {"appliedFacets": {}, "limit": 20, "offset": 0, "searchText": "intern"}
-
-    first = http_json(api, query)
-    if "jobPostings" not in first or "facets" not in first:
-        raise ValueError("Workday reply has changed shape")  # don't read it as "no jobs"
-    facets = _india_facets(first.get("facets", []))
-    if not facets:
-        return []  # nothing in India for this search
-    query["appliedFacets"] = facets
-
-    jobs = []
-    while query["offset"] < 400:
-        data = http_json(api, query)
-        for p in data.get("jobPostings", []):
-            path = p.get("externalPath")
-            if not path:
-                continue  # Workday sometimes lists an entry with no link; skip it, keep the rest
-            loc = p.get("locationsText") or ""
-            if not INDIA.search(loc):
-                loc = f"{loc} (India)".strip()  # e.g. "3 Locations"; the India filter guarantees one
-            jobs.append(job(path.rsplit("_", 1)[-1], p["title"], loc,
-                            f"{host}/en-US/{board['site']}{path}"))
-        query["offset"] += 20
-        if query["offset"] >= data.get("total", 0):
-            break
-    return jobs
+    jobs = {}
+    for text in board.get("search", WORKDAY_SEARCH):
+        query = {"appliedFacets": {}, "limit": 20, "offset": 0, "searchText": text}
+        first = http_json(api, query)
+        if "jobPostings" not in first or "facets" not in first:
+            raise ValueError("Workday reply has changed shape")  # don't read it as "no jobs"
+        facets = _india_facets(first.get("facets", []))
+        if not facets:
+            continue  # nothing in India for this search
+        query["appliedFacets"] = facets
+        while query["offset"] < 400:
+            data = http_json(api, query)
+            for p in data.get("jobPostings", []):
+                path = p.get("externalPath")
+                if not path:
+                    continue  # Workday sometimes lists an entry with no link; skip it, keep the rest
+                loc = p.get("locationsText") or ""
+                if not INDIA.search(loc):
+                    loc = f"{loc} (India)".strip()  # e.g. "3 Locations"; the India filter guarantees one
+                id_ = path.rsplit("_", 1)[-1]
+                jobs[id_] = job(id_, p["title"], loc, f"{host}/en-US/{board['site']}{path}")
+            query["offset"] += 20
+            if query["offset"] >= data.get("total", 0):
+                break
+    return list(jobs.values())
 
 
 def fetch_zoho_rss(board):

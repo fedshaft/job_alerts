@@ -9,7 +9,7 @@
   "title_role": "\\b(intern|interns|internship|internships|trainee|apprentice|new grad|graduate|fresher|freshers|campus|early career|entry level)\\b",
   "title_tech": "software|\\bsde|engineer|developer|backend|back-end|full.?stack|platform|infra|devops|\\bsre\\b|reliability|cloud|systems|data|security|\\bml\\b|\\bai\\b|\\btech|research|\\bquant|\\bqa\\b|sdet|test automation|automation|\\bc\\+\\+|machine learning|deep learning|\\bnlp\\b|computer vision|front.?end|mobile|android|\\bios\\b|\\bweb\\b|embedded|firmware|hardware|vlsi|silicon|robotics|analytics|blockchain|\\bapi\\b",
   "title_exclude": "\\b(hr|human resources|talent|recruit\\w*|marketing|sales|finance|accounting|legal|design|ux|ui|phd|ph\\.d|technician|master'?s|mba)\\b",
-  "location": "india|bengaluru|bangalore|hyderabad|pune|chennai|mumbai|gurgaon|gurugram|noida|delhi|kolkata|ahmedabad|jaipur|kochi|coimbatore|gandhinagar|gujarat|karnataka|maharashtra|telangana|tamil nadu|kerala|thiruvananthapuram|trivandrum|indore|bhubaneswar|chandigarh|mohali|lucknow|nagpur|vadodara|surat|mysore|mysuru|visakhapatnam|vizag|goa|haryana|uttar pradesh|west bengal|^\\s*remote\\s*$|remote.*(global|worldwide|anywhere|apac|asia)",
+  "location": "india(?!n)|bengaluru|bangalore|hyderabad|pune|chennai|mumbai|gurgaon|gurugram|noida|delhi|kolkata|ahmedabad|jaipur|kochi|coimbatore|gandhinagar|gujarat|karnataka|maharashtra|telangana|tamil nadu|kerala|thiruvananthapuram|trivandrum|indore|bhubaneswar|chandigarh|mohali|lucknow|nagpur|vadodara|surat|mysore|mysuru|visakhapatnam|vizag|goa|haryana|uttar pradesh|west bengal|^\\s*remote\\s*$|remote.*(global|worldwide|anywhere|apac|asia)",
   "categories": {
     "international_research": {
       "title_role": "\\b(intern|interns|internship|internships|trainee|research)\\b",
@@ -27,8 +27,10 @@
       "airbnb",
       "anthropic",
       "appian",
+      "appsflyer",
       "arcesiumllc",
       "bitwarden",
+      "celigo",
       "celonis",
       "chainguard",
       "cloudsek",
@@ -39,6 +41,7 @@
       "contentstack",
       "couchbaseinc",
       "coupang",
+      "coursera",
       "databricks",
       "datadog",
       "devrev",
@@ -50,24 +53,35 @@
       "fastly",
       "figma",
       "fivetran",
+      "flexport",
       "gitlab",
       "glance",
       "grafanalabs",
+      "gravitonresearchcapital",
       "groww",
       "hackerrank",
       "harnessinc",
       "highradius",
+      "imc",
       "inmobi",
       "intercom",
       "jfrog",
+      "jumptrading",
       "karat",
+      "launchdarkly",
       "logicmonitor",
+      "mixpanel",
+      "moloco",
       "mongodb",
+      "neo4j",
       "netskope",
       "newrelic",
       "nirmata",
       "observeai",
       "okta",
+      "onetrust",
+      "oportun",
+      "optiverus",
       "pagerduty",
       "pinterest",
       "point72",
@@ -78,29 +92,41 @@
       "redwoodsoftware",
       "reltio",
       "robinhood",
+      "roblox",
       "rubrik",
       "sahajsoftware",
       "samsara",
+      "scopely",
       "sigmoid",
       "singlestore",
+      "smartsheet",
+      "solarwinds",
       "sonicwall",
+      "squarepointcapital",
       "starburst",
       "stripe",
       "sumologic",
       "thoughtworks",
+      "toast",
       "towerresearchcapital",
+      "tripactions",
       "truefoundry",
       "truveta",
       "turing",
       "twilio",
       "vercel",
+      "wehrtyou",
       "wise",
       "wizinc",
+      "workato",
+      "worldquant",
       "xendit",
+      "yext",
       "yugabyte",
       "zenoti",
       "zoominfo",
-      "zscaler"
+      "zscaler",
+      "zuora"
     ],
     "lever": [
       "100ms",
@@ -120,18 +146,24 @@
       "saviynt",
       "shyftlabs",
       "sonatype",
+      "spotify",
       "valgenesis",
+      "veeva",
       "zeta"
     ],
     "ashby": [
       "airwallex",
+      "anyscale",
+      "aspora",
       "atlan",
       "bureau",
       "clickhouse",
       "cohere",
       "composio",
+      "cursor",
       "cyberhaven",
       "ddn",
+      "elevenlabs",
       "ema",
       "harvey",
       "headout",
@@ -541,6 +573,528 @@
         "tenant": "gsk",
         "wd": 5,
         "site": "GSKCareers"
+      },
+      {
+        "name": "CrowdStrike",
+        "tenant": "crowdstrike",
+        "wd": 5,
+        "site": "crowdstrikecareers"
+      },
+      {
+        "name": "Medtronic",
+        "tenant": "medtronic",
+        "wd": 1,
+        "site": "MedtronicCareers"
+      },
+      {
+        "name": "Abbott",
+        "tenant": "abbott",
+        "wd": 5,
+        "site": "abbottcareers"
+      },
+      {
+        "name": "Pfizer",
+        "tenant": "pfizer",
+        "wd": 1,
+        "site": "PfizerCareers"
+      },
+      {
+        "name": "Novartis",
+        "tenant": "novartis",
+        "wd": 3,
+        "site": "Novartis_Careers"
+      },
+      {
+        "name": "Sanofi",
+        "tenant": "sanofi",
+        "wd": 3,
+        "site": "SanofiCareers"
+      },
+      {
+        "name": "MSD (Merck)",
+        "tenant": "msd",
+        "wd": 5,
+        "site": "SearchJobs"
+      },
+      {
+        "name": "Bristol Myers Squibb",
+        "tenant": "bristolmyerssquibb",
+        "wd": 5,
+        "site": "BMS"
+      },
+      {
+        "name": "Amgen",
+        "tenant": "amgen",
+        "wd": 1,
+        "site": "Careers"
+      },
+      {
+        "name": "Roche",
+        "tenant": "roche",
+        "wd": 3,
+        "site": "roche-ext"
+      },
+      {
+        "name": "Thermo Fisher",
+        "tenant": "thermofisher",
+        "wd": 5,
+        "site": "ThermoFisherCareers"
+      },
+      {
+        "name": "Danaher",
+        "tenant": "danaher",
+        "wd": 1,
+        "site": "DanaherJobs"
+      },
+      {
+        "name": "Illumina",
+        "tenant": "illumina",
+        "wd": 1,
+        "site": "illumina-careers"
+      },
+      {
+        "name": "Agilent",
+        "tenant": "agilent",
+        "wd": 5,
+        "site": "Agilent_Careers"
+      },
+      {
+        "name": "Rockwell Automation",
+        "tenant": "rockwellautomation",
+        "wd": 1,
+        "site": "External_Rockwell_Automation"
+      },
+      {
+        "name": "Johnson Controls",
+        "tenant": "jci",
+        "wd": 5,
+        "site": "JCI"
+      },
+      {
+        "name": "Carrier",
+        "tenant": "carrier",
+        "wd": 5,
+        "site": "jobs"
+      },
+      {
+        "name": "3M",
+        "tenant": "3m",
+        "wd": 1,
+        "site": "Search"
+      },
+      {
+        "name": "Shell",
+        "tenant": "shell",
+        "wd": 3,
+        "site": "ShellCareers"
+      },
+      {
+        "name": "bp",
+        "tenant": "bpinternational",
+        "wd": 3,
+        "site": "bpCareers"
+      },
+      {
+        "name": "Chevron",
+        "tenant": "chevron",
+        "wd": 5,
+        "site": "jobs"
+      },
+      {
+        "name": "Caterpillar",
+        "tenant": "cat",
+        "wd": 5,
+        "site": "CaterpillarCareers"
+      },
+      {
+        "name": "Airbus",
+        "tenant": "ag",
+        "wd": 3,
+        "site": "Airbus"
+      },
+      {
+        "name": "RTX (Collins, Pratt & Whitney)",
+        "tenant": "globalhr",
+        "wd": 5,
+        "site": "REC_RTX_Ext_Gateway"
+      },
+      {
+        "name": "GE Aerospace",
+        "tenant": "geaerospace",
+        "wd": 5,
+        "site": "GE_ExternalSite"
+      },
+      {
+        "name": "GE Vernova",
+        "tenant": "gevernova",
+        "wd": 5,
+        "site": "Vernova_ExternalSite"
+      },
+      {
+        "name": "Silicon Labs",
+        "tenant": "silabs",
+        "wd": 1,
+        "site": "SiliconlabsCareers"
+      },
+      {
+        "name": "Microchip",
+        "tenant": "microchiphr",
+        "wd": 5,
+        "site": "External"
+      },
+      {
+        "name": "Ciena",
+        "tenant": "ciena",
+        "wd": 5,
+        "site": "Careers"
+      },
+      {
+        "name": "Fidelity International",
+        "tenant": "fil",
+        "wd": 3,
+        "site": "001"
+      },
+      {
+        "name": "Invesco",
+        "tenant": "invesco",
+        "wd": 1,
+        "site": "IVZ"
+      },
+      {
+        "name": "BlackRock",
+        "tenant": "blackrock",
+        "wd": 1,
+        "site": "BlackRock_Professional"
+      },
+      {
+        "name": "Manulife",
+        "tenant": "manulife",
+        "wd": 3,
+        "site": "MFCJH_Jobs"
+      },
+      {
+        "name": "Equifax",
+        "tenant": "equifax",
+        "wd": 5,
+        "site": "External"
+      },
+      {
+        "name": "FICO",
+        "tenant": "fico",
+        "wd": 1,
+        "site": "External"
+      },
+      {
+        "name": "FIS",
+        "tenant": "fis",
+        "wd": 5,
+        "site": "SearchJobs"
+      },
+      {
+        "name": "Global Payments",
+        "tenant": "tsys",
+        "wd": 1,
+        "site": "TSYS"
+      },
+      {
+        "name": "Clarivate",
+        "tenant": "clarivate",
+        "wd": 3,
+        "site": "Clarivate_Careers"
+      },
+      {
+        "name": "Wolters Kluwer",
+        "tenant": "wk",
+        "wd": 3,
+        "site": "External"
+      },
+      {
+        "name": "RELX (LexisNexis, Elsevier)",
+        "tenant": "relx",
+        "wd": 3,
+        "site": "relx"
+      },
+      {
+        "name": "Gartner",
+        "tenant": "gartner",
+        "wd": 5,
+        "site": "EXT"
+      },
+      {
+        "name": "Kyndryl",
+        "tenant": "kyndryl",
+        "wd": 5,
+        "site": "KyndrylProfessionalCareers"
+      },
+      {
+        "name": "DXC",
+        "tenant": "dxctechnology",
+        "wd": 1,
+        "site": "DXCJobs"
+      },
+      {
+        "name": "Unisys",
+        "tenant": "unisys",
+        "wd": 5,
+        "site": "External"
+      },
+      {
+        "name": "Pitney Bowes",
+        "tenant": "pitneybowes",
+        "wd": 1,
+        "site": "pbcareers"
+      },
+      {
+        "name": "Zendesk",
+        "tenant": "zendesk",
+        "wd": 1,
+        "site": "Zendesk"
+      },
+      {
+        "name": "Guidewire",
+        "tenant": "guidewire",
+        "wd": 5,
+        "site": "external"
+      },
+      {
+        "name": "Blue Yonder",
+        "tenant": "jda",
+        "wd": 5,
+        "site": "JDA_Careers"
+      },
+      {
+        "name": "Genesys",
+        "tenant": "genesys",
+        "wd": 1,
+        "site": "Genesys"
+      },
+      {
+        "name": "Trimble",
+        "tenant": "trimble",
+        "wd": 1,
+        "site": "TrimbleCareers"
+      },
+      {
+        "name": "eBay",
+        "tenant": "ebay",
+        "wd": 5,
+        "site": "apply"
+      },
+      {
+        "name": "Gap Inc",
+        "tenant": "gapinc",
+        "wd": 1,
+        "site": "GAPINC"
+      },
+      {
+        "name": "Elevance (Carelon)",
+        "tenant": "elevancehealth",
+        "wd": 1,
+        "site": "ANT"
+      },
+      {
+        "name": "Baxter",
+        "tenant": "baxter",
+        "wd": 1,
+        "site": "baxter"
+      },
+      {
+        "name": "Aptiv",
+        "tenant": "aptiv",
+        "wd": 5,
+        "site": "APTIV_CAREERS"
+      },
+      {
+        "name": "Maersk",
+        "tenant": "maersk",
+        "wd": 3,
+        "site": "Maersk_Careers"
+      },
+      {
+        "name": "Unilever",
+        "tenant": "unilever",
+        "wd": 3,
+        "site": "Unilever_Experienced_Professionals"
+      },
+      {
+        "name": "CME Group",
+        "tenant": "cmegroup",
+        "wd": 1,
+        "site": "cme_careers"
+      },
+      {
+        "name": "Ameriprise",
+        "tenant": "ameriprise",
+        "wd": 5,
+        "site": "Ameriprise"
+      },
+      {
+        "name": "Capital One",
+        "tenant": "capitalone",
+        "wd": 12,
+        "site": "Capital_One"
+      },
+      {
+        "name": "athenahealth",
+        "tenant": "athenahealth",
+        "wd": 1,
+        "site": "External"
+      },
+      {
+        "name": "IQVIA",
+        "tenant": "iqvia",
+        "wd": 1,
+        "site": "IQVIA"
+      },
+      {
+        "name": "PwC",
+        "tenant": "pwc",
+        "wd": 3,
+        "site": "Global_Experienced_Careers"
+      },
+      {
+        "name": "Kimberly-Clark",
+        "tenant": "kimberlyclark",
+        "wd": 1,
+        "site": "GLOBAL"
+      },
+      {
+        "name": "Trend Micro",
+        "tenant": "trendmicro",
+        "wd": 3,
+        "site": "External"
+      },
+      {
+        "name": "Proofpoint",
+        "tenant": "proofpoint",
+        "wd": 5,
+        "site": "ProofpointCareers"
+      },
+      {
+        "name": "Morningstar",
+        "tenant": "morningstar",
+        "wd": 5,
+        "site": "Americas"
+      },
+      {
+        "name": "Zoom",
+        "tenant": "zoom",
+        "wd": 5,
+        "site": "Zoom"
+      },
+      {
+        "name": "GlobalFoundries",
+        "tenant": "globalfoundries",
+        "wd": 1,
+        "site": "External"
+      },
+      {
+        "name": "TIAA",
+        "tenant": "tiaa",
+        "wd": 1,
+        "site": "Search"
+      },
+      {
+        "name": "Marsh McLennan",
+        "tenant": "mmc",
+        "wd": 1,
+        "site": "MMC"
+      },
+      {
+        "name": "Nike",
+        "tenant": "nike",
+        "wd": 1,
+        "site": "nke"
+      },
+      {
+        "name": "Commonwealth Bank",
+        "tenant": "cba",
+        "wd": 3,
+        "site": "CommBank_Careers"
+      },
+      {
+        "name": "Xylem",
+        "tenant": "xylem",
+        "wd": 5,
+        "site": "xylem-careers"
+      },
+      {
+        "name": "Sabre",
+        "tenant": "sabre",
+        "wd": 1,
+        "site": "SabreJobs"
+      },
+      {
+        "name": "Becton Dickinson",
+        "tenant": "bdx",
+        "wd": 1,
+        "site": "EXTERNAL_CAREER_SITE_INDIA"
+      },
+      {
+        "name": "Alcon",
+        "tenant": "alcon",
+        "wd": 5,
+        "site": "careers_alcon"
+      },
+      {
+        "name": "Hitachi Energy",
+        "tenant": "hitachi",
+        "wd": 1,
+        "site": "hitachi"
+      },
+      {
+        "name": "Qualys",
+        "tenant": "qualys",
+        "wd": 5,
+        "site": "Careers"
+      },
+      {
+        "name": "Mondelez",
+        "tenant": "mdlz",
+        "wd": 3,
+        "site": "External"
+      },
+      {
+        "name": "Diageo",
+        "tenant": "diageo",
+        "wd": 3,
+        "site": "Diageo_Careers"
+      },
+      {
+        "name": "Regeneron",
+        "tenant": "regeneron",
+        "wd": 1,
+        "site": "Careers"
+      },
+      {
+        "name": "Edwards Lifesciences",
+        "tenant": "edwards",
+        "wd": 5,
+        "site": "EdwardsCareers"
+      },
+      {
+        "name": "Eli Lilly",
+        "tenant": "lilly",
+        "wd": 115,
+        "site": "LLY"
+      },
+      {
+        "name": "Otis",
+        "tenant": "otis",
+        "wd": 504,
+        "site": "REC_Ext_Gateway"
+      },
+      {
+        "name": "FactSet",
+        "tenant": "factset",
+        "wd": 108,
+        "site": "FactSetCareers"
+      },
+      {
+        "name": "NetScout",
+        "tenant": "netscout",
+        "wd": 108,
+        "site": "Careers"
       }
     ],
     "zoho_rss": [
@@ -1200,12 +1754,6 @@
       "careers": "https://www.oyorooms.com/careers",
       "ats": "LinkedIn only",
       "why": "/careers redirects to home; only a LinkedIn jobs link."
-    },
-    {
-      "name": "Caterpillar / Gartner / BlackRock",
-      "careers": "https://careers.caterpillar.com/en/",
-      "ats": "Beamery / Radancy (not identified further)",
-      "why": "Not checked further; possible next round."
     },
     {
       "name": "Verizon",

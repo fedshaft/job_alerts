@@ -1,6 +1,6 @@
 # job-alerts
 
-Checks ~325 companies' public job boards every 30 minutes and sends new
+Checks ~445 companies' public job boards every 30 minutes and sends new
 India / global-remote tech internships to Telegram.
 
 Hiring systems covered: Greenhouse, Lever, Ashby, SmartRecruiters, Workday,
