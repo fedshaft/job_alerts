@@ -771,7 +771,7 @@ def update_health(results, now, health=None):
 def health_summary(health):
     """Text of the daily summary, or "" if nothing went wrong in 24 hours."""
     errored = [(h["name"], len(h["errors"]), h.get("last_error", ""))
-               for h in health["boards"].values() if h["errors"]]
+               for h in health["boards"].values() if len(h["errors"]) >= 3]
     zeros = [(h["name"], len(h["zeros"])) for h in health["boards"].values() if h["zeros"]]
     if not errored and not zeros:
         return ""
