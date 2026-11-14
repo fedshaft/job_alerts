@@ -881,14 +881,14 @@ def send_telegram(token, chat_id, text):
             raise RuntimeError("Telegram did not accept the message")
 
 
-def chunk_messages(header, items, limit=3800):
+def chunk_messages(header, items, limit=3800, sep="\n\n"):
     """Split into messages under Telegram's 4096-char limit."""
     messages, current = [], header
     for item in items:
-        if len(current) + len(item) + 2 > limit:
+        if len(current) + len(item) + len(sep) > limit:
             messages.append(current)
             current = ""
-        current += ("\n\n" if current else "") + item
+        current += (sep if current else "") + item
     messages.append(current)
     return messages
 
@@ -1022,7 +1022,10 @@ def main():
             and health.get("last_summary") != now.date().isoformat()):
         text = health_summary(health)
         try:
-            send_telegram(token, chat_id, text or "Board health, last 24h: all boards OK.")
+            lines = (text or "Board health, last 24h: all boards OK.").split("\n")
+            # A big outage lists 100+ boards, over Telegram's limit (HTTP 400): send in parts.
+            for msg in chunk_messages(lines[0], lines[1:], sep="\n"):
+                send_telegram(token, chat_id, msg)
             health["last_summary"] = now.date().isoformat()
         except Exception as exc:
             print(f"WARN health summary not sent: {exc}", file=sys.stderr)
