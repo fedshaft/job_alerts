@@ -508,6 +508,8 @@ def fetch_teradata(board):
     while start < 1000:
         res = http_json("https://careers.teradata.com/graphql",
                         {"query": TERADATA_QUERY, "variables": {"first": 100, "start": start}})
+        if res.get("errors"):  # the site answers 200 with an error inside when its backend fails
+            raise ValueError("Teradata API: " + str(res["errors"][0].get("message"))[:100])
         r = res["data"]["searchJobs"]["results"]
         for n in r["nodes"]:
             if not n:
