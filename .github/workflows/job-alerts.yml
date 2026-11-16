@@ -13,7 +13,7 @@ concurrency: job-alerts       # never two runs at once (they'd fight over seen.j
 jobs:
   check:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 15  # room for 429 retries
     steps:
       - uses: actions/checkout@v7   # verified: latest release v7.0.1 (Jul 2026)
 
@@ -29,6 +29,9 @@ jobs:
           GMAIL_REFRESH_TOKEN: ${{ secrets.GMAIL_REFRESH_TOKEN }}
 
       - name: Save seen jobs and board health
+        # Run even if the check failed: alerts may already be sent, and without
+        # saving seen.json the next run would send them again.
+        if: ${{ !cancelled() }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"

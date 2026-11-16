@@ -23,6 +23,9 @@ import json
 import os
 import re
 import sys
+import threading
+import time
+import urllib.error
 import urllib.parse
 import urllib.request
 from concurrent.futures import ThreadPoolExecutor
@@ -43,6 +46,10 @@ SUMMARY_HOUR_IST = 8  # daily health summary: first run after 08:00 IST
 ZERO_IS_NORMAL = {"workday", "oracle", "amazon", "smartrecruiters"}
 WORKDAY_SEARCH = ["intern", "trainee", "graduate"]  # one Workday search per word
 USER_AGENT = "job-alerts/1.0"
+# All Workday companies share myworkdayjobs.com, which answers 429 (Too Many Requests)
+# when one IP sends too much at once. Keep only a few Workday boards in flight.
+WORKDAY_SLOTS = threading.BoundedSemaphore(4)
+RETRY_WAITS = [5, 20]  # seconds to wait before each retry after a 429/503
 # Some custom career sites refuse non-browser clients.
 BROWSER_UA = "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0 Safari/537.36"
 INDIA = re.compile(
@@ -60,8 +67,19 @@ def http_json(url, payload=None):
         data = json.dumps(payload).encode()
         headers["Content-Type"] = "application/json"
     req = urllib.request.Request(url, data=data, headers=headers)
-    with urllib.request.urlopen(req, timeout=25) as resp:
-        return json.load(resp)
+    for attempt in range(len(RETRY_WAITS) + 1):
+        try:
+            with urllib.request.urlopen(req, timeout=25) as resp:
+                return json.load(resp)
+        except urllib.error.HTTPError as exc:
+            # 429/503 mean "slow down", not "broken": wait and try again.
+            if exc.code not in (429, 503) or attempt == len(RETRY_WAITS):
+                raise
+            wait = RETRY_WAITS[attempt]
+            retry_after = exc.headers.get("Retry-After", "")
+            if retry_after.isdigit():
+                wait = min(int(retry_after), 60)
+            time.sleep(wait)
 
 
 def job(id_, title, location, url):
@@ -150,6 +168,11 @@ def fetch_workday(board):
     One search per word in board["search"] (default WORKDAY_SEARCH), because Workday's
     search for "intern" doesn't return e.g. "Graduate Engineer Trainee".
     """
+    with WORKDAY_SLOTS:
+        return _fetch_workday(board)
+
+
+def _fetch_workday(board):
     host = f"https://{board['tenant']}.wd{board['wd']}.myworkdayjobs.com"
     api = f"{host}/wday/cxs/{board['tenant']}/{board['site']}/jobs"
     jobs = {}
