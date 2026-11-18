@@ -49,7 +49,11 @@ USER_AGENT = "job-alerts/1.0"
 # All Workday companies share myworkdayjobs.com, which answers 429 (Too Many Requests)
 # when one IP sends too much at once. Keep only a few Workday boards in flight.
 WORKDAY_SLOTS = threading.BoundedSemaphore(4)
+# Once Workday still says 429 after retries, it is blocking this IP for a while:
+# skip the other Workday boards this run instead of waiting on each one.
+WORKDAY_BLOCKED = threading.Event()
 RETRY_WAITS = [5, 20]  # seconds to wait before each retry after a 429/503
+RATE_LIMITED = set()  # "ats/name" of boards that failed with 429 this run
 # Some custom career sites refuse non-browser clients.
 BROWSER_UA = "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0 Safari/537.36"
 INDIA = re.compile(
@@ -78,7 +82,7 @@ def http_json(url, payload=None):
             wait = RETRY_WAITS[attempt]
             retry_after = exc.headers.get("Retry-After", "")
             if retry_after.isdigit():
-                wait = min(int(retry_after), 60)
+                wait = min(int(retry_after), 30)
             time.sleep(wait)
 
 
@@ -169,7 +173,14 @@ def fetch_workday(board):
     search for "intern" doesn't return e.g. "Graduate Engineer Trainee".
     """
     with WORKDAY_SLOTS:
-        return _fetch_workday(board)
+        if WORKDAY_BLOCKED.is_set():
+            raise RuntimeError("skipped: Workday is rate-limiting this run (429)")
+        try:
+            return _fetch_workday(board)
+        except urllib.error.HTTPError as exc:
+            if exc.code == 429:
+                WORKDAY_BLOCKED.set()
+            raise
 
 
 def _fetch_workday(board):
@@ -744,6 +755,8 @@ def fetch_board(ats, board):
     except Exception as exc:  # one broken board must not stop the rest
         print(f"WARN {ats}/{board_name(ats, board)}: {exc}", file=sys.stderr)
         LAST_ERRORS[(ats, board_name(ats, board))] = f"{type(exc).__name__}: {exc}"
+        if "429" in str(exc):
+            RATE_LIMITED.add(f"{ats}/{board_name(ats, board)}")
         return ats, board, None
 
 
@@ -1005,7 +1018,7 @@ def main():
     if "profile" in cfg:
         new = add_verdicts(new, cfg["profile"])
 
-    print(f"{len(boards)} boards, {len(failed)} failed, "
+    print(f"{len(boards)} boards, {len(failed)} failed ({len(RATE_LIMITED)} rate-limited), "
           f"{len(found)} matching open roles, {len(new)} new")
     if failed:
         print("  failed:", ", ".join(failed))
@@ -1057,8 +1070,11 @@ def main():
     HEALTH_FILE.write_text(json.dumps(health, indent=1, sort_keys=True) + "\n")
 
     # Fail loudly (GitHub emails you) if many boards break, e.g. an API change.
-    if len(failed) > len(boards) // 4:
-        sys.exit(f"Too many boards failed: {failed}")
+    # Rate limits (429) are temporary and show up in the daily health summary
+    # instead, so they don't email you every run.
+    broken = [f for f in failed if f not in RATE_LIMITED]
+    if len(broken) > len(boards) // 4:
+        sys.exit(f"Too many boards failed: {broken}")
 
 
 if __name__ == "__main__":
