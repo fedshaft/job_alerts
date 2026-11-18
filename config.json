@@ -1796,7 +1796,7 @@
     }
   ],
   "yc_auto": {
-    "last_run": "2026-11-16",
+    "last_run": "2026-11-18",
     "boards": {
       "ashby": [
         {
@@ -1976,6 +1976,10 @@
         {
           "name": "Modern Health",
           "id": "modernhealth"
+        },
+        {
+          "name": "Treasury Prime",
+          "id": "treasuryprime"
         }
       ],
       "lever": [
@@ -3389,6 +3393,29 @@
       "flick": {
         "date": "2026-11-12",
         "website": "https://flick.art",
+        "status": "no ATS link on site"
+      },
+      "treasury-prime": {
+        "date": "2026-11-18",
+        "website": "https://treasuryprime.com",
+        "ats": "greenhouse",
+        "slug": "treasuryprime",
+        "evidence": "https://treasuryprime.com/careers",
+        "status": "added"
+      },
+      "frontpage": {
+        "date": "2026-11-18",
+        "website": "https://front.page",
+        "status": "no ATS link on site"
+      },
+      "trainy": {
+        "date": "2026-11-18",
+        "website": "https://trainy.ai/",
+        "status": "no ATS link on site"
+      },
+      "surebright": {
+        "date": "2026-11-18",
+        "website": "https://surebright.com/",
         "status": "no ATS link on site"
       }
     }
