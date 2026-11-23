@@ -1796,7 +1796,7 @@
     }
   ],
   "yc_auto": {
-    "last_run": "2026-11-22",
+    "last_run": "2026-11-23",
     "boards": {
       "ashby": [
         {
@@ -3429,7 +3429,7 @@
     "note": "Gmail search is limited to these sender domains; only job links are kept."
   },
   "vc_auto": {
-    "last_run": "2026-11-16",
+    "last_run": "2026-11-23",
     "boards": {
       "lever": [
         {
@@ -3646,6 +3646,11 @@
         {
           "name": "Rhythms",
           "id": "Rhythms",
+          "fund": "Accel"
+        },
+        {
+          "name": "Trail",
+          "id": "trailhq",
           "fund": "Accel"
         }
       ],
@@ -11362,6 +11367,72 @@
         "website": "http://www.zumutor.com",
         "india": true,
         "status": "no ATS link on site"
+      },
+      "Peak XV:biostack": {
+        "date": "2026-11-23",
+        "name": "BioStack",
+        "website": "https://www.getbiostack.com/",
+        "india": true,
+        "status": "no ATS link on site"
+      },
+      "Peak XV:hex": {
+        "date": "2026-11-23",
+        "name": "Hex",
+        "website": "https://hex.tech",
+        "india": true,
+        "status": "no ATS link on site"
+      },
+      "Peak XV:nua": {
+        "date": "2026-11-23",
+        "name": "Nua",
+        "website": "https://nuawoman.com/",
+        "india": true,
+        "status": "no ATS link on site"
+      },
+      "Accel:finsynth": {
+        "date": "2026-11-23",
+        "name": "Finsynth",
+        "website": "https://finsynth.ai/",
+        "india": true,
+        "status": "no ATS link on site"
+      },
+      "Accel:fizzy-goblet": {
+        "date": "2026-11-23",
+        "name": "Fizzy Goblet",
+        "website": "https://global.fizzygoblet.com/",
+        "india": true,
+        "status": "no ATS link on site"
+      },
+      "Accel:humyn-labs": {
+        "date": "2026-11-23",
+        "name": "Humyn Labs",
+        "website": "https://humynlabs.ai/",
+        "india": true,
+        "status": "no ATS link on site"
+      },
+      "Accel:optimist": {
+        "date": "2026-11-23",
+        "name": "Optimist",
+        "website": "https://www.optimist.in/",
+        "india": true,
+        "status": "no ATS link on site"
+      },
+      "Accel:rexedge": {
+        "date": "2026-11-23",
+        "name": "Rexedge",
+        "website": "https://rex-edge.com/",
+        "india": true,
+        "status": "no ATS link on site"
+      },
+      "Accel:trail": {
+        "date": "2026-11-23",
+        "name": "Trail",
+        "website": "https://trailhq.com",
+        "india": true,
+        "ats": "ashby",
+        "slug": "trailhq",
+        "evidence": "https://trailhq.com/careers",
+        "status": "added"
       }
     }
   }
