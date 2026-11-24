@@ -1796,7 +1796,7 @@
     }
   ],
   "yc_auto": {
-    "last_run": "2026-11-23",
+    "last_run": "2026-11-24",
     "boards": {
       "ashby": [
         {
@@ -3416,6 +3416,11 @@
       "surebright": {
         "date": "2026-11-18",
         "website": "https://surebright.com/",
+        "status": "no ATS link on site"
+      },
+      "shortkit": {
+        "date": "2026-11-24",
+        "website": "https://www.shortkit.dev",
         "status": "no ATS link on site"
       }
     }
