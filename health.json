@@ -2,583 +2,582 @@
  "boards": {
   "amazon:amazon": {
    "errors": [],
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "Amazon",
    "zeros": []
   },
   "ashby:Anima": {
    "errors": [],
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "Anima",
    "zeros": []
   },
   "ashby:Blacksmith": {
    "errors": [],
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "Blacksmith",
    "zeros": []
   },
   "ashby:ClassDojo": {
    "errors": [],
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "ClassDojo",
    "zeros": []
   },
   "ashby:Deepgram": {
    "errors": [],
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "Deepgram",
    "zeros": []
   },
   "ashby:Distyl": {
    "errors": [],
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "Distyl",
    "zeros": []
   },
   "ashby:Haast": {
    "errors": [],
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "Haast",
    "zeros": []
   },
   "ashby:Hyperbound": {
    "errors": [],
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "Hyperbound",
    "zeros": []
   },
   "ashby:Influxdata": {
    "errors": [],
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "InfluxData",
    "zeros": []
   },
   "ashby:Junction": {
    "errors": [],
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "Junction",
    "zeros": []
   },
   "ashby:LeanTech": {
    "errors": [],
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "Lean Technologies",
    "zeros": []
   },
   "ashby:Nango": {
    "errors": [],
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "Nango",
    "zeros": []
   },
   "ashby:Rhythms": {
    "errors": [],
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "Rhythms",
    "zeros": []
   },
   "ashby:airwallex": {
    "errors": [],
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "airwallex",
    "zeros": []
   },
   "ashby:aleph": {
    "errors": [],
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "Aleph",
    "zeros": []
   },
   "ashby:anyscale": {
    "errors": [],
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "anyscale",
    "zeros": []
   },
   "ashby:apollo-graphql": {
    "errors": [],
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "Apollo",
    "zeros": []
   },
   "ashby:arketa": {
    "errors": [],
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "Arketa",
    "zeros": []
   },
   "ashby:aspora": {
    "errors": [],
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "aspora",
    "zeros": []
   },
   "ashby:atlan": {
    "errors": [],
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "atlan",
    "zeros": []
   },
   "ashby:atlys": {
    "errors": [],
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "Atlys",
    "zeros": []
   },
   "ashby:authzed": {
    "errors": [],
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "authzed",
    "zeros": []
   },
   "ashby:biorender-inc": {
    "errors": [],
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "BioRender",
    "zeros": []
   },
   "ashby:bolna": {
    "errors": [],
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "Bolna AI",
    "zeros": []
   },
   "ashby:bureau": {
    "errors": [],
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "bureau",
    "zeros": []
   },
   "ashby:cardboard": {
    "errors": [],
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "Cardboard",
    "zeros": []
   },
   "ashby:cerebras": {
    "errors": [],
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "cerebras",
    "zeros": []
   },
   "ashby:claim-health": {
    "errors": [],
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "Claimhealth",
    "zeros": []
   },
   "ashby:clickhouse": {
    "errors": [],
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "clickhouse",
    "zeros": []
   },
   "ashby:clouted": {
    "errors": [],
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "Clouted",
    "zeros": []
   },
   "ashby:cohere": {
    "errors": [],
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "cohere",
    "zeros": []
   },
   "ashby:composio": {
    "errors": [],
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "composio",
    "zeros": []
   },
   "ashby:cursor": {
    "errors": [],
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "cursor",
    "zeros": []
   },
   "ashby:cyberhaven": {
    "errors": [],
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "cyberhaven",
    "zeros": []
   },
   "ashby:datafold": {
    "errors": [],
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "Datafold",
    "zeros": []
   },
   "ashby:ddn": {
    "errors": [],
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "ddn",
    "zeros": []
   },
   "ashby:double": {
    "errors": [],
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "Double",
    "zeros": []
   },
   "ashby:eightsleep": {
    "errors": [],
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "Eight Sleep",
    "zeros": []
   },
   "ashby:elevenlabs": {
    "errors": [],
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "elevenlabs",
    "zeros": []
   },
   "ashby:ema": {
    "errors": [],
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "ema",
    "zeros": []
   },
   "ashby:enode": {
    "errors": [],
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "Enode",
    "zeros": []
   },
   "ashby:every-io": {
    "errors": [],
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "Every",
    "zeros": []
   },
   "ashby:firstwork": {
    "errors": [],
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "FirstWork",
    "zeros": []
   },
   "ashby:freshpaint": {
    "errors": [],
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "Freshpaint",
    "zeros": []
   },
   "ashby:g2": {
    "errors": [],
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "g2",
    "zeros": []
   },
   "ashby:golinks": {
    "errors": [],
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "GoLinks",
    "zeros": []
   },
   "ashby:greatquestion": {
    "errors": [],
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "Great Question",
    "zeros": []
   },
   "ashby:harperinsure": {
    "errors": [],
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "Harper",
    "zeros": []
   },
   "ashby:harvey": {
    "errors": [],
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "harvey",
    "zeros": []
   },
   "ashby:headout": {
    "errors": [],
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "headout",
    "zeros": []
   },
   "ashby:helion": {
    "errors": [],
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "Helion",
    "zeros": []
   },
   "ashby:higgsfieldai": {
    "errors": [],
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "Higgsfield",
    "zeros": []
   },
   "ashby:hive.co": {
    "errors": [],
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "Hive",
    "zeros": []
   },
   "ashby:invert": {
    "errors": [],
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "Invert",
    "zeros": []
   },
   "ashby:jiga": {
    "errors": [],
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "Jiga",
    "zeros": []
   },
   "ashby:kodex": {
    "errors": [],
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "Kodex",
    "zeros": []
   },
   "ashby:kong": {
    "errors": [],
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "kong",
    "zeros": []
   },
   "ashby:level-ai": {
    "errors": [],
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "level-ai",
    "zeros": []
   },
   "ashby:linear": {
    "errors": [],
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "linear",
    "zeros": []
   },
   "ashby:luminai": {
    "errors": [],
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "Luminai",
    "zeros": []
   },
   "ashby:mem0": {
    "errors": [],
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "Mem0",
    "zeros": []
   },
   "ashby:notion": {
    "errors": [],
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "notion",
    "zeros": []
   },
   "ashby:openai": {
    "errors": [],
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "openai",
    "zeros": []
   },
   "ashby:perplexity": {
    "errors": [],
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "perplexity",
    "zeros": []
   },
   "ashby:plane": {
    "errors": [],
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "plane",
    "zeros": []
   },
   "ashby:popl": {
    "errors": [],
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "Popl",
    "zeros": []
   },
   "ashby:posthog": {
    "errors": [],
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "posthog",
    "zeros": []
   },
   "ashby:pramaana-labs": {
    "errors": [],
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "Pramaana Labs",
    "zeros": []
   },
   "ashby:primer.io": {
    "errors": [],
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "Primer",
    "zeros": []
   },
   "ashby:rallyuxr": {
    "errors": [],
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "Rally",
    "zeros": []
   },
   "ashby:reacher": {
    "errors": [],
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "Reacher",
    "zeros": []
   },
   "ashby:ready": {
    "errors": [],
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "Ready",
    "zeros": []
   },
   "ashby:redis": {
    "errors": [],
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "redis",
    "zeros": []
   },
   "ashby:replit": {
    "errors": [],
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "replit",
    "zeros": []
   },
   "ashby:revenuecat": {
    "errors": [],
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "RevenueCat",
    "zeros": []
   },
   "ashby:rollstack": {
    "errors": [],
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "Rollstack",
    "zeros": []
   },
   "ashby:sarvam": {
    "errors": [],
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "sarvam",
    "zeros": []
   },
   "ashby:sentry": {
    "errors": [],
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "sentry",
    "zeros": []
   },
   "ashby:shift": {
    "errors": [],
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "Shift",
    "zeros": []
   },
   "ashby:signoz": {
    "errors": [],
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "signoz",
    "zeros": []
   },
   "ashby:snowflake": {
    "errors": [],
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "snowflake",
    "zeros": []
   },
   "ashby:snyk": {
    "errors": [],
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "snyk",
    "zeros": []
   },
   "ashby:solvd": {
    "errors": [],
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "solvd",
    "zeros": []
   },
   "ashby:spotdraft": {
    "errors": [],
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "spotdraft",
    "zeros": []
   },
   "ashby:spruceid": {
    "errors": [],
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "SpruceID",
    "zeros": []
   },
   "ashby:supabase": {
    "errors": [],
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "supabase",
    "zeros": []
   },
   "ashby:tekion": {
    "errors": [],
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "tekion",
    "zeros": []
   },
   "ashby:temporal": {
    "errors": [],
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "temporal",
    "zeros": []
   },
   "ashby:trailhq": {
    "errors": [],
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "Trail",
    "zeros": []
   },
   "ashby:uipath": {
    "errors": [],
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "uipath",
    "zeros": []
   },
   "ashby:uptimeai": {
    "errors": [],
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "uptimeai",
    "zeros": []
   },
   "ashby:vapi": {
    "errors": [],
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "Vapi",
    "zeros": []
   },
   "ashby:vultr": {
    "errors": [],
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "vultr",
    "zeros": []
   },
   "ashby:weave": {
    "errors": [],
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "weave",
    "zeros": []
   },
   "ashby:wispr-flow": {
    "errors": [],
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "Wispr Flow",
    "zeros": []
   },
   "ashby:zapier": {
    "errors": [],
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "zapier",
    "zeros": []
   },
   "darwinbox_json:m2p": {
    "errors": [
-    "2026-11-24T17:01+05:30",
     "2026-11-24T17:31+05:30",
     "2026-11-24T19:31+05:30",
     "2026-11-24T20:31+05:30",
@@ -592,7 +591,8 @@
     "2026-11-25T11:31+05:30",
     "2026-11-25T12:31+05:30",
     "2026-11-25T13:31+05:30",
-    "2026-11-25T15:31+05:30"
+    "2026-11-25T15:31+05:30",
+    "2026-11-25T17:31+05:30"
    ],
    "last_error": "HTTPError: HTTP Error 500: Internal Server Error",
    "last_ok": "2026-11-25T17:01+05:30",
@@ -601,57 +601,57 @@
   },
   "darwinbox_json:upstox": {
    "errors": [],
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "Upstox",
    "zeros": []
   },
   "eightfold:hsbc": {
    "errors": [],
    "last_error": "HTTPError: HTTP Error 429: TOO MANY REQUESTS",
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "HSBC",
    "zeros": []
   },
   "eightfold:netflix": {
    "errors": [],
    "last_error": "HTTPError: HTTP Error 429: TOO MANY REQUESTS",
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "Netflix",
    "zeros": []
   },
   "freshteam:ninjacart": {
    "errors": [],
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "Ninjacart",
    "zeros": []
   },
   "freshteam:zolve": {
    "errors": [],
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "Zolve",
    "zeros": []
   },
   "gem:promptql": {
    "errors": [],
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "PromptQL (Hasura)",
    "zeros": []
   },
   "gem:rootly": {
    "errors": [],
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "Rootly",
    "zeros": []
   },
   "goldman:goldmansachs": {
    "errors": [],
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "Goldman Sachs",
    "zeros": []
   },
   "greenhouse:6sense": {
    "errors": [],
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "6sense",
    "zeros": []
   },
@@ -660,7 +660,7 @@
     "2026-11-25T02:32+05:30"
    ],
    "last_error": "TimeoutError: The read operation timed out",
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "abnormalsecurity",
    "zeros": []
   },
@@ -669,143 +669,143 @@
     "2026-11-25T02:32+05:30"
    ],
    "last_error": "TimeoutError: The read operation timed out",
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "adyen",
    "zeros": []
   },
   "greenhouse:affirm": {
    "errors": [],
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "affirm",
    "zeros": []
   },
   "greenhouse:agoda": {
    "errors": [],
    "last_error": "TimeoutError: The read operation timed out",
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "agoda",
    "zeros": []
   },
   "greenhouse:airbnb": {
    "errors": [],
    "last_error": "TimeoutError: The read operation timed out",
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "airbnb",
    "zeros": []
   },
   "greenhouse:alpaca": {
    "errors": [],
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "Alpaca",
    "zeros": []
   },
   "greenhouse:anthropic": {
    "errors": [],
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "anthropic",
    "zeros": []
   },
   "greenhouse:appian": {
    "errors": [],
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "appian",
    "zeros": []
   },
   "greenhouse:appier": {
    "errors": [],
    "last_error": "TimeoutError: The read operation timed out",
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "Appier",
    "zeros": []
   },
   "greenhouse:appsflyer": {
    "errors": [],
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "appsflyer",
    "zeros": []
   },
   "greenhouse:aqr": {
    "errors": [],
    "last_error": "TimeoutError: The read operation timed out",
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "aqr",
    "zeros": []
   },
   "greenhouse:arcesiumllc": {
    "errors": [],
    "last_error": "TimeoutError: The read operation timed out",
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "arcesiumllc",
    "zeros": []
   },
   "greenhouse:assemblyai": {
    "errors": [],
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "AssemblyAI",
    "zeros": []
   },
   "greenhouse:asteralabs": {
    "errors": [],
    "last_error": "TimeoutError: The read operation timed out",
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "asteralabs",
    "zeros": []
   },
   "greenhouse:aviatrix": {
    "errors": [],
    "last_error": "TimeoutError: The read operation timed out",
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "aviatrix",
    "zeros": []
   },
   "greenhouse:binance": {
    "errors": [],
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "binance",
    "zeros": []
   },
   "greenhouse:bitwarden": {
    "errors": [],
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "bitwarden",
    "zeros": []
   },
   "greenhouse:celigo": {
    "errors": [],
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "celigo",
    "zeros": []
   },
   "greenhouse:celonis": {
    "errors": [],
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "celonis",
    "zeros": []
   },
   "greenhouse:chainguard": {
    "errors": [],
    "last_error": "TimeoutError: The read operation timed out",
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "chainguard",
    "zeros": []
   },
   "greenhouse:cloudsek": {
    "errors": [],
    "last_error": "TimeoutError: The read operation timed out",
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "cloudsek",
    "zeros": []
   },
   "greenhouse:cockroachlabs": {
    "errors": [],
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "cockroachlabs",
    "zeros": []
   },
   "greenhouse:coinbase": {
    "errors": [],
    "last_error": "TimeoutError: The read operation timed out",
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "coinbase",
    "zeros": []
   },
@@ -814,40 +814,40 @@
     "2026-11-25T02:32+05:30"
    ],
    "last_error": "TimeoutError: The read operation timed out",
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "commerceiq",
    "zeros": []
   },
   "greenhouse:commvault": {
    "errors": [],
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "commvault",
    "zeros": []
   },
   "greenhouse:contentstack": {
    "errors": [],
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "contentstack",
    "zeros": []
   },
   "greenhouse:couchbaseinc": {
    "errors": [],
    "last_error": "TimeoutError: The read operation timed out",
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "couchbaseinc",
    "zeros": []
   },
   "greenhouse:coupang": {
    "errors": [],
    "last_error": "TimeoutError: The read operation timed out",
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "coupang",
    "zeros": []
   },
   "greenhouse:coursera": {
    "errors": [],
    "last_error": "TimeoutError: The read operation timed out",
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "coursera",
    "zeros": []
   },
@@ -856,20 +856,20 @@
     "2026-11-25T02:32+05:30"
    ],
    "last_error": "TimeoutError: The read operation timed out",
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "databricks",
    "zeros": []
   },
   "greenhouse:datadog": {
    "errors": [],
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "datadog",
    "zeros": []
   },
   "greenhouse:devrev": {
    "errors": [],
    "last_error": "TimeoutError: The read operation timed out",
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "devrev",
    "zeros": []
   },
@@ -878,56 +878,56 @@
     "2026-11-25T02:32+05:30"
    ],
    "last_error": "TimeoutError: The read operation timed out",
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "druva",
    "zeros": []
   },
   "greenhouse:elastic": {
    "errors": [],
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "elastic",
    "zeros": []
   },
   "greenhouse:endorlabs": {
    "errors": [],
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "endorlabs",
    "zeros": []
   },
   "greenhouse:enterpret": {
    "errors": [],
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "enterpret",
    "zeros": []
   },
   "greenhouse:equalexperts": {
    "errors": [],
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "equalexperts",
    "zeros": []
   },
   "greenhouse:falconx": {
    "errors": [],
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "Falconx",
    "zeros": []
   },
   "greenhouse:fastly": {
    "errors": [],
    "last_error": "TimeoutError: The read operation timed out",
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "fastly",
    "zeros": []
   },
   "greenhouse:figma": {
    "errors": [],
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "figma",
    "zeros": []
   },
   "greenhouse:five9": {
    "errors": [],
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "five9",
    "zeros": []
   },
@@ -936,121 +936,121 @@
     "2026-11-25T02:32+05:30"
    ],
    "last_error": "TimeoutError: The read operation timed out",
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "fivetran",
    "zeros": []
   },
   "greenhouse:flexport": {
    "errors": [],
    "last_error": "TimeoutError: The read operation timed out",
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "flexport",
    "zeros": []
   },
   "greenhouse:fourkites": {
    "errors": [],
    "last_error": "TimeoutError: The read operation timed out",
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "fourkites",
    "zeros": []
   },
   "greenhouse:gitlab": {
    "errors": [],
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "gitlab",
    "zeros": []
   },
   "greenhouse:givecampus": {
    "errors": [],
    "last_error": "TimeoutError: The read operation timed out",
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "GiveCampus",
    "zeros": []
   },
   "greenhouse:glance": {
    "errors": [],
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "glance",
    "zeros": []
   },
   "greenhouse:grafanalabs": {
    "errors": [],
    "last_error": "TimeoutError: The read operation timed out",
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "grafanalabs",
    "zeros": []
   },
   "greenhouse:graphcore": {
    "errors": [],
    "last_error": "TimeoutError: The read operation timed out",
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "graphcore",
    "zeros": []
   },
   "greenhouse:gravitonresearchcapital": {
    "errors": [],
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "gravitonresearchcapital",
    "zeros": []
   },
   "greenhouse:groww": {
    "errors": [],
    "last_error": "TimeoutError: The read operation timed out",
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "groww",
    "zeros": []
   },
   "greenhouse:hackerrank": {
    "errors": [],
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "hackerrank",
    "zeros": []
   },
   "greenhouse:harnessinc": {
    "errors": [],
    "last_error": "TimeoutError: The read operation timed out",
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "harnessinc",
    "zeros": []
   },
   "greenhouse:highradius": {
    "errors": [],
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "highradius",
    "zeros": []
   },
   "greenhouse:humaninterest": {
    "errors": [],
    "last_error": "TimeoutError: The read operation timed out",
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "Human Interest",
    "zeros": []
   },
   "greenhouse:imc": {
    "errors": [],
    "last_error": "TimeoutError: The read operation timed out",
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "imc",
    "zeros": []
   },
   "greenhouse:inmobi": {
    "errors": [],
    "last_error": "TimeoutError: The read operation timed out",
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "inmobi",
    "zeros": []
   },
   "greenhouse:intercom": {
    "errors": [],
    "last_error": "TimeoutError: The read operation timed out",
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "intercom",
    "zeros": []
   },
   "greenhouse:jfrog": {
    "errors": [],
    "last_error": "TimeoutError: The read operation timed out",
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "jfrog",
    "zeros": []
   },
@@ -1059,61 +1059,61 @@
     "2026-11-25T02:32+05:30"
    ],
    "last_error": "TimeoutError: The read operation timed out",
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "jumptrading",
    "zeros": []
   },
   "greenhouse:karat": {
    "errors": [],
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "karat",
    "zeros": []
   },
   "greenhouse:launchdarkly": {
    "errors": [],
    "last_error": "TimeoutError: The read operation timed out",
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "launchdarkly",
    "zeros": []
   },
   "greenhouse:logicmonitor": {
    "errors": [],
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "logicmonitor",
    "zeros": []
   },
   "greenhouse:marqvision": {
    "errors": [],
    "last_error": "TimeoutError: The read operation timed out",
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "MarqVision",
    "zeros": []
   },
   "greenhouse:mixpanel": {
    "errors": [],
    "last_error": "TimeoutError: The read operation timed out",
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "mixpanel",
    "zeros": []
   },
   "greenhouse:modernhealth": {
    "errors": [],
    "last_error": "TimeoutError: The read operation timed out",
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "Modern Health",
    "zeros": []
   },
   "greenhouse:moloco": {
    "errors": [],
    "last_error": "TimeoutError: The read operation timed out",
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "moloco",
    "zeros": []
   },
   "greenhouse:mongodb": {
    "errors": [],
    "last_error": "TimeoutError: The read operation timed out",
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "mongodb",
    "zeros": []
   },
@@ -1122,14 +1122,14 @@
     "2026-11-25T02:32+05:30"
    ],
    "last_error": "TimeoutError: The read operation timed out",
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "neo4j",
    "zeros": []
   },
   "greenhouse:netskope": {
    "errors": [],
    "last_error": "TimeoutError: The read operation timed out",
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "netskope",
    "zeros": []
   },
@@ -1138,46 +1138,46 @@
     "2026-11-25T02:32+05:30"
    ],
    "last_error": "TimeoutError: The read operation timed out",
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "newrelic",
    "zeros": []
   },
   "greenhouse:niraenergy": {
    "errors": [],
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "Nira Energy",
    "zeros": []
   },
   "greenhouse:nirmata": {
    "errors": [],
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "nirmata",
    "zeros": []
   },
   "greenhouse:observeai": {
    "errors": [],
    "last_error": "TimeoutError: The read operation timed out",
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "observeai",
    "zeros": []
   },
   "greenhouse:okta": {
    "errors": [],
    "last_error": "TimeoutError: The read operation timed out",
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "okta",
    "zeros": []
   },
   "greenhouse:onetrust": {
    "errors": [],
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "onetrust",
    "zeros": []
   },
   "greenhouse:oportun": {
    "errors": [],
    "last_error": "TimeoutError: The read operation timed out",
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "oportun",
    "zeros": []
   },
@@ -1186,14 +1186,14 @@
     "2026-11-25T02:32+05:30"
    ],
    "last_error": "TimeoutError: The read operation timed out",
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "optiverus",
    "zeros": []
   },
   "greenhouse:pagerduty": {
    "errors": [],
    "last_error": "TimeoutError: The read operation timed out",
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "pagerduty",
    "zeros": []
   },
@@ -1202,27 +1202,27 @@
     "2026-11-25T02:32+05:30"
    ],
    "last_error": "TimeoutError: The read operation timed out",
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "payoneer",
    "zeros": []
   },
   "greenhouse:pingidentity": {
    "errors": [],
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "pingidentity",
    "zeros": []
   },
   "greenhouse:pinterest": {
    "errors": [],
    "last_error": "TimeoutError: The read operation timed out",
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "pinterest",
    "zeros": []
   },
   "greenhouse:point72": {
    "errors": [],
    "last_error": "TimeoutError: The read operation timed out",
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "point72",
    "zeros": []
   },
@@ -1231,40 +1231,40 @@
     "2026-11-25T02:32+05:30"
    ],
    "last_error": "TimeoutError: The read operation timed out",
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "Prodigal",
    "zeros": []
   },
   "greenhouse:project44": {
    "errors": [],
    "last_error": "TimeoutError: The read operation timed out",
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "project44",
    "zeros": []
   },
   "greenhouse:pubmatic": {
    "errors": [],
    "last_error": "TimeoutError: The read operation timed out",
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "pubmatic",
    "zeros": []
   },
   "greenhouse:purestorage": {
    "errors": [],
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "purestorage",
    "zeros": []
   },
   "greenhouse:quberesearchandtechnologies": {
    "errors": [],
    "last_error": "TimeoutError: The read operation timed out",
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "quberesearchandtechnologies",
    "zeros": []
   },
   "greenhouse:razorpaysoftwareprivatelimited": {
    "errors": [],
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "razorpaysoftwareprivatelimited",
    "zeros": []
   },
@@ -1273,80 +1273,80 @@
     "2026-11-25T02:32+05:30"
    ],
    "last_error": "TimeoutError: The read operation timed out",
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "reddit",
    "zeros": []
   },
   "greenhouse:redwoodsoftware": {
    "errors": [],
    "last_error": "TimeoutError: The read operation timed out",
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "redwoodsoftware",
    "zeros": []
   },
   "greenhouse:reltio": {
    "errors": [],
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "reltio",
    "zeros": []
   },
   "greenhouse:robinhood": {
    "errors": [],
    "last_error": "TimeoutError: The read operation timed out",
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "robinhood",
    "zeros": []
   },
   "greenhouse:roblox": {
    "errors": [],
    "last_error": "TimeoutError: The read operation timed out",
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "roblox",
    "zeros": []
   },
   "greenhouse:rubrik": {
    "errors": [],
    "last_error": "TimeoutError: The read operation timed out",
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "rubrik",
    "zeros": []
   },
   "greenhouse:sahajsoftware": {
    "errors": [],
    "last_error": "TimeoutError: The read operation timed out",
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "sahajsoftware",
    "zeros": []
   },
   "greenhouse:samsara": {
    "errors": [],
    "last_error": "TimeoutError: The read operation timed out",
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "samsara",
    "zeros": []
   },
   "greenhouse:saucelabs": {
    "errors": [],
    "last_error": "TimeoutError: The read operation timed out",
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "saucelabs",
    "zeros": []
   },
   "greenhouse:scopely": {
    "errors": [],
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "scopely",
    "zeros": []
   },
   "greenhouse:showpad": {
    "errors": [],
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "showpad",
    "zeros": []
   },
   "greenhouse:sigmoid": {
    "errors": [],
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "sigmoid",
    "zeros": []
   },
@@ -1355,64 +1355,63 @@
     "2026-11-25T02:32+05:30"
    ],
    "last_error": "TimeoutError: The read operation timed out",
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "singlestore",
    "zeros": []
   },
   "greenhouse:smartsheet": {
    "errors": [],
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "smartsheet",
    "zeros": []
   },
   "greenhouse:solarwinds": {
    "errors": [],
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "solarwinds",
    "zeros": []
   },
   "greenhouse:sonicwall": {
    "errors": [],
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "sonicwall",
    "zeros": []
   },
   "greenhouse:squarepointcapital": {
    "errors": [],
    "last_error": "TimeoutError: The read operation timed out",
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "squarepointcapital",
    "zeros": []
   },
   "greenhouse:starburst": {
    "errors": [],
    "last_error": "TimeoutError: The read operation timed out",
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "starburst",
    "zeros": []
   },
   "greenhouse:stripe": {
    "errors": [],
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "stripe",
    "zeros": []
   },
   "greenhouse:sumologic": {
    "errors": [],
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "sumologic",
    "zeros": []
   },
   "greenhouse:tenstorrent": {
    "errors": [],
    "last_error": "TimeoutError: The read operation timed out",
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "tenstorrent",
    "zeros": []
   },
   "greenhouse:thoughtworks": {
    "errors": [
-    "2026-11-24T17:01+05:30",
     "2026-11-24T17:31+05:30",
     "2026-11-24T18:01+05:30",
     "2026-11-24T18:31+05:30",
@@ -1462,7 +1461,8 @@
     "2026-11-25T15:31+05:30",
     "2026-11-25T16:01+05:30",
     "2026-11-25T16:31+05:30",
-    "2026-11-25T17:01+05:30"
+    "2026-11-25T17:01+05:30",
+    "2026-11-25T17:31+05:30"
    ],
    "last_error": "HTTPError: HTTP Error 404: Not Found",
    "last_ok": "2026-11-24T15:01+05:30",
@@ -1471,19 +1471,19 @@
   },
   "greenhouse:tide": {
    "errors": [],
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "tide",
    "zeros": []
   },
   "greenhouse:tintai": {
    "errors": [],
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "Tint",
    "zeros": []
   },
   "greenhouse:toast": {
    "errors": [],
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "toast",
    "zeros": []
   },
@@ -1492,137 +1492,137 @@
     "2026-11-25T02:32+05:30"
    ],
    "last_error": "TimeoutError: The read operation timed out",
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "togetherai",
    "zeros": []
   },
   "greenhouse:towerresearchcapital": {
    "errors": [],
    "last_error": "TimeoutError: The read operation timed out",
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "towerresearchcapital",
    "zeros": []
   },
   "greenhouse:treasuryprime": {
    "errors": [],
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "Treasury Prime",
    "zeros": []
   },
   "greenhouse:tripactions": {
    "errors": [],
    "last_error": "TimeoutError: The read operation timed out",
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "tripactions",
    "zeros": []
   },
   "greenhouse:truecaller": {
    "errors": [],
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "Truecaller",
    "zeros": []
   },
   "greenhouse:truefoundry": {
    "errors": [],
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "truefoundry",
    "zeros": []
   },
   "greenhouse:truveta": {
    "errors": [],
    "last_error": "TimeoutError: The read operation timed out",
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "truveta",
    "zeros": []
   },
   "greenhouse:turing": {
    "errors": [],
    "last_error": "TimeoutError: The read operation timed out",
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "turing",
    "zeros": []
   },
   "greenhouse:twilio": {
    "errors": [],
    "last_error": "TimeoutError: The read operation timed out",
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "twilio",
    "zeros": []
   },
   "greenhouse:twinhealth": {
    "errors": [],
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "Twin Health",
    "zeros": []
   },
   "greenhouse:vercel": {
    "errors": [],
    "last_error": "TimeoutError: The read operation timed out",
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "vercel",
    "zeros": []
   },
   "greenhouse:verifone": {
    "errors": [],
    "last_error": "TimeoutError: The read operation timed out",
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "verifone",
    "zeros": []
   },
   "greenhouse:wehrtyou": {
    "errors": [],
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "wehrtyou",
    "zeros": []
   },
   "greenhouse:wise": {
    "errors": [],
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "wise",
    "zeros": []
   },
   "greenhouse:wizinc": {
    "errors": [],
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "wizinc",
    "zeros": []
   },
   "greenhouse:workato": {
    "errors": [],
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "workato",
    "zeros": []
   },
   "greenhouse:worldquant": {
    "errors": [],
    "last_error": "TimeoutError: The read operation timed out",
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "worldquant",
    "zeros": []
   },
   "greenhouse:wrike": {
    "errors": [],
    "last_error": "TimeoutError: The read operation timed out",
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "wrike",
    "zeros": []
   },
   "greenhouse:xendit": {
    "errors": [],
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "xendit",
    "zeros": []
   },
   "greenhouse:yext": {
    "errors": [],
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "yext",
    "zeros": []
   },
   "greenhouse:yugabyte": {
    "errors": [],
    "last_error": "TimeoutError: The read operation timed out",
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "yugabyte",
    "zeros": []
   },
@@ -1631,7 +1631,7 @@
     "2026-11-25T02:32+05:30"
    ],
    "last_error": "TimeoutError: The read operation timed out",
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "zenoti",
    "zeros": []
   },
@@ -1640,70 +1640,70 @@
     "2026-11-25T00:31+05:30"
    ],
    "last_error": "TimeoutError: The read operation timed out",
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "Zinier",
    "zeros": []
   },
   "greenhouse:zoominfo": {
    "errors": [],
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "zoominfo",
    "zeros": []
   },
   "greenhouse:zscaler": {
    "errors": [],
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "zscaler",
    "zeros": []
   },
   "greenhouse:zuora": {
    "errors": [],
    "last_error": "TimeoutError: The read operation timed out",
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "zuora",
    "zeros": []
   },
   "html:apple": {
    "errors": [],
    "last_error": "TimeoutError: The read operation timed out",
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "Apple",
    "zeros": []
   },
   "html:arm": {
    "errors": [],
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "Arm",
    "zeros": []
   },
   "html:deshawindia": {
    "errors": [],
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "D. E. Shaw India",
    "zeros": []
   },
   "html:google": {
    "errors": [],
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "Google",
    "zeros": []
   },
   "html:intuit": {
    "errors": [],
    "last_error": "IncompleteRead: IncompleteRead(1464154 bytes read)",
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "Intuit",
    "zeros": []
   },
   "html:synchrony": {
    "errors": [],
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "Synchrony",
    "zeros": []
   },
   "html:synopsys": {
    "errors": [],
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "Synopsys",
    "zeros": []
   },
@@ -1712,118 +1712,118 @@
     "2026-11-24T21:01+05:30"
    ],
    "last_error": "HTTPError: HTTP Error 503: Service Unavailable",
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "Nutanix",
    "zeros": []
   },
   "juspay:Juspay": {
    "errors": [],
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "Juspay",
    "zeros": []
   },
   "keka:attentiveos": {
    "errors": [],
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "Attentive.ai",
    "zeros": []
   },
   "keka:awfis": {
    "errors": [],
    "last_error": "HTTPError: HTTP Error 429: Too Many Requests",
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "Awfis",
    "zeros": []
   },
   "keka:gokwik": {
    "errors": [],
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "GoKwik",
    "zeros": []
   },
   "keka:jupiter": {
    "errors": [],
    "last_error": "HTTPError: HTTP Error 429: Too Many Requests",
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "Jupiter",
    "zeros": []
   },
   "keka:nurix": {
    "errors": [],
    "last_error": "HTTPError: HTTP Error 504: Gateway Time-out",
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "Nurix Ai",
    "zeros": []
   },
   "keka:onsitego": {
    "errors": [],
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "Onsitego",
    "zeros": []
   },
   "keka:procol": {
    "errors": [],
    "last_error": "HTTPError: HTTP Error 504: Gateway Time-out",
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "Procol",
    "zeros": []
   },
   "keka:rigi": {
    "errors": [],
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "Rigi",
    "zeros": []
   },
   "keka:scimplify": {
    "errors": [],
    "last_error": "HTTPError: HTTP Error 504: Gateway Time-out",
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "Scimplify",
    "zeros": []
   },
   "keka:spyneai": {
    "errors": [],
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "Spyne",
    "zeros": []
   },
   "keka:toddle": {
    "errors": [],
    "last_error": "HTTPError: HTTP Error 504: Gateway Time-out",
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "Toddle",
    "zeros": []
   },
   "keka:venwiztechnologies": {
    "errors": [],
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "Venwiz",
    "zeros": []
   },
   "keka:zanskar": {
    "errors": [],
    "last_error": "HTTPError: HTTP Error 504: Gateway Time-out",
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "Zanskar Research",
    "zeros": []
   },
   "keka:zuddl": {
    "errors": [],
    "last_error": "HTTPError: HTTP Error 429: Too Many Requests",
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "Zuddl",
    "zeros": []
   },
   "keka:zupersoft": {
    "errors": [],
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "Zuper",
    "zeros": []
   },
   "lever:100ms": {
    "errors": [],
    "last_error": "TimeoutError: The read operation timed out",
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "100ms",
    "zeros": []
   },
@@ -1832,28 +1832,28 @@
     "2026-11-24T23:01+05:30"
    ],
    "last_error": "HTTPError: HTTP Error 502: Bad Gateway",
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "Sprinto",
    "zeros": []
   },
   "lever:airalo": {
    "errors": [],
    "last_error": "TimeoutError: The read operation timed out",
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "Airalo",
    "zeros": []
   },
   "lever:coupa": {
    "errors": [],
    "last_error": "TimeoutError: The read operation timed out",
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "coupa",
    "zeros": []
   },
   "lever:cred": {
    "errors": [],
    "last_error": "HTTPError: HTTP Error 502: Bad Gateway",
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "cred",
    "zeros": []
   },
@@ -1862,7 +1862,7 @@
     "2026-11-25T05:31+05:30"
    ],
    "last_error": "HTTPError: HTTP Error 502: Bad Gateway",
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "cyderes",
    "zeros": []
   },
@@ -1871,21 +1871,21 @@
     "2026-11-25T09:01+05:30"
    ],
    "last_error": "HTTPError: HTTP Error 502: Bad Gateway",
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "Epsilon3",
    "zeros": []
   },
   "lever:fampay": {
    "errors": [],
    "last_error": "HTTPError: HTTP Error 502: Bad Gateway",
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "fampay",
    "zeros": []
   },
   "lever:hevodata": {
    "errors": [],
    "last_error": "TimeoutError: The read operation timed out",
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "hevodata",
    "zeros": []
   },
@@ -1894,84 +1894,84 @@
     "2026-11-24T23:01+05:30"
    ],
    "last_error": "TimeoutError: The read operation timed out",
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "Insider",
    "zeros": []
   },
   "lever:jumpcloud": {
    "errors": [],
    "last_error": "TimeoutError: The read operation timed out",
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "jumpcloud",
    "zeros": []
   },
   "lever:levelai": {
    "errors": [],
    "last_error": "TimeoutError: The read operation timed out",
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "levelai",
    "zeros": []
   },
   "lever:mactores": {
    "errors": [],
    "last_error": "TimeoutError: The read operation timed out",
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "mactores",
    "zeros": []
   },
   "lever:meesho": {
    "errors": [],
    "last_error": "TimeoutError: The read operation timed out",
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "meesho",
    "zeros": []
   },
   "lever:mindtickle": {
    "errors": [],
    "last_error": "TimeoutError: The read operation timed out",
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "mindtickle",
    "zeros": []
   },
   "lever:netomi": {
    "errors": [],
    "last_error": "TimeoutError: The read operation timed out",
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "netomi",
    "zeros": []
   },
   "lever:nium": {
    "errors": [],
    "last_error": "TimeoutError: The read operation timed out",
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "nium",
    "zeros": []
   },
   "lever:outreach": {
    "errors": [],
    "last_error": "HTTPError: HTTP Error 500: Internal Server Error",
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "outreach",
    "zeros": []
   },
   "lever:paytm": {
    "errors": [],
    "last_error": "TimeoutError: The read operation timed out",
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "paytm",
    "zeros": []
   },
   "lever:pocketfm": {
    "errors": [],
    "last_error": "HTTPError: HTTP Error 502: Bad Gateway",
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "pocketfm",
    "zeros": []
   },
   "lever:saviynt": {
    "errors": [],
    "last_error": "HTTPError: HTTP Error 502: Bad Gateway",
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "saviynt",
    "zeros": []
   },
@@ -1980,7 +1980,7 @@
     "2026-11-24T22:31+05:30"
    ],
    "last_error": "TimeoutError: The read operation timed out",
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "shyftlabs",
    "zeros": []
   },
@@ -1989,14 +1989,14 @@
     "2026-11-25T01:01+05:30"
    ],
    "last_error": "TimeoutError: The read operation timed out",
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "sonatype",
    "zeros": []
   },
   "lever:spotify": {
    "errors": [],
    "last_error": "TimeoutError: The read operation timed out",
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "spotify",
    "zeros": []
   },
@@ -2005,14 +2005,14 @@
     "2026-11-25T01:01+05:30"
    ],
    "last_error": "TimeoutError: The read operation timed out",
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "valgenesis",
    "zeros": []
   },
   "lever:veeva": {
    "errors": [],
    "last_error": "TimeoutError: The read operation timed out",
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "veeva",
    "zeros": []
   },
@@ -2021,81 +2021,81 @@
     "2026-11-25T15:31+05:30"
    ],
    "last_error": "TimeoutError: The read operation timed out",
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "zeta",
    "zeros": []
   },
   "mynexthire:amagi": {
    "errors": [],
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "Amagi",
    "zeros": []
   },
   "mynexthire:sharechat": {
    "errors": [],
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "ShareChat",
    "zeros": []
   },
   "oracle:American Express": {
    "errors": [],
    "last_error": "HTTPError: HTTP Error 302: Moved Temporarily",
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "American Express",
    "zeros": []
   },
   "oracle:BNY": {
    "errors": [],
    "last_error": "HTTPError: HTTP Error 302: Moved Temporarily",
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "BNY",
    "zeros": []
   },
   "oracle:Cummins": {
    "errors": [],
    "last_error": "HTTPError: HTTP Error 503: Service Unavailable",
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "Cummins",
    "zeros": []
   },
   "oracle:DTCC": {
    "errors": [],
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "DTCC",
    "zeros": []
   },
   "oracle:Dell": {
    "errors": [],
    "last_error": "TimeoutError: The read operation timed out",
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "Dell",
    "zeros": []
   },
   "oracle:Emerson": {
    "errors": [],
    "last_error": "TimeoutError: The read operation timed out",
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "Emerson",
    "zeros": []
   },
   "oracle:Honeywell": {
    "errors": [],
    "last_error": "HTTPError: HTTP Error 302: Moved Temporarily",
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "Honeywell",
    "zeros": []
   },
   "oracle:JPMorgan Chase": {
    "errors": [],
    "last_error": "HTTPError: HTTP Error 302: Moved Temporarily",
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "JPMorgan Chase",
    "zeros": []
   },
   "oracle:Nokia": {
    "errors": [],
    "last_error": "HTTPError: HTTP Error 503: Service Unavailable",
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "Nokia",
    "zeros": []
   },
@@ -2104,32 +2104,32 @@
     "2026-11-25T07:31+05:30"
    ],
    "last_error": "TimeoutError: The read operation timed out",
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "Oracle",
    "zeros": []
   },
   "oracle:Texas Instruments": {
    "errors": [],
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "Texas Instruments",
    "zeros": []
   },
   "oracle:Uber": {
    "errors": [],
    "last_error": "HTTPError: HTTP Error 302: Moved Temporarily",
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "Uber",
    "zeros": []
   },
   "page_watch:eternal-careers": {
    "errors": [],
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "Eternal (Zomato/Blinkit) careers",
    "zeros": []
   },
   "page_watch:nims-internship": {
    "errors": [],
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "NIMS Internship (Japan)",
    "zeros": []
   },
@@ -2138,35 +2138,35 @@
     "2026-11-24T18:01+05:30"
    ],
    "last_error": "TimeoutError: The read operation timed out",
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "StoneForge Research careers",
    "zeros": []
   },
   "rippling:community-phone-careers": {
    "errors": [],
    "last_error": "HTTPError: HTTP Error 403: Forbidden",
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "Community Phone",
    "zeros": []
   },
   "rippling:delightree": {
    "errors": [],
    "last_error": "HTTPError: HTTP Error 403: Forbidden",
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "Delightree",
    "zeros": []
   },
   "rippling:just-appraised-jobs": {
    "errors": [],
    "last_error": "HTTPError: HTTP Error 403: Forbidden",
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "Just Appraised",
    "zeros": []
   },
   "rippling:rippling": {
    "errors": [],
    "last_error": "HTTPError: HTTP Error 403: Forbidden",
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "Rippling",
    "zeros": []
   },
@@ -2176,128 +2176,127 @@
     "2026-11-25T15:31+05:30"
    ],
    "last_error": "HTTPError: HTTP Error 429: Too Many Requests",
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "SAP",
    "zeros": []
   },
   "sensehq:zetwerk": {
    "errors": [],
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "Zetwerk",
    "zeros": []
   },
   "smartrecruiters:AbhiBus": {
    "errors": [],
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "AbhiBus",
    "zeros": []
   },
   "smartrecruiters:AristaNetworks": {
    "errors": [],
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "Arista Networks",
    "zeros": []
   },
   "smartrecruiters:BoschGroup": {
    "errors": [],
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "Bosch",
    "zeros": []
   },
   "smartrecruiters:Freshworks": {
    "errors": [],
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "Freshworks",
    "zeros": []
   },
   "smartrecruiters:Grab": {
    "errors": [],
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "Grab",
    "zeros": []
   },
   "smartrecruiters:HackerRank": {
    "errors": [],
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "HackerRank",
    "zeros": []
   },
   "smartrecruiters:Ixigo": {
    "errors": [],
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "Ixigo",
    "zeros": []
   },
   "smartrecruiters:Lokal": {
    "errors": [],
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "Lokal",
    "zeros": []
   },
   "smartrecruiters:Mindtickle": {
    "errors": [],
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "Mindtickle",
    "zeros": []
   },
   "smartrecruiters:Netskope": {
    "errors": [],
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "Netskope",
    "zeros": []
   },
   "smartrecruiters:PHONEPELIMITED": {
    "errors": [],
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "PhonePe",
    "zeros": []
   },
   "smartrecruiters:RenesasElectronics": {
    "errors": [],
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "Renesas",
    "zeros": []
   },
   "smartrecruiters:ServiceNow": {
    "errors": [],
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "ServiceNow",
    "zeros": []
   },
   "smartrecruiters:Swiggy": {
    "errors": [],
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "Swiggy",
    "zeros": []
   },
   "smartrecruiters:Unacademy": {
    "errors": [],
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "Unacademy",
    "zeros": []
   },
   "smartrecruiters:WesternDigital": {
    "errors": [],
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "Western Digital",
    "zeros": []
   },
   "smartrecruiters:Wise": {
    "errors": [],
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "Wise",
    "zeros": []
   },
   "successfactors:Volvo Group": {
    "errors": [],
    "last_error": "HTTPError: HTTP Error 404: Not Found",
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "Volvo Group",
    "zeros": []
   },
   "teradata:teradata": {
    "errors": [
-    "2026-11-24T17:01+05:30",
     "2026-11-24T17:31+05:30",
     "2026-11-24T18:01+05:30",
     "2026-11-24T18:31+05:30",
@@ -2347,7 +2346,8 @@
     "2026-11-25T15:31+05:30",
     "2026-11-25T16:01+05:30",
     "2026-11-25T16:31+05:30",
-    "2026-11-25T17:01+05:30"
+    "2026-11-25T17:01+05:30",
+    "2026-11-25T17:31+05:30"
    ],
    "last_error": "ValueError: Teradata API: Cannot read properties of undefined (reading 'claims')",
    "last_ok": "2026-11-15T00:31+05:30",
@@ -2357,49 +2357,48 @@
   "trakstar:whatfix101": {
    "errors": [],
    "last_error": "TimeoutError: The read operation timed out",
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "Whatfix",
    "zeros": []
   },
   "workable:apna": {
    "errors": [],
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "Apna",
    "zeros": []
   },
   "workable:foodics": {
    "errors": [],
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "Foodics",
    "zeros": []
   },
   "workable:fundingsocieties": {
    "errors": [],
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "Funding Societies",
    "zeros": []
   },
   "workable:innovaccer-analytics": {
    "errors": [],
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "Innovaccer",
    "zeros": []
   },
   "workable:thanks-co": {
    "errors": [],
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "Thanks",
    "zeros": []
   },
   "workable:turbine-1": {
    "errors": [],
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "Turbine",
    "zeros": []
   },
   "workday:3m": {
    "errors": [
-    "2026-11-24T17:01+05:30",
     "2026-11-24T17:31+05:30",
     "2026-11-24T18:01+05:30",
     "2026-11-24T18:31+05:30",
@@ -2449,7 +2448,8 @@
     "2026-11-25T15:31+05:30",
     "2026-11-25T16:01+05:30",
     "2026-11-25T16:31+05:30",
-    "2026-11-25T17:01+05:30"
+    "2026-11-25T17:01+05:30",
+    "2026-11-25T17:31+05:30"
    ],
    "last_error": "RuntimeError: skipped: Workday is rate-limiting this run (429)",
    "last_ok": "2026-11-16T12:31+05:30",
@@ -2458,7 +2458,6 @@
   },
   "workday:abb": {
    "errors": [
-    "2026-11-24T17:01+05:30",
     "2026-11-24T17:31+05:30",
     "2026-11-24T18:01+05:30",
     "2026-11-24T18:31+05:30",
@@ -2508,7 +2507,8 @@
     "2026-11-25T15:31+05:30",
     "2026-11-25T16:01+05:30",
     "2026-11-25T16:31+05:30",
-    "2026-11-25T17:01+05:30"
+    "2026-11-25T17:01+05:30",
+    "2026-11-25T17:31+05:30"
    ],
    "last_error": "RuntimeError: skipped: Workday is rate-limiting this run (429)",
    "last_ok": "2026-11-16T12:31+05:30",
@@ -2517,7 +2517,6 @@
   },
   "workday:abbott": {
    "errors": [
-    "2026-11-24T17:01+05:30",
     "2026-11-24T17:31+05:30",
     "2026-11-24T18:01+05:30",
     "2026-11-24T18:31+05:30",
@@ -2567,7 +2566,8 @@
     "2026-11-25T15:31+05:30",
     "2026-11-25T16:01+05:30",
     "2026-11-25T16:31+05:30",
-    "2026-11-25T17:01+05:30"
+    "2026-11-25T17:01+05:30",
+    "2026-11-25T17:31+05:30"
    ],
    "last_error": "RuntimeError: skipped: Workday is rate-limiting this run (429)",
    "last_ok": "2026-11-16T12:31+05:30",
@@ -2576,7 +2576,6 @@
   },
   "workday:accenture": {
    "errors": [
-    "2026-11-24T17:01+05:30",
     "2026-11-24T17:31+05:30",
     "2026-11-24T18:01+05:30",
     "2026-11-24T18:31+05:30",
@@ -2626,7 +2625,8 @@
     "2026-11-25T15:31+05:30",
     "2026-11-25T16:01+05:30",
     "2026-11-25T16:31+05:30",
-    "2026-11-25T17:01+05:30"
+    "2026-11-25T17:01+05:30",
+    "2026-11-25T17:31+05:30"
    ],
    "last_error": "RuntimeError: skipped: Workday is rate-limiting this run (429)",
    "last_ok": "2026-11-16T04:01+05:30",
@@ -2635,7 +2635,6 @@
   },
   "workday:adobe": {
    "errors": [
-    "2026-11-24T17:01+05:30",
     "2026-11-24T17:31+05:30",
     "2026-11-24T18:01+05:30",
     "2026-11-24T18:31+05:30",
@@ -2685,7 +2684,8 @@
     "2026-11-25T15:31+05:30",
     "2026-11-25T16:01+05:30",
     "2026-11-25T16:31+05:30",
-    "2026-11-25T17:01+05:30"
+    "2026-11-25T17:01+05:30",
+    "2026-11-25T17:31+05:30"
    ],
    "last_error": "RuntimeError: skipped: Workday is rate-limiting this run (429)",
    "last_ok": "2026-11-16T12:31+05:30",
@@ -2694,7 +2694,6 @@
   },
   "workday:ag": {
    "errors": [
-    "2026-11-24T17:01+05:30",
     "2026-11-24T17:31+05:30",
     "2026-11-24T18:01+05:30",
     "2026-11-24T18:31+05:30",
@@ -2744,7 +2743,8 @@
     "2026-11-25T15:31+05:30",
     "2026-11-25T16:01+05:30",
     "2026-11-25T16:31+05:30",
-    "2026-11-25T17:01+05:30"
+    "2026-11-25T17:01+05:30",
+    "2026-11-25T17:31+05:30"
    ],
    "last_error": "RuntimeError: skipped: Workday is rate-limiting this run (429)",
    "last_ok": "2026-11-16T12:31+05:30",
@@ -2753,7 +2753,6 @@
   },
   "workday:agilent": {
    "errors": [
-    "2026-11-24T17:01+05:30",
     "2026-11-24T17:31+05:30",
     "2026-11-24T18:01+05:30",
     "2026-11-24T18:31+05:30",
@@ -2803,7 +2802,8 @@
     "2026-11-25T15:31+05:30",
     "2026-11-25T16:01+05:30",
     "2026-11-25T16:31+05:30",
-    "2026-11-25T17:01+05:30"
+    "2026-11-25T17:01+05:30",
+    "2026-11-25T17:31+05:30"
    ],
    "last_error": "RuntimeError: skipped: Workday is rate-limiting this run (429)",
    "last_ok": "2026-11-16T12:31+05:30",
@@ -2812,7 +2812,6 @@
   },
   "workday:alcon": {
    "errors": [
-    "2026-11-24T17:01+05:30",
     "2026-11-24T17:31+05:30",
     "2026-11-24T18:01+05:30",
     "2026-11-24T18:31+05:30",
@@ -2862,7 +2861,8 @@
     "2026-11-25T15:31+05:30",
     "2026-11-25T16:01+05:30",
     "2026-11-25T16:31+05:30",
-    "2026-11-25T17:01+05:30"
+    "2026-11-25T17:01+05:30",
+    "2026-11-25T17:31+05:30"
    ],
    "last_error": "RuntimeError: skipped: Workday is rate-limiting this run (429)",
    "last_ok": "2026-11-16T12:31+05:30",
@@ -2871,7 +2871,6 @@
   },
   "workday:ameriprise": {
    "errors": [
-    "2026-11-24T17:01+05:30",
     "2026-11-24T17:31+05:30",
     "2026-11-24T18:01+05:30",
     "2026-11-24T18:31+05:30",
@@ -2921,7 +2920,8 @@
     "2026-11-25T15:31+05:30",
     "2026-11-25T16:01+05:30",
     "2026-11-25T16:31+05:30",
-    "2026-11-25T17:01+05:30"
+    "2026-11-25T17:01+05:30",
+    "2026-11-25T17:31+05:30"
    ],
    "last_error": "RuntimeError: skipped: Workday is rate-limiting this run (429)",
    "last_ok": "2026-11-16T12:31+05:30",
@@ -2930,7 +2930,6 @@
   },
   "workday:amgen": {
    "errors": [
-    "2026-11-24T17:01+05:30",
     "2026-11-24T17:31+05:30",
     "2026-11-24T18:01+05:30",
     "2026-11-24T18:31+05:30",
@@ -2980,7 +2979,8 @@
     "2026-11-25T15:31+05:30",
     "2026-11-25T16:01+05:30",
     "2026-11-25T16:31+05:30",
-    "2026-11-25T17:01+05:30"
+    "2026-11-25T17:01+05:30",
+    "2026-11-25T17:31+05:30"
    ],
    "last_error": "RuntimeError: skipped: Workday is rate-limiting this run (429)",
    "last_ok": "2026-11-16T12:31+05:30",
@@ -2989,7 +2989,6 @@
   },
   "workday:analogdevices": {
    "errors": [
-    "2026-11-24T17:01+05:30",
     "2026-11-24T17:31+05:30",
     "2026-11-24T18:01+05:30",
     "2026-11-24T18:31+05:30",
@@ -3038,7 +3037,8 @@
     "2026-11-25T15:31+05:30",
     "2026-11-25T16:01+05:30",
     "2026-11-25T16:31+05:30",
-    "2026-11-25T17:01+05:30"
+    "2026-11-25T17:01+05:30",
+    "2026-11-25T17:31+05:30"
    ],
    "last_error": "RuntimeError: skipped: Workday is rate-limiting this run (429)",
    "last_ok": "2026-11-25T07:01+05:30",
@@ -3047,7 +3047,6 @@
   },
   "workday:aptiv": {
    "errors": [
-    "2026-11-24T17:01+05:30",
     "2026-11-24T17:31+05:30",
     "2026-11-24T18:01+05:30",
     "2026-11-24T18:31+05:30",
@@ -3097,7 +3096,8 @@
     "2026-11-25T15:31+05:30",
     "2026-11-25T16:01+05:30",
     "2026-11-25T16:31+05:30",
-    "2026-11-25T17:01+05:30"
+    "2026-11-25T17:01+05:30",
+    "2026-11-25T17:31+05:30"
    ],
    "last_error": "RuntimeError: skipped: Workday is rate-limiting this run (429)",
    "last_ok": "2026-11-16T12:31+05:30",
@@ -3106,7 +3106,6 @@
   },
   "workday:athenahealth": {
    "errors": [
-    "2026-11-24T17:01+05:30",
     "2026-11-24T17:31+05:30",
     "2026-11-24T18:01+05:30",
     "2026-11-24T18:31+05:30",
@@ -3156,7 +3155,8 @@
     "2026-11-25T15:31+05:30",
     "2026-11-25T16:01+05:30",
     "2026-11-25T16:31+05:30",
-    "2026-11-25T17:01+05:30"
+    "2026-11-25T17:01+05:30",
+    "2026-11-25T17:31+05:30"
    ],
    "last_error": "RuntimeError: skipped: Workday is rate-limiting this run (429)",
    "last_ok": "2026-11-16T12:31+05:30",
@@ -3165,7 +3165,6 @@
   },
   "workday:autodesk": {
    "errors": [
-    "2026-11-24T17:01+05:30",
     "2026-11-24T17:31+05:30",
     "2026-11-24T18:01+05:30",
     "2026-11-24T18:31+05:30",
@@ -3215,7 +3214,8 @@
     "2026-11-25T15:31+05:30",
     "2026-11-25T16:01+05:30",
     "2026-11-25T16:31+05:30",
-    "2026-11-25T17:01+05:30"
+    "2026-11-25T17:01+05:30",
+    "2026-11-25T17:31+05:30"
    ],
    "last_error": "RuntimeError: skipped: Workday is rate-limiting this run (429)",
    "last_ok": "2026-11-23T03:01+05:30",
@@ -3224,7 +3224,6 @@
   },
   "workday:bakerhughes": {
    "errors": [
-    "2026-11-24T17:01+05:30",
     "2026-11-24T17:31+05:30",
     "2026-11-24T18:01+05:30",
     "2026-11-24T18:31+05:30",
@@ -3274,7 +3273,8 @@
     "2026-11-25T15:31+05:30",
     "2026-11-25T16:01+05:30",
     "2026-11-25T16:31+05:30",
-    "2026-11-25T17:01+05:30"
+    "2026-11-25T17:01+05:30",
+    "2026-11-25T17:31+05:30"
    ],
    "last_error": "RuntimeError: skipped: Workday is rate-limiting this run (429)",
    "last_ok": "2026-11-16T12:31+05:30",
@@ -3283,7 +3283,6 @@
   },
   "workday:barclays": {
    "errors": [
-    "2026-11-24T17:01+05:30",
     "2026-11-24T17:31+05:30",
     "2026-11-24T18:01+05:30",
     "2026-11-24T18:31+05:30",
@@ -3333,7 +3332,8 @@
     "2026-11-25T15:31+05:30",
     "2026-11-25T16:01+05:30",
     "2026-11-25T16:31+05:30",
-    "2026-11-25T17:01+05:30"
+    "2026-11-25T17:01+05:30",
+    "2026-11-25T17:31+05:30"
    ],
    "last_error": "RuntimeError: skipped: Workday is rate-limiting this run (429)",
    "last_ok": "2026-11-16T12:31+05:30",
@@ -3342,7 +3342,6 @@
   },
   "workday:baxter": {
    "errors": [
-    "2026-11-24T17:01+05:30",
     "2026-11-24T17:31+05:30",
     "2026-11-24T18:01+05:30",
     "2026-11-24T18:31+05:30",
@@ -3392,7 +3391,8 @@
     "2026-11-25T15:31+05:30",
     "2026-11-25T16:01+05:30",
     "2026-11-25T16:31+05:30",
-    "2026-11-25T17:01+05:30"
+    "2026-11-25T17:01+05:30",
+    "2026-11-25T17:31+05:30"
    ],
    "last_error": "RuntimeError: skipped: Workday is rate-limiting this run (429)",
    "last_ok": "2026-11-16T12:31+05:30",
@@ -3401,7 +3401,6 @@
   },
   "workday:bdx": {
    "errors": [
-    "2026-11-24T17:01+05:30",
     "2026-11-24T17:31+05:30",
     "2026-11-24T18:01+05:30",
     "2026-11-24T18:31+05:30",
@@ -3451,7 +3450,8 @@
     "2026-11-25T15:31+05:30",
     "2026-11-25T16:01+05:30",
     "2026-11-25T16:31+05:30",
-    "2026-11-25T17:01+05:30"
+    "2026-11-25T17:01+05:30",
+    "2026-11-25T17:31+05:30"
    ],
    "last_error": "RuntimeError: skipped: Workday is rate-limiting this run (429)",
    "last_ok": "2026-11-16T12:31+05:30",
@@ -3460,7 +3460,6 @@
   },
   "workday:blackrock": {
    "errors": [
-    "2026-11-24T17:01+05:30",
     "2026-11-24T17:31+05:30",
     "2026-11-24T18:01+05:30",
     "2026-11-24T18:31+05:30",
@@ -3510,7 +3509,8 @@
     "2026-11-25T15:31+05:30",
     "2026-11-25T16:01+05:30",
     "2026-11-25T16:31+05:30",
-    "2026-11-25T17:01+05:30"
+    "2026-11-25T17:01+05:30",
+    "2026-11-25T17:31+05:30"
    ],
    "last_error": "RuntimeError: skipped: Workday is rate-limiting this run (429)",
    "last_ok": "2026-11-16T12:31+05:30",
@@ -3519,7 +3519,6 @@
   },
   "workday:boeing": {
    "errors": [
-    "2026-11-24T17:01+05:30",
     "2026-11-24T17:31+05:30",
     "2026-11-24T18:01+05:30",
     "2026-11-24T18:31+05:30",
@@ -3569,7 +3568,8 @@
     "2026-11-25T15:31+05:30",
     "2026-11-25T16:01+05:30",
     "2026-11-25T16:31+05:30",
-    "2026-11-25T17:01+05:30"
+    "2026-11-25T17:01+05:30",
+    "2026-11-25T17:31+05:30"
    ],
    "last_error": "RuntimeError: skipped: Workday is rate-limiting this run (429)",
    "last_ok": "2026-11-16T12:31+05:30",
@@ -3578,7 +3578,6 @@
   },
   "workday:bpinternational": {
    "errors": [
-    "2026-11-24T17:01+05:30",
     "2026-11-24T17:31+05:30",
     "2026-11-24T18:01+05:30",
     "2026-11-24T18:31+05:30",
@@ -3628,7 +3627,8 @@
     "2026-11-25T15:31+05:30",
     "2026-11-25T16:01+05:30",
     "2026-11-25T16:31+05:30",
-    "2026-11-25T17:01+05:30"
+    "2026-11-25T17:01+05:30",
+    "2026-11-25T17:31+05:30"
    ],
    "last_error": "RuntimeError: skipped: Workday is rate-limiting this run (429)",
    "last_ok": "2026-11-16T12:31+05:30",
@@ -3637,7 +3637,6 @@
   },
   "workday:bristolmyerssquibb": {
    "errors": [
-    "2026-11-24T17:01+05:30",
     "2026-11-24T17:31+05:30",
     "2026-11-24T18:01+05:30",
     "2026-11-24T18:31+05:30",
@@ -3687,7 +3686,8 @@
     "2026-11-25T15:31+05:30",
     "2026-11-25T16:01+05:30",
     "2026-11-25T16:31+05:30",
-    "2026-11-25T17:01+05:30"
+    "2026-11-25T17:01+05:30",
+    "2026-11-25T17:31+05:30"
    ],
    "last_error": "RuntimeError: skipped: Workday is rate-limiting this run (429)",
    "last_ok": "2026-11-16T12:31+05:30",
@@ -3696,7 +3696,6 @@
   },
   "workday:broadcom": {
    "errors": [
-    "2026-11-24T17:01+05:30",
     "2026-11-24T17:31+05:30",
     "2026-11-24T18:01+05:30",
     "2026-11-24T18:31+05:30",
@@ -3746,7 +3745,8 @@
     "2026-11-25T15:31+05:30",
     "2026-11-25T16:01+05:30",
     "2026-11-25T16:31+05:30",
-    "2026-11-25T17:01+05:30"
+    "2026-11-25T17:01+05:30",
+    "2026-11-25T17:31+05:30"
    ],
    "last_error": "RuntimeError: skipped: Workday is rate-limiting this run (429)",
    "last_ok": "2026-11-16T12:31+05:30",
@@ -3755,7 +3755,6 @@
   },
   "workday:broadridge": {
    "errors": [
-    "2026-11-24T17:01+05:30",
     "2026-11-24T17:31+05:30",
     "2026-11-24T18:01+05:30",
     "2026-11-24T18:31+05:30",
@@ -3805,7 +3804,8 @@
     "2026-11-25T15:31+05:30",
     "2026-11-25T16:01+05:30",
     "2026-11-25T16:31+05:30",
-    "2026-11-25T17:01+05:30"
+    "2026-11-25T17:01+05:30",
+    "2026-11-25T17:31+05:30"
    ],
    "last_error": "RuntimeError: skipped: Workday is rate-limiting this run (429)",
    "last_ok": "2026-11-16T12:31+05:30",
@@ -3814,7 +3814,6 @@
   },
   "workday:browserstack": {
    "errors": [
-    "2026-11-24T17:01+05:30",
     "2026-11-24T17:31+05:30",
     "2026-11-24T18:01+05:30",
     "2026-11-24T18:31+05:30",
@@ -3864,7 +3863,8 @@
     "2026-11-25T15:31+05:30",
     "2026-11-25T16:01+05:30",
     "2026-11-25T16:31+05:30",
-    "2026-11-25T17:01+05:30"
+    "2026-11-25T17:01+05:30",
+    "2026-11-25T17:31+05:30"
    ],
    "last_error": "RuntimeError: skipped: Workday is rate-limiting this run (429)",
    "last_ok": "2026-11-16T12:31+05:30",
@@ -3873,7 +3873,6 @@
   },
   "workday:cadence": {
    "errors": [
-    "2026-11-24T17:01+05:30",
     "2026-11-24T17:31+05:30",
     "2026-11-24T18:01+05:30",
     "2026-11-24T18:31+05:30",
@@ -3923,7 +3922,8 @@
     "2026-11-25T15:31+05:30",
     "2026-11-25T16:01+05:30",
     "2026-11-25T16:31+05:30",
-    "2026-11-25T17:01+05:30"
+    "2026-11-25T17:01+05:30",
+    "2026-11-25T17:31+05:30"
    ],
    "last_error": "RuntimeError: skipped: Workday is rate-limiting this run (429)",
    "last_ok": "2026-11-21T03:01+05:30",
@@ -3932,7 +3932,6 @@
   },
   "workday:capitalone": {
    "errors": [
-    "2026-11-24T17:01+05:30",
     "2026-11-24T17:31+05:30",
     "2026-11-24T18:01+05:30",
     "2026-11-24T18:31+05:30",
@@ -3982,7 +3981,8 @@
     "2026-11-25T15:31+05:30",
     "2026-11-25T16:01+05:30",
     "2026-11-25T16:31+05:30",
-    "2026-11-25T17:01+05:30"
+    "2026-11-25T17:01+05:30",
+    "2026-11-25T17:31+05:30"
    ],
    "last_error": "RuntimeError: skipped: Workday is rate-limiting this run (429)",
    "last_ok": "2026-11-16T04:01+05:30",
@@ -3991,7 +3991,6 @@
   },
   "workday:carrier": {
    "errors": [
-    "2026-11-24T17:01+05:30",
     "2026-11-24T17:31+05:30",
     "2026-11-24T18:01+05:30",
     "2026-11-24T18:31+05:30",
@@ -4041,7 +4040,8 @@
     "2026-11-25T15:31+05:30",
     "2026-11-25T16:01+05:30",
     "2026-11-25T16:31+05:30",
-    "2026-11-25T17:01+05:30"
+    "2026-11-25T17:01+05:30",
+    "2026-11-25T17:31+05:30"
    ],
    "last_error": "RuntimeError: skipped: Workday is rate-limiting this run (429)",
    "last_ok": "2026-11-16T12:31+05:30",
@@ -4050,7 +4050,6 @@
   },
   "workday:cat": {
    "errors": [
-    "2026-11-24T17:01+05:30",
     "2026-11-24T17:31+05:30",
     "2026-11-24T18:01+05:30",
     "2026-11-24T18:31+05:30",
@@ -4100,7 +4099,8 @@
     "2026-11-25T15:31+05:30",
     "2026-11-25T16:01+05:30",
     "2026-11-25T16:31+05:30",
-    "2026-11-25T17:01+05:30"
+    "2026-11-25T17:01+05:30",
+    "2026-11-25T17:31+05:30"
    ],
    "last_error": "RuntimeError: skipped: Workday is rate-limiting this run (429)",
    "last_ok": "2026-11-16T12:31+05:30",
@@ -4109,7 +4109,6 @@
   },
   "workday:cba": {
    "errors": [
-    "2026-11-24T17:01+05:30",
     "2026-11-24T17:31+05:30",
     "2026-11-24T18:01+05:30",
     "2026-11-24T18:31+05:30",
@@ -4159,7 +4158,8 @@
     "2026-11-25T15:31+05:30",
     "2026-11-25T16:01+05:30",
     "2026-11-25T16:31+05:30",
-    "2026-11-25T17:01+05:30"
+    "2026-11-25T17:01+05:30",
+    "2026-11-25T17:31+05:30"
    ],
    "last_error": "RuntimeError: skipped: Workday is rate-limiting this run (429)",
    "last_ok": "2026-11-16T12:31+05:30",
@@ -4168,7 +4168,6 @@
   },
   "workday:chevron": {
    "errors": [
-    "2026-11-24T17:01+05:30",
     "2026-11-24T17:31+05:30",
     "2026-11-24T18:01+05:30",
     "2026-11-24T18:31+05:30",
@@ -4218,7 +4217,8 @@
     "2026-11-25T15:31+05:30",
     "2026-11-25T16:01+05:30",
     "2026-11-25T16:31+05:30",
-    "2026-11-25T17:01+05:30"
+    "2026-11-25T17:01+05:30",
+    "2026-11-25T17:31+05:30"
    ],
    "last_error": "RuntimeError: skipped: Workday is rate-limiting this run (429)",
    "last_ok": "2026-11-16T12:31+05:30",
@@ -4227,7 +4227,6 @@
   },
   "workday:ciena": {
    "errors": [
-    "2026-11-24T17:01+05:30",
     "2026-11-24T17:31+05:30",
     "2026-11-24T18:01+05:30",
     "2026-11-24T18:31+05:30",
@@ -4277,7 +4276,8 @@
     "2026-11-25T15:31+05:30",
     "2026-11-25T16:01+05:30",
     "2026-11-25T16:31+05:30",
-    "2026-11-25T17:01+05:30"
+    "2026-11-25T17:01+05:30",
+    "2026-11-25T17:31+05:30"
    ],
    "last_error": "RuntimeError: skipped: Workday is rate-limiting this run (429)",
    "last_ok": "2026-11-16T12:31+05:30",
@@ -4286,7 +4286,6 @@
   },
   "workday:cisco": {
    "errors": [
-    "2026-11-24T17:01+05:30",
     "2026-11-24T17:31+05:30",
     "2026-11-24T18:01+05:30",
     "2026-11-24T18:31+05:30",
@@ -4336,7 +4335,8 @@
     "2026-11-25T15:31+05:30",
     "2026-11-25T16:01+05:30",
     "2026-11-25T16:31+05:30",
-    "2026-11-25T17:01+05:30"
+    "2026-11-25T17:01+05:30",
+    "2026-11-25T17:31+05:30"
    ],
    "last_error": "HTTPError: HTTP Error 429: Too Many Requests",
    "last_ok": "2026-11-23T10:31+05:30",
@@ -4345,7 +4345,6 @@
   },
   "workday:citi": {
    "errors": [
-    "2026-11-24T17:01+05:30",
     "2026-11-24T17:31+05:30",
     "2026-11-24T18:01+05:30",
     "2026-11-24T18:31+05:30",
@@ -4395,7 +4394,8 @@
     "2026-11-25T15:31+05:30",
     "2026-11-25T16:01+05:30",
     "2026-11-25T16:31+05:30",
-    "2026-11-25T17:01+05:30"
+    "2026-11-25T17:01+05:30",
+    "2026-11-25T17:31+05:30"
    ],
    "last_error": "RuntimeError: skipped: Workday is rate-limiting this run (429)",
    "last_ok": "2026-11-16T12:31+05:30",
@@ -4404,7 +4404,6 @@
   },
   "workday:clarivate": {
    "errors": [
-    "2026-11-24T17:01+05:30",
     "2026-11-24T17:31+05:30",
     "2026-11-24T18:01+05:30",
     "2026-11-24T18:31+05:30",
@@ -4454,7 +4453,8 @@
     "2026-11-25T15:31+05:30",
     "2026-11-25T16:01+05:30",
     "2026-11-25T16:31+05:30",
-    "2026-11-25T17:01+05:30"
+    "2026-11-25T17:01+05:30",
+    "2026-11-25T17:31+05:30"
    ],
    "last_error": "RuntimeError: skipped: Workday is rate-limiting this run (429)",
    "last_ok": "2026-11-16T12:31+05:30",
@@ -4463,7 +4463,6 @@
   },
   "workday:cmegroup": {
    "errors": [
-    "2026-11-24T17:01+05:30",
     "2026-11-24T17:31+05:30",
     "2026-11-24T18:01+05:30",
     "2026-11-24T18:31+05:30",
@@ -4513,7 +4512,8 @@
     "2026-11-25T15:31+05:30",
     "2026-11-25T16:01+05:30",
     "2026-11-25T16:31+05:30",
-    "2026-11-25T17:01+05:30"
+    "2026-11-25T17:01+05:30",
+    "2026-11-25T17:31+05:30"
    ],
    "last_error": "RuntimeError: skipped: Workday is rate-limiting this run (429)",
    "last_ok": "2026-11-16T12:31+05:30",
@@ -4522,7 +4522,6 @@
   },
   "workday:comcast": {
    "errors": [
-    "2026-11-24T17:01+05:30",
     "2026-11-24T17:31+05:30",
     "2026-11-24T18:01+05:30",
     "2026-11-24T18:31+05:30",
@@ -4572,7 +4571,8 @@
     "2026-11-25T15:31+05:30",
     "2026-11-25T16:01+05:30",
     "2026-11-25T16:31+05:30",
-    "2026-11-25T17:01+05:30"
+    "2026-11-25T17:01+05:30",
+    "2026-11-25T17:31+05:30"
    ],
    "last_error": "RuntimeError: skipped: Workday is rate-limiting this run (429)",
    "last_ok": "2026-11-16T12:31+05:30",
@@ -4581,7 +4581,6 @@
   },
   "workday:crowdstrike": {
    "errors": [
-    "2026-11-24T17:01+05:30",
     "2026-11-24T17:31+05:30",
     "2026-11-24T18:01+05:30",
     "2026-11-24T18:31+05:30",
@@ -4631,7 +4630,8 @@
     "2026-11-25T15:31+05:30",
     "2026-11-25T16:01+05:30",
     "2026-11-25T16:31+05:30",
-    "2026-11-25T17:01+05:30"
+    "2026-11-25T17:01+05:30",
+    "2026-11-25T17:31+05:30"
    ],
    "last_error": "RuntimeError: skipped: Workday is rate-limiting this run (429)",
    "last_ok": "2026-11-16T12:31+05:30",
@@ -4640,7 +4640,6 @@
   },
   "workday:danaher": {
    "errors": [
-    "2026-11-24T17:01+05:30",
     "2026-11-24T17:31+05:30",
     "2026-11-24T18:01+05:30",
     "2026-11-24T18:31+05:30",
@@ -4690,7 +4689,8 @@
     "2026-11-25T15:31+05:30",
     "2026-11-25T16:01+05:30",
     "2026-11-25T16:31+05:30",
-    "2026-11-25T17:01+05:30"
+    "2026-11-25T17:01+05:30",
+    "2026-11-25T17:31+05:30"
    ],
    "last_error": "RuntimeError: skipped: Workday is rate-limiting this run (429)",
    "last_ok": "2026-11-16T12:31+05:30",
@@ -4699,7 +4699,6 @@
   },
   "workday:db": {
    "errors": [
-    "2026-11-24T17:01+05:30",
     "2026-11-24T17:31+05:30",
     "2026-11-24T18:01+05:30",
     "2026-11-24T18:31+05:30",
@@ -4749,7 +4748,8 @@
     "2026-11-25T15:31+05:30",
     "2026-11-25T16:01+05:30",
     "2026-11-25T16:31+05:30",
-    "2026-11-25T17:01+05:30"
+    "2026-11-25T17:01+05:30",
+    "2026-11-25T17:31+05:30"
    ],
    "last_error": "RuntimeError: skipped: Workday is rate-limiting this run (429)",
    "last_ok": "2026-11-16T12:31+05:30",
@@ -4758,7 +4758,6 @@
   },
   "workday:diageo": {
    "errors": [
-    "2026-11-24T17:01+05:30",
     "2026-11-24T17:31+05:30",
     "2026-11-24T18:01+05:30",
     "2026-11-24T18:31+05:30",
@@ -4808,7 +4807,8 @@
     "2026-11-25T15:31+05:30",
     "2026-11-25T16:01+05:30",
     "2026-11-25T16:31+05:30",
-    "2026-11-25T17:01+05:30"
+    "2026-11-25T17:01+05:30",
+    "2026-11-25T17:31+05:30"
    ],
    "last_error": "RuntimeError: skipped: Workday is rate-limiting this run (429)",
    "last_ok": "2026-11-16T12:31+05:30",
@@ -4817,7 +4817,6 @@
   },
   "workday:dxctechnology": {
    "errors": [
-    "2026-11-24T17:01+05:30",
     "2026-11-24T17:31+05:30",
     "2026-11-24T18:01+05:30",
     "2026-11-24T18:31+05:30",
@@ -4867,7 +4866,8 @@
     "2026-11-25T15:31+05:30",
     "2026-11-25T16:01+05:30",
     "2026-11-25T16:31+05:30",
-    "2026-11-25T17:01+05:30"
+    "2026-11-25T17:01+05:30",
+    "2026-11-25T17:31+05:30"
    ],
    "last_error": "RuntimeError: skipped: Workday is rate-limiting this run (429)",
    "last_ok": "2026-11-16T12:31+05:30",
@@ -4876,7 +4876,6 @@
   },
   "workday:ebay": {
    "errors": [
-    "2026-11-24T17:01+05:30",
     "2026-11-24T17:31+05:30",
     "2026-11-24T18:01+05:30",
     "2026-11-24T18:31+05:30",
@@ -4926,7 +4925,8 @@
     "2026-11-25T15:31+05:30",
     "2026-11-25T16:01+05:30",
     "2026-11-25T16:31+05:30",
-    "2026-11-25T17:01+05:30"
+    "2026-11-25T17:01+05:30",
+    "2026-11-25T17:31+05:30"
    ],
    "last_error": "RuntimeError: skipped: Workday is rate-limiting this run (429)",
    "last_ok": "2026-11-16T12:31+05:30",
@@ -4935,7 +4935,6 @@
   },
   "workday:edwards": {
    "errors": [
-    "2026-11-24T17:01+05:30",
     "2026-11-24T17:31+05:30",
     "2026-11-24T18:01+05:30",
     "2026-11-24T18:31+05:30",
@@ -4985,7 +4984,8 @@
     "2026-11-25T15:31+05:30",
     "2026-11-25T16:01+05:30",
     "2026-11-25T16:31+05:30",
-    "2026-11-25T17:01+05:30"
+    "2026-11-25T17:01+05:30",
+    "2026-11-25T17:31+05:30"
    ],
    "last_error": "RuntimeError: skipped: Workday is rate-limiting this run (429)",
    "last_ok": "2026-11-16T12:31+05:30",
@@ -4994,7 +4994,6 @@
   },
   "workday:elevancehealth": {
    "errors": [
-    "2026-11-24T17:01+05:30",
     "2026-11-24T17:31+05:30",
     "2026-11-24T18:01+05:30",
     "2026-11-24T18:31+05:30",
@@ -5044,7 +5043,8 @@
     "2026-11-25T15:31+05:30",
     "2026-11-25T16:01+05:30",
     "2026-11-25T16:31+05:30",
-    "2026-11-25T17:01+05:30"
+    "2026-11-25T17:01+05:30",
+    "2026-11-25T17:31+05:30"
    ],
    "last_error": "RuntimeError: skipped: Workday is rate-limiting this run (429)",
    "last_ok": "2026-11-16T12:31+05:30",
@@ -5053,7 +5053,6 @@
   },
   "workday:equifax": {
    "errors": [
-    "2026-11-24T17:01+05:30",
     "2026-11-24T17:31+05:30",
     "2026-11-24T18:01+05:30",
     "2026-11-24T18:31+05:30",
@@ -5103,7 +5102,8 @@
     "2026-11-25T15:31+05:30",
     "2026-11-25T16:01+05:30",
     "2026-11-25T16:31+05:30",
-    "2026-11-25T17:01+05:30"
+    "2026-11-25T17:01+05:30",
+    "2026-11-25T17:31+05:30"
    ],
    "last_error": "RuntimeError: skipped: Workday is rate-limiting this run (429)",
    "last_ok": "2026-11-16T12:31+05:30",
@@ -5112,7 +5112,6 @@
   },
   "workday:equinix": {
    "errors": [
-    "2026-11-24T17:01+05:30",
     "2026-11-24T17:31+05:30",
     "2026-11-24T18:01+05:30",
     "2026-11-24T18:31+05:30",
@@ -5162,7 +5161,8 @@
     "2026-11-25T15:31+05:30",
     "2026-11-25T16:01+05:30",
     "2026-11-25T16:31+05:30",
-    "2026-11-25T17:01+05:30"
+    "2026-11-25T17:01+05:30",
+    "2026-11-25T17:31+05:30"
    ],
    "last_error": "RuntimeError: skipped: Workday is rate-limiting this run (429)",
    "last_ok": "2026-11-20T13:31+05:30",
@@ -5171,7 +5171,6 @@
   },
   "workday:expedia": {
    "errors": [
-    "2026-11-24T17:01+05:30",
     "2026-11-24T17:31+05:30",
     "2026-11-24T18:01+05:30",
     "2026-11-24T18:31+05:30",
@@ -5221,7 +5220,8 @@
     "2026-11-25T15:31+05:30",
     "2026-11-25T16:01+05:30",
     "2026-11-25T16:31+05:30",
-    "2026-11-25T17:01+05:30"
+    "2026-11-25T17:01+05:30",
+    "2026-11-25T17:31+05:30"
    ],
    "last_error": "RuntimeError: skipped: Workday is rate-limiting this run (429)",
    "last_ok": "2026-11-16T12:31+05:30",
@@ -5230,7 +5230,6 @@
   },
   "workday:factset": {
    "errors": [
-    "2026-11-24T17:01+05:30",
     "2026-11-24T17:31+05:30",
     "2026-11-24T18:01+05:30",
     "2026-11-24T18:31+05:30",
@@ -5280,7 +5279,8 @@
     "2026-11-25T15:31+05:30",
     "2026-11-25T16:01+05:30",
     "2026-11-25T16:31+05:30",
-    "2026-11-25T17:01+05:30"
+    "2026-11-25T17:01+05:30",
+    "2026-11-25T17:31+05:30"
    ],
    "last_error": "RuntimeError: skipped: Workday is rate-limiting this run (429)",
    "last_ok": "2026-11-16T04:31+05:30",
@@ -5289,7 +5289,6 @@
   },
   "workday:ffive": {
    "errors": [
-    "2026-11-24T17:01+05:30",
     "2026-11-24T17:31+05:30",
     "2026-11-24T18:01+05:30",
     "2026-11-24T18:31+05:30",
@@ -5339,7 +5338,8 @@
     "2026-11-25T15:31+05:30",
     "2026-11-25T16:01+05:30",
     "2026-11-25T16:31+05:30",
-    "2026-11-25T17:01+05:30"
+    "2026-11-25T17:01+05:30",
+    "2026-11-25T17:31+05:30"
    ],
    "last_error": "RuntimeError: skipped: Workday is rate-limiting this run (429)",
    "last_ok": "2026-11-16T12:31+05:30",
@@ -5348,7 +5348,6 @@
   },
   "workday:fico": {
    "errors": [
-    "2026-11-24T17:01+05:30",
     "2026-11-24T17:31+05:30",
     "2026-11-24T18:01+05:30",
     "2026-11-24T18:31+05:30",
@@ -5398,7 +5397,8 @@
     "2026-11-25T15:31+05:30",
     "2026-11-25T16:01+05:30",
     "2026-11-25T16:31+05:30",
-    "2026-11-25T17:01+05:30"
+    "2026-11-25T17:01+05:30",
+    "2026-11-25T17:31+05:30"
    ],
    "last_error": "RuntimeError: skipped: Workday is rate-limiting this run (429)",
    "last_ok": "2026-11-16T12:31+05:30",
@@ -5407,7 +5407,6 @@
   },
   "workday:fil": {
    "errors": [
-    "2026-11-24T17:01+05:30",
     "2026-11-24T17:31+05:30",
     "2026-11-24T18:01+05:30",
     "2026-11-24T18:31+05:30",
@@ -5457,7 +5456,8 @@
     "2026-11-25T15:31+05:30",
     "2026-11-25T16:01+05:30",
     "2026-11-25T16:31+05:30",
-    "2026-11-25T17:01+05:30"
+    "2026-11-25T17:01+05:30",
+    "2026-11-25T17:31+05:30"
    ],
    "last_error": "RuntimeError: skipped: Workday is rate-limiting this run (429)",
    "last_ok": "2026-11-16T12:31+05:30",
@@ -5466,7 +5466,6 @@
   },
   "workday:fis": {
    "errors": [
-    "2026-11-24T17:01+05:30",
     "2026-11-24T17:31+05:30",
     "2026-11-24T18:01+05:30",
     "2026-11-24T18:31+05:30",
@@ -5516,7 +5515,8 @@
     "2026-11-25T15:31+05:30",
     "2026-11-25T16:01+05:30",
     "2026-11-25T16:31+05:30",
-    "2026-11-25T17:01+05:30"
+    "2026-11-25T17:01+05:30",
+    "2026-11-25T17:31+05:30"
    ],
    "last_error": "RuntimeError: skipped: Workday is rate-limiting this run (429)",
    "last_ok": "2026-11-16T12:31+05:30",
@@ -5525,7 +5525,6 @@
   },
   "workday:fiserv": {
    "errors": [
-    "2026-11-24T17:01+05:30",
     "2026-11-24T17:31+05:30",
     "2026-11-24T18:01+05:30",
     "2026-11-24T18:31+05:30",
@@ -5575,7 +5574,8 @@
     "2026-11-25T15:31+05:30",
     "2026-11-25T16:01+05:30",
     "2026-11-25T16:31+05:30",
-    "2026-11-25T17:01+05:30"
+    "2026-11-25T17:01+05:30",
+    "2026-11-25T17:31+05:30"
    ],
    "last_error": "RuntimeError: skipped: Workday is rate-limiting this run (429)",
    "last_ok": "2026-11-16T12:31+05:30",
@@ -5584,7 +5584,6 @@
   },
   "workday:fmr": {
    "errors": [
-    "2026-11-24T17:01+05:30",
     "2026-11-24T17:31+05:30",
     "2026-11-24T18:01+05:30",
     "2026-11-24T18:31+05:30",
@@ -5632,7 +5631,8 @@
     "2026-11-25T15:31+05:30",
     "2026-11-25T16:01+05:30",
     "2026-11-25T16:31+05:30",
-    "2026-11-25T17:01+05:30"
+    "2026-11-25T17:01+05:30",
+    "2026-11-25T17:31+05:30"
    ],
    "last_error": "RuntimeError: skipped: Workday is rate-limiting this run (429)",
    "last_ok": "2026-11-25T12:31+05:30",
@@ -5641,7 +5641,6 @@
   },
   "workday:gapinc": {
    "errors": [
-    "2026-11-24T17:01+05:30",
     "2026-11-24T17:31+05:30",
     "2026-11-24T18:01+05:30",
     "2026-11-24T18:31+05:30",
@@ -5691,7 +5690,8 @@
     "2026-11-25T15:31+05:30",
     "2026-11-25T16:01+05:30",
     "2026-11-25T16:31+05:30",
-    "2026-11-25T17:01+05:30"
+    "2026-11-25T17:01+05:30",
+    "2026-11-25T17:31+05:30"
    ],
    "last_error": "RuntimeError: skipped: Workday is rate-limiting this run (429)",
    "last_ok": "2026-11-16T12:31+05:30",
@@ -5700,7 +5700,6 @@
   },
   "workday:gartner": {
    "errors": [
-    "2026-11-24T17:01+05:30",
     "2026-11-24T17:31+05:30",
     "2026-11-24T18:01+05:30",
     "2026-11-24T18:31+05:30",
@@ -5750,7 +5749,8 @@
     "2026-11-25T15:31+05:30",
     "2026-11-25T16:01+05:30",
     "2026-11-25T16:31+05:30",
-    "2026-11-25T17:01+05:30"
+    "2026-11-25T17:01+05:30",
+    "2026-11-25T17:31+05:30"
    ],
    "last_error": "RuntimeError: skipped: Workday is rate-limiting this run (429)",
    "last_ok": "2026-11-16T12:31+05:30",
@@ -5759,7 +5759,6 @@
   },
   "workday:geaerospace": {
    "errors": [
-    "2026-11-24T17:01+05:30",
     "2026-11-24T17:31+05:30",
     "2026-11-24T18:01+05:30",
     "2026-11-24T18:31+05:30",
@@ -5809,7 +5808,8 @@
     "2026-11-25T15:31+05:30",
     "2026-11-25T16:01+05:30",
     "2026-11-25T16:31+05:30",
-    "2026-11-25T17:01+05:30"
+    "2026-11-25T17:01+05:30",
+    "2026-11-25T17:31+05:30"
    ],
    "last_error": "RuntimeError: skipped: Workday is rate-limiting this run (429)",
    "last_ok": "2026-11-16T12:31+05:30",
@@ -5818,7 +5818,6 @@
   },
   "workday:gehc": {
    "errors": [
-    "2026-11-24T17:01+05:30",
     "2026-11-24T17:31+05:30",
     "2026-11-24T18:01+05:30",
     "2026-11-24T18:31+05:30",
@@ -5868,7 +5867,8 @@
     "2026-11-25T15:31+05:30",
     "2026-11-25T16:01+05:30",
     "2026-11-25T16:31+05:30",
-    "2026-11-25T17:01+05:30"
+    "2026-11-25T17:01+05:30",
+    "2026-11-25T17:31+05:30"
    ],
    "last_error": "RuntimeError: skipped: Workday is rate-limiting this run (429)",
    "last_ok": "2026-11-16T12:31+05:30",
@@ -5877,7 +5877,6 @@
   },
   "workday:genesys": {
    "errors": [
-    "2026-11-24T17:01+05:30",
     "2026-11-24T17:31+05:30",
     "2026-11-24T18:01+05:30",
     "2026-11-24T18:31+05:30",
@@ -5927,7 +5926,8 @@
     "2026-11-25T15:31+05:30",
     "2026-11-25T16:01+05:30",
     "2026-11-25T16:31+05:30",
-    "2026-11-25T17:01+05:30"
+    "2026-11-25T17:01+05:30",
+    "2026-11-25T17:31+05:30"
    ],
    "last_error": "RuntimeError: skipped: Workday is rate-limiting this run (429)",
    "last_ok": "2026-11-16T12:31+05:30",
@@ -5936,7 +5936,6 @@
   },
   "workday:gevernova": {
    "errors": [
-    "2026-11-24T17:01+05:30",
     "2026-11-24T17:31+05:30",
     "2026-11-24T18:01+05:30",
     "2026-11-24T18:31+05:30",
@@ -5986,7 +5985,8 @@
     "2026-11-25T15:31+05:30",
     "2026-11-25T16:01+05:30",
     "2026-11-25T16:31+05:30",
-    "2026-11-25T17:01+05:30"
+    "2026-11-25T17:01+05:30",
+    "2026-11-25T17:31+05:30"
    ],
    "last_error": "RuntimeError: skipped: Workday is rate-limiting this run (429)",
    "last_ok": "2026-11-16T12:31+05:30",
@@ -5995,7 +5995,6 @@
   },
   "workday:ghr": {
    "errors": [
-    "2026-11-24T17:01+05:30",
     "2026-11-24T17:31+05:30",
     "2026-11-24T18:01+05:30",
     "2026-11-24T18:31+05:30",
@@ -6045,7 +6044,8 @@
     "2026-11-25T15:31+05:30",
     "2026-11-25T16:01+05:30",
     "2026-11-25T16:31+05:30",
-    "2026-11-25T17:01+05:30"
+    "2026-11-25T17:01+05:30",
+    "2026-11-25T17:31+05:30"
    ],
    "last_error": "RuntimeError: skipped: Workday is rate-limiting this run (429)",
    "last_ok": "2026-11-16T12:31+05:30",
@@ -6054,7 +6054,6 @@
   },
   "workday:globalfoundries": {
    "errors": [
-    "2026-11-24T17:01+05:30",
     "2026-11-24T17:31+05:30",
     "2026-11-24T18:01+05:30",
     "2026-11-24T18:31+05:30",
@@ -6104,7 +6103,8 @@
     "2026-11-25T15:31+05:30",
     "2026-11-25T16:01+05:30",
     "2026-11-25T16:31+05:30",
-    "2026-11-25T17:01+05:30"
+    "2026-11-25T17:01+05:30",
+    "2026-11-25T17:31+05:30"
    ],
    "last_error": "RuntimeError: skipped: Workday is rate-limiting this run (429)",
    "last_ok": "2026-11-16T12:31+05:30",
@@ -6113,7 +6113,6 @@
   },
   "workday:globalhr": {
    "errors": [
-    "2026-11-24T17:01+05:30",
     "2026-11-24T17:31+05:30",
     "2026-11-24T18:01+05:30",
     "2026-11-24T18:31+05:30",
@@ -6163,7 +6162,8 @@
     "2026-11-25T15:31+05:30",
     "2026-11-25T16:01+05:30",
     "2026-11-25T16:31+05:30",
-    "2026-11-25T17:01+05:30"
+    "2026-11-25T17:01+05:30",
+    "2026-11-25T17:31+05:30"
    ],
    "last_error": "RuntimeError: skipped: Workday is rate-limiting this run (429)",
    "last_ok": "2026-11-16T12:31+05:30",
@@ -6172,7 +6172,6 @@
   },
   "workday:gsk": {
    "errors": [
-    "2026-11-24T17:01+05:30",
     "2026-11-24T17:31+05:30",
     "2026-11-24T18:01+05:30",
     "2026-11-24T18:31+05:30",
@@ -6222,7 +6221,8 @@
     "2026-11-25T15:31+05:30",
     "2026-11-25T16:01+05:30",
     "2026-11-25T16:31+05:30",
-    "2026-11-25T17:01+05:30"
+    "2026-11-25T17:01+05:30",
+    "2026-11-25T17:31+05:30"
    ],
    "last_error": "RuntimeError: skipped: Workday is rate-limiting this run (429)",
    "last_ok": "2026-11-16T12:31+05:30",
@@ -6231,7 +6231,6 @@
   },
   "workday:guidewire": {
    "errors": [
-    "2026-11-24T17:01+05:30",
     "2026-11-24T17:31+05:30",
     "2026-11-24T18:01+05:30",
     "2026-11-24T18:31+05:30",
@@ -6281,7 +6280,8 @@
     "2026-11-25T15:31+05:30",
     "2026-11-25T16:01+05:30",
     "2026-11-25T16:31+05:30",
-    "2026-11-25T17:01+05:30"
+    "2026-11-25T17:01+05:30",
+    "2026-11-25T17:31+05:30"
    ],
    "last_error": "RuntimeError: skipped: Workday is rate-limiting this run (429)",
    "last_ok": "2026-11-16T12:31+05:30",
@@ -6290,7 +6290,6 @@
   },
   "workday:hitachi": {
    "errors": [
-    "2026-11-24T17:01+05:30",
     "2026-11-24T17:31+05:30",
     "2026-11-24T18:01+05:30",
     "2026-11-24T18:31+05:30",
@@ -6340,7 +6339,8 @@
     "2026-11-25T15:31+05:30",
     "2026-11-25T16:01+05:30",
     "2026-11-25T16:31+05:30",
-    "2026-11-25T17:01+05:30"
+    "2026-11-25T17:01+05:30",
+    "2026-11-25T17:31+05:30"
    ],
    "last_error": "RuntimeError: skipped: Workday is rate-limiting this run (429)",
    "last_ok": "2026-11-16T12:31+05:30",
@@ -6349,7 +6349,6 @@
   },
   "workday:hpe": {
    "errors": [
-    "2026-11-24T17:01+05:30",
     "2026-11-24T17:31+05:30",
     "2026-11-24T18:01+05:30",
     "2026-11-24T18:31+05:30",
@@ -6399,7 +6398,8 @@
     "2026-11-25T15:31+05:30",
     "2026-11-25T16:01+05:30",
     "2026-11-25T16:31+05:30",
-    "2026-11-25T17:01+05:30"
+    "2026-11-25T17:01+05:30",
+    "2026-11-25T17:31+05:30"
    ],
    "last_error": "RuntimeError: skipped: Workday is rate-limiting this run (429)",
    "last_ok": "2026-11-16T12:31+05:30",
@@ -6408,7 +6408,6 @@
   },
   "workday:illumina": {
    "errors": [
-    "2026-11-24T17:01+05:30",
     "2026-11-24T17:31+05:30",
     "2026-11-24T18:01+05:30",
     "2026-11-24T18:31+05:30",
@@ -6458,7 +6457,8 @@
     "2026-11-25T15:31+05:30",
     "2026-11-25T16:01+05:30",
     "2026-11-25T16:31+05:30",
-    "2026-11-25T17:01+05:30"
+    "2026-11-25T17:01+05:30",
+    "2026-11-25T17:31+05:30"
    ],
    "last_error": "RuntimeError: skipped: Workday is rate-limiting this run (429)",
    "last_ok": "2026-11-16T12:31+05:30",
@@ -6467,7 +6467,6 @@
   },
   "workday:intel": {
    "errors": [
-    "2026-11-24T17:01+05:30",
     "2026-11-24T17:31+05:30",
     "2026-11-24T18:01+05:30",
     "2026-11-24T18:31+05:30",
@@ -6508,7 +6507,8 @@
     "2026-11-25T15:01+05:30",
     "2026-11-25T15:31+05:30",
     "2026-11-25T16:31+05:30",
-    "2026-11-25T17:01+05:30"
+    "2026-11-25T17:01+05:30",
+    "2026-11-25T17:31+05:30"
    ],
    "last_error": "HTTPError: HTTP Error 429: Too Many Requests",
    "last_ok": "2026-11-25T16:01+05:30",
@@ -6517,7 +6517,6 @@
   },
   "workday:invesco": {
    "errors": [
-    "2026-11-24T17:01+05:30",
     "2026-11-24T17:31+05:30",
     "2026-11-24T18:01+05:30",
     "2026-11-24T18:31+05:30",
@@ -6567,7 +6566,8 @@
     "2026-11-25T15:31+05:30",
     "2026-11-25T16:01+05:30",
     "2026-11-25T16:31+05:30",
-    "2026-11-25T17:01+05:30"
+    "2026-11-25T17:01+05:30",
+    "2026-11-25T17:31+05:30"
    ],
    "last_error": "RuntimeError: skipped: Workday is rate-limiting this run (429)",
    "last_ok": "2026-11-16T12:31+05:30",
@@ -6576,7 +6576,6 @@
   },
   "workday:iqvia": {
    "errors": [
-    "2026-11-24T17:01+05:30",
     "2026-11-24T17:31+05:30",
     "2026-11-24T18:01+05:30",
     "2026-11-24T18:31+05:30",
@@ -6626,7 +6625,8 @@
     "2026-11-25T15:31+05:30",
     "2026-11-25T16:01+05:30",
     "2026-11-25T16:31+05:30",
-    "2026-11-25T17:01+05:30"
+    "2026-11-25T17:01+05:30",
+    "2026-11-25T17:31+05:30"
    ],
    "last_error": "RuntimeError: skipped: Workday is rate-limiting this run (429)",
    "last_ok": "2026-11-16T12:31+05:30",
@@ -6635,7 +6635,6 @@
   },
   "workday:jci": {
    "errors": [
-    "2026-11-24T17:01+05:30",
     "2026-11-24T17:31+05:30",
     "2026-11-24T18:01+05:30",
     "2026-11-24T18:31+05:30",
@@ -6685,7 +6684,8 @@
     "2026-11-25T15:31+05:30",
     "2026-11-25T16:01+05:30",
     "2026-11-25T16:31+05:30",
-    "2026-11-25T17:01+05:30"
+    "2026-11-25T17:01+05:30",
+    "2026-11-25T17:31+05:30"
    ],
    "last_error": "RuntimeError: skipped: Workday is rate-limiting this run (429)",
    "last_ok": "2026-11-16T12:31+05:30",
@@ -6694,7 +6694,6 @@
   },
   "workday:jda": {
    "errors": [
-    "2026-11-24T17:01+05:30",
     "2026-11-24T17:31+05:30",
     "2026-11-24T18:01+05:30",
     "2026-11-24T18:31+05:30",
@@ -6744,7 +6743,8 @@
     "2026-11-25T15:31+05:30",
     "2026-11-25T16:01+05:30",
     "2026-11-25T16:31+05:30",
-    "2026-11-25T17:01+05:30"
+    "2026-11-25T17:01+05:30",
+    "2026-11-25T17:31+05:30"
    ],
    "last_error": "RuntimeError: skipped: Workday is rate-limiting this run (429)",
    "last_ok": "2026-11-16T12:31+05:30",
@@ -6753,7 +6753,6 @@
   },
   "workday:kimberlyclark": {
    "errors": [
-    "2026-11-24T17:01+05:30",
     "2026-11-24T17:31+05:30",
     "2026-11-24T18:01+05:30",
     "2026-11-24T18:31+05:30",
@@ -6803,7 +6802,8 @@
     "2026-11-25T15:31+05:30",
     "2026-11-25T16:01+05:30",
     "2026-11-25T16:31+05:30",
-    "2026-11-25T17:01+05:30"
+    "2026-11-25T17:01+05:30",
+    "2026-11-25T17:31+05:30"
    ],
    "last_error": "RuntimeError: skipped: Workday is rate-limiting this run (429)",
    "last_ok": "2026-11-16T12:31+05:30",
@@ -6812,7 +6812,6 @@
   },
   "workday:kla": {
    "errors": [
-    "2026-11-24T17:01+05:30",
     "2026-11-24T17:31+05:30",
     "2026-11-24T18:01+05:30",
     "2026-11-24T18:31+05:30",
@@ -6862,7 +6861,8 @@
     "2026-11-25T15:31+05:30",
     "2026-11-25T16:01+05:30",
     "2026-11-25T16:31+05:30",
-    "2026-11-25T17:01+05:30"
+    "2026-11-25T17:01+05:30",
+    "2026-11-25T17:31+05:30"
    ],
    "last_error": "RuntimeError: skipped: Workday is rate-limiting this run (429)",
    "last_ok": "2026-11-16T12:31+05:30",
@@ -6871,7 +6871,6 @@
   },
   "workday:kyndryl": {
    "errors": [
-    "2026-11-24T17:01+05:30",
     "2026-11-24T17:31+05:30",
     "2026-11-24T18:01+05:30",
     "2026-11-24T18:31+05:30",
@@ -6921,7 +6920,8 @@
     "2026-11-25T15:31+05:30",
     "2026-11-25T16:01+05:30",
     "2026-11-25T16:31+05:30",
-    "2026-11-25T17:01+05:30"
+    "2026-11-25T17:01+05:30",
+    "2026-11-25T17:31+05:30"
    ],
    "last_error": "RuntimeError: skipped: Workday is rate-limiting this run (429)",
    "last_ok": "2026-11-16T12:31+05:30",
@@ -6930,7 +6930,6 @@
   },
   "workday:lilly": {
    "errors": [
-    "2026-11-24T17:01+05:30",
     "2026-11-24T17:31+05:30",
     "2026-11-24T18:01+05:30",
     "2026-11-24T18:31+05:30",
@@ -6980,7 +6979,8 @@
     "2026-11-25T15:31+05:30",
     "2026-11-25T16:01+05:30",
     "2026-11-25T16:31+05:30",
-    "2026-11-25T17:01+05:30"
+    "2026-11-25T17:01+05:30",
+    "2026-11-25T17:31+05:30"
    ],
    "last_error": "RuntimeError: skipped: Workday is rate-limiting this run (429)",
    "last_ok": "2026-11-16T09:31+05:30",
@@ -6989,7 +6989,6 @@
   },
   "workday:lowes": {
    "errors": [
-    "2026-11-24T17:01+05:30",
     "2026-11-24T17:31+05:30",
     "2026-11-24T18:01+05:30",
     "2026-11-24T18:31+05:30",
@@ -7039,7 +7038,8 @@
     "2026-11-25T15:31+05:30",
     "2026-11-25T16:01+05:30",
     "2026-11-25T16:31+05:30",
-    "2026-11-25T17:01+05:30"
+    "2026-11-25T17:01+05:30",
+    "2026-11-25T17:31+05:30"
    ],
    "last_error": "RuntimeError: skipped: Workday is rate-limiting this run (429)",
    "last_ok": "2026-11-16T12:31+05:30",
@@ -7048,7 +7048,6 @@
   },
   "workday:lseg": {
    "errors": [
-    "2026-11-24T17:01+05:30",
     "2026-11-24T17:31+05:30",
     "2026-11-24T18:01+05:30",
     "2026-11-24T18:31+05:30",
@@ -7098,7 +7097,8 @@
     "2026-11-25T15:31+05:30",
     "2026-11-25T16:01+05:30",
     "2026-11-25T16:31+05:30",
-    "2026-11-25T17:01+05:30"
+    "2026-11-25T17:01+05:30",
+    "2026-11-25T17:31+05:30"
    ],
    "last_error": "RuntimeError: skipped: Workday is rate-limiting this run (429)",
    "last_ok": "2026-11-16T12:31+05:30",
@@ -7107,7 +7107,6 @@
   },
   "workday:maersk": {
    "errors": [
-    "2026-11-24T17:01+05:30",
     "2026-11-24T17:31+05:30",
     "2026-11-24T18:01+05:30",
     "2026-11-24T18:31+05:30",
@@ -7157,7 +7156,8 @@
     "2026-11-25T15:31+05:30",
     "2026-11-25T16:01+05:30",
     "2026-11-25T16:31+05:30",
-    "2026-11-25T17:01+05:30"
+    "2026-11-25T17:01+05:30",
+    "2026-11-25T17:31+05:30"
    ],
    "last_error": "RuntimeError: skipped: Workday is rate-limiting this run (429)",
    "last_ok": "2026-11-16T12:31+05:30",
@@ -7166,7 +7166,6 @@
   },
   "workday:manulife": {
    "errors": [
-    "2026-11-24T17:01+05:30",
     "2026-11-24T17:31+05:30",
     "2026-11-24T18:01+05:30",
     "2026-11-24T18:31+05:30",
@@ -7216,7 +7215,8 @@
     "2026-11-25T15:31+05:30",
     "2026-11-25T16:01+05:30",
     "2026-11-25T16:31+05:30",
-    "2026-11-25T17:01+05:30"
+    "2026-11-25T17:01+05:30",
+    "2026-11-25T17:31+05:30"
    ],
    "last_error": "RuntimeError: skipped: Workday is rate-limiting this run (429)",
    "last_ok": "2026-11-16T12:31+05:30",
@@ -7225,7 +7225,6 @@
   },
   "workday:marvell": {
    "errors": [
-    "2026-11-24T17:01+05:30",
     "2026-11-24T17:31+05:30",
     "2026-11-24T18:01+05:30",
     "2026-11-24T18:31+05:30",
@@ -7275,7 +7274,8 @@
     "2026-11-25T15:31+05:30",
     "2026-11-25T16:01+05:30",
     "2026-11-25T16:31+05:30",
-    "2026-11-25T17:01+05:30"
+    "2026-11-25T17:01+05:30",
+    "2026-11-25T17:31+05:30"
    ],
    "last_error": "RuntimeError: skipped: Workday is rate-limiting this run (429)",
    "last_ok": "2026-11-16T12:31+05:30",
@@ -7284,7 +7284,6 @@
   },
   "workday:mastercard": {
    "errors": [
-    "2026-11-24T17:01+05:30",
     "2026-11-24T17:31+05:30",
     "2026-11-24T18:01+05:30",
     "2026-11-24T18:31+05:30",
@@ -7334,7 +7333,8 @@
     "2026-11-25T15:31+05:30",
     "2026-11-25T16:01+05:30",
     "2026-11-25T16:31+05:30",
-    "2026-11-25T17:01+05:30"
+    "2026-11-25T17:01+05:30",
+    "2026-11-25T17:31+05:30"
    ],
    "last_error": "RuntimeError: skipped: Workday is rate-limiting this run (429)",
    "last_ok": "2026-11-16T12:31+05:30",
@@ -7343,7 +7343,6 @@
   },
   "workday:mdlz": {
    "errors": [
-    "2026-11-24T17:01+05:30",
     "2026-11-24T17:31+05:30",
     "2026-11-24T18:01+05:30",
     "2026-11-24T18:31+05:30",
@@ -7393,7 +7392,8 @@
     "2026-11-25T15:31+05:30",
     "2026-11-25T16:01+05:30",
     "2026-11-25T16:31+05:30",
-    "2026-11-25T17:01+05:30"
+    "2026-11-25T17:01+05:30",
+    "2026-11-25T17:31+05:30"
    ],
    "last_error": "RuntimeError: skipped: Workday is rate-limiting this run (429)",
    "last_ok": "2026-11-16T12:31+05:30",
@@ -7402,7 +7402,6 @@
   },
   "workday:medtronic": {
    "errors": [
-    "2026-11-24T17:01+05:30",
     "2026-11-24T17:31+05:30",
     "2026-11-24T18:01+05:30",
     "2026-11-24T18:31+05:30",
@@ -7452,7 +7451,8 @@
     "2026-11-25T15:31+05:30",
     "2026-11-25T16:01+05:30",
     "2026-11-25T16:31+05:30",
-    "2026-11-25T17:01+05:30"
+    "2026-11-25T17:01+05:30",
+    "2026-11-25T17:31+05:30"
    ],
    "last_error": "RuntimeError: skipped: Workday is rate-limiting this run (429)",
    "last_ok": "2026-11-16T12:31+05:30",
@@ -7461,7 +7461,6 @@
   },
   "workday:microchiphr": {
    "errors": [
-    "2026-11-24T17:01+05:30",
     "2026-11-24T17:31+05:30",
     "2026-11-24T18:01+05:30",
     "2026-11-24T18:31+05:30",
@@ -7511,7 +7510,8 @@
     "2026-11-25T15:31+05:30",
     "2026-11-25T16:01+05:30",
     "2026-11-25T16:31+05:30",
-    "2026-11-25T17:01+05:30"
+    "2026-11-25T17:01+05:30",
+    "2026-11-25T17:31+05:30"
    ],
    "last_error": "RuntimeError: skipped: Workday is rate-limiting this run (429)",
    "last_ok": "2026-11-16T12:31+05:30",
@@ -7520,7 +7520,6 @@
   },
   "workday:micron": {
    "errors": [
-    "2026-11-24T17:01+05:30",
     "2026-11-24T17:31+05:30",
     "2026-11-24T18:01+05:30",
     "2026-11-24T18:31+05:30",
@@ -7570,7 +7569,8 @@
     "2026-11-25T15:31+05:30",
     "2026-11-25T16:01+05:30",
     "2026-11-25T16:31+05:30",
-    "2026-11-25T17:01+05:30"
+    "2026-11-25T17:01+05:30",
+    "2026-11-25T17:31+05:30"
    ],
    "last_error": "RuntimeError: skipped: Workday is rate-limiting this run (429)",
    "last_ok": "2026-11-16T12:31+05:30",
@@ -7579,7 +7579,6 @@
   },
   "workday:mmc": {
    "errors": [
-    "2026-11-24T17:01+05:30",
     "2026-11-24T17:31+05:30",
     "2026-11-24T18:01+05:30",
     "2026-11-24T18:31+05:30",
@@ -7629,7 +7628,8 @@
     "2026-11-25T15:31+05:30",
     "2026-11-25T16:01+05:30",
     "2026-11-25T16:31+05:30",
-    "2026-11-25T17:01+05:30"
+    "2026-11-25T17:01+05:30",
+    "2026-11-25T17:31+05:30"
    ],
    "last_error": "RuntimeError: skipped: Workday is rate-limiting this run (429)",
    "last_ok": "2026-11-16T12:31+05:30",
@@ -7638,7 +7638,6 @@
   },
   "workday:morningstar": {
    "errors": [
-    "2026-11-24T17:01+05:30",
     "2026-11-24T17:31+05:30",
     "2026-11-24T18:01+05:30",
     "2026-11-24T18:31+05:30",
@@ -7688,7 +7687,8 @@
     "2026-11-25T15:31+05:30",
     "2026-11-25T16:01+05:30",
     "2026-11-25T16:31+05:30",
-    "2026-11-25T17:01+05:30"
+    "2026-11-25T17:01+05:30",
+    "2026-11-25T17:31+05:30"
    ],
    "last_error": "RuntimeError: skipped: Workday is rate-limiting this run (429)",
    "last_ok": "2026-11-16T12:31+05:30",
@@ -7697,7 +7697,6 @@
   },
   "workday:motorolasolutions": {
    "errors": [
-    "2026-11-24T17:01+05:30",
     "2026-11-24T17:31+05:30",
     "2026-11-24T18:01+05:30",
     "2026-11-24T18:31+05:30",
@@ -7747,7 +7746,8 @@
     "2026-11-25T15:31+05:30",
     "2026-11-25T16:01+05:30",
     "2026-11-25T16:31+05:30",
-    "2026-11-25T17:01+05:30"
+    "2026-11-25T17:01+05:30",
+    "2026-11-25T17:31+05:30"
    ],
    "last_error": "RuntimeError: skipped: Workday is rate-limiting this run (429)",
    "last_ok": "2026-11-16T12:31+05:30",
@@ -7756,7 +7756,6 @@
   },
   "workday:ms": {
    "errors": [
-    "2026-11-24T17:01+05:30",
     "2026-11-24T17:31+05:30",
     "2026-11-24T18:01+05:30",
     "2026-11-24T18:31+05:30",
@@ -7806,7 +7805,8 @@
     "2026-11-25T15:31+05:30",
     "2026-11-25T16:01+05:30",
     "2026-11-25T16:31+05:30",
-    "2026-11-25T17:01+05:30"
+    "2026-11-25T17:01+05:30",
+    "2026-11-25T17:31+05:30"
    ],
    "last_error": "RuntimeError: skipped: Workday is rate-limiting this run (429)",
    "last_ok": "2026-11-16T12:31+05:30",
@@ -7815,7 +7815,6 @@
   },
   "workday:msd": {
    "errors": [
-    "2026-11-24T17:01+05:30",
     "2026-11-24T17:31+05:30",
     "2026-11-24T18:01+05:30",
     "2026-11-24T18:31+05:30",
@@ -7865,7 +7864,8 @@
     "2026-11-25T15:31+05:30",
     "2026-11-25T16:01+05:30",
     "2026-11-25T16:31+05:30",
-    "2026-11-25T17:01+05:30"
+    "2026-11-25T17:01+05:30",
+    "2026-11-25T17:31+05:30"
    ],
    "last_error": "RuntimeError: skipped: Workday is rate-limiting this run (429)",
    "last_ok": "2026-11-16T12:31+05:30",
@@ -7874,7 +7874,6 @@
   },
   "workday:nasdaq": {
    "errors": [
-    "2026-11-24T17:01+05:30",
     "2026-11-24T17:31+05:30",
     "2026-11-24T18:01+05:30",
     "2026-11-24T18:31+05:30",
@@ -7924,7 +7923,8 @@
     "2026-11-25T15:31+05:30",
     "2026-11-25T16:01+05:30",
     "2026-11-25T16:31+05:30",
-    "2026-11-25T17:01+05:30"
+    "2026-11-25T17:01+05:30",
+    "2026-11-25T17:31+05:30"
    ],
    "last_error": "RuntimeError: skipped: Workday is rate-limiting this run (429)",
    "last_ok": "2026-11-16T12:31+05:30",
@@ -7933,7 +7933,6 @@
   },
   "workday:netscout": {
    "errors": [
-    "2026-11-24T17:01+05:30",
     "2026-11-24T17:31+05:30",
     "2026-11-24T18:01+05:30",
     "2026-11-24T18:31+05:30",
@@ -7983,7 +7982,8 @@
     "2026-11-25T15:31+05:30",
     "2026-11-25T16:01+05:30",
     "2026-11-25T16:31+05:30",
-    "2026-11-25T17:01+05:30"
+    "2026-11-25T17:01+05:30",
+    "2026-11-25T17:31+05:30"
    ],
    "last_error": "RuntimeError: skipped: Workday is rate-limiting this run (429)",
    "last_ok": "2026-11-16T04:01+05:30",
@@ -7992,7 +7992,6 @@
   },
   "workday:nike": {
    "errors": [
-    "2026-11-24T17:01+05:30",
     "2026-11-24T17:31+05:30",
     "2026-11-24T18:01+05:30",
     "2026-11-24T18:31+05:30",
@@ -8042,7 +8041,8 @@
     "2026-11-25T15:31+05:30",
     "2026-11-25T16:01+05:30",
     "2026-11-25T16:31+05:30",
-    "2026-11-25T17:01+05:30"
+    "2026-11-25T17:01+05:30",
+    "2026-11-25T17:31+05:30"
    ],
    "last_error": "RuntimeError: skipped: Workday is rate-limiting this run (429)",
    "last_ok": "2026-11-16T12:31+05:30",
@@ -8051,7 +8051,6 @@
   },
   "workday:novartis": {
    "errors": [
-    "2026-11-24T17:01+05:30",
     "2026-11-24T17:31+05:30",
     "2026-11-24T18:01+05:30",
     "2026-11-24T18:31+05:30",
@@ -8101,7 +8100,8 @@
     "2026-11-25T15:31+05:30",
     "2026-11-25T16:01+05:30",
     "2026-11-25T16:31+05:30",
-    "2026-11-25T17:01+05:30"
+    "2026-11-25T17:01+05:30",
+    "2026-11-25T17:31+05:30"
    ],
    "last_error": "RuntimeError: skipped: Workday is rate-limiting this run (429)",
    "last_ok": "2026-11-16T12:31+05:30",
@@ -8110,7 +8110,6 @@
   },
   "workday:ntrs": {
    "errors": [
-    "2026-11-24T17:01+05:30",
     "2026-11-24T17:31+05:30",
     "2026-11-24T18:01+05:30",
     "2026-11-24T18:31+05:30",
@@ -8160,7 +8159,8 @@
     "2026-11-25T15:31+05:30",
     "2026-11-25T16:01+05:30",
     "2026-11-25T16:31+05:30",
-    "2026-11-25T17:01+05:30"
+    "2026-11-25T17:01+05:30",
+    "2026-11-25T17:31+05:30"
    ],
    "last_error": "RuntimeError: skipped: Workday is rate-limiting this run (429)",
    "last_ok": "2026-11-16T12:31+05:30",
@@ -8169,7 +8169,6 @@
   },
   "workday:nvidia": {
    "errors": [
-    "2026-11-24T17:01+05:30",
     "2026-11-24T17:31+05:30",
     "2026-11-24T18:01+05:30",
     "2026-11-24T18:31+05:30",
@@ -8218,7 +8217,8 @@
     "2026-11-25T15:01+05:30",
     "2026-11-25T15:31+05:30",
     "2026-11-25T16:01+05:30",
-    "2026-11-25T16:31+05:30"
+    "2026-11-25T16:31+05:30",
+    "2026-11-25T17:31+05:30"
    ],
    "last_error": "HTTPError: HTTP Error 429: Too Many Requests",
    "last_ok": "2026-11-25T17:01+05:30",
@@ -8227,7 +8227,6 @@
   },
   "workday:onehealthineers": {
    "errors": [
-    "2026-11-24T17:01+05:30",
     "2026-11-24T17:31+05:30",
     "2026-11-24T18:01+05:30",
     "2026-11-24T18:31+05:30",
@@ -8277,7 +8276,8 @@
     "2026-11-25T15:31+05:30",
     "2026-11-25T16:01+05:30",
     "2026-11-25T16:31+05:30",
-    "2026-11-25T17:01+05:30"
+    "2026-11-25T17:01+05:30",
+    "2026-11-25T17:31+05:30"
    ],
    "last_error": "RuntimeError: skipped: Workday is rate-limiting this run (429)",
    "last_ok": "2026-11-16T12:31+05:30",
@@ -8286,7 +8286,6 @@
   },
   "workday:otis": {
    "errors": [
-    "2026-11-24T17:01+05:30",
     "2026-11-24T17:31+05:30",
     "2026-11-24T18:01+05:30",
     "2026-11-24T18:31+05:30",
@@ -8336,7 +8335,8 @@
     "2026-11-25T15:31+05:30",
     "2026-11-25T16:01+05:30",
     "2026-11-25T16:31+05:30",
-    "2026-11-25T17:01+05:30"
+    "2026-11-25T17:01+05:30",
+    "2026-11-25T17:31+05:30"
    ],
    "last_error": "RuntimeError: skipped: Workday is rate-limiting this run (429)",
    "last_ok": "2026-11-16T12:31+05:30",
@@ -8345,7 +8345,6 @@
   },
   "workday:paloaltonetworks": {
    "errors": [
-    "2026-11-24T17:01+05:30",
     "2026-11-24T17:31+05:30",
     "2026-11-24T18:01+05:30",
     "2026-11-24T18:31+05:30",
@@ -8395,7 +8394,8 @@
     "2026-11-25T15:31+05:30",
     "2026-11-25T16:01+05:30",
     "2026-11-25T16:31+05:30",
-    "2026-11-25T17:01+05:30"
+    "2026-11-25T17:01+05:30",
+    "2026-11-25T17:31+05:30"
    ],
    "last_error": "RuntimeError: skipped: Workday is rate-limiting this run (429)",
    "last_ok": "2026-11-16T12:31+05:30",
@@ -8404,7 +8404,6 @@
   },
   "workday:paypal": {
    "errors": [
-    "2026-11-24T17:01+05:30",
     "2026-11-24T17:31+05:30",
     "2026-11-24T18:01+05:30",
     "2026-11-24T18:31+05:30",
@@ -8454,7 +8453,8 @@
     "2026-11-25T15:31+05:30",
     "2026-11-25T16:01+05:30",
     "2026-11-25T16:31+05:30",
-    "2026-11-25T17:01+05:30"
+    "2026-11-25T17:01+05:30",
+    "2026-11-25T17:31+05:30"
    ],
    "last_error": "RuntimeError: skipped: Workday is rate-limiting this run (429)",
    "last_ok": "2026-11-20T20:31+05:30",
@@ -8463,7 +8463,6 @@
   },
   "workday:pfizer": {
    "errors": [
-    "2026-11-24T17:01+05:30",
     "2026-11-24T17:31+05:30",
     "2026-11-24T18:01+05:30",
     "2026-11-24T18:31+05:30",
@@ -8513,7 +8512,8 @@
     "2026-11-25T15:31+05:30",
     "2026-11-25T16:01+05:30",
     "2026-11-25T16:31+05:30",
-    "2026-11-25T17:01+05:30"
+    "2026-11-25T17:01+05:30",
+    "2026-11-25T17:31+05:30"
    ],
    "last_error": "RuntimeError: skipped: Workday is rate-limiting this run (429)",
    "last_ok": "2026-11-16T12:31+05:30",
@@ -8522,7 +8522,6 @@
   },
   "workday:philips": {
    "errors": [
-    "2026-11-24T17:01+05:30",
     "2026-11-24T17:31+05:30",
     "2026-11-24T18:01+05:30",
     "2026-11-24T18:31+05:30",
@@ -8572,7 +8571,8 @@
     "2026-11-25T15:31+05:30",
     "2026-11-25T16:01+05:30",
     "2026-11-25T16:31+05:30",
-    "2026-11-25T17:01+05:30"
+    "2026-11-25T17:01+05:30",
+    "2026-11-25T17:31+05:30"
    ],
    "last_error": "RuntimeError: skipped: Workday is rate-limiting this run (429)",
    "last_ok": "2026-11-16T12:31+05:30",
@@ -8581,7 +8581,6 @@
   },
   "workday:pitneybowes": {
    "errors": [
-    "2026-11-24T17:01+05:30",
     "2026-11-24T17:31+05:30",
     "2026-11-24T18:01+05:30",
     "2026-11-24T18:31+05:30",
@@ -8631,7 +8630,8 @@
     "2026-11-25T15:31+05:30",
     "2026-11-25T16:01+05:30",
     "2026-11-25T16:31+05:30",
-    "2026-11-25T17:01+05:30"
+    "2026-11-25T17:01+05:30",
+    "2026-11-25T17:31+05:30"
    ],
    "last_error": "RuntimeError: skipped: Workday is rate-limiting this run (429)",
    "last_ok": "2026-11-16T12:31+05:30",
@@ -8640,7 +8640,6 @@
   },
   "workday:postman": {
    "errors": [
-    "2026-11-24T17:01+05:30",
     "2026-11-24T17:31+05:30",
     "2026-11-24T18:01+05:30",
     "2026-11-24T18:31+05:30",
@@ -8690,7 +8689,8 @@
     "2026-11-25T15:31+05:30",
     "2026-11-25T16:01+05:30",
     "2026-11-25T16:31+05:30",
-    "2026-11-25T17:01+05:30"
+    "2026-11-25T17:01+05:30",
+    "2026-11-25T17:31+05:30"
    ],
    "last_error": "RuntimeError: skipped: Workday is rate-limiting this run (429)",
    "last_ok": "2026-11-16T04:31+05:30",
@@ -8699,7 +8699,6 @@
   },
   "workday:proofpoint": {
    "errors": [
-    "2026-11-24T17:01+05:30",
     "2026-11-24T17:31+05:30",
     "2026-11-24T18:01+05:30",
     "2026-11-24T18:31+05:30",
@@ -8749,7 +8748,8 @@
     "2026-11-25T15:31+05:30",
     "2026-11-25T16:01+05:30",
     "2026-11-25T16:31+05:30",
-    "2026-11-25T17:01+05:30"
+    "2026-11-25T17:01+05:30",
+    "2026-11-25T17:31+05:30"
    ],
    "last_error": "RuntimeError: skipped: Workday is rate-limiting this run (429)",
    "last_ok": "2026-11-16T12:31+05:30",
@@ -8758,7 +8758,6 @@
   },
   "workday:ptc": {
    "errors": [
-    "2026-11-24T17:01+05:30",
     "2026-11-24T17:31+05:30",
     "2026-11-24T18:01+05:30",
     "2026-11-24T18:31+05:30",
@@ -8808,7 +8807,8 @@
     "2026-11-25T15:31+05:30",
     "2026-11-25T16:01+05:30",
     "2026-11-25T16:31+05:30",
-    "2026-11-25T17:01+05:30"
+    "2026-11-25T17:01+05:30",
+    "2026-11-25T17:31+05:30"
    ],
    "last_error": "RuntimeError: skipped: Workday is rate-limiting this run (429)",
    "last_ok": "2026-11-16T12:31+05:30",
@@ -8817,7 +8817,6 @@
   },
   "workday:pwc": {
    "errors": [
-    "2026-11-24T17:01+05:30",
     "2026-11-24T17:31+05:30",
     "2026-11-24T18:01+05:30",
     "2026-11-24T18:31+05:30",
@@ -8867,7 +8866,8 @@
     "2026-11-25T15:31+05:30",
     "2026-11-25T16:01+05:30",
     "2026-11-25T16:31+05:30",
-    "2026-11-25T17:01+05:30"
+    "2026-11-25T17:01+05:30",
+    "2026-11-25T17:31+05:30"
    ],
    "last_error": "RuntimeError: skipped: Workday is rate-limiting this run (429)",
    "last_ok": "2026-11-16T12:31+05:30",
@@ -8876,7 +8876,6 @@
   },
   "workday:qualys": {
    "errors": [
-    "2026-11-24T17:01+05:30",
     "2026-11-24T17:31+05:30",
     "2026-11-24T18:01+05:30",
     "2026-11-24T18:31+05:30",
@@ -8926,7 +8925,8 @@
     "2026-11-25T15:31+05:30",
     "2026-11-25T16:01+05:30",
     "2026-11-25T16:31+05:30",
-    "2026-11-25T17:01+05:30"
+    "2026-11-25T17:01+05:30",
+    "2026-11-25T17:31+05:30"
    ],
    "last_error": "RuntimeError: skipped: Workday is rate-limiting this run (429)",
    "last_ok": "2026-11-16T12:31+05:30",
@@ -8935,7 +8935,6 @@
   },
   "workday:redhat": {
    "errors": [
-    "2026-11-24T17:01+05:30",
     "2026-11-24T17:31+05:30",
     "2026-11-24T18:01+05:30",
     "2026-11-24T18:31+05:30",
@@ -8974,13 +8973,12 @@
     "2026-11-25T17:01+05:30"
    ],
    "last_error": "HTTPError: HTTP Error 429: Too Many Requests",
-   "last_ok": "2026-11-25T16:31+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "Red Hat",
    "zeros": []
   },
   "workday:regeneron": {
    "errors": [
-    "2026-11-24T17:01+05:30",
     "2026-11-24T17:31+05:30",
     "2026-11-24T18:01+05:30",
     "2026-11-24T18:31+05:30",
@@ -9030,7 +9028,8 @@
     "2026-11-25T15:31+05:30",
     "2026-11-25T16:01+05:30",
     "2026-11-25T16:31+05:30",
-    "2026-11-25T17:01+05:30"
+    "2026-11-25T17:01+05:30",
+    "2026-11-25T17:31+05:30"
    ],
    "last_error": "RuntimeError: skipped: Workday is rate-limiting this run (429)",
    "last_ok": "2026-11-16T12:31+05:30",
@@ -9039,7 +9038,6 @@
   },
   "workday:relx": {
    "errors": [
-    "2026-11-24T17:01+05:30",
     "2026-11-24T17:31+05:30",
     "2026-11-24T18:01+05:30",
     "2026-11-24T18:31+05:30",
@@ -9089,7 +9087,8 @@
     "2026-11-25T15:31+05:30",
     "2026-11-25T16:01+05:30",
     "2026-11-25T16:31+05:30",
-    "2026-11-25T17:01+05:30"
+    "2026-11-25T17:01+05:30",
+    "2026-11-25T17:31+05:30"
    ],
    "last_error": "RuntimeError: skipped: Workday is rate-limiting this run (429)",
    "last_ok": "2026-11-16T12:31+05:30",
@@ -9098,7 +9097,6 @@
   },
   "workday:roche": {
    "errors": [
-    "2026-11-24T17:01+05:30",
     "2026-11-24T17:31+05:30",
     "2026-11-24T18:01+05:30",
     "2026-11-24T18:31+05:30",
@@ -9148,7 +9146,8 @@
     "2026-11-25T15:31+05:30",
     "2026-11-25T16:01+05:30",
     "2026-11-25T16:31+05:30",
-    "2026-11-25T17:01+05:30"
+    "2026-11-25T17:01+05:30",
+    "2026-11-25T17:31+05:30"
    ],
    "last_error": "RuntimeError: skipped: Workday is rate-limiting this run (429)",
    "last_ok": "2026-11-16T12:31+05:30",
@@ -9157,7 +9156,6 @@
   },
   "workday:rockwellautomation": {
    "errors": [
-    "2026-11-24T17:01+05:30",
     "2026-11-24T17:31+05:30",
     "2026-11-24T18:01+05:30",
     "2026-11-24T18:31+05:30",
@@ -9207,7 +9205,8 @@
     "2026-11-25T15:31+05:30",
     "2026-11-25T16:01+05:30",
     "2026-11-25T16:31+05:30",
-    "2026-11-25T17:01+05:30"
+    "2026-11-25T17:01+05:30",
+    "2026-11-25T17:31+05:30"
    ],
    "last_error": "RuntimeError: skipped: Workday is rate-limiting this run (429)",
    "last_ok": "2026-11-16T12:31+05:30",
@@ -9216,7 +9215,6 @@
   },
   "workday:sabre": {
    "errors": [
-    "2026-11-24T17:01+05:30",
     "2026-11-24T17:31+05:30",
     "2026-11-24T18:01+05:30",
     "2026-11-24T18:31+05:30",
@@ -9266,7 +9264,8 @@
     "2026-11-25T15:31+05:30",
     "2026-11-25T16:01+05:30",
     "2026-11-25T16:31+05:30",
-    "2026-11-25T17:01+05:30"
+    "2026-11-25T17:01+05:30",
+    "2026-11-25T17:31+05:30"
    ],
    "last_error": "RuntimeError: skipped: Workday is rate-limiting this run (429)",
    "last_ok": "2026-11-16T12:31+05:30",
@@ -9275,7 +9274,6 @@
   },
   "workday:salesforce": {
    "errors": [
-    "2026-11-24T17:01+05:30",
     "2026-11-24T17:31+05:30",
     "2026-11-24T18:01+05:30",
     "2026-11-24T18:31+05:30",
@@ -9325,7 +9323,8 @@
     "2026-11-25T15:31+05:30",
     "2026-11-25T16:01+05:30",
     "2026-11-25T16:31+05:30",
-    "2026-11-25T17:01+05:30"
+    "2026-11-25T17:01+05:30",
+    "2026-11-25T17:31+05:30"
    ],
    "last_error": "RuntimeError: skipped: Workday is rate-limiting this run (429)",
    "last_ok": "2026-11-16T07:01+05:30",
@@ -9334,7 +9333,6 @@
   },
   "workday:sanofi": {
    "errors": [
-    "2026-11-24T17:01+05:30",
     "2026-11-24T17:31+05:30",
     "2026-11-24T18:01+05:30",
     "2026-11-24T18:31+05:30",
@@ -9384,7 +9382,8 @@
     "2026-11-25T15:31+05:30",
     "2026-11-25T16:01+05:30",
     "2026-11-25T16:31+05:30",
-    "2026-11-25T17:01+05:30"
+    "2026-11-25T17:01+05:30",
+    "2026-11-25T17:31+05:30"
    ],
    "last_error": "RuntimeError: skipped: Workday is rate-limiting this run (429)",
    "last_ok": "2026-11-16T12:31+05:30",
@@ -9393,7 +9392,6 @@
   },
   "workday:sec": {
    "errors": [
-    "2026-11-24T17:01+05:30",
     "2026-11-24T17:31+05:30",
     "2026-11-24T18:01+05:30",
     "2026-11-24T18:31+05:30",
@@ -9443,7 +9441,8 @@
     "2026-11-25T15:31+05:30",
     "2026-11-25T16:01+05:30",
     "2026-11-25T16:31+05:30",
-    "2026-11-25T17:01+05:30"
+    "2026-11-25T17:01+05:30",
+    "2026-11-25T17:31+05:30"
    ],
    "last_error": "RuntimeError: skipped: Workday is rate-limiting this run (429)",
    "last_ok": "2026-11-16T12:31+05:30",
@@ -9452,7 +9451,6 @@
   },
   "workday:shell": {
    "errors": [
-    "2026-11-24T17:01+05:30",
     "2026-11-24T17:31+05:30",
     "2026-11-24T18:01+05:30",
     "2026-11-24T18:31+05:30",
@@ -9502,7 +9500,8 @@
     "2026-11-25T15:31+05:30",
     "2026-11-25T16:01+05:30",
     "2026-11-25T16:31+05:30",
-    "2026-11-25T17:01+05:30"
+    "2026-11-25T17:01+05:30",
+    "2026-11-25T17:31+05:30"
    ],
    "last_error": "RuntimeError: skipped: Workday is rate-limiting this run (429)",
    "last_ok": "2026-11-16T12:31+05:30",
@@ -9511,7 +9510,6 @@
   },
   "workday:silabs": {
    "errors": [
-    "2026-11-24T17:01+05:30",
     "2026-11-24T17:31+05:30",
     "2026-11-24T18:01+05:30",
     "2026-11-24T18:31+05:30",
@@ -9561,7 +9559,8 @@
     "2026-11-25T15:31+05:30",
     "2026-11-25T16:01+05:30",
     "2026-11-25T16:31+05:30",
-    "2026-11-25T17:01+05:30"
+    "2026-11-25T17:01+05:30",
+    "2026-11-25T17:31+05:30"
    ],
    "last_error": "RuntimeError: skipped: Workday is rate-limiting this run (429)",
    "last_ok": "2026-11-16T12:31+05:30",
@@ -9570,7 +9569,6 @@
   },
   "workday:spgi": {
    "errors": [
-    "2026-11-24T17:01+05:30",
     "2026-11-24T17:31+05:30",
     "2026-11-24T18:01+05:30",
     "2026-11-24T18:31+05:30",
@@ -9620,7 +9618,8 @@
     "2026-11-25T15:31+05:30",
     "2026-11-25T16:01+05:30",
     "2026-11-25T16:31+05:30",
-    "2026-11-25T17:01+05:30"
+    "2026-11-25T17:01+05:30",
+    "2026-11-25T17:31+05:30"
    ],
    "last_error": "RuntimeError: skipped: Workday is rate-limiting this run (429)",
    "last_ok": "2026-11-16T12:31+05:30",
@@ -9629,7 +9628,6 @@
   },
   "workday:sprinklr": {
    "errors": [
-    "2026-11-24T17:01+05:30",
     "2026-11-24T17:31+05:30",
     "2026-11-24T18:01+05:30",
     "2026-11-24T18:31+05:30",
@@ -9679,7 +9677,8 @@
     "2026-11-25T15:31+05:30",
     "2026-11-25T16:01+05:30",
     "2026-11-25T16:31+05:30",
-    "2026-11-25T17:01+05:30"
+    "2026-11-25T17:01+05:30",
+    "2026-11-25T17:31+05:30"
    ],
    "last_error": "RuntimeError: skipped: Workday is rate-limiting this run (429)",
    "last_ok": "2026-11-16T12:31+05:30",
@@ -9688,7 +9687,6 @@
   },
   "workday:statestreet": {
    "errors": [
-    "2026-11-24T17:01+05:30",
     "2026-11-24T17:31+05:30",
     "2026-11-24T18:01+05:30",
     "2026-11-24T18:31+05:30",
@@ -9737,16 +9735,16 @@
     "2026-11-25T15:31+05:30",
     "2026-11-25T16:01+05:30",
     "2026-11-25T16:31+05:30",
-    "2026-11-25T17:01+05:30"
+    "2026-11-25T17:01+05:30",
+    "2026-11-25T17:31+05:30"
    ],
-   "last_error": "RuntimeError: skipped: Workday is rate-limiting this run (429)",
+   "last_error": "HTTPError: HTTP Error 429: Too Many Requests",
    "last_ok": "2026-11-25T09:31+05:30",
    "name": "State Street",
    "zeros": []
   },
   "workday:stryker": {
    "errors": [
-    "2026-11-24T17:01+05:30",
     "2026-11-24T17:31+05:30",
     "2026-11-24T18:01+05:30",
     "2026-11-24T18:31+05:30",
@@ -9796,7 +9794,8 @@
     "2026-11-25T15:31+05:30",
     "2026-11-25T16:01+05:30",
     "2026-11-25T16:31+05:30",
-    "2026-11-25T17:01+05:30"
+    "2026-11-25T17:01+05:30",
+    "2026-11-25T17:31+05:30"
    ],
    "last_error": "RuntimeError: skipped: Workday is rate-limiting this run (429)",
    "last_ok": "2026-11-16T12:31+05:30",
@@ -9805,7 +9804,6 @@
   },
   "workday:target": {
    "errors": [
-    "2026-11-24T17:01+05:30",
     "2026-11-24T17:31+05:30",
     "2026-11-24T18:01+05:30",
     "2026-11-24T18:31+05:30",
@@ -9855,7 +9853,8 @@
     "2026-11-25T15:31+05:30",
     "2026-11-25T16:01+05:30",
     "2026-11-25T16:31+05:30",
-    "2026-11-25T17:01+05:30"
+    "2026-11-25T17:01+05:30",
+    "2026-11-25T17:31+05:30"
    ],
    "last_error": "RuntimeError: skipped: Workday is rate-limiting this run (429)",
    "last_ok": "2026-11-16T12:31+05:30",
@@ -9864,7 +9863,6 @@
   },
   "workday:thermofisher": {
    "errors": [
-    "2026-11-24T17:01+05:30",
     "2026-11-24T17:31+05:30",
     "2026-11-24T18:01+05:30",
     "2026-11-24T18:31+05:30",
@@ -9914,7 +9912,8 @@
     "2026-11-25T15:31+05:30",
     "2026-11-25T16:01+05:30",
     "2026-11-25T16:31+05:30",
-    "2026-11-25T17:01+05:30"
+    "2026-11-25T17:01+05:30",
+    "2026-11-25T17:31+05:30"
    ],
    "last_error": "RuntimeError: skipped: Workday is rate-limiting this run (429)",
    "last_ok": "2026-11-16T12:31+05:30",
@@ -9923,7 +9922,6 @@
   },
   "workday:thomsonreuters": {
    "errors": [
-    "2026-11-24T17:01+05:30",
     "2026-11-24T17:31+05:30",
     "2026-11-24T18:01+05:30",
     "2026-11-24T18:31+05:30",
@@ -9973,7 +9971,8 @@
     "2026-11-25T15:31+05:30",
     "2026-11-25T16:01+05:30",
     "2026-11-25T16:31+05:30",
-    "2026-11-25T17:01+05:30"
+    "2026-11-25T17:01+05:30",
+    "2026-11-25T17:31+05:30"
    ],
    "last_error": "RuntimeError: skipped: Workday is rate-limiting this run (429)",
    "last_ok": "2026-11-16T12:31+05:30",
@@ -9982,7 +9981,6 @@
   },
   "workday:tiaa": {
    "errors": [
-    "2026-11-24T17:01+05:30",
     "2026-11-24T17:31+05:30",
     "2026-11-24T18:01+05:30",
     "2026-11-24T18:31+05:30",
@@ -10032,7 +10030,8 @@
     "2026-11-25T15:31+05:30",
     "2026-11-25T16:01+05:30",
     "2026-11-25T16:31+05:30",
-    "2026-11-25T17:01+05:30"
+    "2026-11-25T17:01+05:30",
+    "2026-11-25T17:31+05:30"
    ],
    "last_error": "RuntimeError: skipped: Workday is rate-limiting this run (429)",
    "last_ok": "2026-11-16T12:31+05:30",
@@ -10041,7 +10040,6 @@
   },
   "workday:transunion": {
    "errors": [
-    "2026-11-24T17:01+05:30",
     "2026-11-24T17:31+05:30",
     "2026-11-24T18:01+05:30",
     "2026-11-24T18:31+05:30",
@@ -10091,7 +10089,8 @@
     "2026-11-25T15:31+05:30",
     "2026-11-25T16:01+05:30",
     "2026-11-25T16:31+05:30",
-    "2026-11-25T17:01+05:30"
+    "2026-11-25T17:01+05:30",
+    "2026-11-25T17:31+05:30"
    ],
    "last_error": "RuntimeError: skipped: Workday is rate-limiting this run (429)",
    "last_ok": "2026-11-16T12:31+05:30",
@@ -10100,7 +10099,6 @@
   },
   "workday:trendmicro": {
    "errors": [
-    "2026-11-24T17:01+05:30",
     "2026-11-24T17:31+05:30",
     "2026-11-24T18:01+05:30",
     "2026-11-24T18:31+05:30",
@@ -10150,7 +10148,8 @@
     "2026-11-25T15:31+05:30",
     "2026-11-25T16:01+05:30",
     "2026-11-25T16:31+05:30",
-    "2026-11-25T17:01+05:30"
+    "2026-11-25T17:01+05:30",
+    "2026-11-25T17:31+05:30"
    ],
    "last_error": "RuntimeError: skipped: Workday is rate-limiting this run (429)",
    "last_ok": "2026-11-16T12:31+05:30",
@@ -10159,7 +10158,6 @@
   },
   "workday:trimble": {
    "errors": [
-    "2026-11-24T17:01+05:30",
     "2026-11-24T17:31+05:30",
     "2026-11-24T18:01+05:30",
     "2026-11-24T18:31+05:30",
@@ -10209,7 +10207,8 @@
     "2026-11-25T15:31+05:30",
     "2026-11-25T16:01+05:30",
     "2026-11-25T16:31+05:30",
-    "2026-11-25T17:01+05:30"
+    "2026-11-25T17:01+05:30",
+    "2026-11-25T17:31+05:30"
    ],
    "last_error": "RuntimeError: skipped: Workday is rate-limiting this run (429)",
    "last_ok": "2026-11-16T12:31+05:30",
@@ -10218,7 +10217,6 @@
   },
   "workday:tsys": {
    "errors": [
-    "2026-11-24T17:01+05:30",
     "2026-11-24T17:31+05:30",
     "2026-11-24T18:01+05:30",
     "2026-11-24T18:31+05:30",
@@ -10268,7 +10266,8 @@
     "2026-11-25T15:31+05:30",
     "2026-11-25T16:01+05:30",
     "2026-11-25T16:31+05:30",
-    "2026-11-25T17:01+05:30"
+    "2026-11-25T17:01+05:30",
+    "2026-11-25T17:31+05:30"
    ],
    "last_error": "RuntimeError: skipped: Workday is rate-limiting this run (429)",
    "last_ok": "2026-11-16T12:31+05:30",
@@ -10277,7 +10276,6 @@
   },
   "workday:unilever": {
    "errors": [
-    "2026-11-24T17:01+05:30",
     "2026-11-24T17:31+05:30",
     "2026-11-24T18:01+05:30",
     "2026-11-24T18:31+05:30",
@@ -10327,7 +10325,8 @@
     "2026-11-25T15:31+05:30",
     "2026-11-25T16:01+05:30",
     "2026-11-25T16:31+05:30",
-    "2026-11-25T17:01+05:30"
+    "2026-11-25T17:01+05:30",
+    "2026-11-25T17:31+05:30"
    ],
    "last_error": "RuntimeError: skipped: Workday is rate-limiting this run (429)",
    "last_ok": "2026-11-16T12:31+05:30",
@@ -10336,7 +10335,6 @@
   },
   "workday:unisys": {
    "errors": [
-    "2026-11-24T17:01+05:30",
     "2026-11-24T17:31+05:30",
     "2026-11-24T18:01+05:30",
     "2026-11-24T18:31+05:30",
@@ -10386,7 +10384,8 @@
     "2026-11-25T15:31+05:30",
     "2026-11-25T16:01+05:30",
     "2026-11-25T16:31+05:30",
-    "2026-11-25T17:01+05:30"
+    "2026-11-25T17:01+05:30",
+    "2026-11-25T17:31+05:30"
    ],
    "last_error": "RuntimeError: skipped: Workday is rate-limiting this run (429)",
    "last_ok": "2026-11-16T12:31+05:30",
@@ -10395,7 +10394,6 @@
   },
   "workday:visa": {
    "errors": [
-    "2026-11-24T17:01+05:30",
     "2026-11-24T17:31+05:30",
     "2026-11-24T18:01+05:30",
     "2026-11-24T18:31+05:30",
@@ -10445,7 +10443,8 @@
     "2026-11-25T15:31+05:30",
     "2026-11-25T16:01+05:30",
     "2026-11-25T16:31+05:30",
-    "2026-11-25T17:01+05:30"
+    "2026-11-25T17:01+05:30",
+    "2026-11-25T17:31+05:30"
    ],
    "last_error": "RuntimeError: skipped: Workday is rate-limiting this run (429)",
    "last_ok": "2026-11-23T20:32+05:30",
@@ -10454,7 +10453,6 @@
   },
   "workday:walmart": {
    "errors": [
-    "2026-11-24T17:01+05:30",
     "2026-11-24T17:31+05:30",
     "2026-11-24T18:01+05:30",
     "2026-11-24T18:31+05:30",
@@ -10504,7 +10502,8 @@
     "2026-11-25T15:31+05:30",
     "2026-11-25T16:01+05:30",
     "2026-11-25T16:31+05:30",
-    "2026-11-25T17:01+05:30"
+    "2026-11-25T17:01+05:30",
+    "2026-11-25T17:31+05:30"
    ],
    "last_error": "RuntimeError: skipped: Workday is rate-limiting this run (429)",
    "last_ok": "2026-11-21T15:01+05:30",
@@ -10513,7 +10512,6 @@
   },
   "workday:warnerbros": {
    "errors": [
-    "2026-11-24T17:01+05:30",
     "2026-11-24T17:31+05:30",
     "2026-11-24T18:01+05:30",
     "2026-11-24T18:31+05:30",
@@ -10563,7 +10561,8 @@
     "2026-11-25T15:31+05:30",
     "2026-11-25T16:01+05:30",
     "2026-11-25T16:31+05:30",
-    "2026-11-25T17:01+05:30"
+    "2026-11-25T17:01+05:30",
+    "2026-11-25T17:31+05:30"
    ],
    "last_error": "RuntimeError: skipped: Workday is rate-limiting this run (429)",
    "last_ok": "2026-11-16T12:31+05:30",
@@ -10572,7 +10571,6 @@
   },
   "workday:wf": {
    "errors": [
-    "2026-11-24T17:01+05:30",
     "2026-11-24T17:31+05:30",
     "2026-11-24T18:01+05:30",
     "2026-11-24T18:31+05:30",
@@ -10622,7 +10620,8 @@
     "2026-11-25T15:31+05:30",
     "2026-11-25T16:01+05:30",
     "2026-11-25T16:31+05:30",
-    "2026-11-25T17:01+05:30"
+    "2026-11-25T17:01+05:30",
+    "2026-11-25T17:31+05:30"
    ],
    "last_error": "RuntimeError: skipped: Workday is rate-limiting this run (429)",
    "last_ok": "2026-11-16T12:31+05:30",
@@ -10631,7 +10630,6 @@
   },
   "workday:wk": {
    "errors": [
-    "2026-11-24T17:01+05:30",
     "2026-11-24T17:31+05:30",
     "2026-11-24T18:01+05:30",
     "2026-11-24T18:31+05:30",
@@ -10681,7 +10679,8 @@
     "2026-11-25T15:31+05:30",
     "2026-11-25T16:01+05:30",
     "2026-11-25T16:31+05:30",
-    "2026-11-25T17:01+05:30"
+    "2026-11-25T17:01+05:30",
+    "2026-11-25T17:31+05:30"
    ],
    "last_error": "RuntimeError: skipped: Workday is rate-limiting this run (429)",
    "last_ok": "2026-11-16T12:31+05:30",
@@ -10690,7 +10689,6 @@
   },
   "workday:workday": {
    "errors": [
-    "2026-11-24T17:01+05:30",
     "2026-11-24T17:31+05:30",
     "2026-11-24T18:01+05:30",
     "2026-11-24T18:31+05:30",
@@ -10740,7 +10738,8 @@
     "2026-11-25T15:31+05:30",
     "2026-11-25T16:01+05:30",
     "2026-11-25T16:31+05:30",
-    "2026-11-25T17:01+05:30"
+    "2026-11-25T17:01+05:30",
+    "2026-11-25T17:31+05:30"
    ],
    "last_error": "RuntimeError: skipped: Workday is rate-limiting this run (429)",
    "last_ok": "2026-11-18T20:31+05:30",
@@ -10749,7 +10748,6 @@
   },
   "workday:xylem": {
    "errors": [
-    "2026-11-24T17:01+05:30",
     "2026-11-24T17:31+05:30",
     "2026-11-24T18:01+05:30",
     "2026-11-24T18:31+05:30",
@@ -10799,7 +10797,8 @@
     "2026-11-25T15:31+05:30",
     "2026-11-25T16:01+05:30",
     "2026-11-25T16:31+05:30",
-    "2026-11-25T17:01+05:30"
+    "2026-11-25T17:01+05:30",
+    "2026-11-25T17:31+05:30"
    ],
    "last_error": "RuntimeError: skipped: Workday is rate-limiting this run (429)",
    "last_ok": "2026-11-16T12:31+05:30",
@@ -10808,7 +10807,6 @@
   },
   "workday:zebra": {
    "errors": [
-    "2026-11-24T17:01+05:30",
     "2026-11-24T17:31+05:30",
     "2026-11-24T18:01+05:30",
     "2026-11-24T18:31+05:30",
@@ -10858,7 +10856,8 @@
     "2026-11-25T15:31+05:30",
     "2026-11-25T16:01+05:30",
     "2026-11-25T16:31+05:30",
-    "2026-11-25T17:01+05:30"
+    "2026-11-25T17:01+05:30",
+    "2026-11-25T17:31+05:30"
    ],
    "last_error": "RuntimeError: skipped: Workday is rate-limiting this run (429)",
    "last_ok": "2026-11-16T12:31+05:30",
@@ -10867,7 +10866,6 @@
   },
   "workday:zendesk": {
    "errors": [
-    "2026-11-24T17:01+05:30",
     "2026-11-24T17:31+05:30",
     "2026-11-24T18:01+05:30",
     "2026-11-24T18:31+05:30",
@@ -10917,7 +10915,8 @@
     "2026-11-25T15:31+05:30",
     "2026-11-25T16:01+05:30",
     "2026-11-25T16:31+05:30",
-    "2026-11-25T17:01+05:30"
+    "2026-11-25T17:01+05:30",
+    "2026-11-25T17:31+05:30"
    ],
    "last_error": "RuntimeError: skipped: Workday is rate-limiting this run (429)",
    "last_ok": "2026-11-16T12:31+05:30",
@@ -10926,7 +10925,6 @@
   },
   "workday:zoom": {
    "errors": [
-    "2026-11-24T17:01+05:30",
     "2026-11-24T17:31+05:30",
     "2026-11-24T18:01+05:30",
     "2026-11-24T18:31+05:30",
@@ -10976,7 +10974,8 @@
     "2026-11-25T15:31+05:30",
     "2026-11-25T16:01+05:30",
     "2026-11-25T16:31+05:30",
-    "2026-11-25T17:01+05:30"
+    "2026-11-25T17:01+05:30",
+    "2026-11-25T17:31+05:30"
    ],
    "last_error": "RuntimeError: skipped: Workday is rate-limiting this run (429)",
    "last_ok": "2026-11-16T12:31+05:30",
@@ -10986,19 +10985,19 @@
   "zoho_recruit:incoresemi": {
    "errors": [],
    "last_error": "URLError: <urlopen error _ssl.c:1063: The handshake operation timed out>",
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "InCore Semiconductors",
    "zeros": []
   },
   "zoho_recruit:salarybox": {
    "errors": [],
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "SalaryBox",
    "zeros": []
   },
   "zoho_rss:zohocorp": {
    "errors": [],
-   "last_ok": "2026-11-25T17:01+05:30",
+   "last_ok": "2026-11-25T17:31+05:30",
    "name": "Zoho",
    "zeros": []
   }
